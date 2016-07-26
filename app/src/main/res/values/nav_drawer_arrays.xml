@@ -28,6 +28,8 @@
         <item>@drawable/ic_phone</item>
         <item>@drawable/ic_framework</item>
         <item>@drawable/ic_notification_panel</item>
+        <item>@drawable/ic_settings</item>
+        <item>@drawable/ic_launcher</item>
     </array>
 
 

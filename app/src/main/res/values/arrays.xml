@@ -26,6 +26,7 @@
         <item>3</item>
         <item>20</item>
     </string-array>
+
     <string-array name="theme_items">
         <item>Light theme</item>
         <item>Dark theme</item>
@@ -58,19 +59,18 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
     <string-array name="gradient_entries">
         <item>Top to bottom</item>
         <item>Bottom to top</item>
         <item>Left to right</item>
         <item>Right to left</item>
-
     </string-array>
     <string-array name="gradient_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
-
     </string-array>
 
     <string-array name="crop_entries">
@@ -120,6 +120,7 @@
         <item>19</item>
         <item>20</item>
     </string-array>
+
     <string-array name="battery_bar_entries">
         <item>Hide</item>
         <item>Show</item>
@@ -128,6 +129,7 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+
     <string-array name="battery_bar_style_entries">
         <item>Regular</item>
         <item>Center-mirrored</item>
@@ -136,6 +138,7 @@
         <item>0</item>
         <item>1</item>
     </string-array>
+
     <string-array name="battery_bar_thickness_entries">
         <item>1 dp</item>
         <item>2 dp</item>
@@ -148,6 +151,7 @@
         <item>3</item>
         <item>4</item>
     </string-array>
+
     <string-array name="toggle_entries">
         <item>3</item>
         <item>4</item>
@@ -166,6 +170,7 @@
         <item>8</item>
         <item>9</item>
     </string-array>
+
     <string-array name="lockscreen_notif_entries">
         <item>2 (Stock)</item>
         <item>3 max shown</item>
@@ -178,6 +183,7 @@
         <item>4</item>
         <item>5</item>
     </string-array>
+
     <string-array name="dsb_gradient_filter_entries">
         <item>@string/dsb_gradient_filter_value_0</item>
         <item>@string/dsb_gradient_filter_value_1</item>
@@ -190,6 +196,7 @@
         <item>2</item>
         <item>3</item>
     </string-array>
+
     <string-array name="dashboard_num_columns_entries">
         <item>1 Columns</item>
         <item>2 Columns</item>
@@ -198,6 +205,7 @@
         <item>1</item>
         <item>2</item>
     </string-array>
+
     <string-array name="tw_effect_entries">
         <item>None</item>
         <item>Cascade</item>
@@ -218,6 +226,7 @@
         <item>7</item>
         <item>8</item>
     </string-array>
+
     <string-array name="launcher_gesture_entries">
         <item>Turn off the screen</item>
         <item>Power menu</item>

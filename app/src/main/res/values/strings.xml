@@ -47,6 +47,8 @@
     <string name="systemui_prefs">SystemUI prefs</string>
     <string name="phone_prefs">Phone prefs</string>
     <string name="framework_prefs">Framework prefs</string>
+    <string name="settings_prefs">Settings prefs</string>
+    <string name="launcher_prefs">Launcher prefs</string>
     <string name="notification_panel_prefs">Notification panel prefs</string>
     <string name="more_options">More options</string>
     <string name="set_theme">Set theme</string>
@@ -62,6 +64,18 @@
     <string name="reboot_later_negative_button">later</string>
     <string name="reboot_now_dialog_button">reboot now</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
+    <string name="dynamic_status_bar_title">Dynamic status bar</string>
+    <string name="dynamic_status_bar_color_title">Dynamic status bar color</string>
+    <string name="dynamic_status_bar_color_summary">Automatically update background color of the status bar</string>
+    <string name="dynamic_status_bar_gradient_title">Gradient</string>
+    <string name="dynamic_status_bar_gradient_summary">Overlay a gradient on the status bar</string>
+    <string name="dynamic_status_bar_filter_title">Darkening</string>
+    <string name="dynamic_status_bar_filter_summary">Overlay a darkening filter on the status bar</string>
+    <string name="dsb_gradient_filter_value_0">Off</string>
+    <string name="dsb_gradient_filter_value_1">Only on the desktop</string>
+    <string name="dsb_gradient_filter_value_2">Everywhere except the desktop</string>
+    <string name="dsb_gradient_filter_value_3">On</string>
+    <string name="dynamic_status_bar_filter_value">The intensity of the darkening filter</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

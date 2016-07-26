@@ -1,4 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:defaultValue="10"
+        android:entries="@array/toggle_scroll_entries"
+        android:entryValues="@array/toggle_scroll_values"
+        android:key="sysui_qs_active_tiles"
+        android:title="Scrollable Toggles Shown"
+        android:summary="Scrolling toggle number" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="true"
+        android:key="notification_panel_brightness_adjustment"
+        android:summaryOff="Currently Hidden"
+        android:summaryOn="Currently Shown"
+        android:title="Brightness Slider" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:defaultValue="true"
+        android:key="psm_notif"
+        android:summaryOn="Power Saving Mode notification is enabled"
+        android:summaryOff="Power Saving Mode notification is disabled"
+        android:title="Power Saving Mode Notifications" />
+
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:defaultValue="5"
+        android:entries="@array/toggle_entries"
+        android:title="Visible Toggles Shown"
+        android:key="QSPanel_NumberCount"
+        android:summary="Number shown on screen"
+        android:entryValues="@array/toggle_values" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Single swipe for Quickpanel"
+        android:key="tweaks_qs_pulldown"
+        android:defaultValue="true"
+        android:summaryOn="Feature is enabled"
+        android:summaryOff="Feature is disabled" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Make Ongoing Notifications Removable"
+        android:key="ongoing_notifications"
+        android:defaultValue="false"
+        android:summaryOn="Ongoing Notifications are removeable"
+        android:summaryOff="Ongoing Notifications are permanent" />
+
 </PreferenceScreen>

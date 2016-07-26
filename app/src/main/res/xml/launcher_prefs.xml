@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <PreferenceCategory
+        android:title="Launcher Effects">
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/tw_effect_entries"
+            android:title="Touchwiz Page Effect"
+            android:key="tw_page_effect"
+            android:defaultValue="1"
+            android:entryValues="@array/tw_effect_values" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Gesture anywhere on Home screen" >
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/launcher_gesture_entries"
+            android:title="Double tap"
+            android:key="doubletap"
+            android:summary="%s"
+            android:entryValues="@array/launcher_gesture_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/launcher_gesture_entries"
+            android:title="Swipe Up" android:key="swipe_up"
+            android:summary="%s"
+            android:entryValues="@array/launcher_gesture_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/launcher_gesture_entries"
+            android:title="Swipe Down" android:key="swipe_down"
+            android:summary="%s"
+            android:entryValues="@array/launcher_gesture_values" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

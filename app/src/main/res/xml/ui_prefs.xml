@@ -97,6 +97,29 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="Networkspeed">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:title="Internet"
+            android:key="tweaks_speed_view"
+            android:summaryOn="Show"
+            android:summaryOff="Hide" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Networkspeed">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Download speed color"
+            android:key="tweaks_speed_color_download"
+            android:summary="Choose download speed color"
+            android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Upload speed color"
+            android:key="tweaks_speed_color_upload"
+            android:summary="Choose upload speed color"
+            android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="Lockscreen visible Notifications">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/lockscreen_notif_entries"

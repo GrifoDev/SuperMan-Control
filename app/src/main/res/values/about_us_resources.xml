@@ -20,69 +20,72 @@
     <!--In this array you will put the icons for contact information,
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
     <array name="about_contact_us_drawables">
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
-        <item>Facebook</item>
-        <item>Our Site</item>
-        <item>XDA</item>
+        <item>S7 Flat Rom Thread</item>
+        <item>S7 Edge Rom Thread</item>
+        <item>S7 Flat Kernel Thread</item>
+        <item>S7 Edge Kernel Thread</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://forum.xda-developers.com/galaxy-s7/development/rom-s7-rom-v1-0-t3356197/</item>
+        <item>http://forum.xda-developers.com/s7-edge/development/rom-s7-edge-rom-v1-1-t3356699/</item>
+        <item>http://forum.xda-developers.com/galaxy-s7/development/kernel-superkernel-v1-0-t3389247/</item>
+        <item>http://forum.xda-developers.com/s7-edge/development/kernel-superkernel-v1-0-t3389255/</item>
     </string-array>
 
 
 
     <!--Team info arrays-->
     <array name="about_team_drawables">
-        <item>@drawable/icon_5</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_1</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/paypal</item>
     </array>
     <string-array name="about_team_names">
-        <item>Master Yoda - wise and talented lead developer</item>
-        <item>Luke Skywalker - one handed theme master</item>
-        <item>Darth Vader - dark theme master</item>
+        <item>Tkkg1994</item>
+        <item>Telegram Group</item>
+        <item>Donation Link</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://forum.xda-developers.com/member.php?u=5899304/</item>
+        <item>https://telegram.me/joinchat/AaNP4D-RcLT0-z16WHH4zg</item>
+        <item>http://forum.xda-developers.com/donatetome.php?u=5899304/</item>
     </string-array>
 
 
 
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/icon_1</item>
-        <item>@drawable/icon_3</item>
-        <item>@drawable/icon_4</item>
-        <item>@drawable/icon_2</item>
-        <item>@drawable/icon_6</item>
-        <item>@drawable/icon_5</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
+        <item>@drawable/xda</item>
     </array>
     <string-array name="about_credits_names">
-        <item>Star Trek - for being ultimately better than Star Wars</item>
-        <item>Jean-Luc Picard - for making us crave hot earl-grey tea even in the middle of the summer</item>
-        <item>Data - for running on the best rom. Google, we still are waiting for THAT android version</item>
-        <item>Janeway - for being a normal person and drinking black coffee</item>
-        <item>Q - for reminding us that you can live forever and still look great</item>
-        <item>Worf - for teaching us to love Klingons. It was NOT easy</item>
+        <item>SuperR - For the kitchen</item>
+        <item>svadev - for his great deodex tool</item>
+        <item>Chainfire - For SuperSU</item>
+        <item>Zubi182 - For sound mod</item>
+        <item>Amarullz - For his aroma installer</item>
+        <item>topjohnwu - For Systemless Xposed</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
-        <item>https://www.facebook.com/</item>
-        <item>https://www.google.com/</item>
-        <item>http://forum.xda-developers.com/</item>
+        <item>http://forum.xda-developers.com/member.php?u=5787964/</item>
+        <item>http://forum.xda-developers.com/member.php?u=6242674/</item>
+        <item>http://forum.xda-developers.com/member.php?u=631273/</item>
+        <item>http://forum.xda-developers.com/member.php?u=4415982/</item>
+        <item>http://forum.xda-developers.com/member.php?u=402300/</item>
+        <item>http://forum.xda-developers.com/member.php?u=4470081/</item>
     </string-array>
 </resources>

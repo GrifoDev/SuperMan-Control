@@ -35,7 +35,7 @@
 
     <PreferenceScreen
         android:title="Battery Bar"
-        android:summary="Display Line on top for battery">
+        android:summary="Display Visual Line to show current battery Remaining">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/battery_bar_entries"
             android:title="Battery Bar"
@@ -43,6 +43,12 @@
             android:summary="%s"
             android:defaultValue="0"
             android:entryValues="@array/battery_bar_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Show/Hide down BELOW Pulldown/Lockscreen"
+            android:key="battbar_no_pulldown_below"
+            android:defaultValue="1"
+            android:summaryOn="Down BELOW shown everywhere"
+            android:summaryOff="Down BELOW hidden from Pulldown/Lockscreen" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Battery bar animation"
             android:key="battery_bar_animate"
@@ -133,11 +139,10 @@
     <PreferenceCategory
         android:title="Next Alarm on Lockscreen">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
             android:title="Next Alarm"
             android:key="next_alarm_toggle"
-            android:summaryOn="Show"
-            android:summaryOff="Hide" />
+            android:summaryOn="Hide"
+            android:summaryOff="Show" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Next Alarm Text Color"
             android:key="next_alarm_color"
@@ -165,6 +170,34 @@
             android:summaryOff="Off" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="Data Usage view preferences">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Data usage view visibility"
+            android:summaryOff="Hidden"
+            android:summaryOn="Shown"
+            android:key="data_usage_visibility"
+            android:defaultValue="false"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Data usage text color"
+            android:key="data_usage_text_color"
+            android:dependency="data_usage_visibility"
+            android:defaultValue="#e61e4e78"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:title="Data usage text gravity"
+            android:key="data_usage_text_gravity"
+            android:dependency="data_usage_visibility"
+            android:entries="@array/data_usage_gravity_entries"
+            android:entryValues="@array/data_usage_gravity_values"
+            android:defaultValue="0"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:title="Data usage text style"
+            android:key="data_usage_view_text_style"
+            android:dependency="data_usage_visibility"
+            android:entries="@array/data_usage_text_style_entries"
+            android:entryValues="@array/data_usage_text_style_values"
+            android:defaultValue="0"/>
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="Lockscreen Time colour">
@@ -194,6 +227,38 @@
             android:defaultValue="0"
             android:summaryOn="Show"
             android:summaryOff="Hide" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/dynamic_status_bar_title">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Dynamic StatusBar Color"
+            android:key="dynamic_toggle"
+            android:defaultValue="false"
+            android:summaryOn="Dynamic StatusBar features enabled"
+            android:summaryOff="Dynamic StatusBar features disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/dsb_gradient_filter_entries"
+            android:title="@string/dynamic_status_bar_gradient_title"
+            android:key="dynamic_status_bar_gradient_state"
+            android:dependency="dynamic_toggle"
+            android:summary="@string/dynamic_status_bar_gradient_summary"
+            android:defaultValue="2"
+            android:entryValues="@array/dsb_gradient_filter_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/dsb_gradient_filter_entries"
+            android:title="@string/dynamic_status_bar_filter_title"
+            android:key="dynamic_status_bar_filter_state"
+            android:dependency="dynamic_toggle"
+            android:summary="@string/dynamic_status_bar_filter_summary"
+            android:defaultValue="2"
+            android:entryValues="@array/dsb_gradient_filter_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+            android:max="70"
+            android:title="@string/dynamic_status_bar_filter_value"
+            android:key="dynamic_status_bar_filter_value"
+            android:dependency="dynamic_toggle"
+            android:defaultValue="10" min="0" />
     </PreferenceCategory>
 
     <PreferenceCategory

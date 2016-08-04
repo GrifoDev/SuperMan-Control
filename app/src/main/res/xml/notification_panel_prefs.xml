@@ -60,6 +60,21 @@
         android:summaryOn="Heads up enabled"
         android:summaryOff="Heads up disabled" />
 
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Ongoing Charging Pulldown Notification"
+        android:key="charging_notif"
+        android:defaultValue="true"
+        android:summaryOn="Notification is shown"
+        android:summaryOff="Notification is disabled" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+        android:title="Ongoing Media Connected Pulldown Notification"
+        android:key="media_connect_notif"
+        android:defaultValue="true"
+        app:rebootDevice="true"
+        android:summaryOn="Notification is shown"
+        android:summaryOff="Notification is disabled" />
+
     <PreferenceCategory
         android:title="Device info settings">
         <PreferenceScreen

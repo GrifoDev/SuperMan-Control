@@ -140,13 +140,95 @@
         android:title="Next Alarm on Lockscreen">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Next Alarm"
-            android:key="next_alarm_toggle"
+            android:defaultValue="true"
+            android:key="next_alarm"
             android:summaryOn="Hide"
             android:summaryOff="Show" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Next Alarm Text Color"
+            android:defaultValue="-1"
             android:key="next_alarm_color"
             android:summary="Choose color"
+            android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Lockscreen Weather">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Weather On Lockscreen"
+            android:key="weather_kg_enable"
+            android:defaultValue="false"
+            android:summaryOn="Enabled"
+            android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Weather Sunrise Text On Lockscreen"
+            android:key="weather_sunrise_enable"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="false"
+            android:summaryOn="Enabled"
+            android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Weather Sunrise Color"
+            android:key="color_sunrise"
+            android:summary="Choose Weather Sunrise Color"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Weather Sunset Text Lockscreen"
+            android:key="weather_sunset_enable"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="false"
+            android:summaryOn="Enabled"
+            android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Weather Sunset Color"
+            android:key="color_sunset"
+            android:summary="Choose Weather Sunset Color"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Weather Description Text On Lockscreen"
+            android:key="weather_text_enable"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="false"
+            android:summaryOn="Enabled"
+            android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Weather Description Text Color"
+            android:key="color_text"
+            android:summary="Choose Weather Description Text Color"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Weather Location On Lockscreen"
+            android:key="weather_location_enable"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="false"
+            android:summaryOn="Enabled"
+            android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Weather Location Color"
+            android:key="color_location"
+            android:summary="Choose Weather Location Color"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Weather Current Temp Color"
+            android:key="color_temp"
+            android:summary="Choose Weather Current Temp Color"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Weather High Temp Color"
+            android:key="color_high_temp"
+            android:summary="Choose Weather High Temp Color"
+            android:dependency="weather_kg_enable"
+            android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Weather Low Temp Color"
+            android:key="color_low_temp"
+            android:summary="Choose Weather Low Temp Color"
+            android:dependency="weather_kg_enable"
             android:defaultValue="-1" alphaSlider="true" hexValue="true" />
     </PreferenceCategory>
 

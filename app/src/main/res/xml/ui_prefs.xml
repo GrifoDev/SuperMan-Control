@@ -171,6 +171,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="Clock on lockscreen">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="lock_clock"
+            android:summaryOff="Hide"
+            android:summaryOn="Show"
+            android:title="Clock and date  on lock screen"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="Data Usage view preferences">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Data usage view visibility"

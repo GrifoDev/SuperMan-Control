@@ -71,7 +71,7 @@
         android:title="Ongoing Media Connected Pulldown Notification"
         android:key="media_connect_notif"
         android:defaultValue="true"
-        app:rebootDevice="true"
+        wubydax:rebootDevice="true"
         android:summaryOn="Notification is shown"
         android:summaryOff="Notification is disabled" />
 
@@ -198,13 +198,13 @@
                     android:entryValues="@array/custom_bg_type_values"
                     android:key="gear_custom_bg_type"
                     android:title="Background type"
-                    app:dependentValue="0"/>
+                    wubydax:dependentValue="0"/>
                 <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                     android:defaultValue="255"
                     android:key="gear_bg_opacity"
                     android:title="Background opacity"
-                    app:maxValue="255"
-                    app:minValue="0"/>
+                    wubydax:maxValue="255"
+                    wubydax:minValue="0"/>
             </PreferenceCategory>
 
             <PreferenceCategory

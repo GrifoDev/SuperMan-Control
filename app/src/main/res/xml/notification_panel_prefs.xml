@@ -43,7 +43,7 @@
         android:title="Make Ongoing Notifications Removable"
         android:key="ongoing_notifications"
         android:defaultValue="false"
-        android:summaryOn="Ongoing Notifications are removeable"
+        android:summaryOn="Ongoing Notifications are removable"
         android:summaryOff="Ongoing Notifications are permanent" />
 
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference

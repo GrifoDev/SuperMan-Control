@@ -77,16 +77,6 @@
     </PreferenceScreen>
 
     <PreferenceCategory
-        android:title="Virtual lock button right">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:title="On/Off"
-            android:key="VirtualLockRight"
-            android:summaryOn="Activ"
-            android:summaryOff="Inactiv" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:title="Stock or 3 Minit Battery">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Stock Battery"
@@ -103,6 +93,16 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="Virtual lock button on upper right corner">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:title="On/Off"
+            android:key="VirtualLockRight"
+            android:summaryOn="Activ"
+            android:summaryOff="Inactiv" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="Networkspeed">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
@@ -110,17 +110,16 @@
             android:key="tweaks_speed_view"
             android:summaryOn="Show"
             android:summaryOff="Hide" />
-    </PreferenceCategory>
-
-    <PreferenceCategory android:title="Networkspeed">
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Download speed color"
             android:key="tweaks_speed_color_download"
+            android:dependency="tweaks_speed_view"
             android:summary="Choose download speed color"
             android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Upload speed color"
             android:key="tweaks_speed_color_upload"
+            android:dependency="tweaks_speed_view"
             android:summary="Choose upload speed color"
             android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" />
     </PreferenceCategory>
@@ -142,11 +141,12 @@
             android:title="Next Alarm"
             android:defaultValue="true"
             android:key="next_alarm"
-            android:summaryOn="Hide"
-            android:summaryOff="Show" />
+            android:summaryOn="Show"
+            android:summaryOff="Hide" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Next Alarm Text Color"
             android:key="next_alarm_color"
+            android:dependency="next_alarm"
             android:summary="Choose color"
             android:defaultValue="-1" alphaSlider="true" hexValue="true" />
     </PreferenceCategory>
@@ -252,18 +252,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Clock on lockscreen">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="true"
-            android:key="lock_clock"
-            android:summaryOff="Hide"
-            android:summaryOn="Show"
-            android:title="Clock and date  on lock screen"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:title="Data Usage view preferences">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Data usage view visibility"
@@ -293,30 +281,43 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Lockscreen Time colour">
+        android:title="Lockscreen Clock Settings">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="lock_clock"
+            android:summaryOff="Hide"
+            android:summaryOn="Show"
+            android:title="Clock and date on lock screen"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Text Color hours"
             android:key="kg_clock_hours_color"
+            android:dependency="lock_clock"
             android:summary="Choose a color"
             android:defaultValue="\#ffffffff" alphaSlider="false" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Text Color minutes"
             android:key="kg_clock_minutes_color"
+            android:dependency="lock_clock"
             android:summary="Choose a color"
             android:defaultValue="\#ffffffff" alphaSlider="false" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Text Color seconds Hours"
             android:key="kg_clock_second_color"
+            android:dependency="lock_clock"
             android:summary="Choose a color"
             android:defaultValue="\#ffffffff" alphaSlider="false" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="The color of the date text"
             android:key="kg_date_color"
+            android:dependency="lock_clock"
             android:summary="Choose a color"
             android:defaultValue="\#ffffffff" alphaSlider="false" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Show seconds in hours"
             android:key="lock_seconds"
+            android:dependency="lock_clock"
             android:defaultValue="0"
             android:summaryOn="Show"
             android:summaryOff="Hide" />

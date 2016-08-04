@@ -246,7 +246,7 @@
         </PreferenceScreen>
 
         <PreferenceScreen
-            android:title="Notifications prefs">
+            android:title="Notifications Rounded/Stock Settings">
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                 android:defaultValue="0"
                 android:entries="@array/shape_entries"

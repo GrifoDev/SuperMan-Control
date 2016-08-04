@@ -324,6 +324,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="Unlock text on lock screen">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="unlock_guide_text"
+            android:summaryOff="Hide"
+            android:summaryOn="Show"
+            android:title="Swipe screen... text"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/dynamic_status_bar_title">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Dynamic StatusBar Color"

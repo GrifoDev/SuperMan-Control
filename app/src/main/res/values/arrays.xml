@@ -164,15 +164,6 @@
         <item>3</item>
     </string-array>
 
-    <string-array name="dashboard_num_columns_entries">
-        <item>1 Columns</item>
-        <item>2 Columns</item>
-    </string-array>
-    <string-array name="dashboard_num_columns_values">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
     <string-array name="tw_effect_entries">
         <item>None</item>
         <item>Cascade</item>
@@ -306,6 +297,82 @@
     <string-array name="shape_entries">
         <item>Stock shape</item>
         <item>Rounded corners</item>
+    </string-array>
+
+    <string-array name="dashboard_fav_columns_entries">
+        <item>1 Columns</item>
+        <item>2 Columns</item>
+        <item>3 Columns</item>
+        <item>4 Columns</item>
+    </string-array>
+    <string-array name="dashboard_fav_columns_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="dashboard_cat_columns_entries">
+        <item>1 Columns</item>
+        <item>2 Columns</item>
+    </string-array>
+    <string-array name="dashboard_cat_columns_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="display_timeout_entries">
+        <item>5 seconds</item>
+        <item>10 seconds (default)</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
+    <string-array name="display_timeout_values">
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+    </string-array>
+
+    <string-array name="traffic_state_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="traffic_state_items">
+        <item>Disable view</item>
+        <item>Upload only</item>
+        <item>Download only</item>
+        <item>Upload and Download</item>
+    </string-array>
+
+    <string-array name="arrow_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="arrow_position_entries">
+        <item>To end of view</item>
+        <item>To start of view</item>
+    </string-array>
+
+    <string-array name="traffic_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold italic</item>
+    </string-array>
+    <string-array name="traffic_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
 </resources>

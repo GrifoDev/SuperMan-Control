@@ -153,39 +153,18 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Change Pulldown menu colors">
+        android:title="Reboot visability">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="gear_reboot_view_visibility"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Gear reboot view visibility"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Expanded header bg color"
-            android:key="expanded_header_bg_color"
-            android:dependency="link_colors"
-            android:defaultValue="\#ff000000" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Quick settings panel bg color"
-            android:key="quick_settings_panel_bg_color"
-            android:dependency="link_colors"
-            android:defaultValue="\#ff000000" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Brightness background color"
-            android:key="brightness_background_color"
-            android:dependency="link_colors"
-            android:defaultValue="\#ff000000" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Data usage view bg color"
-            android:key="data_usage_view_bg_color"
-            android:dependency="link_colors"
-            android:defaultValue="\#ff000000" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Quick connect bg color"
-            android:key="quick_connect_bg_color"
-            android:dependency="link_colors"
-            android:defaultValue="\#ff000000" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Multi sim bg color"
-            android:key="multi_sim_bg_color"
-            android:dependency="link_colors"
-            android:defaultValue="\#ff000000" alphaSlider="true" hexValue="true" />
+            android:defaultValue="#00000000"
+            android:key="gear_reboot_view_color"
+            android:title="Gear reboot view color"/>
     </PreferenceCategory>
-
 
     <PreferenceCategory
         android:title="Carrier label text preferences">

@@ -2,11 +2,16 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
 
     <com.wubydax.romcontrol.v2.prefs.MyListPreference
-        android:defaultValue="1"
-        android:entries="@array/dashboard_num_columns_entries"
-        android:title="No of Columns in Settings"
-        android:key="phronesis_no_columns"
-        android:entryValues="@array/dashboard_num_columns_values" />
+        android:entries="@array/dashboard_fav_columns_entries"
+        android:title="Amount of Columns in Favorite Section"
+        android:key="favorite_columns"
+        android:entryValues="@array/dashboard_fav_columns_values" />
+
+    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        android:entries="@array/dashboard_cat_columns_entries"
+        android:title="Amount of Columns in Category Section"
+        android:key="category_columns"
+        android:entryValues="@array/dashboard_cat_columns_values" />
 
     <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
         android:title="Hide QuickSettings Favorites"

@@ -141,12 +141,11 @@
             android:title="Next Alarm"
             android:defaultValue="true"
             android:key="next_alarm"
-            android:summaryOn="Show"
-            android:summaryOff="Hide" />
+            android:summaryOn="Hide"
+            android:summaryOff="Show" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Next Alarm Text Color"
             android:key="next_alarm_color"
-            android:dependency="next_alarm"
             android:summary="Choose color"
             android:defaultValue="-1" alphaSlider="true" hexValue="true" />
     </PreferenceCategory>

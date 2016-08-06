@@ -27,6 +27,7 @@
         <item>custom background for incall UI</item>
         <item>Added weather on lockscreen to rom control</item>
         <item>Colorize date and time on lockscreen (also add seconds) or completly disable it</item>
+        <item>Next alarm will now only be displayed if a new alarm is set (and the icon will not be there if no alarm is set)</item>
         <item>More things I may forgot</item>
     </string-array>
 

@@ -103,14 +103,23 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Lockscreen visible Notifications">
+        android:title="Low/Critical Battery Warning Percentage">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/lockscreen_notif_entries"
-            android:title="Notifications Shown on Lockscreen"
-            android:key="lockscreen_notifications"
-            android:defaultValue="2"
-            android:summary="Number shown on lockscreen"
-            android:entryValues="@array/lockscreen_notif_values" />
+            android:entries="@array/lowbattpercentage_entries"
+            android:title="Low Battery Warning Percentage"
+            android:key="low_battery_warning_percentage"
+            android:defaultValue="15"
+            android:summary="Set the Low Battery Warning Message Percentage"
+            app:rebootDevice="true"
+            android:entryValues="@array/lowbattpercentage_values" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/critbattpercentage_entries"
+            android:title="Critical Battery Warning Percentage"
+            android:key="critical_battery_warning_percentage"
+            android:defaultValue="5"
+            android:summary="Set the Critical Battery Warning Message Percentage"
+            app:rebootDevice="true"
+            android:entryValues="@array/critbattpercentage_values" />
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -321,6 +330,13 @@
             android:title="Lockscreen Rotation"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/lockscreen_notif_entries"
+            android:title="Notifications Shown on Lockscreen"
+            android:key="lockscreen_notifications"
+            android:defaultValue="2"
+            android:summary="Number shown on lockscreen"
+            android:entryValues="@array/lockscreen_notif_values" />
     </PreferenceCategory>
 
     <PreferenceCategory

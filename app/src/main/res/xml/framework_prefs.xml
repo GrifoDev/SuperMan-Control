@@ -13,13 +13,19 @@
             android:title="Screencast Mode"
             android:key="screencast"
             android:defaultValue="false"
-            android:summaryOn="Emergency mode will be shown"
+            android:summaryOn="Screencast will be shown"
             android:summaryOff="Currently removed" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Screenshot Mode"
             android:key="screenshot"
             android:defaultValue="false"
-            android:summaryOn="Emergency mode will be shown"
+            android:summaryOn="Screenshot will be shown"
+            android:summaryOff="Currently removed" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Flashlight"
+            android:key="flashlight_toggle"
+            android:defaultValue="false"
+            android:summaryOn="Flashlight will be shown"
             android:summaryOff="Currently removed" />
     </PreferenceCategory>
 

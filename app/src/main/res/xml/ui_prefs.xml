@@ -389,8 +389,8 @@
                 android:defaultValue="false"
                 android:key="network_traffic_unit"
                 android:dependency="network_traffic_state"/>
-
         </PreferenceCategory>
+        
         <PreferenceCategory
             android:title="Arrows display preferences"
             android:dependency="network_traffic_state">
@@ -409,6 +409,7 @@
                 android:entryValues="@array/arrow_position_values"
                 android:entries="@array/arrow_position_entries"/>
         </PreferenceCategory>
+        
         <PreferenceCategory
             android:title="Display options"
             android:dependency="network_traffic_state">
@@ -436,21 +437,31 @@
                 android:key="network_traffic_scale"
                 app:maxValue="10"
                 android:defaultValue="10"/>
-
         </PreferenceCategory>
+        
         <PreferenceCategory
             android:title="Network traffic colors"
             android:dependency="network_traffic_state">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="Separate colors for text and arrows"
+                android:title="Separate colors for elements"
                 android:key="network_traffic_global_color"
                 android:defaultValue="true"
-                android:summaryOn="Text and arrows can be colored separately"
-                android:summaryOff="Text color will apply to arrows as well"/>
+                android:summaryOn="All elements can be colored separately"
+                android:summaryOff="Global color will apply to all elements"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:title="Traffic text color"
+                android:title="Global color"
                 android:key="network_traffic_color"
                 android:defaultValue="#ffffff"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Upload text color"
+                android:defaultValue="#ffffff"
+                android:key="network_traffic_upload_color"
+                android:dependency="network_traffic_global_color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Download text color"
+                android:defaultValue="#ffffff"
+                android:key="network_traffic_download_color"
+                android:dependency="network_traffic_global_color"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:title="Traffic arrows color"
                 android:key="network_traffic_arrow_color"

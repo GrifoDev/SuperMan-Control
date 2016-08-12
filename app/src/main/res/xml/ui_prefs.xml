@@ -103,28 +103,6 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Networkspeed">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:title="Internet"
-            android:key="tweaks_speed_view"
-            android:summaryOn="Show"
-            android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Download speed color"
-            android:key="tweaks_speed_color_download"
-            android:dependency="tweaks_speed_view"
-            android:summary="Choose download speed color"
-            android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Upload speed color"
-            android:key="tweaks_speed_color_upload"
-            android:dependency="tweaks_speed_view"
-            android:summary="Choose upload speed color"
-            android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
         android:title="Lockscreen visible Notifications">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/lockscreen_notif_entries"
@@ -335,6 +313,14 @@
             android:defaultValue="10000"
             android:entryValues="@array/display_timeout_values"
             app:packageNameToKill="com.android.systemui"/>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="lockscreen_rotate"
+            android:summaryOff="Off"
+            android:summaryOn="On"
+            android:title="Lockscreen Rotation"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -481,31 +467,6 @@
             app:componentName="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material"
             android:title="Chainfire's SuperSu App"
             android:summary="Manage root permissions for apps and services"/>
-    </PreferenceCategory>
-
-    <!--Despite for all our efforts to create various preferences,
-    sometimes you might want to just make a regular preference screen to open a webpage
-    This is still possible.
-    The format is in accordance to android documentation.
-
-    You need to declare PreferenceScreen and add intent to it
-    The following 2 preferences show examples of how this can be done-->
-    <PreferenceCategory
-        android:title="Open normal intent preferences">
-        <PreferenceScreen
-            android:title="Open Google Page"
-            android:icon="@drawable/google_ic"
-            android:summary="Using usual preference screen intent to open a web page">
-            <intent android:action="android.intent.action.VIEW"
-                    android:data="http://www.google.com" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:title="Unified TouchWiz guides thread"
-            android:icon="@drawable/td"
-            android:summary="Open the most developed guides thread for TW devices on XDA">
-            <intent android:action="android.intent.action.VIEW"
-                    android:data="http://forum.xda-developers.com/showthread.php?t=2799050" />
-        </PreferenceScreen>
     </PreferenceCategory>
 
 </PreferenceScreen>

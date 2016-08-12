@@ -193,6 +193,46 @@
             android:dependency="is_custom_carrier_label"
             android:key="custom_carrier_label"/>
     </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Brightness panel preferences">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Enable custom colors for brightness"
+            android:key="custom_slider_colors"
+            android:summaryOff="Custom color disabled"
+            android:summaryOn="Custom color enabled"
+            android:defaultValue="false"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Thumb (handle) color"
+            android:defaultValue="#1e4e78"
+            android:key="brightness_slider_thumb_color"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness progress bar color"
+            android:defaultValue="#1e4e78"
+            android:key="brightness_slider_foreground_color"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness custom bg color"
+            android:defaultValue="#ffe6eaed"
+            android:key="brightness_bg_color"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness checkbox color"
+            android:key="brightness_checkbox_color"
+            android:defaultValue="#1e4e78"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness icon color"
+            android:key="brightness_icon_color"
+            android:defaultValue="#1e4e78"
+            android:dependency="custom_slider_colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Brightness text label color"
+            android:key="brightness_label_color"
+            android:defaultValue="#1e4e78"
+            android:dependency="custom_slider_colors"/>
+    </PreferenceCategory>
 
         <PreferenceScreen
             android:title="Notification panel background">

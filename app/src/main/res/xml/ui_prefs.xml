@@ -101,7 +101,7 @@
             android:summaryOn="Activ"
             android:summaryOff="Inactiv" />
     </PreferenceCategory>
-    
+
     <PreferenceCategory
         android:title="Battery percentage color">
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
@@ -109,6 +109,16 @@
             android:key="battery_text_color"
             android:defaultValue="#ffffffff"
             android:summary="Choose battery percent color" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Long Press back Key behaving">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="enable_back_kill"
+            android:summaryOff="Menu"
+            android:summaryOn="Kill app"
+            android:title="LongPress Back"/>
     </PreferenceCategory>
 
     <PreferenceCategory

@@ -9,32 +9,23 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Added new RomControl V2.0</item>
-        <item>LockScreen Timeout adjustable</item>
-        <item>Updated battery bar to V2</item>
-        <item>Updated traffic manager (network speed)</item>
-        <item>fixed private mode not working after reboot</item>
-        <item>added gradient statusbar</item>
-        <item>added a button to statusbar (so reboot menu will appear)</item>
-        <item>added data usage to statusbar</item>
-        <item>added a switch in rom control for multi user avatar</item>
-        <item>made a switch for heads up notifications</item>
-        <item>added a switch for on ongoing charging and media connected</item>
-        <item>enable gear device infos</item>
-        <item>enabled carrier lable (color and custom can be set)</item>
-        <item>Notification panel background can be set</item>
-        <item>rounded or stock notifications can be set in romcontrol (also background of them)</item>
-        <item>custom background for incall UI</item>
-        <item>Added weather on lockscreen to rom control</item>
-        <item>Colorize date and time on lockscreen (also add seconds) or completly disable it</item>
-        <item>Next alarm will now only be displayed if a new alarm is set (and the icon will not be there if no alarm is set)</item>
+        <item>Rebased to APGO firmware</item>
+        <item>Remade all mods by scratch</item>
+        <item>fixed private mode not working after a reboot</item>
+        <item>3dot issue solved</item>
+        <item>flashlight toggle into reboot menu</item>
+        <item>lockscreen rotation</item>
+        <item>change background of brightness slider</item>
+        <item>f2fs/ext4 can be choosen in aroma</item>
+        <item>magisk support with xposed 86.4 and phhs root</item>
+        <item>enabled flashlight even on low battery</item>
         <item>More things I may forgot</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">SuperMan-Rom V1.10.5</string>
+    <string name="rom_version_for_changelog">SuperMan-Rom V1.11</string>
 
 
 </resources>

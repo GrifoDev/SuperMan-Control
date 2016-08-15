@@ -101,6 +101,15 @@
             android:summaryOn="Activ"
             android:summaryOff="Inactiv" />
     </PreferenceCategory>
+    
+    <PreferenceCategory
+        android:title="Battery percentage color">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Percentage Color"
+            android:key="battery_text_color"
+            android:defaultValue="#ffffffff"
+            android:summary="Choose battery percent color" />
+    </PreferenceCategory>
 
     <PreferenceCategory
         android:title="Low/Critical Battery Warning Percentage">

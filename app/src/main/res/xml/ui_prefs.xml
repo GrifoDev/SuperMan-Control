@@ -245,22 +245,22 @@
             android:summaryOn="Quick Launch is shown"
             android:summaryOff="Quick Launch is hidden" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="AOKP Ram Bar"
-            android:key="aokpram"
-            android:defaultValue="true"
-            android:summaryOn="Ram Bar is shown in Recent Apps"
-            android:summaryOff="Ram Bar is shown in Recent Apps" />
+            android:title="A.O.K.P RAM Bar"
+            android:key="ram_bar_view"
+            android:defaultValue="false"
+            android:summaryOn="Bar is shown"
+            android:summaryOff="Bar is hidden" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Free Ram Text Color"
             android:key="free_ram_text"
-            android:dependency="aokpram"
+            android:dependency="ram_bar_view"
             android:defaultValue="\#ffffffff"
             alphaSlider="true" hexValue="true"
             app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:title="Used Ram Text Color"
             android:key="used_ram_text"
-            android:dependency="aokpram"
+            android:dependency="ram_bar_view"
             android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true"
             app:packageNameToKill="com.android.systemui"/>
     </PreferenceCategory>

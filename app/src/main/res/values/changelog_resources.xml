@@ -15,10 +15,14 @@
         <item>3dot issue solved</item>
         <item>flashlight toggle into reboot menu</item>
         <item>lockscreen rotation</item>
-        <item>change background of brightness slider</item>
-        <item>f2fs/ext4 can be choosen in aroma</item>
+        <item>change background of brightness slider and more!</item>
+        <item>f2fs/ext4 can be chosen in aroma</item>
         <item>magisk support with xposed 86.4 and phhs root</item>
         <item>enabled flashlight even on low battery</item>
+        <item>in rom control check when low battery warning should be set</item>
+        <item>network preferences now have more color options</item>
+        <item>ram usage in recent (rom control toggle)</item>
+        <item>press back to kill app (rom control toggle)</item>
         <item>More things I may forgot</item>
     </string-array>
 

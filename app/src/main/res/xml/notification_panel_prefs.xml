@@ -153,17 +153,17 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Reboot visability">
+        android:title="Reboot visibility on top right corner">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:key="gear_reboot_view_visibility"
             android:summaryOff="Disabled"
             android:summaryOn="Enabled"
-            android:title="Gear reboot view visibility"/>
+            android:title="Reboot view visibility"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="#00000000"
             android:key="gear_reboot_view_color"
-            android:title="Gear reboot view color"/>
+            android:title="Reboot view color"/>
     </PreferenceCategory>
 
     <PreferenceCategory

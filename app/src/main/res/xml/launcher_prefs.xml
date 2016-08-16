@@ -21,12 +21,14 @@
             android:entryValues="@array/launcher_gesture_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/launcher_gesture_entries"
-            android:title="Swipe Up" android:key="swipe_up"
+            android:title="Swipe Up"
+            android:key="swipe_up"
             android:summary="%s"
             android:entryValues="@array/launcher_gesture_values" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/launcher_gesture_entries"
-            android:title="Swipe Down" android:key="swipe_down"
+            android:title="Swipe Down"
+            android:key="swipe_down"
             android:summary="%s"
             android:entryValues="@array/launcher_gesture_values" />
     </PreferenceCategory>

@@ -2,78 +2,158 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
                   xmlns:wubydax="http://schemas.android.com/apk/res-auto">
 
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference
-        android:defaultValue="10"
-        android:entries="@array/toggle_scroll_entries"
-        android:entryValues="@array/toggle_scroll_values"
-        android:key="sysui_qs_active_tiles"
-        android:title="Scrollable Toggles Shown"
-        android:summary="Scrolling toggle number" />
+    <PreferenceScreen
+        android:title="Notification Panel Settings"
+        android:summary="Change mods for the Notification panel">
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="10"
+            android:entries="@array/toggle_scroll_entries"
+            android:entryValues="@array/toggle_scroll_values"
+            android:key="sysui_qs_active_tiles"
+            android:title="Scrollable Toggles Shown"
+            android:summary="Scrolling toggle number" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="5"
+            android:entries="@array/toggle_entries"
+            android:title="Visible Toggles Shown"
+            android:key="QSPanel_NumberCount"
+            android:summary="Number shown on screen"
+            android:entryValues="@array/toggle_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Multi-user Avatar"
+            android:key="multiuser_avatar"
+            android:defaultValue="false"
+            android:summaryOn="Multi-user Avatar shown"
+            android:summaryOff="Multi-user Avatar hidden" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Single swipe for Quickpanel"
+            android:key="tweaks_qs_pulldown"
+            android:defaultValue="true"
+            android:summaryOn="Feature is enabled"
+            android:summaryOff="Feature is disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="notification_panel_brightness_adjustment"
+            android:summaryOff="Currently Hidden"
+            android:summaryOn="Currently Shown"
+            android:title="Brightness Slider" />
+    </PreferenceScreen>
 
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:defaultValue="true"
-        android:key="notification_panel_brightness_adjustment"
-        android:summaryOff="Currently Hidden"
-        android:summaryOn="Currently Shown"
-        android:title="Brightness Slider" />
+    <PreferenceScreen
+            android:title="Notification Settings"
+            android:summary="Change settings for notifications">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="psm_notif"
+            android:summaryOn="Power Saving Mode notification is enabled"
+            android:summaryOff="Power Saving Mode notification is disabled"
+            android:title="Power Saving Mode Notifications" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Ongoing Charging Pulldown Notification"
+            android:key="charging_notif"
+            android:defaultValue="true"
+            android:summaryOn="Notification is shown"
+            android:summaryOff="Notification is disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Ongoing Media Connected Pulldown Notification"
+            android:key="media_connect_notif"
+            android:defaultValue="true"
+            wubydax:rebootDevice="true"
+            android:summaryOn="Notification is shown"
+            android:summaryOff="Notification is disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Make Ongoing Notifications Removable"
+            android:key="ongoing_notifications"
+            android:defaultValue="false"
+            android:summaryOn="Ongoing Notifications are removable"
+            android:summaryOff="Ongoing Notifications are permanent" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Heads Up Notifications"
+            android:key="heads_up_notifications_enabled"
+            android:defaultValue="true"
+            android:summaryOn="Heads up enabled"
+            android:summaryOff="Heads up disabled" />
+    </PreferenceScreen>
 
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:defaultValue="true"
-        android:key="psm_notif"
-        android:summaryOn="Power Saving Mode notification is enabled"
-        android:summaryOff="Power Saving Mode notification is disabled"
-        android:title="Power Saving Mode Notifications" />
+    <PreferenceScreen
+        android:title="Notifications background Settings"
+        android:summary="Change the background and rounded/stock for notifications">
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="0"
+            android:entries="@array/shape_entries"
+            android:entryValues="@array/shape_values"
+            android:key="notification_background_form"
+            android:title="Notification bg shape"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="0"
+            android:key="notification_bg_color"
+            android:title="Notification bg color"/>
+    </PreferenceScreen>
 
-    <com.wubydax.romcontrol.v2.prefs.MyListPreference
-        android:defaultValue="5"
-        android:entries="@array/toggle_entries"
-        android:title="Visible Toggles Shown"
-        android:key="QSPanel_NumberCount"
-        android:summary="Number shown on screen"
-        android:entryValues="@array/toggle_values" />
+    <PreferenceScreen
+        android:title="Notification panel background"
+        android:summary="Change the pulldown background of the notification panel">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="enable_gear_custom_bg"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Enable custom background"/>
 
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="Single swipe for Quickpanel"
-        android:key="tweaks_qs_pulldown"
-        android:defaultValue="true"
-        android:summaryOn="Feature is enabled"
-        android:summaryOff="Feature is disabled" />
+        <PreferenceCategory
+            android:dependency="enable_gear_custom_bg"
+            android:title="General bg preferences">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/custom_bg_type_entries"
+                android:entryValues="@array/custom_bg_type_values"
+                android:key="gear_custom_bg_type"
+                android:title="Background type"
+                wubydax:dependentValue="0"/>
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:defaultValue="255"
+                android:key="gear_bg_opacity"
+                android:title="Background opacity"
+                wubydax:maxValue="255"
+                wubydax:minValue="0"/>
+        </PreferenceCategory>
 
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="Make Ongoing Notifications Removable"
-        android:key="ongoing_notifications"
-        android:defaultValue="false"
-        android:summaryOn="Ongoing Notifications are removable"
-        android:summaryOff="Ongoing Notifications are permanent" />
+        <PreferenceCategory
+            android:dependency="enable_gear_custom_bg"
+            android:title="Custom image preferences">
+            <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
+                android:key="gear_bg_image_uri"
+                android:title="Select Bg image"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/crop_entries"
+                android:entryValues="@array/crop_values"
+                android:key="gear_bg_crop_type"
+                android:title="Set Image Scaling Type"/>
+        </PreferenceCategory>
 
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="Multi-user Avatar"
-        android:key="multiuser_avatar"
-        android:defaultValue="false"
-        android:summaryOn="Multi-user Avatar shown"
-        android:summaryOff="Multi-user Avatar hidden" />
-
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="Heads Up Notifications"
-        android:key="heads_up_notifications_enabled"
-        android:defaultValue="true"
-        android:summaryOn="Heads up enabled"
-        android:summaryOff="Heads up disabled" />
-
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="Ongoing Charging Pulldown Notification"
-        android:key="charging_notif"
-        android:defaultValue="true"
-        android:summaryOn="Notification is shown"
-        android:summaryOff="Notification is disabled" />
-
-    <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-        android:title="Ongoing Media Connected Pulldown Notification"
-        android:key="media_connect_notif"
-        android:defaultValue="true"
-        wubydax:rebootDevice="true"
-        android:summaryOn="Notification is shown"
-        android:summaryOff="Notification is disabled" />
+        <PreferenceCategory
+            android:dependency="enable_gear_custom_bg"
+            android:title="Color and gradient preferences">
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#00000000"
+                android:dependency="gear_custom_bg_type"
+                android:key="gear_bg_primary_color"
+                android:title="Select primary color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#00000000"
+                android:dependency="gear_custom_bg_type"
+                android:key="gear_second_gradient_color"
+                android:title="Secondary Color (for gradient)"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:dependency="gear_custom_bg_type"
+                android:entries="@array/gradient_entries"
+                android:entryValues="@array/gradient_values"
+                android:key="gear_bg_gradient_orientation"
+                android:title="Gradient orientation"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
 
     <PreferenceCategory
         android:title="Device info settings">
@@ -233,84 +313,5 @@
             android:defaultValue="#1e4e78"
             android:dependency="custom_slider_colors"/>
     </PreferenceCategory>
-
-        <PreferenceScreen
-            android:title="Notification panel background">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:key="enable_gear_custom_bg"
-                android:summaryOff="Disabled"
-                android:summaryOn="Enabled"
-                android:title="Enable custom background"/>
-
-            <PreferenceCategory
-                android:dependency="enable_gear_custom_bg"
-                android:title="General bg preferences">
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                    android:defaultValue="0"
-                    android:entries="@array/custom_bg_type_entries"
-                    android:entryValues="@array/custom_bg_type_values"
-                    android:key="gear_custom_bg_type"
-                    android:title="Background type"
-                    wubydax:dependentValue="0"/>
-                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                    android:defaultValue="255"
-                    android:key="gear_bg_opacity"
-                    android:title="Background opacity"
-                    wubydax:maxValue="255"
-                    wubydax:minValue="0"/>
-            </PreferenceCategory>
-
-            <PreferenceCategory
-                android:dependency="enable_gear_custom_bg"
-                android:title="Custom image preferences">
-                <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
-                    android:key="gear_bg_image_uri"
-                    android:title="Select Bg image"/>
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                    android:defaultValue="0"
-                    android:entries="@array/crop_entries"
-                    android:entryValues="@array/crop_values"
-                    android:key="gear_bg_crop_type"
-                    android:title="Set Image Scaling Type"/>
-            </PreferenceCategory>
-
-            <PreferenceCategory
-                android:dependency="enable_gear_custom_bg"
-                android:title="Color and gradient preferences">
-
-                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                    android:defaultValue="#00000000"
-                    android:dependency="gear_custom_bg_type"
-                    android:key="gear_bg_primary_color"
-                    android:title="Select primary color"/>
-                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                    android:defaultValue="#00000000"
-                    android:dependency="gear_custom_bg_type"
-                    android:key="gear_second_gradient_color"
-                    android:title="Secondary Color (for gradient)"/>
-                <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                    android:defaultValue="0"
-                    android:dependency="gear_custom_bg_type"
-                    android:entries="@array/gradient_entries"
-                    android:entryValues="@array/gradient_values"
-                    android:key="gear_bg_gradient_orientation"
-                    android:title="Gradient orientation"/>
-            </PreferenceCategory>
-        </PreferenceScreen>
-
-        <PreferenceScreen
-            android:title="Notifications Rounded/Stock Settings">
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/shape_entries"
-                android:entryValues="@array/shape_values"
-                android:key="notification_background_form"
-                android:title="Notification bg shape"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="0"
-                android:key="notification_bg_color"
-                android:title="Notification bg color"/>
-        </PreferenceScreen>
 
 </PreferenceScreen>

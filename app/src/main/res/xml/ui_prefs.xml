@@ -33,131 +33,102 @@
 
     This WILL NOT affect the intent for opening application. It's a cosmetic measure for your convenience.-->
 
+
+
     <PreferenceScreen
-        android:title="Battery Bar"
-        android:summary="Display Visual Line to show current battery Remaining">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/battery_bar_entries"
-            android:title="Battery Bar"
-            android:key="battery_bar"
-            android:summary="%s"
-            android:defaultValue="0"
-            android:entryValues="@array/battery_bar_values" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Show/Hide down BELOW Pulldown/Lockscreen"
-            android:key="battbar_no_pulldown_below"
-            android:defaultValue="1"
-            android:summaryOn="Down BELOW shown everywhere"
-            android:summaryOff="Down BELOW hidden from Pulldown/Lockscreen" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Battery bar animation"
-            android:key="battery_bar_animate"
-            android:defaultValue="true"
-            android:summaryOn="Charging animation enabled"
-            android:summaryOff="Animation disabled" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/battery_bar_style_entries"
-            android:title="Battery bar style"
-            android:key="battery_bar_style"
-            android:summary="%s"
-            android:defaultValue="1"
-            android:entryValues="@array/battery_bar_style_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/battery_bar_thickness_entries"
-            android:title="Thickness of battery bar"
-            android:key="battery_bar_thickness"
-            android:summary="%s"
-            android:defaultValue="2"
-            android:entryValues="@array/battery_bar_thickness_values" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Battery Bar Color"
-            android:key="battery_bar_color"
-            android:summary="Choose color of battery bar"
-            android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+        android:title="Battery Settings"
+        android:summary="Different battery related settings can be changed here">
+        <PreferenceCategory
+            android:title="Battery Bar">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/battery_bar_entries"
+                android:title="Battery Bar"
+                android:key="battery_bar"
+                android:summary="%s"
+                android:defaultValue="0"
+                android:entryValues="@array/battery_bar_values" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Show/Hide down BELOW Pulldown/Lockscreen"
+                android:key="battbar_no_pulldown_below"
+                android:defaultValue="1"
+                android:summaryOn="Down BELOW shown everywhere"
+                android:summaryOff="Down BELOW hidden from Pulldown/Lockscreen" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Battery bar animation"
+                android:key="battery_bar_animate"
+                android:defaultValue="true"
+                android:summaryOn="Charging animation enabled"
+                android:summaryOff="Animation disabled" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/battery_bar_style_entries"
+                android:title="Battery bar style"
+                android:key="battery_bar_style"
+                android:summary="%s"
+                android:defaultValue="1"
+                android:entryValues="@array/battery_bar_style_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/battery_bar_thickness_entries"
+                android:title="Thickness of battery bar"
+                android:key="battery_bar_thickness"
+                android:summary="%s"
+                android:defaultValue="2"
+                android:entryValues="@array/battery_bar_thickness_values" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Battery Bar Color"
+                android:key="battery_bar_color"
+                android:summary="Choose color of battery bar"
+                android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="3Minit Settings">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Stock Battery"
+                android:key="hide_battery_stock"
+                android:defaultValue="true"
+                android:summaryOn="Show"
+                android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="3Minit Battery"
+                android:key="minit_battery_visible"
+                android:defaultValue="false"
+                android:summaryOn="Show"
+                android:summaryOff="Hide" />
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="Battery Percentage Color">
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Percentage Color"
+                android:key="battery_text_color"
+                android:defaultValue="#ffffffff"
+                android:summary="Choose battery percent color" />
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="Low Battery warning settings">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/lowbattpercentage_entries"
+                android:title="Low Battery Warning Percentage"
+                android:key="low_battery_warning_percentage"
+                android:defaultValue="15"
+                android:summary="Set the Low Battery Warning Message Percentage"
+                app:rebootDevice="true"
+                android:entryValues="@array/lowbattpercentage_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/critbattpercentage_entries"
+                android:title="Critical Battery Warning Percentage"
+                android:key="critical_battery_warning_percentage"
+                android:defaultValue="5"
+                android:summary="Set the Critical Battery Warning Message Percentage"
+                app:rebootDevice="true"
+                android:entryValues="@array/critbattpercentage_values" />
+        </PreferenceCategory>
     </PreferenceScreen>
 
-    <PreferenceCategory
-        android:title="Stock or 3 Minit Battery">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Stock Battery"
-            android:key="hide_battery_stock"
-            android:defaultValue="true"
-            android:summaryOn="Show"
-            android:summaryOff="Hide" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="3Minit Battery"
-            android:key="minit_battery_visible"
-            android:defaultValue="false"
-            android:summaryOn="Show"
-            android:summaryOff="Hide" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Virtual lock button on upper right corner">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:title="On/Off"
-            android:key="VirtualLockRight"
-            android:summaryOn="Activ"
-            android:summaryOff="Inactiv" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Battery percentage color">
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Percentage Color"
-            android:key="battery_text_color"
-            android:defaultValue="#ffffffff"
-            android:summary="Choose battery percent color" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Long Press back Key behaving">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="enable_back_kill"
-            android:summaryOff="Menu"
-            android:summaryOn="Kill app"
-            android:title="LongPress Back"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Low/Critical Battery Warning Percentage">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/lowbattpercentage_entries"
-            android:title="Low Battery Warning Percentage"
-            android:key="low_battery_warning_percentage"
-            android:defaultValue="15"
-            android:summary="Set the Low Battery Warning Message Percentage"
-            app:rebootDevice="true"
-            android:entryValues="@array/lowbattpercentage_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/critbattpercentage_entries"
-            android:title="Critical Battery Warning Percentage"
-            android:key="critical_battery_warning_percentage"
-            android:defaultValue="5"
-            android:summary="Set the Critical Battery Warning Message Percentage"
-            app:rebootDevice="true"
-            android:entryValues="@array/critbattpercentage_values" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Next Alarm on Lockscreen">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Next Alarm"
-            android:defaultValue="true"
-            android:key="next_alarm"
-            android:summaryOn="Hide"
-            android:summaryOff="Show" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Next Alarm Text Color"
-            android:key="next_alarm_color"
-            android:summary="Choose color"
-            android:defaultValue="-1" alphaSlider="true" hexValue="true" />
-    </PreferenceCategory>
-    
-    <PreferenceCategory
-        android:title="Lockscreen Weather">
+    <PreferenceScreen
+        android:title="Weather on Lockscreen"
+        android:summary="Change settings for lockscreen weather">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Weather On Lockscreen"
             android:key="weather_kg_enable"
@@ -234,10 +205,11 @@
             android:summary="Choose Weather Low Temp Color"
             android:dependency="weather_kg_enable"
             android:defaultValue="-1" alphaSlider="true" hexValue="true" />
-    </PreferenceCategory>
+    </PreferenceScreen>
 
-    <PreferenceCategory
-        android:title="Recent Panel">
+    <PreferenceScreen
+        android:title="Recent Panel"
+        android:summary="Change mods for recent panel">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Recent Panel Quick Launch"
             android:key="recents_quick_launch_toggle"
@@ -263,49 +235,11 @@
             android:dependency="ram_bar_view"
             android:defaultValue="\#ffffffff" alphaSlider="true" hexValue="true"
             app:packageNameToKill="com.android.systemui"/>
-    </PreferenceCategory>
+    </PreferenceScreen>
 
-    <PreferenceCategory
-        android:title="Disable or enable wakeup when plug in cable">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="USB plug in/out wakeup"
-            android:key="usb_plugged"
-            android:defaultValue="true"
-            android:summaryOn="On"
-            android:summaryOff="Off" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Data Usage view preferences">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Data usage view visibility"
-            android:summaryOff="Hidden"
-            android:summaryOn="Shown"
-            android:key="data_usage_visibility"
-            android:defaultValue="false"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Data usage text color"
-            android:key="data_usage_text_color"
-            android:dependency="data_usage_visibility"
-            android:defaultValue="#e61e4e78"/>
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:title="Data usage text gravity"
-            android:key="data_usage_text_gravity"
-            android:dependency="data_usage_visibility"
-            android:entries="@array/data_usage_gravity_entries"
-            android:entryValues="@array/data_usage_gravity_values"
-            android:defaultValue="0"/>
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:title="Data usage text style"
-            android:key="data_usage_view_text_style"
-            android:dependency="data_usage_visibility"
-            android:entries="@array/data_usage_text_style_entries"
-            android:entryValues="@array/data_usage_text_style_values"
-            android:defaultValue="0"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Lockscreen Settings">
+    <PreferenceScreen
+        android:title="LockScreen Settings"
+        android:summary="Change mods for lock screen">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"
             android:key="lock_clock"
@@ -375,6 +309,176 @@
             android:defaultValue="2"
             android:summary="Number shown on lockscreen"
             android:entryValues="@array/lockscreen_notif_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Next Alarm on Lockscreen"
+            android:defaultValue="true"
+            android:key="next_alarm"
+            android:summaryOn="Hide"
+            android:summaryOff="Show" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Next Alarm Text Color"
+            android:key="next_alarm_color"
+            android:summary="Choose color"
+            android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Network traffic preferences"
+        android:summary="Change settings for network speed manager">
+        <PreferenceCategory
+            android:title="Network data">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:title="Displayed traffic info"
+                android:key="network_traffic_state"
+                android:defaultValue="3"
+                app:dependentValue="0"
+                android:entryValues="@array/traffic_state_values"
+                android:entries="@array/traffic_state_items"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Display data in Bytes"
+                android:summaryOff="Displayed in Bits (default)"
+                android:summaryOn="Displayed in Bytes"
+                android:defaultValue="false"
+                android:key="network_traffic_unit"
+                android:dependency="network_traffic_state"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="Arrows display preferences"
+            android:dependency="network_traffic_state">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Show traffic arrows"
+                android:key="network_traffic_show_arrows"
+                android:defaultValue="true"
+                android:summaryOff="Arrows hidden"
+                android:summaryOn="Arrows shown"
+                android:dependency="network_traffic_state"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:title="Arrows position"
+                android:key="network_traffic_arrows_position"
+                android:dependency="network_traffic_show_arrows"
+                android:defaultValue="0"
+                android:entryValues="@array/arrow_position_values"
+                android:entries="@array/arrow_position_entries"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="Display options"
+            android:dependency="network_traffic_state">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Autohide on low traffic"
+                android:key="network_traffic_autohide"
+                android:defaultValue="false"
+                android:summaryOff="Displayed always"
+                android:summaryOn="Autohide enabled"/>
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:title="Autohide threshold"
+                app:unitsValue="Kb"
+                app:maxValue="100"
+                android:key="network_traffic_threshold"
+                android:defaultValue="10"
+                android:dependency="network_traffic_autohide"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:title="Font style"
+                android:key="network_traffic_text_style"
+                android:defaultValue="0"
+                android:entries="@array/traffic_style_entries"
+                android:entryValues="@array/traffic_style_entry_values"/>
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:title="Text size scale factor"
+                android:key="network_traffic_scale"
+                app:maxValue="10"
+                android:defaultValue="10"/>
+        </PreferenceCategory>
+
+        <PreferenceCategory
+            android:title="Network traffic colors"
+            android:dependency="network_traffic_state">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Separate colors for elements"
+                android:key="network_traffic_global_color"
+                android:defaultValue="true"
+                android:summaryOn="All elements can be colored separately"
+                android:summaryOff="Global color will apply to all elements"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Global color"
+                android:key="network_traffic_color"
+                android:defaultValue="#ffffff"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Upload text color"
+                android:defaultValue="#ffffff"
+                android:key="network_traffic_upload_color"
+                android:dependency="network_traffic_global_color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Download text color"
+                android:defaultValue="#ffffff"
+                android:key="network_traffic_download_color"
+                android:dependency="network_traffic_global_color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Traffic arrows color"
+                android:key="network_traffic_arrow_color"
+                android:defaultValue="#ffffff"
+                android:dependency="network_traffic_global_color"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceCategory
+        android:title="Virtual lock button on upper right corner">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:title="On/Off"
+            android:key="VirtualLockRight"
+            android:summaryOn="Activ"
+            android:summaryOff="Inactiv" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Long Press back Key behaving">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="enable_back_kill"
+            android:summaryOff="Menu"
+            android:summaryOn="Kill app"
+            android:title="LongPress Back"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Disable or enable wakeup when plug in cable">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="USB plug in/out wakeup"
+            android:key="usb_plugged"
+            android:defaultValue="true"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Data Usage view preferences">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Data usage view visibility"
+            android:summaryOff="Hidden"
+            android:summaryOn="Shown"
+            android:key="data_usage_visibility"
+            android:defaultValue="false"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Data usage text color"
+            android:key="data_usage_text_color"
+            android:dependency="data_usage_visibility"
+            android:defaultValue="#e61e4e78"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:title="Data usage text gravity"
+            android:key="data_usage_text_gravity"
+            android:dependency="data_usage_visibility"
+            android:entries="@array/data_usage_gravity_entries"
+            android:entryValues="@array/data_usage_gravity_values"
+            android:defaultValue="0"/>
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:title="Data usage text style"
+            android:key="data_usage_view_text_style"
+            android:dependency="data_usage_visibility"
+            android:entries="@array/data_usage_text_style_entries"
+            android:entryValues="@array/data_usage_text_style_values"
+            android:defaultValue="0"/>
     </PreferenceCategory>
 
     <PreferenceCategory
@@ -408,105 +512,6 @@
             android:dependency="dynamic_toggle"
             android:defaultValue="10" min="0" />
     </PreferenceCategory>
-
-    <PreferenceScreen
-        android:title="Network traffic preferences">
-        <PreferenceCategory
-            android:title="Network data">
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:title="Displayed traffic info"
-                android:key="network_traffic_state"
-                android:defaultValue="3"
-                app:dependentValue="0"
-                android:entryValues="@array/traffic_state_values"
-                android:entries="@array/traffic_state_items"/>
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="Display data in Bytes"
-                android:summaryOff="Displayed in Bits (default)"
-                android:summaryOn="Displayed in Bytes"
-                android:defaultValue="false"
-                android:key="network_traffic_unit"
-                android:dependency="network_traffic_state"/>
-        </PreferenceCategory>
-        
-        <PreferenceCategory
-            android:title="Arrows display preferences"
-            android:dependency="network_traffic_state">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="Show traffic arrows"
-                android:key="network_traffic_show_arrows"
-                android:defaultValue="true"
-                android:summaryOff="Arrows hidden"
-                android:summaryOn="Arrows shown"
-                android:dependency="network_traffic_state"/>
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:title="Arrows position"
-                android:key="network_traffic_arrows_position"
-                android:dependency="network_traffic_show_arrows"
-                android:defaultValue="0"
-                android:entryValues="@array/arrow_position_values"
-                android:entries="@array/arrow_position_entries"/>
-        </PreferenceCategory>
-        
-        <PreferenceCategory
-            android:title="Display options"
-            android:dependency="network_traffic_state">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="Autohide on low traffic"
-                android:key="network_traffic_autohide"
-                android:defaultValue="false"
-                android:summaryOff="Displayed always"
-                android:summaryOn="Autohide enabled"/>
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                android:title="Autohide threshold"
-                app:unitsValue="Kb"
-                app:maxValue="100"
-                android:key="network_traffic_threshold"
-                android:defaultValue="10"
-                android:dependency="network_traffic_autohide"/>
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:title="Font style"
-                android:key="network_traffic_text_style"
-                android:defaultValue="0"
-                android:entries="@array/traffic_style_entries"
-                android:entryValues="@array/traffic_style_entry_values"/>
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                android:title="Text size scale factor"
-                android:key="network_traffic_scale"
-                app:maxValue="10"
-                android:defaultValue="10"/>
-        </PreferenceCategory>
-        
-        <PreferenceCategory
-            android:title="Network traffic colors"
-            android:dependency="network_traffic_state">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="Separate colors for elements"
-                android:key="network_traffic_global_color"
-                android:defaultValue="true"
-                android:summaryOn="All elements can be colored separately"
-                android:summaryOff="Global color will apply to all elements"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:title="Global color"
-                android:key="network_traffic_color"
-                android:defaultValue="#ffffff"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:title="Upload text color"
-                android:defaultValue="#ffffff"
-                android:key="network_traffic_upload_color"
-                android:dependency="network_traffic_global_color"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:title="Download text color"
-                android:defaultValue="#ffffff"
-                android:key="network_traffic_download_color"
-                android:dependency="network_traffic_global_color"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:title="Traffic arrows color"
-                android:key="network_traffic_arrow_color"
-                android:defaultValue="#ffffff"
-                android:dependency="network_traffic_global_color"/>
-        </PreferenceCategory>
-    </PreferenceScreen>
 
     <PreferenceCategory
         android:title="Shortcut to apps preferences">

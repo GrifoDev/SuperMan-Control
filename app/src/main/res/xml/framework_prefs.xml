@@ -27,6 +27,12 @@
             android:defaultValue="false"
             android:summaryOn="Flashlight will be shown"
             android:summaryOff="Currently removed" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Emergency Mode"
+            android:key="power_emergency"
+            android:defaultValue="false"
+            android:summaryOn="Emergency mode will be shown"
+            android:summaryOff="Currently removed" />
     </PreferenceCategory>
 
 </PreferenceScreen>

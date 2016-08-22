@@ -20,4 +20,50 @@
         android:summaryOn="Hidden"
         android:summaryOff="Shown" />
 
+    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+        android:max="25"
+        android:title="Settings dashboard Title size"
+        android:key="dash_title_text"
+        android:summary="Adjust Settings dashboard Title size"
+        android:defaultValue="12"
+        min="5"
+        unitsRight=" dp" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+        android:max="25"
+        android:title="Settings Favorites Title size"
+        android:key="dash_fav_title_text"
+        android:summary="Adjust Settings Favorites Title size"
+        android:defaultValue="14"
+        min="5"
+        unitsRight=" dp" />
+
+    <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+        android:max="25"
+        android:title="Settings edit Favorites Title size"
+        android:key="dash_edit_fav_title_text"
+        android:summary="Adjust Settings Edit Favorites Title size"
+        android:defaultValue="14"
+        min="5"
+        unitsRight=" dp" />
+
+    <PreferenceScreen
+        android:title="Volume Rocker Music Control"
+        android:summary="Customize volume rocker action" >
+        <PreferenceCategory
+            android:title="Music Control" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Music Control"
+                android:key="volbtn_music_controls"
+                android:defaultValue="false" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/volbtn_timeout_entries"
+                android:title="Button Delay"
+                android:key="volbtn_timeout"
+                android:summary="%s"
+                android:defaultValue="350"
+                android:dependency="volbtn_music_controls"
+                android:entryValues="@array/volbtn_timeout_values" />
+    </PreferenceScreen>
+
 </PreferenceScreen>

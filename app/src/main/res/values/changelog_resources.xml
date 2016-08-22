@@ -9,27 +9,28 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Rebased to APGO firmware</item>
-        <item>Remade all mods by scratch</item>
-        <item>fixed private mode not working after a reboot</item>
-        <item>3dot issue solved</item>
-        <item>flashlight toggle into reboot menu</item>
-        <item>lockscreen rotation</item>
-        <item>change background of brightness slider and more!</item>
-        <item>f2fs/ext4 can be chosen in aroma</item>
-        <item>magisk support with xposed 86.4 and phhs root</item>
-        <item>enabled flashlight even on low battery</item>
-        <item>in rom control check when low battery warning should be set</item>
-        <item>network preferences now have more color options</item>
-        <item>ram usage in recent (rom control toggle)</item>
-        <item>press back to kill app (rom control toggle)</item>
+        <item>Rebased to BPH6 firmware</item>
+        <item>Remade all mods by new</item>
+        <item>removed battery percentage colorable, only problems with some statusbars</item>
+        <item>new UX gallery</item>
+        <item>Added a toggle to remove emergency mode from reboot menu</item>
+        <item>Added rom control option to enable music skip</item>
+        <item>Update notification background, it can now also be transparent (should fix white on white issue)</item>
+        <item>Added carrier label is now colorable on lockscreen</item>
+        <item>you can now change the size of the font in settings (so you can read it better when you got two sections)</item>
+        <item>magisk updated to V5</item>
+        <item>phh's root updated</item>
+        <item>xposed updated to V86.5</item>
+        <item>added magisk compatible supersu zip</item>
+        <item>updated SuperKernel to V1.7</item>
+        <item>updated SuperStock to V1.3</item>
         <item>More things I may forgot</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">SuperMan-Rom V1.11</string>
+    <string name="rom_version_for_changelog">SuperMan-Rom V1.12</string>
 
 
 </resources>

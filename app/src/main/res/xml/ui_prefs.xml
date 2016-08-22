@@ -97,15 +97,6 @@
         </PreferenceCategory>
 
         <PreferenceCategory
-            android:title="Battery Percentage Color">
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:title="Percentage Color"
-                android:key="battery_text_color"
-                android:defaultValue="#ffffffff"
-                android:summary="Choose battery percent color" />
-        </PreferenceCategory>
-
-        <PreferenceCategory
             android:title="Low Battery warning settings">
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                 android:entries="@array/lowbattpercentage_entries"
@@ -320,6 +311,24 @@
             android:key="next_alarm_color"
             android:summary="Choose color"
             android:defaultValue="-1" alphaSlider="true" hexValue="true" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Use Custom Carrier Text"
+            android:key="custom_lock_carrier"
+            android:defaultValue="false"
+            android:summaryOn="Enabled"
+            android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
+            android:title="Carrier Custom Text"
+            android:defaultValue=""
+            android:key="custom_lock_carrier_text"
+            android:summary="Edit carrier label"
+            android:dependency="custom_lock_carrier"
+            android:dialogTitle="Set Custom Text" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Carrier Text" alphaSlider="true"
+            android:defaultValue="-1"
+            android:key="carrier_color"
+            android:summary="Choose carrier color" />
     </PreferenceScreen>
 
     <PreferenceScreen

@@ -84,10 +84,22 @@
             android:entryValues="@array/shape_values"
             android:key="notification_background_form"
             android:title="Notification bg shape"/>
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+            android:title="Notification background transparency"
+            android:key="notification_bg_alpha"
+            android:defaultValue="255"
+            wubydax:maxValue="255"/>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Custom notificationColors"
+            android:key="custom_notification_color"
+            android:defaultValue="0"
+            android:summaryOff="Custom colors disabled"
+            android:summaryOn="Custom colors enabled"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="0"
             android:key="notification_bg_color"
-            android:title="Notification bg color"/>
+            android:title="Notification bg color"
+            android:dependency="custom_notification_color"/>
     </PreferenceScreen>
 
     <PreferenceScreen

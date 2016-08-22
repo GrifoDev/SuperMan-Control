@@ -401,4 +401,27 @@
         <item>5</item>
     </string-array>
 
+    <string-array name="volbtn_timeout_entries">
+        <item>100ms</item>
+        <item>150ms</item>
+        <item>200ms</item>
+        <item>250ms</item>
+        <item>300ms</item>
+        <item>350ms</item>
+        <item>400ms</item>
+        <item>450ms</item>
+        <item>500ms</item>
+    </string-array>
+    <string-array name="volbtn_timeout_values">
+        <item>100</item>
+        <item>150</item>
+        <item>200</item>
+        <item>250</item>
+        <item>300</item>
+        <item>350</item>
+        <item>400</item>
+        <item>450</item>
+        <item>500</item>
+    </string-array>
+
 </resources>

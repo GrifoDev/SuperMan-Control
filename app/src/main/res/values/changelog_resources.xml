@@ -18,12 +18,13 @@
         <item>Update notification background, it can now also be transparent (should fix white on white issue)</item>
         <item>Added carrier label is now colorable on lockscreen</item>
         <item>you can now change the size of the font in settings (so you can read it better when you got two sections)</item>
-        <item>magisk updated to V5</item>
-        <item>phh's root updated</item>
+        <item>magisk updated to V6</item>
+        <item>phh root updated</item>
         <item>xposed updated to V86.5</item>
         <item>added magisk compatible supersu zip</item>
         <item>updated SuperKernel to V1.7</item>
         <item>updated SuperStock to V1.3</item>
+        <item>virtual lock buttons updated</item>
         <item>More things I may forgot</item>
     </string-array>
 

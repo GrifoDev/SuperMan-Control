@@ -432,13 +432,72 @@
     </PreferenceScreen>
 
     <PreferenceCategory
-        android:title="Virtual lock button on upper right corner">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:title="On/Off"
-            android:key="VirtualLockRight"
-            android:summaryOn="Activ"
-            android:summaryOff="Inactiv" />
+        android:title="Virtual Buttons (set one button on position)">
+        <PreferenceScreen
+            android:title="Lock Button">
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="Right side"
+                android:key="cocoyaya_rightcornerlock"
+                android:defaultValue="false"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="Left side"
+                android:key="cocoyaya_leftcornerlock"
+                android:defaultValue="false"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="Center"
+                android:key="cocoyaya_centerlock"
+                android:defaultValue="false"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="Home Button">
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="Right side"
+                android:key="cocoyaya_rightcornerhome"
+                android:defaultValue="false"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="Left side"
+                android:key="cocoyaya_leftcornerhome"
+                android:defaultValue="false"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="Center"
+                android:key="cocoyaya_centerhome"
+                android:defaultValue="false"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+        </PreferenceScreen>
+
+        <PreferenceScreen
+            android:title="Recent Button">
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="Right side"
+                android:key="cocoyaya_rightcornertask"
+                android:defaultValue="false"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="Left side"
+                android:key="cocoyaya_leftcornertask"
+                android:defaultValue="false"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:title="Center"
+                android:key="cocoyaya_centertask"
+                android:defaultValue="false"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+        </PreferenceScreen>
     </PreferenceCategory>
 
     <PreferenceCategory

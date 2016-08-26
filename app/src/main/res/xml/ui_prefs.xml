@@ -203,7 +203,7 @@
         android:summary="Change mods for recent panel">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Recent Panel Quick Launch"
-            android:key="recents_quick_launch_toggle"
+            android:key="recents_quick_launch"
             android:defaultValue="false"
             android:summaryOn="Quick Launch is shown"
             android:summaryOff="Quick Launch is hidden" />

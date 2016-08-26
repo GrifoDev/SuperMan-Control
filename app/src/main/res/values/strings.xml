@@ -64,6 +64,7 @@
     <string name="reboot_later_negative_button">later</string>
     <string name="reboot_now_dialog_button">reboot now</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
+    <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
     <string name="dynamic_status_bar_title">Dynamic status bar</string>
     <string name="dynamic_status_bar_color_title">Dynamic status bar color</string>
     <string name="dynamic_status_bar_color_summary">Automatically update background color of the status bar</string>

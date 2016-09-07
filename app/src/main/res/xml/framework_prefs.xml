@@ -35,4 +35,15 @@
             android:summaryOff="Currently removed" />
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="Toast Notifications">
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/toast_animation_entries"
+            android:title="Toast Animations UI Framework "
+            android:key="animation_toast"
+            android:summary="%s"
+            android:defaultValue="0"
+            android:entryValues="@array/toast_animation_values" />
+    </PreferenceCategory>
+
 </PreferenceScreen>

@@ -9,29 +9,23 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Rebased to BPH6 firmware</item>
-        <item>Remade all mods by new</item>
-        <item>removed battery percentage colorable, only problems with some statusbars</item>
-        <item>new UX gallery</item>
-        <item>Added a toggle to remove emergency mode from reboot menu</item>
-        <item>Added rom control option to enable music skip</item>
-        <item>Update notification background, it can now also be transparent (should fix white on white issue)</item>
-        <item>Added carrier label is now colorable on lockscreen</item>
-        <item>you can now change the size of the font in settings (so you can read it better when you got two sections)</item>
-        <item>magisk updated to V6</item>
-        <item>phh root updated</item>
-        <item>xposed updated to V86.5</item>
-        <item>added magisk compatible supersu zip</item>
-        <item>updated SuperKernel to V1.7</item>
-        <item>updated SuperStock to V1.3</item>
-        <item>virtual lock buttons updated</item>
-        <item>More things I may forgot</item>
+        <item>Fully rebased to BPHJ</item>
+        <item>Everything modded by scratch</item>
+        <item>wifi, mobile signal, 4G/3G icon roaming and airplane colorable</item>
+        <item>fixed quicklaunch in recent not appearing</item>
+        <item>added InCall UI mod</item>
+        <item>Fix problem that incallui bg is the same as notification bg</item>
+        <item>Updated supersu to V2.78</item>
+        <item>added option for toast animation</item>
+        <item>launcher scrolling enabled in romcontrol</item>
+        <item>Kernels updated</item>
+        <item>some things I forgot</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">SuperMan-Rom V1.12</string>
+    <string name="rom_version_for_changelog">SuperMan-Rom V1.13</string>
 
 
 </resources>

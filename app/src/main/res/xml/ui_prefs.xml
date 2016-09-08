@@ -431,6 +431,45 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
+    <PreferenceScreen
+        android:title="Statusbar colorizing"
+        android:summary="Change colors of flightmode, wifi, signal and more">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="is_global_sb_color"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Global Statusbar colors"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Global Statusbar color"
+            android:key="global_sb_color"
+            android:dependency="is_global_sb_color"
+            android:defaultValue="#ffffff"/>
+        <PreferenceCategory
+            android:title="Statusbar Colors">
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Wifi Signal Color"
+                android:key="wifi_signal_color"
+                android:defaultValue="#ffffff"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Mobile Signal Color"
+                android:key="mobile_signal_color"
+                android:defaultValue="#ffffff"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Mobile Type and arrows Color"
+                android:key="mobile_type_color"
+                android:defaultValue="#ffffff"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Roaming Icon Color"
+                android:key="mobile_roaming_color"
+                android:defaultValue="#ffffff"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Airplane Mode Color"
+                android:key="airplane_mode_color"
+                android:defaultValue="#ffffff"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
     <PreferenceCategory
         android:title="Virtual Buttons (set one button on position)">
         <PreferenceScreen

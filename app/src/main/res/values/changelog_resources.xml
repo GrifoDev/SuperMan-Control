@@ -9,22 +9,22 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Fully rebased to BPHJ</item>
+        <item>Fully rebased to BPIF</item>
         <item>Everything modded by scratch</item>
-        <item>wifi, mobile signal, 4G/3G icon roaming and airplane colorable</item>
-        <item>fixed quicklaunch in recent not appearing</item>
-        <item>Fix problem that incallui bg is the same as notification bg</item>
-        <item>Updated supersu to V2.78</item>
-        <item>added option for toast animation</item>
-        <item>autostart settings added</item>
-        <item>Kernels updated</item>
+        <item>fixed autocall recorder not working</item>
+        <item>updated superstock to 1.4 including BPIF ramdisk</item>
+        <item>updated superkernel to 1.8 including BPIF ramdisk(prerelease on superman)</item>
+        <item>updated superSU to R1</item>
+        <item>Colorable "clear" and "noti" buttons</item>
+        <item>Colorable user text on lockscreen</item>
+        <item>Use Fingerprint after reboot (credits to mwilky)</item>
         <item>some things I forgot</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">SuperMan-Rom V1.13</string>
+    <string name="rom_version_for_changelog">SuperMan-Rom V1.14</string>
 
 
 </resources>

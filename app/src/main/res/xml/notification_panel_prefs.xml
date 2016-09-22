@@ -100,6 +100,12 @@
             android:key="notification_bg_color"
             android:title="Notification bg color"
             android:dependency="custom_notification_color"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            hexValue="true"
+            alphaSlider="true"
+            android:defaultValue="\#ffffffff"
+            android:key="clear_button_color"
+            android:title="Color CLEAR button"/>
     </PreferenceScreen>
 
     <PreferenceScreen

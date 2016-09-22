@@ -329,6 +329,11 @@
             android:defaultValue="-1"
             android:key="carrier_color"
             android:summary="Choose carrier color" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Lockscreen Owner Info "
+            android:key="lockscreen_owner_text_color"
+            android:summary=""
+            android:defaultValue="-1" hexValue="true" alphaSlider="true" />
     </PreferenceScreen>
 
     <PreferenceScreen

@@ -106,6 +106,12 @@
             android:defaultValue="\#ffffffff"
             android:key="clear_button_color"
             android:title="Color CLEAR button"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="-1"
+            hexValue="true"
+            alphaSlider="true"
+            android:key="notification_bg_color_screenshot"
+            android:title="Screenshot buttons bg color"/>
     </PreferenceScreen>
 
     <PreferenceScreen

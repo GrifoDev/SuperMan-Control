@@ -28,7 +28,7 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Single swipe for Quickpanel"
             android:key="tweaks_qs_pulldown"
-            android:defaultValue="true"
+            android:defaultValue="false"
             android:summaryOn="Feature is enabled"
             android:summaryOff="Feature is disabled" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference

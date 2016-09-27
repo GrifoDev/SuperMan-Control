@@ -45,7 +45,7 @@
                 android:title="Battery Bar"
                 android:key="battery_bar"
                 android:summary="%s"
-                android:defaultValue="0"
+                android:defaultValue="2"
                 android:entryValues="@array/battery_bar_values" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="Show/Hide down BELOW Pulldown/Lockscreen"

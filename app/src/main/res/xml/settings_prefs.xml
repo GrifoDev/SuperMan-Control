@@ -46,6 +46,17 @@
         android:defaultValue="14"
         min="5"
         unitsRight=" dp" />
+    
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Settings Favorites Text Color"
+        android:key="favs_text_color"
+        android:summary="Choose favorites text color"
+        android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+    <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+        android:title="Settings Sections Text Color"
+        android:key="settings_sections_text_color"
+        android:summary="Choose Sections text color"
+        android:defaultValue="-1" hexValue="true" alphaSlider="true" />
 
     <PreferenceScreen
         android:title="Volume Rocker Music Control"

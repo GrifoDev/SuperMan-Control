@@ -9,22 +9,23 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Fully rebased to BPIF</item>
-        <item>Everything modded by scratch</item>
-        <item>fixed autocall recorder not working</item>
-        <item>updated superstock to 1.4 including BPIF ramdisk</item>
-        <item>updated superkernel to 1.8 including BPIF ramdisk(prerelease on superman)</item>
-        <item>updated superSU to R1</item>
-        <item>Colorable "clear" and "noti" buttons</item>
-        <item>Colorable user text on lockscreen</item>
-        <item>Use Fingerprint after reboot (credits to mwilky)</item>
+        <item>Based upon latest BPJ7 firmware</item>
+        <item>Remodded and retweaked from scratch</item>
+        <item>Updated Magisk to V8</item>
+        <item>October patches included</item>
+        <item>Magisk app updated</item>
+        <item>Install supersu before magisk, so magisk detects supersu</item>
+        <item>Added Full screen dialer</item>
+        <item>Added screen capture to statusbar</item>
+        <item>Fixed volume rocker settings (volume up gave volume down)</item>
+        <item>Cleaned up aroma installer</item>
         <item>some things I forgot</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">SuperMan-Rom V1.14</string>
+    <string name="rom_version_for_changelog">SuperMan-Rom V1.15</string>
 
 
 </resources>

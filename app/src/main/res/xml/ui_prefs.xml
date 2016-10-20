@@ -344,7 +344,7 @@
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                 android:title="Displayed traffic info"
                 android:key="network_traffic_state"
-                android:defaultValue="3"
+                android:defaultValue="0"
                 app:dependentValue="0"
                 android:entryValues="@array/traffic_state_values"
                 android:entries="@array/traffic_state_items"/>
@@ -382,7 +382,7 @@
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="Autohide on low traffic"
                 android:key="network_traffic_autohide"
-                android:defaultValue="false"
+                android:defaultValue="true"
                 android:summaryOff="Displayed always"
                 android:summaryOn="Autohide enabled"/>
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
@@ -390,7 +390,7 @@
                 app:unitsValue="Kb"
                 app:maxValue="100"
                 android:key="network_traffic_threshold"
-                android:defaultValue="10"
+                android:defaultValue="5"
                 android:dependency="network_traffic_autohide"/>
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                 android:title="Font style"
@@ -644,10 +644,15 @@
             android:icon="@mipmap/ic_launcher"
             app:componentName="com.wubydax.geartwswipe/com.wubydax.geartwswipe.ResetDialogActivity"/>
 
-        <!--Open app preference with only cuctom title and the icon which is loaded from the app-->
+        <!--Open app preference with only custom title and the icon which is loaded from the app-->
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
             app:componentName="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material"
             android:title="Chainfire's SuperSu App"
+            android:summary="Manage root permissions for apps and services"/>
+
+        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+            app:componentName="me.phh.superuser/com.koushikdutta.superuser.MainActivity"
+            android:title="Phh's Superuser"
             android:summary="Manage root permissions for apps and services"/>
     </PreferenceCategory>
 

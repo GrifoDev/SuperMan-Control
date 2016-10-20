@@ -184,7 +184,7 @@
         <PreferenceScreen
             android:title="Device info customization">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="true"
+                android:defaultValue="false"
                 android:key="device_info_visibility"
                 android:summaryOff="Disabled"
                 android:summaryOn="Enabled"

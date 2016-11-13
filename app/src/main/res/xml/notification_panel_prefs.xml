@@ -37,10 +37,16 @@
             android:summaryOff="Currently Hidden"
             android:summaryOn="Currently Shown"
             android:title="Brightness Slider" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Double Tap To Sleep"
+            android:key="double_tap_sleep"
+            android:defaultValue="false"
+            android:summaryOn="Double Tap Status Bar To Sleep Enabled"
+            android:summaryOff="Double Tap Status Bar To Sleep Disabled" />
     </PreferenceScreen>
 
     <PreferenceScreen
-            android:title="Notification Settings"
+            android:title="Notifications on Pulldown Menu"
             android:summary="Change settings for notifications">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"

@@ -9,23 +9,32 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Based upon latest BPJ7 firmware</item>
+        <item>Based on BPJG firmware</item>
         <item>Remodded and retweaked from scratch</item>
-        <item>Updated Magisk to V8</item>
-        <item>October patches included</item>
+        <item>Updated busybox to V1.25</item>
+        <item>Updated busybox apk</item>
+        <item>November patches included</item>
         <item>Magisk app updated</item>
-        <item>Install supersu before magisk, so magisk detects supersu</item>
-        <item>Added Full screen dialer</item>
-        <item>Added screen capture to statusbar</item>
-        <item>Fixed volume rocker settings (volume up gave volume down)</item>
-        <item>Cleaned up aroma installer</item>
+        <item>Magisk phh superuser updated to r266 2</item>
+        <item>Updated all kernels</item>
+        <item>Xposed app updated</item>
+        <item>Used new smali/baksmali for deodex</item>
+        <item>Phh superuser updated to hidesu (to hopefully pass safetynet)</item>
+        <item>Added OperaMax to debloat selection</item>
+        <item>Added UPSM app manager to debloat option</item>
+        <item>Added double tap to sleep on statusbar (thanks to tamirda!)</item>
+        <item>Added adaway to aroma selection (default on or off)</item>
+        <item>Fixed AppLock signature FCs</item>
+        <item>Fixed SMS patched app scheduled settings fc</item>
+        <item>Added nougat emojis</item>
+        <item>Added aroma selection for csc. To install stock csc (which comes with rom) or none to flash it from selection</item>
         <item>some things I forgot</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">SuperMan-Rom V1.15</string>
+    <string name="rom_version_for_changelog">SuperMan-Rom V1.16</string>
 
 
 </resources>

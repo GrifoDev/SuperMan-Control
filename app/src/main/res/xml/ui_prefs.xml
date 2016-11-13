@@ -334,6 +334,18 @@
             android:key="lockscreen_owner_text_color"
             android:summary=""
             android:defaultValue="-1" hexValue="true" alphaSlider="true" />
+        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+            android:title="Ambient Display"
+            android:key="ambient_display_active"
+            android:defaultValue="false"
+            android:summaryOn="On"
+            android:summaryOff="Off" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+            android:max="10000"
+            android:title="Ambient Display Screen Time"
+            android:key="ambient_timeout"
+            android:dependency="ambient_display_active"
+            android:defaultValue="10000" />
     </PreferenceScreen>
 
     <PreferenceScreen

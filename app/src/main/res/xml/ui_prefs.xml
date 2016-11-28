@@ -229,6 +229,32 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:title="Display Settings"
+        android:summary="Change things like greyscale and invert mode">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Negative colours"
+            android:defaultValue="false"
+            android:summary="Invert colors"
+            android:key="direct_negative" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:persistent="false"
+            android:title="Greyscale"
+            android:defaultValue="false"
+            android:summary="Enable greyscale mode for the whole display"
+            android:key="greyscale_mode" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="High contrast keyboard"
+            android:key="toggle_high_keyboard_contrast_preference"
+            android:defaultValue="false"
+            android:summary="Adjust the size of the Samsung keyboard and change its colours to increase the contrast between the keys and the background" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="High contrast fonts"
+            android:key="toggle_high_font_contrast_preference"
+            android:defaultValue="false"
+            android:summary="Adjust the colour and outline of fonts to increase the contrast with the background." />
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:title="LockScreen Settings"
         android:summary="Change mods for lock screen">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -334,18 +360,6 @@
             android:key="lockscreen_owner_text_color"
             android:summary=""
             android:defaultValue="-1" hexValue="true" alphaSlider="true" />
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-            android:title="Ambient Display"
-            android:key="ambient_display_active"
-            android:defaultValue="false"
-            android:summaryOn="On"
-            android:summaryOff="Off" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-            android:max="10000"
-            android:title="Ambient Display Screen Time"
-            android:key="ambient_timeout"
-            android:dependency="ambient_display_active"
-            android:defaultValue="10000" />
     </PreferenceScreen>
 
     <PreferenceScreen

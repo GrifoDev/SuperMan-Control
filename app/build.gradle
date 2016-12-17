@@ -29,10 +29,10 @@ android {
         }
     }
     compileSdkVersion 24
-    buildToolsVersion '24.0.1'
+    buildToolsVersion '24.0.3'
     defaultConfig {
-        applicationId "com.wubydax.romcontrol.v2"
-        minSdkVersion 21
+        applicationId "com.wubydax.romcontrol.superman"
+        minSdkVersion 23
         //noinspection OldTargetApi
         targetSdkVersion 23
         versionCode 2

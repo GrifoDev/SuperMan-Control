@@ -9,29 +9,33 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Based on BPKA firmware</item>
+        <item>Based on latest BPL3 firmware</item>
         <item>Remodded and retweaked from scratch</item>
-        <item>Updated Magisk to V9</item>
-        <item>Updated Magisk Manager to V2.5</item>
-        <item>Updated AdBlocker apk</item>
+        <item>December Security patch</item>
+        <item>Phh superuser updated to r275</item>
+        <item>Updated SuperSU to V2.79</item>
+        <item>Kernel updated to 1.9.6 SuperKernel and 1.6 SuperStock</item>
         <item>Updated Host file</item>
-        <item>Ask in aroma if you want to update modem</item>
-        <item>All ramdisks updated to BPKA</item>
-        <item>Changed CSC to AUT (since we never had issues with it)</item>
-        <item>Updated baksmali/smali</item>
-        <item>Added some files which will may help for wifi calling</item>
-        <item>Changed operamax with official one from playstore (many thought it is a spam app)</item>
-        <item>Added negative colors to romcontrol switch</item>
-        <item>Added greyscale to romcontrol</item>
-        <item>Updated Xposed Installer APK</item>
-        <item>Updated Xposed Framework to V87</item>
+        <item>Updated all included BL/CP files</item>
+        <item>Added W8 BL/CP to auto rom update as well</item>
+        <item>Many many aroma script changes</item>
+        <item>Backup function! When you reflash V1.18 you now have to option to restore your configs from last time!
+</item>
+        <item>Added kernel adiutor to kernel selection</item>
+        <item>No more model choose! Everything is done by my script</item>
+        <item>If you have a K/L/S/W8 model, that will be changed in build.prop accordingly</item>
+        <item>Added an option to install full stock settings</item>
+        <item>Updated Viper4Android magisk version and added the right apk to install</item>
+        <item>Added viper4 arise (untested)</item>
+        <item>Good Lock added as aroma option!</item>
+        <item>Updated Xposed Framework to V87.1</item>
         <item>some things I forgot</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">SuperMan-Rom V1.17</string>
+    <string name="rom_version_for_changelog">SuperMan-Rom V1.18.1</string>
 
 
 </resources>

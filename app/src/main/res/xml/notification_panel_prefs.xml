@@ -3,57 +3,22 @@
                   xmlns:wubydax="http://schemas.android.com/apk/res-auto">
 
     <PreferenceScreen
-        android:title="Notification Panel Settings"
-        android:summary="Change mods for the Notification panel">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="10"
-            android:entries="@array/toggle_scroll_entries"
-            android:entryValues="@array/toggle_scroll_values"
-            android:key="sysui_qs_active_tiles"
-            android:title="Scrollable Toggles Shown"
-            android:summary="Scrolling toggle number" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="5"
-            android:entries="@array/toggle_entries"
-            android:title="Visible Toggles Shown"
-            android:key="QSPanel_NumberCount"
-            android:summary="Number shown on screen"
-            android:entryValues="@array/toggle_values" />
+            android:title="Notifications on Pulldown Menu"
+            android:summary="Change settings for notifications">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Multi-user Avatar"
-            android:key="multiuser_avatar"
+            android:key="tweaks_show_multi_user"
             android:defaultValue="false"
             android:summaryOn="Multi-user Avatar shown"
-            android:summaryOff="Multi-user Avatar hidden" />
+            android:summaryOff="Multi-user Avatar hidden"
+            wubydax:isSilent="false"
+            wubydax:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Single swipe for Quickpanel"
             android:key="tweaks_qs_pulldown"
             android:defaultValue="false"
             android:summaryOn="Feature is enabled"
             android:summaryOff="Feature is disabled" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="true"
-            android:key="notification_panel_brightness_adjustment"
-            android:summaryOff="Currently Hidden"
-            android:summaryOn="Currently Shown"
-            android:title="Brightness Slider" />
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-            android:title="Double Tap To Sleep"
-            android:key="double_tap_sleep"
-            android:defaultValue="false"
-            android:summaryOn="Double Tap Status Bar To Sleep Enabled"
-            android:summaryOff="Double Tap Status Bar To Sleep Disabled" />
-    </PreferenceScreen>
-
-    <PreferenceScreen
-            android:title="Notifications on Pulldown Menu"
-            android:summary="Change settings for notifications">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="true"
-            android:key="psm_notif"
-            android:summaryOn="Power Saving Mode notification is enabled"
-            android:summaryOff="Power Saving Mode notification is disabled"
-            android:title="Power Saving Mode Notifications" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Ongoing Charging Pulldown Notification"
             android:key="charging_notif"
@@ -79,45 +44,6 @@
             android:defaultValue="true"
             android:summaryOn="Heads up enabled"
             android:summaryOff="Heads up disabled" />
-    </PreferenceScreen>
-
-    <PreferenceScreen
-        android:title="Notifications background Settings"
-        android:summary="Change the background and rounded/stock for notifications">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="0"
-            android:entries="@array/shape_entries"
-            android:entryValues="@array/shape_values"
-            android:key="notification_background_form"
-            android:title="Notification bg shape"/>
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-            android:title="Notification background transparency"
-            android:key="notification_bg_alpha"
-            android:defaultValue="255"
-            wubydax:maxValue="255"/>
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Custom notificationColors"
-            android:key="custom_notification_color"
-            android:defaultValue="0"
-            android:summaryOff="Custom colors disabled"
-            android:summaryOn="Custom colors enabled"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="0"
-            android:key="notification_bg_color"
-            android:title="Notification bg color"
-            android:dependency="custom_notification_color"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            hexValue="true"
-            alphaSlider="true"
-            android:defaultValue="\#ffffffff"
-            android:key="clear_button_color"
-            android:title="Color CLEAR button"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="-1"
-            hexValue="true"
-            alphaSlider="true"
-            android:key="notification_bg_color_screenshot"
-            android:title="Screenshot buttons bg color"/>
     </PreferenceScreen>
 
     <PreferenceScreen
@@ -263,7 +189,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Reboot visibility on top right corner">
+        android:title="Reboot visibility on top left corner">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="gear_reboot_view_visibility"
@@ -302,46 +228,6 @@
             android:defaultValue="Custom Text"
             android:dependency="is_custom_carrier_label"
             android:key="custom_carrier_label"/>
-    </PreferenceCategory>
-    
-    <PreferenceCategory
-        android:title="Brightness panel preferences">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Enable custom colors for brightness"
-            android:key="custom_slider_colors"
-            android:summaryOff="Custom color disabled"
-            android:summaryOn="Custom color enabled"
-            android:defaultValue="false"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Thumb (handle) color"
-            android:defaultValue="#1e4e78"
-            android:key="brightness_slider_thumb_color"
-            android:dependency="custom_slider_colors"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Brightness progress bar color"
-            android:defaultValue="#1e4e78"
-            android:key="brightness_slider_foreground_color"
-            android:dependency="custom_slider_colors"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Brightness custom bg color"
-            android:defaultValue="#ffe6eaed"
-            android:key="brightness_bg_color"
-            android:dependency="custom_slider_colors"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Brightness checkbox color"
-            android:key="brightness_checkbox_color"
-            android:defaultValue="#1e4e78"
-            android:dependency="custom_slider_colors"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Brightness icon color"
-            android:key="brightness_icon_color"
-            android:defaultValue="#1e4e78"
-            android:dependency="custom_slider_colors"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:title="Brightness text label color"
-            android:key="brightness_label_color"
-            android:defaultValue="#1e4e78"
-            android:dependency="custom_slider_colors"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

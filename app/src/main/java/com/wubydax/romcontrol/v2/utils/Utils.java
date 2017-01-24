@@ -424,7 +424,7 @@ public class Utils {
     }
 
     public static void killPackage(String packageNameToKill) {
-        Command command = new Command(0, "pkill " + packageNameToKill);
+        Command command = new Command(0, "busybox pkill " + packageNameToKill);
         try {
             RootTools.getShell(true).add(command);
         } catch (IOException | TimeoutException | RootDeniedException e) {

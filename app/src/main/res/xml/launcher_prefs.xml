@@ -17,29 +17,4 @@
             android:summaryOff="Disabled" />
     </PreferenceCategory>
 
-    <PreferenceCategory
-        android:title="Gesture anywhere on Home screen" >
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/launcher_gesture_entries"
-            android:title="Double tap"
-            android:key="doubletap"
-            android:summary="%s"
-            android:defaultValue="999"
-            android:entryValues="@array/launcher_gesture_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/launcher_gesture_entries"
-            android:title="Swipe Up"
-            android:key="swipe_up"
-            android:summary="%s"
-            android:defaultValue="999"
-            android:entryValues="@array/launcher_gesture_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/launcher_gesture_entries"
-            android:title="Swipe Down"
-            android:key="swipe_down"
-            android:summary="%s"
-            android:defaultValue="999"
-            android:entryValues="@array/launcher_gesture_values" />
-    </PreferenceCategory>
-
 </PreferenceScreen>

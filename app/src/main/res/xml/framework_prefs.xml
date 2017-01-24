@@ -4,46 +4,65 @@
     <PreferenceCategory
         android:title="Reboot Menu">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Reboot Recovery Mode"
+            android:title="Restart Toggle"
+            android:key="restart_power_menu"
+            android:defaultValue="true"
+            android:summaryOn="Restart toggle will be shown"
+            android:summaryOff="Currently removed" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Reboot Recovery Toggle"
             android:key="reboot_recovery"
             android:defaultValue="true"
             android:summaryOn="Reboot Recovery will be shown"
             android:summaryOff="Currently removed" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Screencast Mode"
+            android:title="HotReboot Toggle"
+            android:key="power_quick_reboot"
+            android:defaultValue="false"
+            android:summaryOn="HotReboot toggle will be shown"
+            android:summaryOff="Currently removed" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Screencast Toggle"
             android:key="screencast"
             android:defaultValue="false"
             android:summaryOn="Screencast will be shown"
             android:summaryOff="Currently removed" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Screenshot Mode"
+            android:title="Screenshot Toggle"
             android:key="screenshot"
             android:defaultValue="false"
             android:summaryOn="Screenshot will be shown"
             android:summaryOff="Currently removed" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Flashlight"
+            android:title="Flashlight Toggle"
             android:key="flashlight_toggle"
             android:defaultValue="false"
             android:summaryOn="Flashlight will be shown"
             android:summaryOff="Currently removed" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Emergency Mode"
+            android:title="Emergency Toggle"
             android:key="power_emergency"
             android:defaultValue="false"
             android:summaryOn="Emergency mode will be shown"
             android:summaryOff="Currently removed" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Toast Notifications">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/toast_animation_entries"
-            android:title="Toast Animations UI Framework "
-            android:key="animation_toast"
-            android:summary="%s"
-            android:defaultValue="0"
-            android:entryValues="@array/toast_animation_values" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Data Toggle"
+            android:key="power_data"
+            android:defaultValue="false"
+            android:summaryOn="Data toggle will be shown"
+            android:summaryOff="Currently removed" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Airplane Toggle"
+            android:key="power_airplane"
+            android:defaultValue="false"
+            android:summaryOn="Airplane toggle will be shown"
+            android:summaryOff="Currently removed" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Multiuser Toggle"
+            android:key="power_multiuser"
+            android:defaultValue="false"
+            android:summaryOn="Multiuser toggle will be shown"
+            android:summaryOff="Currently removed" />
     </PreferenceCategory>
 
 </PreferenceScreen>

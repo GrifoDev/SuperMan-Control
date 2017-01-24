@@ -9,31 +9,27 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Based on latest BPLB firmware</item>
-        <item>Remodded and retweaked from scratch</item>
-        <item>Little present for christmas in SuperMan logo inside settings :) (thanks @mrhelloyellow!)</item>
-        <item>Updated SuperSU to V2.79 SR1</item>
-        <item>Fixed not installing synapse and kernel adiutor from aroma</item>
-        <item>Updated Host file</item>
-        <item>Scrolling launcher background (only modded launcher)</item>
-        <item>added build.prop tweaks selectable in aroma</item>
-        <item>Updated all included BL files to BPLB</item>
-        <item>Only display csc warning if you did not install default csc which comes with the rom
-</item>
-        <item>Updated kernel adiutor</item>
-        <item>Updated samsung browser with fixed secret mode thanks to @mwilky</item>
-        <item>Added a new file which will be flashed with viper4android magisk to get it work 100%</item>
-        <item>Changed ARISE to deuterium which you guys reported working fine</item>
-        <item>Fixed FC in settings when clicking on RomControl (package mismatch)</item>
-        <item>Updated phh superuser apk to latest beta 10 (material)</item>
-        <item>Updated Xposed Framework to V87.1 so it will display 87.1 in xposed app as well</item>
-        <item>some things I forgot</item>
+        <item>Android N update!</item>
+        <item>Based on latest DQAS base</item>
+        <item>Completly reworkd the whole rom since MM</item>
+        <item>Updated SuperSU to V2.79 SR3</item>
+        <item>Updated ARISE sound mod to V2.4</item>
+        <item>Added DAP sound mod in aroma</item>
+        <item>Added latest DQAS BL/CP files for F/FD models</item>
+        <item>Moved debloat options into a separate zip</item>
+        <item>Updated all kernels to V2.0 to support nougat</item>
+        <item>Removed Xposed, not compatible with N yet</item>
+        <item>Busybox updated to 1.26.2</item>
+        <item>Full header colorable thanks to @asc</item>
+        <item>Full statusbar icon color control thanks to @asc</item>
+        <item>New CSC features added</item>
+        <item>Many things you can find on XDA official post</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">SuperMan-Rom V1.19</string>
+    <string name="rom_version_for_changelog">SuperMan-Rom V2.0</string>
 
 
 </resources>

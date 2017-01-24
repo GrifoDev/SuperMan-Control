@@ -125,7 +125,7 @@ public class PrefsFragment extends PreferenceFragment implements Preference.OnPr
     private void setUpNestedPreferenceLayout(PreferenceScreen preference) {
         final Dialog dialog = preference.getDialog();
         if (dialog != null) {
-            LinearLayout rootView = (LinearLayout) dialog.findViewById(android.R.id.list).getParent();
+            LinearLayout rootView = (LinearLayout) dialog.findViewById(android.R.id.list).getParent().getParent();
             View decorView = dialog.getWindow().getDecorView();
             if (decorView != null && rootView != null) {
                 Toolbar toolbar = (Toolbar) LayoutInflater.from(getActivity()).inflate(R.layout.nested_preference_toolbar_layout, rootView, false);

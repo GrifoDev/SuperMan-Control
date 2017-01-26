@@ -119,6 +119,121 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
+
+    <PreferenceScreen
+        android:title="Lockscreen Mods"
+        android:summary="Lockscreen clock settings and more!">
+        <PreferenceCategory
+            android:title="Settings of display of Hours and Date">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Show stock clock"
+                android:key="hide_digital_clock"
+                android:defaultValue="1"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Show second"
+                android:key="hide_digital_sec"
+                android:defaultValue="0"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Show date"
+                android:key="hide_digital_data"
+                android:defaultValue="1"
+                android:summaryOn="On"
+                android:summaryOff="Off" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="lockscreen_rotate"
+                android:summaryOff="Off"
+                android:summaryOn="On"
+                android:title="Lockscreen Rotation"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Next Alarm on lockscreen"
+                android:key="hide_nextalarm"
+                android:defaultValue="false"
+                android:summaryOn="Show"
+                android:summaryOff="Hide"
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Alarm Color on lockscreen"
+                android:key="lockscreen_alarm_text_color"
+                android:summary="Choose a color"
+                android:defaultValue="\#ffffffff"
+                alphaSlider="false" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:title="Weather settings on lockscreen"
+        android:summary="Change all settings related to weather on lockscreen here">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Weather"
+            android:key="hide_weather"
+            android:defaultValue="false"
+            android:summaryOn="Show"
+            android:summaryOff="Hide"
+            app:packageNameToKill="com.android.systemui" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Location"
+            android:key="hide_weather1"
+            android:defaultValue="false"
+            android:summaryOn="Show"
+            android:summaryOff="Hide"
+            app:packageNameToKill="com.android.systemui" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Color barometer"
+            android:key="color_barometr"
+            android:summary="Choose a color"
+            android:defaultValue="\#ffffffff"
+            alphaSlider="false" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Color degrees"
+            android:key="color_temp"
+            android:summary="Choose a color"
+            android:defaultValue="\#ffffffff"
+            alphaSlider="false" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Color for max Temperature"
+            android:key="color_high_temp"
+            android:summary="Choose a color"
+            android:defaultValue="\#ffffffff"
+            alphaSlider="false" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Color for min Temperature"
+            android:key="color_low_temp"
+            android:summary="Choose a color"
+            android:defaultValue="\#ffffffff"
+            alphaSlider="false" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Sunrise color"
+            android:key="text5"
+            android:summary="Choose a color"
+            android:defaultValue="\#ffffffff"
+            alphaSlider="false" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Color for location"
+            android:key="color_location"
+            android:summary="Choose a color"
+            android:defaultValue="\#ffffffff"
+            alphaSlider="false" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Sunset color"
+            android:key="text6"
+            android:summary="Choose a color"
+            android:defaultValue="\#ffffffff"
+            alphaSlider="false" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:title="Color for weather text"
+            android:key="color_text"
+            android:summary="Choose a color"
+            android:defaultValue="\#ffffffff"
+            alphaSlider="false" />
+    </PreferenceScreen>
+
     <PreferenceScreen
         android:title="Recent Panel"
         android:summary="Change mods for recent panel">
@@ -438,21 +553,18 @@
             android:summaryOn="On"
             android:summaryOff="Off" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Doze notification on lockscreen"
+            android:title="Ambient Display"
             android:key="doze_toggle"
-            android:defaultValue="false"
-            android:summaryOn="Doze is enabled"
-            android:summaryOff="Doze is disabled"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="lockscreen_rotate"
-            android:summaryOff="Off"
-            android:summaryOn="On"
-            android:title="Lockscreen Rotation"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
+            android:defaultValue="true"
+            android:summaryOn="Enabled"
+            android:summaryOff="Disabled" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/button_key_light_entries"
+            android:title="Keyboard backlight duration"
+            android:key="button_key_light"
+            android:summary="%s"
+            android:defaultValue="3000"
+            android:entryValues="@array/button_key_light_values" />
     </PreferenceCategory>
 
     <PreferenceCategory

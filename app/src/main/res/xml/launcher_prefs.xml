@@ -9,12 +9,6 @@
             android:key="tw_page_effect"
             android:defaultValue="1"
             android:entryValues="@array/tw_effect_values" />
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-            android:title="Scrolling wallpaper on launcher"
-            android:key="toggle_scrolling_wallpaper"
-            android:defaultValue="0"
-            android:summaryOn="Enabled"
-            android:summaryOff="Disabled" />
     </PreferenceCategory>
 
 </PreferenceScreen>

@@ -24,14 +24,9 @@
             android:key="charging_notif"
             android:defaultValue="true"
             android:summaryOn="Notification is shown"
-            android:summaryOff="Notification is disabled" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Ongoing Media Connected Pulldown Notification"
-            android:key="media_connect_notif"
-            android:defaultValue="true"
-            wubydax:rebootDevice="true"
-            android:summaryOn="Notification is shown"
-            android:summaryOff="Notification is disabled" />
+            android:summaryOff="Notification is disabled"
+            wubydax:isSilent="false"
+            wubydax:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Make Ongoing Notifications Removable"
             android:key="ongoing_notifications"

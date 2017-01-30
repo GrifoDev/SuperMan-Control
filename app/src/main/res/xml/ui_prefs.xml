@@ -559,6 +559,15 @@
             android:summaryOn="Enabled"
             android:summaryOff="Disabled" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:entries="@array/ambient_light_entries"
+            android:title="Ambient Display Screen Time"
+            android:key="doze_timeout"
+            android:summary="%s"
+            android:defaultValue="1000"
+            android:entryValues="@array/ambient_light_values"
+            app:packageNameToKill="com.android.systemui"
+            app:isSilent="false" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:entries="@array/button_key_light_entries"
             android:title="Keyboard backlight duration"
             android:key="button_key_light"

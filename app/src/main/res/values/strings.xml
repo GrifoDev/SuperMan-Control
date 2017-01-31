@@ -44,11 +44,11 @@
     <string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string>
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
     <string name="restore_complete_toast">Restore complete</string>
-    <string name="systemui_prefs">SystemUI prefs</string>
-    <string name="phone_prefs">Phone prefs</string>
-    <string name="framework_prefs">Framework prefs</string>
-    <string name="settings_prefs">Settings prefs</string>
-    <string name="launcher_prefs">Launcher prefs</string>
+    <string name="systemui_prefs">SystemUI Settings</string>
+    <string name="phone_prefs">Phone Settings</string>
+    <string name="framework_prefs">Framework Preferences</string>
+    <string name="settings_prefs">App shortcuts</string>
+    <string name="launcher_prefs">Launcher Settings</string>
     <string name="notification_panel_prefs">Notification panel prefs</string>
     <string name="more_options">More options</string>
     <string name="set_theme">Set theme</string>

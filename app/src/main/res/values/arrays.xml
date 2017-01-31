@@ -493,4 +493,105 @@
         <item>25000</item>
     </string-array>
 
+    <string-array name="clock_style_entries">
+        <item>Right Clock</item>
+        <item>Center Clock</item>
+        <item>Left Clock</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_format_entries">
+        <item>Stock Clock</item>
+        <item>Funky Clock</item>
+        <item>Word Clock</item>
+    </string-array>
+    <string-array name="clock_format_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="entries_status_bar_am_pm">
+        <item>Hide</item>
+        <item>Small AM/PM</item>
+        <item>Stock AM/PM</item>
+    </string-array>
+    <string-array name="values_status_bar_am_pm">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_font_style_entries">
+        <item>Bold</item>
+        <item>Condensed</item>
+        <item>Light</item>
+        <item>Light Italic</item>
+        <item>Use System Font (restart UI to set)</item>
+        <item>Chococooky</item>
+        <item>Coming Soon</item>
+        <item>Cool Jazz</item>
+        <item>Lindsey for Samsung</item>
+        <item>MTL</item>
+    </string-array>
+    <string-array name="clock_font_style_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+
+    <string-array name="clock_date_display_entries">
+        <item>Hide</item>
+        <item>Small Date</item>
+        <item>Stock Date</item>
+    </string-array>
+    <string-array name="clock_date_display_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_date_style_entries">
+        <item>Stock Date</item>
+        <item>Lowercase Date</item>
+        <item>Uppercase Date</item>
+    </string-array>
+    <string-array name="clock_date_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <string-array name="clock_date_format_entries_values">
+        <item>dd/MM/yy</item>
+        <item>MM/dd/yy</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy-dd-MM</item>
+        <item>dd-MM-yyyy</item>
+        <item>MM-dd-yyyy</item>
+        <item>MMM dd</item>
+        <item>MMM dd, yyyy</item>
+        <item>MMMM dd, yyyy</item>
+        <item>EEE</item>
+        <item>EEE dd</item>
+        <item>EEE dd/MM</item>
+        <item>EEE MM/dd</item>
+        <item>EEE dd MMM</item>
+        <item>EEE MMM dd</item>
+        <item>EEE MMMM dd</item>
+        <item>EEEE dd/MM</item>
+        <item>EEEE MM/dd</item>
+    </string-array>
+
 </resources>

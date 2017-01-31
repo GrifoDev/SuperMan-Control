@@ -16,6 +16,12 @@
             android:summaryOn="Reboot Recovery will be shown"
             android:summaryOff="Currently removed" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:title="Hot Reboot"
+            android:key="power_quick_reboot"
+            android:defaultValue="false"
+            android:summaryOn="Hot Reboot will be shown"
+            android:summaryOff="Currently removed" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:title="Screencast Toggle"
             android:key="screencast"
             android:defaultValue="false"

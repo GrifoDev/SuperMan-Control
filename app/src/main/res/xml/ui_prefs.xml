@@ -81,21 +81,27 @@
         </PreferenceCategory>
 
         <PreferenceCategory
-            android:title="3Minit Settings">
+            android:title="3Minit Battery Settings">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="Stock Battery Visability"
-                android:key="stock_battery_visibility"
-                android:defaultValue="true"
+                android:key="hide_battery_stock"
+                android:defaultValue="false"
                 android:summaryOn="Shown"
-                android:summaryOff="Hidden"
-                app:packageNameToKill="com.android.systemui"
-                app:isSilent="false"/>
+                android:summaryOff="Hidden" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="3Minit Battery"
                 android:key="minit_battery_visible"
                 android:defaultValue="false"
                 android:summaryOn="Show"
                 android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+                android:title="3Minit Battery Settings"
+                android:summary="Change Battery settings (only works when 3Minit battery enabled)"
+                app:componentName="com.three.minit.minitbatterysettings.free/com.three.minit.minitbatterysettings.MainActivity" />
+            <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+                android:title="3Minit Battery Settings"
+                android:summary="Paid version of 3Minit apk"
+                app:componentName="com.three.minit.minitbatterysettings/com.three.minit.minitbatterysettings.MainActivity" />
         </PreferenceCategory>
 
         <PreferenceCategory
@@ -119,6 +125,120 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
+    <PreferenceScreen
+        android:title="Clock Settings"
+        android:summary="Change all settings related to statusbar clock here">
+        <PreferenceCategory
+            android:title="3Minit Clock Settings">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Stock Clock"
+                android:key="clock_visible"
+                android:defaultValue="true"
+                android:summaryOn="Show"
+                android:summaryOff="Hide" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="3Minit Clock"
+                android:key="clock_show_int"
+                android:defaultValue="true"
+                android:summaryOn="Show"
+                android:summaryOff="Hide"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+                android:title="3Minit Clock"
+                android:summary="Change Clock settings (only works when 3Minit clock enabled)"
+                app:componentName="three.minit.clock/three.minit.clock.ClockSettings" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Clock Position">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:title="Choose your Clock location"
+                android:entries="@array/clock_style_entries"
+                android:key="statusbar_clock_style"
+                android:defaultValue="0"
+                android:entryValues="@array/clock_style_values" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Other Clock Settings">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Tap on Clock Settings"
+                android:key="tap_clock_launcher"
+                android:defaultValue="true"
+                android:summaryOn="Tap to lauch selected app"
+                android:summaryOff="Disabled"
+                app:packageNameToKill="com.android.systemui"
+                app:isSilent="false" />
+            <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
+                android:title="Tap Clock App Selection"
+                android:key="press_clock_custom_app"
+                android:dependency="tap_clock_launcher"
+                app:intentSeparator="\##" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Show Clock and Date"
+                android:key="status_bar_clock"
+                android:defaultValue="true"
+                android:summaryOn="Shown"
+                android:summaryOff="Hidden" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/clock_format_entries"
+                android:title="Clock Format Settings"
+                android:key="statusbar_clock_format"
+                android:dependency="status_bar_clock"
+                android:defaultValue="1"
+                android:entryValues="@array/clock_format_values" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Uppercase Text Clock"
+                android:key="normal_upper"
+                android:dependency="status_bar_clock"
+                android:defaultValue="false"
+                android:summaryOn="Enabled"
+                android:summaryOff="Disabled" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/entries_status_bar_am_pm"
+                android:title="AM/PM Clock Settings"
+                android:key="statusbar_clock_am_pm_style"
+                android:dependency="status_bar_clock"
+                android:defaultValue="2"
+                android:entryValues="@array/values_status_bar_am_pm" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/clock_font_style_entries"
+                android:title="Clock Font Style"
+                android:key="statusbar_clock_font_style"
+                android:dependency="status_bar_clock"
+                android:defaultValue="5"
+                android:entryValues="@array/clock_font_style_values" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:title="Clock scale Settings"
+                android:key="statusbar_clock_scale"
+                android:summary="Adjust Clock size"
+                android:dependency="status_bar_clock"
+                android:defaultValue="15"
+                app:minValue="5"
+                app:maxValue="25"
+                app:unitsValue="dp" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/clock_date_display_entries"
+                android:title="Date Type Settings"
+                android:key="statusbar_clock_date_display"
+                android:dependency="status_bar_clock"
+                android:defaultValue="0"
+                android:entryValues="@array/clock_date_display_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/clock_date_style_entries"
+                android:title="Date Style"
+                android:key="statusbar_clock_date_style"
+                android:dependency="status_bar_clock"
+                android:defaultValue="0"
+                android:entryValues="@array/clock_date_style_values" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:entries="@array/clock_date_format_entries_values"
+                android:title="Date Format"
+                android:key="statusbar_clock_date_format"
+                android:dependency="status_bar_clock"
+                android:defaultValue="EEE dd/MM"
+                android:entryValues="@array/clock_date_format_entries_values" />
+        </PreferenceCategory>
+    </PreferenceScreen>
 
     <PreferenceScreen
         android:title="Lockscreen Mods"
@@ -441,6 +561,11 @@
         <PreferenceCategory
             android:title="Statusbar Colors">
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:title="Clock Icon Color"
+                android:defaultValue="#ffffff"
+                android:key="clock_color"
+                android:dependency="is_global_sb_color"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:title="Wifi Signal Color"
                 android:key="wifi_signal_color"
                 android:defaultValue="#ffffff"/>
@@ -475,8 +600,9 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
-    <PreferenceCategory
-        android:title="Virtual Buttons (set one button on position)">
+    <PreferenceScreen
+        android:title="Virtual Lock buttons"
+        android:summary="You can enable or disable virtual lock buttons on statusbar here">
         <PreferenceScreen
             android:title="Lock Button">
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
@@ -498,7 +624,6 @@
                 android:summaryOn="On"
                 android:summaryOff="Off" />
         </PreferenceScreen>
-
         <PreferenceScreen
             android:title="Home Button">
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
@@ -520,7 +645,6 @@
                 android:summaryOn="On"
                 android:summaryOff="Off" />
         </PreferenceScreen>
-
         <PreferenceScreen
             android:title="Recent Button">
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
@@ -542,7 +666,7 @@
                 android:summaryOn="On"
                 android:summaryOff="Off" />
         </PreferenceScreen>
-    </PreferenceCategory>
+    </PreferenceScreen>
 
     <PreferenceCategory
         android:title="Misc SystemUI settings">
@@ -637,37 +761,6 @@
             android:key="dynamic_status_bar_filter_value"
             android:dependency="dynamic_toggle"
             android:defaultValue="10" min="0" />
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Shortcut to apps preferences">
-
-        <!--Example of simple app shortcuts. If those apps are not installed, the preferences will not show-->
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Application to browse your files, including root files"
-            app:componentName="com.speedsoftware.rootexplorer/com.speedsoftware.rootexplorer.RootExplorer"/>
-
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Control samsung's toolbox, turn it on or off, choose available apps and rearrange them"
-            app:componentName="com.wubydax.toolboxsettings/com.wubydax.toolboxsettings.ToolboxSettings"/>
-
-        <!--Example of OpenAppPreference with custom title and icon-->
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Choose what app or shortcut to open when TW launcher is being swiped to the magazine page"
-            android:title="Shortcut to GearTWSwipe"
-            android:icon="@mipmap/ic_launcher"
-            app:componentName="com.wubydax.geartwswipe/com.wubydax.geartwswipe.ResetDialogActivity"/>
-
-        <!--Open app preference with only custom title and the icon which is loaded from the app-->
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            app:componentName="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material"
-            android:title="Chainfire's SuperSu App"
-            android:summary="Manage root permissions for apps and services"/>
-
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            app:componentName="me.phh.superuser/com.koushikdutta.superuser.MainActivity"
-            android:title="Phh's Superuser"
-            android:summary="Manage root permissions for apps and services"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

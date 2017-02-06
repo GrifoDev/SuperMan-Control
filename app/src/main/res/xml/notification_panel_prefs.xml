@@ -1,56 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:wubydax="http://schemas.android.com/apk/res-auto">
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceScreen
-            android:title="Notifications on Pulldown Menu"
-            android:summary="Change settings for notifications">
+            android:summary="Change general settings related to the Pulldown Menu"
+            android:title="Pulldown Menu settings">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="show_multi_user"
+            android:summaryOff="Avatar hidden"
+            android:summaryOn="Avatar shown"
             android:title="Multi-user Avatar"
-            android:key="tweaks_show_multi_user"
-            android:defaultValue="false"
-            android:summaryOn="Multi-user Avatar shown"
-            android:summaryOff="Multi-user Avatar hidden"
-            wubydax:isSilent="false"
-            wubydax:packageNameToKill="com.android.systemui"/>
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Single swipe for Quickpanel"
-            android:key="tweaks_qs_pulldown"
             android:defaultValue="false"
+            android:key="qs_pulldown"
+            android:summaryOff="Feature is disabled"
             android:summaryOn="Feature is enabled"
-            android:summaryOff="Feature is disabled" />
+            android:title="Single swipe for Quickpanel on right side" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Ongoing Charging Pulldown Notification"
+            android:defaultValue="true"
             android:key="charging_notif"
-            android:defaultValue="true"
-            android:summaryOn="Notification is shown"
             android:summaryOff="Notification is disabled"
-            wubydax:isSilent="false"
-            wubydax:packageNameToKill="com.android.systemui"/>
+            android:summaryOn="Notification is shown"
+            android:title="Ongoing Charging Pulldown Notification"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Make Ongoing Notifications Removable"
-            android:key="ongoing_notifications"
             android:defaultValue="false"
+            android:key="ongoing_notifications"
+            android:summaryOff="Ongoing Notifications are permanent"
             android:summaryOn="Ongoing Notifications are removable"
-            android:summaryOff="Ongoing Notifications are permanent" />
+            android:title="Make Ongoing Notifications Removable" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Heads Up Notifications"
-            android:key="heads_up_notifications_enabled"
             android:defaultValue="true"
+            android:key="heads_up_notifications_enabled"
+            android:summaryOff="Heads up disabled"
             android:summaryOn="Heads up enabled"
-            android:summaryOff="Heads up disabled" />
+            android:title="Heads Up Notifications" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="double_tap_sleep"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Double tab to sleep on statusbar" />
     </PreferenceScreen>
 
     <PreferenceScreen
-        android:title="Notification panel background"
-        android:summary="Change the pulldown background of the notification panel">
+        android:summary="Change colors from pulldown menu"
+        android:title="Notification Panel Colors">
+        <PreferenceCategory
+            android:title="Header Colors">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="unlock_header_colors"
+                android:summaryOff="Colors are locked to stock"
+                android:summaryOn="Colors are unlocked for changes"
+                android:title="Allow colors to be changed"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fffafafa"
+                android:dependency="unlock_header_colors"
+                android:key="header_background_color"
+                android:title="Header background color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff252525"
+                android:dependency="unlock_header_colors"
+                android:key="header_text_color"
+                android:title="Header text color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#b3252525"
+                android:dependency="unlock_header_colors"
+                android:key="header_icon_color"
+                android:title="Header icon colors" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Quicksettings Colors">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="unlock_qs_colors"
+                android:summaryOff="Colors are locked to stock"
+                android:summaryOn="Colors are unlocked for changes"
+                android:title="Allow colors to be changed"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fffafafa"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_background_color"
+                android:title="Quicksettings background color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff252525"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_text_color"
+                android:title="Quicksettings text color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff22c4ff"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_icon_on_color"
+                android:title="Quicksettings icon on color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#4d252525"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_icon_off_color"
+                android:title="Quicksettings icon off color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#33252525"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_divider_color"
+                android:title="Quicksettinsg divider color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff56c0e5"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_slider_color"
+                android:title="Quicksettings Brightness slider color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fffafafa"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_drag_handle_background_color"
+                android:title="Quicksettings drag handle background color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#cc252525"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_drag_handle_icon_color"
+                android:title="Quicksettings drag handle icon color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fffafafa"
+                android:dependency="unlock_qs_colors"
+                android:key="quickconnect_background_color"
+                android:title="Quick connect background color" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Notification Colors">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="unlock_notification_colors"
+                android:summaryOff="Colors are locked to stock"
+                android:summaryOn="Colors are unlocked for changes"
+                android:title="Allow colors to be changed"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fffafafa"
+                android:dependency="unlock_notification_colors"
+                android:key="notification_background_color"
+                android:title="Notification panel background color" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff212122"
+                android:dependency="unlock_notification_colors"
+                android:key="notification_text_color"
+                android:title="Notification text color" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:summary="Change the pulldown background of the notification panel"
+        android:title="Notification panel background">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="enable_gear_custom_bg"
             android:summaryOff="Disabled"
             android:summaryOn="Enabled"
             android:title="Enable custom background"/>
-
         <PreferenceCategory
             android:dependency="enable_gear_custom_bg"
             android:title="General bg preferences">
@@ -60,15 +173,14 @@
                 android:entryValues="@array/custom_bg_type_values"
                 android:key="gear_custom_bg_type"
                 android:title="Background type"
-                wubydax:dependentValue="0"/>
+                app:dependentValue="0"/>
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                 android:defaultValue="255"
                 android:key="gear_bg_opacity"
                 android:title="Background opacity"
-                wubydax:maxValue="255"
-                wubydax:minValue="0"/>
+                app:maxValue="255"
+                app:minValue="0"/>
         </PreferenceCategory>
-
         <PreferenceCategory
             android:dependency="enable_gear_custom_bg"
             android:title="Custom image preferences">
@@ -82,7 +194,6 @@
                 android:key="gear_bg_crop_type"
                 android:title="Set Image Scaling Type"/>
         </PreferenceCategory>
-
         <PreferenceCategory
             android:dependency="enable_gear_custom_bg"
             android:title="Color and gradient preferences">
@@ -117,8 +228,8 @@
                 android:summaryOn="Enabled"
                 android:title="Enable device info view"/>
             <PreferenceCategory
-                android:title="Text colors"
-                android:dependency="device_info_visibility">
+                android:dependency="device_info_visibility"
+                android:title="Text colors">
                 <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#ffffffff"
                     android:key="gear_info_names_color"
@@ -129,8 +240,8 @@
                     android:title="Info values text color"/>
             </PreferenceCategory>
             <PreferenceCategory
-                android:title="Device Info Items"
-                android:dependency="device_info_visibility">
+                android:dependency="device_info_visibility"
+                android:title="Device Info Items">
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_model"
@@ -200,29 +311,29 @@
     <PreferenceCategory
         android:title="Carrier label text preferences">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:title="Carrier label visibility"
             android:defaultValue="true"
+            android:key="carrier_label_visibility"
             android:summaryOff="Hidden"
             android:summaryOn="Shown"
-            android:key="carrier_label_visibility"/>
+            android:title="Carrier label visibility"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:dependency="carrier_label_visibility"
             android:defaultValue="#ffffff"
+            android:dependency="carrier_label_visibility"
             android:key="carrier_label_text_color"
             android:title="Carrier label text color"/>
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:title="Carrier label text"
+            android:defaultValue="0"
+            android:dependency="carrier_label_visibility"
             android:entries="@array/carrier_entries"
             android:entryValues="@array/carrier_entry_values"
-            android:defaultValue="0"
-            wubydax:dependentValue="0"
             android:key="is_custom_carrier_label"
-            android:dependency="carrier_label_visibility"/>
+            android:title="Carrier label text"
+            app:dependentValue="0"/>
         <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
-            android:title="Custom text for carrier label"
             android:defaultValue="Custom Text"
             android:dependency="is_custom_carrier_label"
-            android:key="custom_carrier_label"/>
+            android:key="custom_carrier_label"
+            android:title="Custom text for carrier label"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

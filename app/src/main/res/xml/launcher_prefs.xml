@@ -1,14 +1,48 @@
 <?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
         android:title="Launcher Effects">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:entries="@array/tw_effect_entries"
-            android:title="Touchwiz Page Effect"
-            android:key="tw_page_effect"
             android:defaultValue="1"
-            android:entryValues="@array/tw_effect_values" />
+            android:entries="@array/tw_effect_entries"
+            android:entryValues="@array/tw_effect_values"
+            android:key="tw_page_effect"
+            android:title="Touchwiz Page Effect"
+            app:isSilent="false"
+            app:packageNameToKill="com.sec.android.app.launcher" />
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="Gesture anywhere on Home screen" >
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="999"
+            android:entries="@array/launcher_gesture_entries"
+            android:entryValues="@array/launcher_gesture_values"
+            android:key="doubletap"
+            android:summary="%s"
+            android:title="Double tap"
+            app:isSilent="false"
+            app:packageNameToKill="com.sec.android.app.launcher" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="999"
+            android:entries="@array/launcher_gesture_entries"
+            android:entryValues="@array/launcher_gesture_values"
+            android:key="swipe_up"
+            android:summary="%s"
+            android:title="Swipe Up"
+            app:isSilent="false"
+            app:packageNameToKill="com.sec.android.app.launcher" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="999"
+            android:entries="@array/launcher_gesture_entries"
+            android:entryValues="@array/launcher_gesture_values"
+            android:key="swipe_down"
+            android:summary="%s"
+            android:title="Swipe Down"
+            app:isSilent="false"
+            app:packageNameToKill="com.sec.android.app.launcher" />
     </PreferenceCategory>
 
 </PreferenceScreen>

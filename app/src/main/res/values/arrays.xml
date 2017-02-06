@@ -14,19 +14,6 @@
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
 
-    <string-array name="test_list_entries">
-        <item>One</item>
-        <item>Two</item>
-        <item>Three</item>
-        <item>Let\'s make twenty</item>
-    </string-array>
-    <string-array name="test_list_values" translatable="false">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>20</item>
-    </string-array>
-
     <string-array name="theme_items">
         <item>Light theme</item>
         <item>Dark theme</item>

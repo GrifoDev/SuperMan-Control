@@ -34,7 +34,7 @@ android {
         applicationId "com.wubydax.romcontrol.superman"
         minSdkVersion 23
         //noinspection OldTargetApi
-        targetSdkVersion 23
+        targetSdkVersion 24
         versionName '2.1.1'
         project.archivesBaseName = "RomControl"
         versionCode 3

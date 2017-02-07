@@ -13,10 +13,26 @@
         You should have received a copy of the GNU General Public License
         along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
-                  xmlns:wubydax="http://schemas.android.com/apk/res-auto">
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
-        android:title="AutoCallRecord (coming soon)">
+        android:title="Auto Call Record">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="auto_call_record_in"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Incoming auto call record"
+            app:isSilent="false"
+            app:packageNameToKill="com.samsung.android.incallui" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="auto_call_record_out"
+            android:summaryOff="Disabled"
+            android:summaryOn="Enabled"
+            android:title="Outgoing auto call record"
+            app:isSilent="false"
+            app:packageNameToKill="com.samsung.android.incallui" />
     </PreferenceCategory>
 
 </PreferenceScreen>

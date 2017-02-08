@@ -9,21 +9,21 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items">
-        <item>Android N update!</item>
-        <item>Based on latest DQAS base</item>
-        <item>Completly reworkd the whole rom since MM</item>
-        <item>Updated SuperSU to V2.79 SR3</item>
-        <item>Updated ARISE sound mod to V2.4</item>
-        <item>Added DAP sound mod in aroma</item>
-        <item>Added latest DQAS BL/CP files for F/FD models</item>
-        <item>Moved debloat options into a separate zip</item>
-        <item>Updated all kernels to V2.0 to support nougat</item>
-        <item>Removed Xposed, not compatible with N yet</item>
-        <item>Busybox updated to 1.26.2</item>
-        <item>Full header colorable thanks to @asc</item>
-        <item>Full statusbar icon color control thanks to @asc</item>
-        <item>New CSC features added</item>
-        <item>Many things you can find on XDA official post</item>
+        <item>Rebased on latest DQB3 updated</item>
+        <item>Fully retweaked and remodded</item>
+        <item>Updated Magisk to V11.1</item>
+        <item>Updated Magisk Manager to V4.1</item>
+        <item>Updated ARISE sound mod to V2.68</item>
+        <item>Added SuperMan theme by @Alex in aroma</item>
+        <item>Updated all icons in reboot menu to look more N like</item>
+        <item>Added many new default superman wallpaper (will only appear after clean install)</item>
+        <item>New shutdown animations</item>
+        <item>Camera mod updated to V8</item>
+        <item>Busybox updated to 1.26.2 with a fix</item>
+        <item>All kernels updated with latest ramdisk and base</item>
+        <item>All included BL/CP files updated</item>
+        <item>Reworked RomControl</item>
+        <item>Many SystemUI tweaks, please check XDA or Telegram for full changelog</item>
     </string-array>
 
     <!--This will be the dialog title.

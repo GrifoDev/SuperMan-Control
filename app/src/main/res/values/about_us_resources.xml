@@ -56,9 +56,9 @@
         <item>Donation Link</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
-        <item>http://forum.xda-developers.com/member.php?u=5899304/</item>
-        <item>https://telegram.me/joinchat/AaNP4D-RcLT0-z16WHH4zg</item>
-        <item>http://forum.xda-developers.com/donatetome.php?u=5899304/</item>
+        <item>https://forum.xda-developers.com/member.php?u=5899304</item>
+        <item>https://t.me/joinchat/AAAAAD-RcLTV9gB6WHH4zg</item>
+        <item>https://www.paypal.me/LucaGrifo</item>
     </string-array>
 
 

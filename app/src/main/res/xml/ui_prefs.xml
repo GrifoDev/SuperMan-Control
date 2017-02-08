@@ -77,7 +77,9 @@
                 alphaSlider="true"
                 hexValue="true"
                 android:defaultValue="-1"
-                android:key="battery_bar_color" android:summary="Choose color of battery bar" android:title="Battery Bar Color" />
+                android:key="battery_bar_color"
+                android:summary="Choose color of battery bar"
+                android:title="Battery Bar Color" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="3Minit Battery Settings">
@@ -288,7 +290,8 @@
                 android:summaryOff="Show the help text on lockscreen"
                 android:summaryOn="Help text on lockscreen is hidden"
                 android:title="Hide lockscreen help text"
-                app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>
         <PreferenceCategory android:title="Analog Clock">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -449,35 +452,40 @@
             android:key="color_barometr"
             android:summary="Choose color"
             android:title="Barometr text color"
-            app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             alphaSlider="false"
             android:defaultValue="\#ffffffff"
             android:key="color_temp"
             android:summary="Choose color"
             android:title="Degree text color"
-            app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             alphaSlider="false"
             android:defaultValue="\#ffffffff"
             android:key="color_high_temp"
             android:summary="Choose color"
             android:title="Max temperature text color"
-            app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             alphaSlider="false"
             android:defaultValue="\#ffffffff"
             android:key="color_low_temp"
             android:summary="Choose color"
             android:title="Min Temperature text color"
-            app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             alphaSlider="false"
             android:defaultValue="\#ffffffff"
             android:key="color_sunrise"
             android:summary="Choose color"
             android:title="Sunrise temperature color"
-            app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="\#ffffffff"
             android:key="text3"
@@ -488,7 +496,8 @@
             android:key="color_sunset"
             android:summary="Choose color"
             android:title="Sunset temperature color"
-            app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="\#ffffffff"
             android:key="text4"
@@ -499,14 +508,16 @@
             android:key="color_location"
             android:summary="Choose color"
             android:title="Geolocation text color"
-            app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             alphaSlider="false"
             android:defaultValue="\#ffffffff"
             android:key="color_text"
             android:summary="Choose color"
             android:title="Weather text color"
-            app:isSilent="false" app:packageNameToKill="com.android.systemui" />
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui" />
     </PreferenceScreen>
 
     <PreferenceScreen
@@ -518,6 +529,28 @@
             android:summaryOff="Quick Launch is hidden"
             android:summaryOn="Quick Launch is shown"
             android:title="Recent Panel Quick Launch" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="ram_bar_view"
+            android:summaryOff="Ram Bar is hidden"
+            android:summaryOn="Ram Bar is shown"
+            android:title="A.O.K.P RAM Bar" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            alphaSlider="true"
+            hexValue="true"
+            android:defaultValue="\#ffffffff"
+            android:dependency="ram_bar_view"
+            android:key="free_ram_text"
+            android:title="Free Ram Text Color"
+            app:packageNameToKill="com.android.systemui" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            alphaSlider="true"
+            hexValue="true"
+            android:defaultValue="\#ffffffff"
+            android:dependency="ram_bar_view"
+            android:key="used_ram_text"
+            android:title="Used Ram Text Color"
+            app:packageNameToKill="com.android.systemui" />
     </PreferenceScreen>
 
     <PreferenceScreen

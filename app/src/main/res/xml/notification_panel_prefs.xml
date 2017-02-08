@@ -147,11 +147,12 @@
                 android:dependency="unlock_notification_colors"
                 android:key="notification_background_color"
                 android:title="Notification panel background color" />
+            <!--/*
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff212122"
                 android:dependency="unlock_notification_colors"
                 android:key="notification_text_color"
-                android:title="Notification text color" />
+                android:title="Notification text color" /> */-->
         </PreferenceCategory>
     </PreferenceScreen>
 

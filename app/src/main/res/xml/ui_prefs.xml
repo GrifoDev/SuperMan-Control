@@ -33,7 +33,15 @@
 
     This WILL NOT affect the intent for opening application. It's a cosmetic measure for your convenience.-->
 
-
+    <PreferenceScreen
+        android:icon="@drawable/paypal"
+        android:key="about_key"
+        android:summary="Click to donate"
+        android:title="Visit my PayPal website">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://www.paypal.me/LucaGrifo" />
+    </PreferenceScreen>
 
     <PreferenceScreen
         android:summary="Different battery related settings can be changed here"
@@ -832,7 +840,8 @@
                 android:defaultValue="10"
                 android:dependency="dynamic_toggle"
                 android:key="dynamic_status_bar_filter_value"
-                android:max="70" android:title="@string/dynamic_status_bar_filter_value" />
+                android:max="70"
+                android:title="@string/dynamic_status_bar_filter_value" />
         </PreferenceCategory>
     </PreferenceScreen>
 
@@ -897,6 +906,31 @@
             android:entryValues="@array/data_usage_text_style_values"
             android:key="data_usage_view_text_style"
             android:title="Data usage text style"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="Custom Carrier">
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="\#ffffffff"
+            android:key="CustomCarrierColor"
+            android:title="Custom Carrier Color"/>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="CustomCarrierRight"
+            android:summaryOff="Hide"
+            android:summaryOn="Show"
+            android:title="Custom Carrier Right of Wifi/Signal Combo" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="CustomCarrierCenter"
+            android:summaryOff="Hide"
+            android:summaryOn="Show"
+            android:title="Custom Carrier Center of Wifi/Signal Combo" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="CustomCarrierLeft"
+            android:summaryOff="Hide"
+            android:summaryOn="Show"
+            android:title="Custom Carrier Left of Wifi/Signal Combo" />
     </PreferenceCategory>
 
 </PreferenceScreen>

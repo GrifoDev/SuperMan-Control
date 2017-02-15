@@ -145,13 +145,13 @@
                 android:summaryOn="Show"
                 android:title="Stock Clock" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="true"
+                android:defaultValue="false"
                 android:key="clock_show_int"
                 android:summaryOff="Hide"
                 android:summaryOn="Show"
                 android:title="3Minit Clock"
                 app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
+                app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
                 android:summary="Change Clock settings (only works when 3Minit clock enabled)"
                 android:title="3Minit Clock"
@@ -169,7 +169,7 @@
         <PreferenceCategory
             android:title="Other Clock Settings">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="true"
+                android:defaultValue="false"
                 android:key="tap_clock_launcher"
                 android:summaryOff="Disabled"
                 android:summaryOn="Tap to lauch selected app"
@@ -301,7 +301,8 @@
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>
-        <PreferenceCategory android:title="Analog Clock">
+        <PreferenceCategory
+            android:title="Analog Clock">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:icon="@drawable/clock_style1"
@@ -432,6 +433,22 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:summary="Settings related to Wifi and Signal icon"
+        android:title="Wifi/Signal icon settings">
+        <PreferenceCategory
+            android:title="Wifi/Signal Position">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/SignalPositionName"
+                android:entryValues="@array/SignalPositionValue"
+                android:key="left_signal"
+                android:title="Signal/Wifi Position"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:summary="Change all settings related to weather on lockscreen here"
         android:title="Weather settings on lockscreen">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -531,60 +548,124 @@
     <PreferenceScreen
         android:summary="Change mods for recent panel"
         android:title="Recent Panel">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="recents_quick_launch"
-            android:summaryOff="Quick Launch is hidden"
-            android:summaryOn="Quick Launch is shown"
-            android:title="Recent Panel Quick Launch" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="ram_bar_view"
-            android:summaryOff="Ram Bar is hidden"
-            android:summaryOn="Ram Bar is shown"
-            android:title="A.O.K.P RAM Bar" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            alphaSlider="true"
-            hexValue="true"
-            android:defaultValue="\#ffffffff"
-            android:dependency="ram_bar_view"
-            android:key="free_ram_text"
-            android:title="Free Ram Text Color"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            alphaSlider="true"
-            hexValue="true"
-            android:defaultValue="\#ffffffff"
-            android:dependency="ram_bar_view"
-            android:key="used_ram_text"
-            android:title="Used Ram Text Color"
-            app:packageNameToKill="com.android.systemui" />
+        <PreferenceCategory
+            android:title="Quicklaunch">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="recents_quick_launch"
+                android:summaryOff="Quick Launch is hidden"
+                android:summaryOn="Quick Launch is shown"
+                android:title="Recent Panel Quick Launch" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Ram bar">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="ram_bar_view"
+                android:summaryOff="Ram Bar is hidden"
+                android:summaryOn="Ram Bar is shown"
+                android:title="A.O.K.P RAM Bar" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:defaultValue="\#ffffffff"
+                android:dependency="ram_bar_view"
+                android:key="free_ram_text"
+                android:title="Free Ram Text Color"
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:defaultValue="\#ffffffff"
+                android:dependency="ram_bar_view"
+                android:key="used_ram_text"
+                android:title="Used Ram Text Color"
+                app:packageNameToKill="com.android.systemui" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Matrix Animation">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="matrix_anim"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Matrix animation in Recents" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="\#1eff00"
+                android:dependency="matrix_anim"
+                android:key="recents_matrix_anim_text_color"
+                android:summary="Choose a Matrix text color"
+                android:title="Matrix Text colorization"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="\#ff000000"
+                android:dependency="matrix_anim"
+                android:key="recents_matrix_anim_bg_color"
+                android:summary="Choose a Matrix background color"
+                android:title="Matrix Background color"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:defaultValue="100"
+                android:dependency="matrix_anim"
+                android:key="recents_matrix_anim_text_alpha"
+                android:title="Matrix Text transparency"
+                app:isSilent="false"
+                app:maxValue="100"
+                app:minValue="50"
+                app:packageNameToKill="com.android.systemui"
+                app:unitsValue="" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:defaultValue="46"
+                android:dependency="matrix_anim"
+                android:key="recents_matrix_anim_font_size"
+                android:title="Matrix Text font size"
+                app:isSilent="false"
+                app:maxValue="100"
+                app:minValue="20"
+                app:packageNameToKill="com.android.systemui"
+                app:unitsValue="" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:defaultValue="16"
+                android:dependency="matrix_anim"
+                android:key="recents_matrix_anim_frequency"
+                android:title="Matrix frequency"
+                app:isSilent="false"
+                app:maxValue="100"
+                app:minValue="1"
+                app:packageNameToKill="com.android.systemui"
+                app:unitsValue="" />
+        </PreferenceCategory>
     </PreferenceScreen>
 
     <PreferenceScreen
         android:summary="Change behaviour of volume buttons while screen off"
         android:title="Volume Button settings">
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-            android:defaultValue="false"
-            android:key="skip_tracks"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled"
-            android:title="Music skip while screen off" />
-        <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-            android:defaultValue="false"
-            android:dependency="skip_tracks"
-            android:key="double_click_skip_tracks"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled"
-            android:title="Double click for play/pause" />
-        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-            android:defaultValue="600"
-            android:dependency="skip_tracks"
-            android:key="timeout_skip_tracks"
-            android:title="Long press timeout"
-            app:maxValue="1300"
-            app:minValue="300"
-            app:unitsValue="mSec" />
+        <PreferenceCategory
+            android:title="Volume button customization">
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:defaultValue="false"
+                android:key="skip_tracks"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Music skip while screen off" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:defaultValue="false"
+                android:dependency="skip_tracks"
+                android:key="double_click_skip_tracks"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Double click for play/pause" />
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:defaultValue="600"
+                android:dependency="skip_tracks"
+                android:key="timeout_skip_tracks"
+                android:title="Long press timeout"
+                app:maxValue="1300"
+                app:minValue="300"
+                app:unitsValue="mSec" />
+        </PreferenceCategory>
     </PreferenceScreen>
 
     <PreferenceScreen
@@ -743,69 +824,78 @@
     <PreferenceScreen
         android:summary="You can enable or disable virtual lock buttons on statusbar here"
         android:title="Virtual Lock buttons">
-        <PreferenceScreen
-            android:title="Lock Button">
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="cocoyaya_rightcornerlock"
-                android:summaryOff="Off"
-                android:summaryOn="On"
-                android:title="Right side" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="cocoyaya_leftcornerlock"
-                android:summaryOff="Off"
-                android:summaryOn="On"
-                android:title="Left side" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="cocoyaya_centerlock"
-                android:summaryOff="Off"
-                android:summaryOn="On"
-                android:title="Center" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:title="Home Button">
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="cocoyaya_rightcornerhome"
-                android:summaryOff="Off"
-                android:summaryOn="On"
-                android:title="Right side" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="cocoyaya_leftcornerhome"
-                android:summaryOff="Off"
-                android:summaryOn="On"
-                android:title="Left side" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="cocoyaya_centerhome"
-                android:summaryOff="Off"
-                android:summaryOn="On"
-                android:title="Center" />
-        </PreferenceScreen>
-        <PreferenceScreen
-            android:title="Recent Button">
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="cocoyaya_rightcornertask"
-                android:summaryOff="Off"
-                android:summaryOn="On"
-                android:title="Right side" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="cocoyaya_leftcornertask"
-                android:summaryOff="Off"
-                android:summaryOn="On"
-                android:title="Left side" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="cocoyaya_centertask"
-                android:summaryOff="Off"
-                android:summaryOn="On"
-                android:title="Center" />
-        </PreferenceScreen>
+        <PreferenceCategory
+            android:title="Power button">
+            <PreferenceScreen
+                android:title="Power Button">
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="cocoyaya_rightcornerlock"
+                    android:summaryOff="Off"
+                    android:summaryOn="On"
+                    android:title="Right side" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="cocoyaya_leftcornerlock"
+                    android:summaryOff="Off"
+                    android:summaryOn="On"
+                    android:title="Left side" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="cocoyaya_centerlock"
+                    android:summaryOff="Off"
+                    android:summaryOn="On"
+                    android:title="Center" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Home button">
+            <PreferenceScreen
+                android:title="Home Button">
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="cocoyaya_rightcornerhome"
+                    android:summaryOff="Off"
+                    android:summaryOn="On"
+                    android:title="Right side" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="cocoyaya_leftcornerhome"
+                    android:summaryOff="Off"
+                    android:summaryOn="On"
+                    android:title="Left side" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="cocoyaya_centerhome"
+                    android:summaryOff="Off"
+                    android:summaryOn="On"
+                    android:title="Center" />
+            </PreferenceScreen>
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Recent button">
+            <PreferenceScreen
+                android:title="Recent Button">
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="cocoyaya_rightcornertask"
+                    android:summaryOff="Off"
+                    android:summaryOn="On"
+                    android:title="Right side" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="cocoyaya_leftcornertask"
+                    android:summaryOff="Off"
+                    android:summaryOn="On"
+                    android:title="Left side" />
+                <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                    android:defaultValue="false"
+                    android:key="cocoyaya_centertask"
+                    android:summaryOff="Off"
+                    android:summaryOn="On"
+                    android:title="Center" />
+            </PreferenceScreen>
+        </PreferenceCategory>
     </PreferenceScreen>
 
     <PreferenceScreen
@@ -845,6 +935,65 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
+    <PreferenceScreen
+        android:summary="Data usage displayed on notification area"
+        android:title="Data usage">
+        <PreferenceCategory
+            android:title="Data Usage view preferences">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="data_usage_visibility"
+                android:summaryOff="Hidden"
+                android:summaryOn="Shown"
+                android:title="Data usage view visibility"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#e61e4e78"
+                android:dependency="data_usage_visibility"
+                android:key="data_usage_text_color"
+                android:title="Data usage text color"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:dependency="data_usage_visibility"
+                android:entries="@array/data_usage_gravity_entries"
+                android:entryValues="@array/data_usage_gravity_values"
+                android:key="data_usage_text_gravity"
+                android:title="Data usage text gravity"/>
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:dependency="data_usage_visibility"
+                android:entries="@array/data_usage_text_style_entries"
+                android:entryValues="@array/data_usage_text_style_values"
+                android:key="data_usage_view_text_style"
+                android:title="Data usage text style"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:summary="If you enable this the display will wake up each time you receive a notification (AOD only)"
+        android:title="Ambient Display">
+        <PreferenceCategory
+            android:title="Ambient display settings">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="doze_toggle"
+                android:summaryOff="Disabled"
+                android:summaryOn="Enabled"
+                android:title="Ambient Display" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="10000"
+                android:dependency="doze_toggle"
+                android:entries="@array/ambient_light_entries"
+                android:entryValues="@array/ambient_light_values"
+                android:key="doze_timeout"
+                android:summary="%s"
+                android:title="Ambient Display Screen Time"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
     <PreferenceCategory
         android:title="Misc SystemUI settings">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -853,21 +1002,6 @@
             android:summaryOff="Off"
             android:summaryOn="On"
             android:title="USB plug in/out wakeup" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="true"
-            android:key="doze_toggle"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled"
-            android:title="Ambient Display" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="1000"
-            android:entries="@array/ambient_light_entries"
-            android:entryValues="@array/ambient_light_values"
-            android:key="doze_timeout"
-            android:summary="%s"
-            android:title="Ambient Display Screen Time"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:defaultValue="3000"
             android:entries="@array/button_key_light_entries"
@@ -878,37 +1012,7 @@
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Data Usage view preferences">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="data_usage_visibility"
-            android:summaryOff="Hidden"
-            android:summaryOn="Shown"
-            android:title="Data usage view visibility"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#e61e4e78"
-            android:dependency="data_usage_visibility"
-            android:key="data_usage_text_color"
-            android:title="Data usage text color"/>
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="0"
-            android:dependency="data_usage_visibility"
-            android:entries="@array/data_usage_gravity_entries"
-            android:entryValues="@array/data_usage_gravity_values"
-            android:key="data_usage_text_gravity"
-            android:title="Data usage text gravity"/>
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="0"
-            android:dependency="data_usage_visibility"
-            android:entries="@array/data_usage_text_style_entries"
-            android:entryValues="@array/data_usage_text_style_values"
-            android:key="data_usage_view_text_style"
-            android:title="Data usage text style"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory android:title="Custom Carrier">
+        android:title="Custom Carrier">
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="\#ffffffff"
             android:key="CustomCarrierColor"

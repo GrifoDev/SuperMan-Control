@@ -157,6 +157,29 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+            android:summary="Settings for gif animation"
+            android:title="Gif animation in notification area">
+        <PreferenceCategory
+            android:title="Gis animation">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:title="Show gif animation in notification pulldown"
+                android:key="show_gif_animation"
+                android:summaryOn="Enabled"
+                android:summaryOff="Disabled" />
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:title="Select gif animation"
+                android:key="gif_image_style"
+                android:defaultValue="0"
+                android:dependency="show_gif_animation"
+                app:packageNameToKill="com.android.systemui"
+                app:isSilent="false"
+                app:drawableArray="@array/gif_animation_drawable"
+                app:entryList="@array/gif_animation_entries"
+                app:entryValuesList="@array/gif_animation_entries_values" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:summary="Change the pulldown background of the notification panel"
         android:title="Notification panel background">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference

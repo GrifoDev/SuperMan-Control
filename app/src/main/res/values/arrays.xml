@@ -15,17 +15,17 @@
 <resources>
 
     <string-array name="theme_items">
-        <item>Light theme</item>
-        <item>Dark theme</item>
+        <item>@string/LightTheme</item>
+        <item>@string/DarkTheme</item>
     </string-array>
     <string-array name="backup_restore_items">
-        <item>Backup data</item>
-        <item>Restore data</item>
+        <item>@string/BackupData</item>
+        <item>@string/RestoreData</item>
     </string-array>
 
     <string-array name="thumbnail_items">
-        <item>Icon 1</item>
-        <item>Icon 2</item>
+        <item>@string/Icon1</item>
+        <item>@string/Icon2</item>
     </string-array>
     <string-array name="thumbnail_values" translatable="false">
         <item>1</item>
@@ -36,77 +36,40 @@
         <item>@drawable/icon_5</item>
     </array>
 
-    <string-array name="toggle_scroll_entries">
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-    </string-array>
-    <string-array name="toggle_scroll_values">
-        <item>5</item>
-        <item>6</item>
-        <item>7</item>
-        <item>8</item>
-        <item>9</item>
-        <item>10</item>
-        <item>11</item>
-        <item>12</item>
-        <item>13</item>
-        <item>14</item>
-        <item>15</item>
-        <item>16</item>
-        <item>17</item>
-        <item>18</item>
-        <item>19</item>
-        <item>20</item>
-    </string-array>
-
     <string-array name="battery_bar_entries">
-        <item>Hide</item>
-        <item>Show up top</item>
-        <item>Show down below</item>
+        <item>@string/Hidden</item>
+        <item>@string/ShowOnTop</item>
+        <item>@string/ShowDownBelow</item>
     </string-array>
-    <string-array name="battery_bar_values">
+    <string-array name="battery_bar_values" translatable="false">
         <item>2</item>
         <item>0</item>
         <item>1</item>
     </string-array>
 
     <string-array name="battery_bar_style_entries">
-        <item>Regular</item>
-        <item>Center-mirrored</item>
+        <item>@string/Regular</item>
+        <item>@string/Center</item>
     </string-array>
-    <string-array name="battery_bar_style_values">
+    <string-array name="battery_bar_style_values" translatable="false">
         <item>0</item>
         <item>1</item>
     </string-array>
 
-    <string-array name="battery_bar_thickness_entries">
+    <string-array name="battery_bar_thickness_entries" translatable="false">
         <item>1 dp</item>
         <item>2 dp</item>
         <item>3 dp</item>
         <item>4 dp</item>
     </string-array>
-    <string-array name="battery_bar_thickness_values">
+    <string-array name="battery_bar_thickness_values" translatable="false">
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>4</item>
     </string-array>
 
-    <string-array name="toggle_entries">
+    <string-array name="toggle_entries" translatable="false">
         <item>3</item>
         <item>4</item>
         <item>5</item>
@@ -115,7 +78,7 @@
         <item>8</item>
         <item>9</item>
     </string-array>
-    <string-array name="toggle_values">
+    <string-array name="toggle_values" translatable="false">
         <item>3</item>
         <item>4</item>
         <item>5</item>
@@ -123,19 +86,6 @@
         <item>7</item>
         <item>8</item>
         <item>9</item>
-    </string-array>
-
-    <string-array name="lockscreen_notif_entries">
-        <item>2 (Stock)</item>
-        <item>3 max shown</item>
-        <item>4 max shown</item>
-        <item>5 max shown</item>
-    </string-array>
-    <string-array name="lockscreen_notif_values">
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-        <item>5</item>
     </string-array>
 
     <string-array name="dsb_gradient_filter_entries">
@@ -144,7 +94,7 @@
         <item>@string/dsb_gradient_filter_value_2</item>
         <item>@string/dsb_gradient_filter_value_3</item>
     </string-array>
-    <string-array name="dsb_gradient_filter_values">
+    <string-array name="dsb_gradient_filter_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -152,16 +102,16 @@
     </string-array>
 
     <string-array name="tw_effect_entries">
-        <item>None</item>
-        <item>Cascade</item>
-        <item>Outer cube</item>
-        <item>Inner Cube</item>
-        <item>Carousal</item>
-        <item>Plain</item>
-        <item>Conveyor</item>
-        <item>Card</item>
+        <item>@string/Stock</item>
+        <item>@string/Cascade</item>
+        <item>@string/OuterCube</item>
+        <item>@string/InnerCube</item>
+        <item>@string/Carousal</item>
+        <item>@string/Plain</item>
+        <item>@string/Conveyor</item>
+        <item>@string/Card</item>
     </string-array>
-    <string-array name="tw_effect_values">
+    <string-array name="tw_effect_values" translatable="false">
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -173,24 +123,24 @@
     </string-array>
 
     <string-array name="launcher_gesture_entries">
-        <item>Turn off the screen</item>
-        <item>Power menu</item>
-        <item>Recent applications</item>
-        <item>Volume  +</item>
-        <item>Volume  -</item>
-        <item>Dialer</item>
-        <item>Google search</item>
-        <item>Sound Mode: Sound / Vibration / Silent</item>
-        <item>Torchlight</item>
-        <item>Screenshot</item>
-        <item>Notifications panel</item>
-        <item>Switch Wi-Fi</item>
-        <item>Switch Mobile data</item>
-        <item>Switch Bluetooth</item>
-        <item>Clear memory</item>
-        <item>Disable</item>
+        <item>@string/TurnScreenOff</item>
+        <item>@string/PowerMenu</item>
+        <item>@string/RecentApplications</item>
+        <item>@string/VolumePlus</item>
+        <item>@string/VolumeMinus</item>
+        <item>@string/Dialer</item>
+        <item>@string/GoogleSearch</item>
+        <item>@string/SoundMode</item>
+        <item>@string/Torchlight</item>
+        <item>@string/Screenshot</item>
+        <item>@string/NotificationsPanel</item>
+        <item>@string/SwitchWiFi</item>
+        <item>@string/SwitchMobileData</item>
+        <item>@string/SwitchBluetooth</item>
+        <item>@string/ClearMemory</item>
+        <item>@string/Disabled</item>
     </string-array>
-    <string-array name="launcher_gesture_values">
+    <string-array name="launcher_gesture_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>4</item>
@@ -210,9 +160,9 @@
     </string-array>
 
     <string-array name="data_usage_gravity_entries">
-        <item>To end</item>
-        <item>Center horizontal</item>
-        <item>To start</item>
+        <item>@string/ToEnd</item>
+        <item>@string/CenterHorizontal</item>
+        <item>@string/ToStart</item>
     </string-array>
     <string-array name="data_usage_gravity_values" translatable="false">
         <item>0</item>
@@ -221,10 +171,10 @@
     </string-array>
 
     <string-array name="data_usage_text_style_entries">
-        <item>Normal</item>
-        <item>Bold</item>
-        <item>Italic</item>
-        <item>Bold italic</item>
+        <item>@string/Stock</item>
+        <item>@string/Bold</item>
+        <item>@string/Italic</item>
+        <item>@string/BoldItalic</item>
     </string-array>
     <string-array name="data_usage_text_style_values" translatable="false">
         <item>0</item>
@@ -234,29 +184,29 @@
     </string-array>
 
     <string-array name="carrier_entries">
-        <item>Actual carrier text</item>
-        <item>Custom text</item>
+        <item>@string/ActualCarrierText</item>
+        <item>@string/CustomText</item>
     </string-array>
-    <string-array name="carrier_entry_values">
+    <string-array name="carrier_entry_values" translatable="false">
         <item>0</item>
         <item>1</item>
     </string-array>
 
     <string-array name="crop_entries">
-        <item>Center Crop (default)</item>
-        <item>Center Inside</item>
-        <item>Fit XY</item>
+        <item>@string/CenterCrop</item>
+        <item>@string/CenterInside</item>
+        <item>@string/FitXY</item>
     </string-array>
-    <string-array name="crop_values">
+    <string-array name="crop_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
 
     <string-array name="custom_bg_type_entries">
-        <item>Image</item>
-        <item>Solid color</item>
-        <item>Gradient</item>
+        <item>@string/Image</item>
+        <item>@string/SolidColor</item>
+        <item>@string/Gradient</item>
     </string-array>
     <string-array name="custom_bg_type_values" translatable="false">
         <item>0</item>
@@ -265,10 +215,10 @@
     </string-array>
 
     <string-array name="gradient_entries">
-        <item>Top to bottom</item>
-        <item>Bottom to top</item>
-        <item>Left to right</item>
-        <item>Right to left</item>
+        <item>@string/TopToBottom</item>
+        <item>@string/BottomToTop</item>
+        <item>@string/LeftToRight</item>
+        <item>@string/RightToLeft</item>
     </string-array>
     <string-array name="gradient_values" translatable="false">
         <item>0</item>
@@ -277,118 +227,68 @@
         <item>3</item>
     </string-array>
 
-    <string-array name="shape_values">
-        <item>0</item>
-        <item>1</item>
-    </string-array>
-    <string-array name="shape_entries">
-        <item>Stock shape</item>
-        <item>Rounded corners</item>
-    </string-array>
-
-    <string-array name="dashboard_fav_columns_entries">
-        <item>1 Columns</item>
-        <item>2 Columns</item>
-        <item>3 Columns</item>
-        <item>4 Columns</item>
-    </string-array>
-    <string-array name="dashboard_fav_columns_values">
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-        <item>4</item>
-    </string-array>
-
-    <string-array name="dashboard_cat_columns_entries">
-        <item>1 Columns</item>
-        <item>2 Columns</item>
-    </string-array>
-    <string-array name="dashboard_cat_columns_values">
-        <item>1</item>
-        <item>2</item>
-    </string-array>
-
-    <string-array name="display_timeout_entries">
-        <item>5 seconds</item>
-        <item>10 seconds (default)</item>
-        <item>15 seconds</item>
-        <item>30 seconds</item>
-        <item>60 seconds</item>
-        <item>2 minutes</item>
-        <item>5 minutes</item>
-    </string-array>
-    <string-array name="display_timeout_values">
-        <item>5000</item>
-        <item>10000</item>
-        <item>15000</item>
-        <item>30000</item>
-        <item>60000</item>
-        <item>120000</item>
-        <item>300000</item>
-    </string-array>
-
-    <string-array name="traffic_state_values">
-        <item>0</item>
-        <item>1</item>
-        <item>2</item>
-        <item>3</item>
-    </string-array>
     <string-array name="traffic_state_items">
-        <item>Disable view</item>
-        <item>Upload only</item>
-        <item>Download only</item>
-        <item>Upload and Download</item>
+        <item>@string/Disabled</item>
+        <item>@string/UploadOnly</item>
+        <item>@string/DownloadOnly</item>
+        <item>@string/UploadAndDownload</item>
     </string-array>
-
-    <string-array name="arrow_position_values">
+    <string-array name="traffic_state_values" translatable="false">
         <item>0</item>
         <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
+
     <string-array name="arrow_position_entries">
-        <item>To end of view</item>
-        <item>To start of view</item>
+        <item>@string/ToEndOfView</item>
+        <item>@string/ToStartOfView</item>
+    </string-array>
+    <string-array name="arrow_position_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
     </string-array>
 
     <string-array name="traffic_style_entries">
-        <item>Normal</item>
-        <item>Bold</item>
-        <item>Italic</item>
-        <item>Bold italic</item>
+        <item>@string/Stock</item>
+        <item>@string/Bold</item>
+        <item>@string/Italic</item>
+        <item>@string/BoldItalic</item>
     </string-array>
-    <string-array name="traffic_style_entry_values">
+    <string-array name="traffic_style_entry_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
         <item>3</item>
     </string-array>
     
-        <string-array name="lowbattpercentage_entries">
+        <string-array name="lowbattpercentage_entries" translatable="false">
         <item>3</item>
         <item>5</item>
         <item>10</item>
         <item>15</item>
     </string-array>
-    <string-array name="lowbattpercentage_values">
+    <string-array name="lowbattpercentage_values" translatable="false">
         <item>3</item>
         <item>5</item>
         <item>10</item>
         <item>15</item>
     </string-array>
     
-    <string-array name="critbattpercentage_entries">
+    <string-array name="critbattpercentage_entries" translatable="false">
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>5</item>
     </string-array>
-    <string-array name="critbattpercentage_values">
+    <string-array name="critbattpercentage_values" translatable="false">
         <item>1</item>
         <item>2</item>
         <item>3</item>
         <item>5</item>
     </string-array>
 
-    <string-array name="volbtn_timeout_entries">
+    <string-array name="volbtn_timeout_entries" translatable="false">
         <item>100ms</item>
         <item>150ms</item>
         <item>200ms</item>
@@ -399,7 +299,7 @@
         <item>450ms</item>
         <item>500ms</item>
     </string-array>
-    <string-array name="volbtn_timeout_values">
+    <string-array name="volbtn_timeout_values" translatable="false">
         <item>100</item>
         <item>150</item>
         <item>200</item>
@@ -429,7 +329,7 @@
         <item>@string/toast_GrowFadeBottom_animation</item>
         <item>@string/toast_Translucent_animation</item>
     </string-array>
-    <string-array name="toast_animation_values">
+    <string-array name="toast_animation_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
@@ -449,14 +349,14 @@
     </string-array>
 
     <string-array name="button_key_light_entries">
-        <item>Always off</item>
-        <item>1 second</item>
-        <item>3 seconds</item>
-        <item>5 seconds</item>
-        <item>10 seconds</item>
-        <item>15 seconds</item>
+        <item>@string/AlwaysOff</item>
+        <item>@string/OneSecond</item>
+        <item>@string/ThreeSeconds</item>
+        <item>@string/FiveSeconds</item>
+        <item>@string/TenSeconds</item>
+        <item>@string/FifteenSeconds</item>
     </string-array>
-    <string-array name="button_key_light_values">
+    <string-array name="button_key_light_values" translatable="false">
         <item>0</item>
         <item>1000</item>
         <item>3000</item>
@@ -466,13 +366,13 @@
     </string-array>
 
     <string-array name="ambient_light_entries">
-        <item>5 seconds</item>
-        <item>10 seconds</item>
-        <item>15 seconds</item>
-        <item>20 seconds</item>
-        <item>25 seconds</item>
+        <item>@string/FiveSeconds</item>
+        <item>@string/TenSeconds</item>
+        <item>@string/FifteenSeconds</item>
+        <item>@string/TwentySeconds</item>
+        <item>@string/TwentyFiveSeconds</item>
     </string-array>
-    <string-array name="ambient_light_values">
+    <string-array name="ambient_light_values" translatable="false">
         <item>5000</item>
         <item>10000</item>
         <item>15000</item>
@@ -481,51 +381,51 @@
     </string-array>
 
     <string-array name="clock_style_entries">
-        <item>Right Clock</item>
-        <item>Center Clock</item>
-        <item>Left Clock</item>
+        <item>@string/RightClock</item>
+        <item>@string/CenterClock</item>
+        <item>@string/LeftClock</item>
     </string-array>
-    <string-array name="clock_style_values">
+    <string-array name="clock_style_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
 
     <string-array name="clock_format_entries">
-        <item>Stock Clock</item>
-        <item>Funky Clock</item>
-        <item>Word Clock</item>
+        <item>@string/StockClock</item>
+        <item>@string/FunkyClock</item>
+        <item>@string/WordClock</item>
     </string-array>
-    <string-array name="clock_format_values">
+    <string-array name="clock_format_values" translatable="false">
         <item>1</item>
         <item>2</item>
         <item>3</item>
     </string-array>
 
     <string-array name="entries_status_bar_am_pm">
-        <item>Hide</item>
-        <item>Small AM/PM</item>
-        <item>Stock AM/PM</item>
+        <item>@string/Hidden</item>
+        <item>@string/SmallAMPM</item>
+        <item>@string/StockAMPM</item>
     </string-array>
-    <string-array name="values_status_bar_am_pm">
+    <string-array name="values_status_bar_am_pm" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
 
     <string-array name="clock_font_style_entries">
-        <item>Bold</item>
-        <item>Condensed</item>
-        <item>Light</item>
-        <item>Light Italic</item>
-        <item>Use System Font (restart UI to set)</item>
-        <item>Chococooky</item>
-        <item>Coming Soon</item>
-        <item>Cool Jazz</item>
-        <item>Lindsey for Samsung</item>
-        <item>MTL</item>
+        <item>@string/Bold</item>
+        <item>@string/Condensed</item>
+        <item>@string/Light</item>
+        <item>@string/LightItalic</item>
+        <item>@string/SystemFont</item>
+        <item>@string/Chococooky</item>
+        <item>@string/ComingSoon</item>
+        <item>@string/CoolJazz</item>
+        <item>@string/LindseyForSamsung</item>
+        <item>@string/MTL</item>
     </string-array>
-    <string-array name="clock_font_style_values">
+    <string-array name="clock_font_style_values" translatable="false">
         <item>1</item>
         <item>2</item>
         <item>3</item>
@@ -539,28 +439,28 @@
     </string-array>
 
     <string-array name="clock_date_display_entries">
-        <item>Hide</item>
-        <item>Small Date</item>
-        <item>Stock Date</item>
+        <item>@string/Hidden</item>
+        <item>@string/SmallDate</item>
+        <item>@string/StockDate</item>
     </string-array>
-    <string-array name="clock_date_display_values">
+    <string-array name="clock_date_display_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
 
     <string-array name="clock_date_style_entries">
-        <item>Stock Date</item>
-        <item>Lowercase Date</item>
-        <item>Uppercase Date</item>
+        <item>@string/StockDate</item>
+        <item>@string/LowercaseDate</item>
+        <item>@string/UppercaseDate</item>
     </string-array>
-    <string-array name="clock_date_style_values">
+    <string-array name="clock_date_style_values" translatable="false">
         <item>0</item>
         <item>1</item>
         <item>2</item>
     </string-array>
 
-    <string-array name="clock_date_format_entries_values">
+    <string-array name="clock_date_format_entries_values" translatable="false">
         <item>dd/MM/yy</item>
         <item>MM/dd/yy</item>
         <item>yyyy-MM-dd</item>
@@ -579,6 +479,121 @@
         <item>EEE MMMM dd</item>
         <item>EEEE dd/MM</item>
         <item>EEEE MM/dd</item>
+    </string-array>
+
+    <string-array name="SignalPositionName">
+        <item>@string/RightSignal</item>
+        <item>@string/LeftSignal</item>
+    </string-array>
+    <string-array name="SignalPositionValue" translatable="false">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+
+    <array name="gif_animation_drawable" translatable="false">
+        <item>@drawable/gif1</item>
+        <item>@drawable/gif2</item>
+        <item>@drawable/gif3</item>
+        <item>@drawable/gif4</item>
+        <item>@drawable/gif5</item>
+        <item>@drawable/gif6</item>
+        <item>@drawable/gif7</item>
+        <item>@drawable/gif8</item>
+        <item>@drawable/gif9</item>
+        <item>@drawable/gif10</item>
+        <item>@drawable/gif11</item>
+        <item>@drawable/gif12</item>
+        <item>@drawable/gif13</item>
+        <item>@drawable/gif14</item>
+        <item>@drawable/gif15</item>
+        <item>@drawable/gif16</item>
+        <item>@drawable/gif17</item>
+        <item>@drawable/gif18</item>
+        <item>@drawable/gif19</item>
+        <item>@drawable/gif20</item>
+        <item>@drawable/gif21</item>
+        <item>@drawable/gif22</item>
+        <item>@drawable/gif23</item>
+        <item>@drawable/gif24</item>
+        <item>@drawable/gif25</item>
+        <item>@drawable/gif26</item>
+        <item>@drawable/gif27</item>
+        <item>@drawable/gif28</item>
+        <item>@drawable/gif29</item>
+        <item>@drawable/gif30</item>
+        <item>@drawable/gif31</item>
+        <item>@drawable/gif32</item>
+        <item>@drawable/gif33</item>
+    </array>
+    <string-array name="gif_animation_entries">
+        <item>@string/Abstract</item>
+        <item>@string/ACube</item>
+        <item>@string/AlienTwerking</item>
+        <item>@string/BadKoolAid</item>
+        <item>@string/BadSkeleton</item>
+        <item>@string/BattleStance</item>
+        <item>@string/BicLighter</item>
+        <item>@string/Bird</item>
+        <item>@string/BoobShoots</item>
+        <item>@string/PeanutButter</item>
+        <item>@string/Butterfly</item>
+        <item>@string/ButtShake</item>
+        <item>@string/Cats</item>
+        <item>@string/ChesterCheeto</item>
+        <item>@string/CoolAPe</item>
+        <item>@string/DancingElsa</item>
+        <item>@string/DoubleMeaning</item>
+        <item>@string/Eyeball</item>
+        <item>@string/MM</item>
+        <item>@string/PifWithBacon</item>
+        <item>@string/PleaseNo</item>
+        <item>@string/RotatingSkeleton</item>
+        <item>@string/SkeletonCuttingFood</item>
+        <item>@string/SkeletonCream</item>
+        <item>@string/SkeletonWave</item>
+        <item>@string/SkeletonEatingCheetos</item>
+        <item>@string/Stitch</item>
+        <item>@string/StitchBraHead</item>
+        <item>@string/StitchDrop</item>
+        <item>@string/WaitingSkeleton</item>
+        <item>@string/WalkingDeadBirth</item>
+        <item>@string/WalkingWolf</item>
+        <item>@string/WavingFrozen</item>
+    </string-array>
+    <string-array name="gif_animation_entries_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
     </string-array>
 
 </resources>

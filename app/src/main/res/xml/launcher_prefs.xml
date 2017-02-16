@@ -3,26 +3,26 @@
                   xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
-        android:title="Launcher Effects">
+        android:title="@string/LauncherEffects">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:defaultValue="1"
             android:entries="@array/tw_effect_entries"
             android:entryValues="@array/tw_effect_values"
             android:key="tw_page_effect"
-            android:title="Touchwiz Page Effect"
+            android:title="@string/TouchwizPageEffect"
             app:isSilent="false"
             app:packageNameToKill="com.sec.android.app.launcher" />
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Gesture anywhere on Home screen" >
+        android:title="@string/GestureCategory" >
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:defaultValue="999"
             android:entries="@array/launcher_gesture_entries"
             android:entryValues="@array/launcher_gesture_values"
             android:key="doubletap"
             android:summary="%s"
-            android:title="Double tap"
+            android:title="@string/DoubleTap"
             app:isSilent="false"
             app:packageNameToKill="com.sec.android.app.launcher" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
@@ -31,7 +31,7 @@
             android:entryValues="@array/launcher_gesture_values"
             android:key="swipe_up"
             android:summary="%s"
-            android:title="Swipe Up"
+            android:title="@string/SwipeUp"
             app:isSilent="false"
             app:packageNameToKill="com.sec.android.app.launcher" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
@@ -40,7 +40,7 @@
             android:entryValues="@array/launcher_gesture_values"
             android:key="swipe_down"
             android:summary="%s"
-            android:title="Swipe Down"
+            android:title="@string/SwipeDown"
             app:isSilent="false"
             app:packageNameToKill="com.sec.android.app.launcher" />
     </PreferenceCategory>

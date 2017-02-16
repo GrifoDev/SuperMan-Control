@@ -3,14 +3,14 @@
                   xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceScreen
-            android:summary="Change general settings related to the Pulldown Menu"
-            android:title="Pulldown Menu settings">
+            android:summary="@string/PulldownMenuSettingsSummary"
+            android:title="@string/PulldownMenuSettings">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="show_multi_user"
             android:summaryOff="@string/Hidden"
             android:summaryOn="@string/Shown"
-            android:title="MultiUser Avatar"
+            android:title="@string/MultiUser"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -18,33 +18,33 @@
             android:key="qs_pulldown"
             android:summaryOff="@string/Disabled"
             android:summaryOn="@string/Enabled"
-            android:title="Single swipe for Quickpanel on right side" />
+            android:title="@string/SingleSwipe" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"
             android:key="charging_notif"
-            android:summaryOff="Notification is disabled"
-            android:summaryOn="Notification is shown"
-            android:title="Ongoing Charging Pulldown Notification"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
+            android:title="@string/ChargingNotification"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="ongoing_notifications"
-            android:summaryOff="Ongoing Notifications are permanent"
-            android:summaryOn="Ongoing Notifications are removable"
-            android:title="Make Ongoing Notifications Removable" />
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
+            android:title="@string/OngoingNotifications" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"
             android:key="heads_up_notifications_enabled"
             android:summaryOff="@string/Disabled"
             android:summaryOn="@string/Enabled"
-            android:title="Heads Up Notifications" />
+            android:title="@string/HeadsUp" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="double_tap_sleep"
             android:summaryOff="@string/Disabled"
             android:summaryOn="@string/Enabled"
-            android:title="Double tab to sleep on statusbar" />
+            android:title="@string/DoubleTapSleep" />
     </PreferenceScreen>
 
     <PreferenceScreen
@@ -157,25 +157,25 @@
     </PreferenceScreen>
 
     <PreferenceScreen
-            android:summary="Settings for gif animation"
-            android:title="Gif animation in notification area">
+            android:summary="@string/GifAnimationSummary"
+            android:title="@string/GifAnimationTitle">
         <PreferenceCategory
-            android:title="Gis animation">
+            android:title="@string/GifAnimation">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:title="Show gif animation in notification pulldown"
                 android:key="show_gif_animation"
+                android:summaryOff="@string/Disabled"
                 android:summaryOn="@string/Enabled"
-                android:summaryOff="@string/Disabled" />
+                android:title="@string/GifAnimationShow" />
             <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
-                android:title="Select gif animation"
-                android:key="gif_image_style"
                 android:defaultValue="0"
                 android:dependency="show_gif_animation"
-                app:packageNameToKill="com.android.systemui"
-                app:isSilent="false"
+                android:key="gif_image_style"
+                android:title="@string/GifAnimationSelect"
                 app:drawableArray="@array/gif_animation_drawable"
                 app:entryList="@array/gif_animation_entries"
-                app:entryValuesList="@array/gif_animation_entries_values" />
+                app:entryValuesList="@array/gif_animation_entries_values"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>
     </PreferenceScreen>
 
@@ -242,122 +242,122 @@
     </PreferenceScreen>
 
     <PreferenceCategory
-        android:title="Device info settings">
+        android:title="@string/DeviceInfoCategory">
         <PreferenceScreen
-            android:title="Device info customization">
+            android:title="@string/DeviceInfoPreference">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="device_info_visibility"
                 android:summaryOff="@string/Disabled"
                 android:summaryOn="@string/Enabled"
-                android:title="Enable device info view"/>
+                android:title="@string/DeviceInfoView"/>
             <PreferenceCategory
                 android:dependency="device_info_visibility"
-                android:title="Text colors">
+                android:title="@string/DeviceInfoColor">
                 <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#ffffffff"
                     android:key="gear_info_names_color"
-                    android:title="Info names text color"/>
+                    android:title="@string/DeviceInfoColorNames"/>
                 <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                     android:defaultValue="#ffffffff"
                     android:key="gear_info_values_color"
-                    android:title="Info values text color"/>
+                    android:title="@string/DeviceInfoColorInfo"/>
             </PreferenceCategory>
             <PreferenceCategory
                 android:dependency="device_info_visibility"
-                android:title="Device Info Items">
+                android:title="@string/DeviceInfoItems">
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_model"
                     android:summaryOff="@string/Hidden"
                     android:summaryOn="@string/Shown"
-                    android:title="Device model"/>
+                    android:title="@string/DeviceInfoModel"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_android_version"
                     android:summaryOff="@string/Hidden"
                     android:summaryOn="@string/Shown"
-                    android:title="Android version"/>
+                    android:title="@string/DeviceInfoAndroid"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_build_version"
                     android:summaryOff="@string/Hidden"
                     android:summaryOn="@string/Shown"
-                    android:title="Build version"/>
+                    android:title="@string/DeviceInfoBuild"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_battery_level"
                     android:summaryOff="@string/Hidden"
                     android:summaryOn="@string/Shown"
-                    android:title="Battery level"/>
+                    android:title="@string/DeviceInfoBattery"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_network_name"
                     android:summaryOff="@string/Hidden"
                     android:summaryOn="@string/Shown"
-                    android:title="Network name"/>
+                    android:title="@string/DeviceInfoNetwork"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_wifi_info"
                     android:summaryOff="@string/Hidden"
                     android:summaryOn="@string/Shown"
-                    android:title="WIFI info"/>
+                    android:title="@string/DeviceInfoWifi"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_next_alarm"
                     android:summaryOff="@string/Hidden"
                     android:summaryOn="@string/Shown"
-                    android:title="Next alarm"/>
+                    android:title="@string/DeviceInfoAlarm"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_up_time"
                     android:summaryOff="@string/Hidden"
                     android:summaryOn="@string/Shown"
-                    android:title="Device up time"/>
+                    android:title="@string/DeviceInfoUpTime"/>
             </PreferenceCategory>
         </PreferenceScreen>
     </PreferenceCategory>
 
     <PreferenceCategory
-        android:title="Reboot visibility on top left corner">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="gear_reboot_view_visibility"
-            android:summaryOff="@string/Disabled"
-            android:summaryOn="@string/Enabled"
-            android:title="Reboot view visibility"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#00000000"
-            android:key="gear_reboot_view_color"
-            android:title="Reboot view color"/>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="Carrier label text preferences">
+        android:title="@string/CarrierLabelCategory">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"
             android:key="carrier_label_visibility"
             android:summaryOff="@string/Hidden"
             android:summaryOn="@string/Shown"
-            android:title="Carrier label visibility"/>
+            android:title="@string/CarrierLabel"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="#ffffff"
             android:dependency="carrier_label_visibility"
             android:key="carrier_label_text_color"
-            android:title="Carrier label text color"/>
+            android:title="@string/CarrierLabelColor"/>
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:defaultValue="0"
             android:dependency="carrier_label_visibility"
             android:entries="@array/carrier_entries"
             android:entryValues="@array/carrier_entry_values"
             android:key="is_custom_carrier_label"
-            android:title="Carrier label text"
+            android:title="@string/CarrierLabelTextEnable"
             app:dependentValue="0"/>
         <com.wubydax.romcontrol.v2.prefs.MyEditTextPreference
             android:defaultValue="Custom Text"
             android:dependency="is_custom_carrier_label"
             android:key="custom_carrier_label"
-            android:title="Custom text for carrier label"/>
+            android:title="@string/CarrierLabelText"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/GearRebootCategory">
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="gear_reboot_view_visibility"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
+            android:title="@string/GearReboot"/>
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="#00000000"
+            android:key="gear_reboot_view_color"
+            android:title="@string/GearRebootColor"/>
     </PreferenceCategory>
 
 </PreferenceScreen>

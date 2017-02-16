@@ -2,11 +2,14 @@
   <dictionary name="tkkg1994">
     <words>
       <w>adiutor</w>
+      <w>backlight</w>
       <w>busybox</w>
       <w>lockscreen</w>
       <w>magisk</w>
       <w>pulldown</w>
+      <w>quickpanel</w>
       <w>statusbar</w>
+      <w>touchwiz</w>
     </words>
   </dictionary>
 </component>

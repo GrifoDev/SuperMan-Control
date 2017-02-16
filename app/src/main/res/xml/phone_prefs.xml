@@ -16,21 +16,21 @@
                   xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
-        android:title="Auto Call Record">
+        android:title="@string/AutoCallRecordCategory">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="auto_call_record_in"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled"
-            android:title="Incoming auto call record"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
+            android:title="@string/IncomingAutoCallRecord"
             app:isSilent="false"
             app:packageNameToKill="com.samsung.android.incallui" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="auto_call_record_out"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled"
-            android:title="Outgoing auto call record"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
+            android:title="@string/OutgoingAutoCallRecord"
             app:isSilent="false"
             app:packageNameToKill="com.samsung.android.incallui" />
     </PreferenceCategory>

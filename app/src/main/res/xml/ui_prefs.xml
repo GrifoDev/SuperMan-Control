@@ -44,6 +44,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_battery"
         android:summary="Different battery related settings can be changed here"
         android:title="Battery Settings">
         <PreferenceCategory
@@ -134,6 +135,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_clock"
         android:summary="Change all settings related to statusbar clock here"
         android:title="Clock Settings">
         <PreferenceCategory
@@ -249,6 +251,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_lockscreen"
         android:summary="Lockscreen clock settings and more!"
         android:title="Lockscreen Mods">
         <PreferenceCategory
@@ -477,6 +480,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_signal"
         android:summary="Settings related to Wifi and Signal icon"
         android:title="Wifi/Signal icon settings">
         <PreferenceCategory
@@ -493,6 +497,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_weather"
         android:summary="Change all settings related to weather on lockscreen here"
         android:title="Weather settings on lockscreen">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -1040,21 +1045,26 @@
         </PreferenceCategory>
     </PreferenceScreen>
 
-    <PreferenceCategory
+    <PreferenceScreen
+        android:summary="SystemUI features which doens't macht any category"
         android:title="Misc SystemUI settings">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="true"
-            android:key="usb_plugged"
-            android:summaryOff="@string/Off"
-            android:summaryOn="@string/On"
-            android:title="USB plug in/out wakeup" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="3000"
-            android:entries="@array/button_key_light_entries"
-            android:entryValues="@array/button_key_light_values"
-            android:key="button_key_light"
-            android:summary="%s"
-            android:title="Keyboard backlight duration" />
-    </PreferenceCategory>
+        <PreferenceCategory
+            android:title="Misc SystemUI settings">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="true"
+                android:key="usb_plugged"
+                android:summaryOff="@string/Off"
+                android:summaryOn="@string/On"
+                android:title="USB plug in/out wakeup"
+                app:rebootDevice="true" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="3000"
+                android:entries="@array/button_key_light_entries"
+                android:entryValues="@array/button_key_light_values"
+                android:key="button_key_light"
+                android:summary="%s"
+                android:title="Keyboard backlight duration" />
+        </PreferenceCategory>
+    </PreferenceScreen>
 
 </PreferenceScreen>

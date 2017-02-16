@@ -8,16 +8,16 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="show_multi_user"
-            android:summaryOff="Avatar hidden"
-            android:summaryOn="Avatar shown"
-            android:title="Multi-user Avatar"
+            android:summaryOff="@string/Hidden"
+            android:summaryOn="@string/Shown"
+            android:title="MultiUser Avatar"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="qs_pulldown"
-            android:summaryOff="Feature is disabled"
-            android:summaryOn="Feature is enabled"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
             android:title="Single swipe for Quickpanel on right side" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"
@@ -36,14 +36,14 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"
             android:key="heads_up_notifications_enabled"
-            android:summaryOff="Heads up disabled"
-            android:summaryOn="Heads up enabled"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
             android:title="Heads Up Notifications" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="double_tap_sleep"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
             android:title="Double tab to sleep on statusbar" />
     </PreferenceScreen>
 
@@ -164,8 +164,8 @@
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:title="Show gif animation in notification pulldown"
                 android:key="show_gif_animation"
-                android:summaryOn="Enabled"
-                android:summaryOff="Disabled" />
+                android:summaryOn="@string/Enabled"
+                android:summaryOff="@string/Disabled" />
             <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
                 android:title="Select gif animation"
                 android:key="gif_image_style"
@@ -185,8 +185,8 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="enable_gear_custom_bg"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
             android:title="Enable custom background"/>
         <PreferenceCategory
             android:dependency="enable_gear_custom_bg"
@@ -248,8 +248,8 @@
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="device_info_visibility"
-                android:summaryOff="Disabled"
-                android:summaryOn="Enabled"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
                 android:title="Enable device info view"/>
             <PreferenceCategory
                 android:dependency="device_info_visibility"
@@ -269,50 +269,50 @@
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_model"
-                    android:summaryOff="Hidden"
-                    android:summaryOn="Shown"
+                    android:summaryOff="@string/Hidden"
+                    android:summaryOn="@string/Shown"
                     android:title="Device model"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_android_version"
-                    android:summaryOff="Hidden"
-                    android:summaryOn="Shown"
+                    android:summaryOff="@string/Hidden"
+                    android:summaryOn="@string/Shown"
                     android:title="Android version"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_build_version"
-                    android:summaryOff="Hidden"
-                    android:summaryOn="Shown"
+                    android:summaryOff="@string/Hidden"
+                    android:summaryOn="@string/Shown"
                     android:title="Build version"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_battery_level"
-                    android:summaryOff="Hidden"
-                    android:summaryOn="Shown"
+                    android:summaryOff="@string/Hidden"
+                    android:summaryOn="@string/Shown"
                     android:title="Battery level"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_network_name"
-                    android:summaryOff="Hidden"
-                    android:summaryOn="Shown"
+                    android:summaryOff="@string/Hidden"
+                    android:summaryOn="@string/Shown"
                     android:title="Network name"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_wifi_info"
-                    android:summaryOff="Hidden"
-                    android:summaryOn="Shown"
+                    android:summaryOff="@string/Hidden"
+                    android:summaryOn="@string/Shown"
                     android:title="WIFI info"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_next_alarm"
-                    android:summaryOff="Hidden"
-                    android:summaryOn="Shown"
+                    android:summaryOff="@string/Hidden"
+                    android:summaryOn="@string/Shown"
                     android:title="Next alarm"/>
                 <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                     android:defaultValue="true"
                     android:key="device_up_time"
-                    android:summaryOff="Hidden"
-                    android:summaryOn="Shown"
+                    android:summaryOff="@string/Hidden"
+                    android:summaryOn="@string/Shown"
                     android:title="Device up time"/>
             </PreferenceCategory>
         </PreferenceScreen>
@@ -323,8 +323,8 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="gear_reboot_view_visibility"
-            android:summaryOff="Disabled"
-            android:summaryOn="Enabled"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
             android:title="Reboot view visibility"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="#00000000"
@@ -337,8 +337,8 @@
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"
             android:key="carrier_label_visibility"
-            android:summaryOff="Hidden"
-            android:summaryOn="Shown"
+            android:summaryOff="@string/Hidden"
+            android:summaryOn="@string/Shown"
             android:title="Carrier label visibility"/>
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="#ffffff"

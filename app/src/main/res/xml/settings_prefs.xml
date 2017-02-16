@@ -3,10 +3,11 @@
                   xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceCategory
-        android:title="Shortcut for useful apps">
+        android:title="@string/ShortCutTitle">
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
             android:summary="Application to browse your files, including root files"
+            android:title="Root Explorer"
             app:componentName="com.speedsoftware.rootexplorer/com.speedsoftware.rootexplorer.RootExplorer"/>
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference

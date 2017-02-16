@@ -73,6 +73,11 @@
     <string name="Hidden">Hidden</string>
     <string name="Enabled">Enabled</string>
     <string name="Disabled">Disabled</string>
+    <string name="On">On</string>
+    <string name="Off">Off</string>
+    <string name="Left">Left Side</string>
+    <string name="Right">Right Side</string>
+    <string name="Centered">Centered</string>
     <string name="ShowOnTop">Show on top</string>
     <string name="ShowDownBelow">Show down below</string>
     <string name="Regular">Regular</string>
@@ -135,6 +140,7 @@
     <string name="UploadOnly">Upload only</string>
     <string name="ToEndOfView">To end of view</string>
     <string name="ToStartOfView">To start of view</string>
+    <string name="toast_animation">Toast Animations UI Framework</string>
     <string name="toast_animation_title">Toast animations</string>
     <string name="toast_none_animation">None</string>
     <string name="toast_default_animation">Default</string>
@@ -237,6 +243,7 @@
     <string name="AirplaneToggle">Airplane Toggle</string>
     <string name="MultiUserToggleSummary">MultiUser toggle will be shown</string>
     <string name="MultiUserToggle">MultiUser Toggle</string>
+    <string name="ShortCutTitle">Shortcut for useful apps</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

@@ -69,7 +69,7 @@
     <PreferenceCategory
         android:title="@string/toast_animation_title">
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="0"
+            android:defaultValue="1"
             android:entries="@array/toast_animation_entries"
             android:entryValues="@array/toast_animation_values"
             android:key="animation_toast"

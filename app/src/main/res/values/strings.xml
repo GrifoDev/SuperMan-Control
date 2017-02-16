@@ -243,7 +243,45 @@
     <string name="AirplaneToggle">Airplane Toggle</string>
     <string name="MultiUserToggleSummary">MultiUser toggle will be shown</string>
     <string name="MultiUserToggle">MultiUser Toggle</string>
+    <string name="RebootBG">Background reboot menu</string>
+    <string name="RebootBGSummary">Change the background of the reboot menu</string>
+    <string name="EnableCustomBG">Enable custom background</string>
+    <string name="BGPreferences">General bg preferences</string>
+    <string name="BGType">Background type</string>
+    <string name="BGOpacity">Background opacity</string>
+    <string name="ImagePreference">Custom image preferences</string>
+    <string name="BGImage">Select Bg image</string>
+    <string name="ImageScaling">Set Image Scaling Type</string>
+    <string name="GradientPreferences">Color and gradient preferences</string>
+    <string name="PrimaryColor">Select primary color</string>
+    <string name="SecondaryColor">Secondary Color (for gradient)</string>
+    <string name="GradientOrientation">Gradient orientation</string>
+    <string name="NotificationBG">Notification panel background</string>
+    <string name="NotificationBGSummary">Change the pulldown background of the notification panel</string>
     <string name="ShortCutTitle">Shortcut for useful apps</string>
+    <string name="RootExplorer">Root Explorer</string>
+    <string name="RootExplorerSummary">Application to browse your files, including root files</string>
+    <string name="TWSwipe">Shortcut to GearTWSwipe</string>
+    <string name="TWSwipeSummary">Choose what app or shortcut to open when TW launcher is being swiped to the magazine page</string>
+    <string name="SuperSU">Chainfire's SuperSu App</string>
+    <string name="Superuser">Phh's Superuser</string>
+    <string name="RootSummary">Manage root permissions for apps and services</string>
+    <string name="Magisk">Magisk Manager</string>
+    <string name="MagiskSummary">Check your current magisk configuration</string>
+    <string name="AdAway">AdAway</string>
+    <string name="AdAwaySummary">Manage AdBlocker Preferences</string>
+    <string name="Synapse">Synapse</string>
+    <string name="KernelAdiutor">Kernel Adiutor</string>
+    <string name="KernelSummary">Change Kernel settings</string>
+    <string name="OTA">OTA Updater</string>
+    <string name="OTASummary">Check if there's an update for your rom</string>
+    <string name="PhoneInfo">Phone Info</string>
+    <string name="PhoneInfoSummary">Shows phone infos</string>
+    <string name="Viper4Android">Viper4Android</string>
+    <string name="Viper4AndroidFX">Viper4Android FX</string>
+    <string name="ViperSummary">Viper Audio Settings</string>
+    <string name="Busybox">Busybox</string>
+    <string name="BusyboxSummary">Check and install busybox to your phone</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

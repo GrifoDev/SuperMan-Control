@@ -6,83 +6,68 @@
         android:title="@string/ShortCutTitle">
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Application to browse your files, including root files"
-            android:title="Root Explorer"
+            android:summary="@string/RootExplorerSummary"
+            android:title="@string/RootExplorer"
             app:componentName="com.speedsoftware.rootexplorer/com.speedsoftware.rootexplorer.RootExplorer"/>
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Control samsung's toolbox, turn it on or off, choose available apps and rearrange them"
-            app:componentName="com.wubydax.toolboxsettings/com.wubydax.toolboxsettings.ToolboxSettings"/>
-
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:icon="@mipmap/ic_launcher"
-            android:summary="Choose what app or shortcut to open when TW launcher is being swiped to the magazine page"
-            android:title="Shortcut to GearTWSwipe"
+            android:summary="@string/TWSwipeSummary"
+            android:title="@string/TWSwipe"
             app:componentName="com.wubydax.geartwswipe/com.wubydax.geartwswipe.ResetDialogActivity"/>
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Manage root permissions for apps and services"
-            android:title="Chainfire's SuperSu App"
+            android:summary="@string/RootSummary"
+            android:title="@string/SuperSU"
             app:componentName="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material"/>
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Manage root permissions for apps and services"
-            android:title="Phh's Superuser"
+            android:summary="@string/RootSummary"
+            android:title="@string/Superuser"
             app:componentName="me.phh.superuser/com.koushikdutta.superuser.ActivitySplash"/>
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Check your current magisk configuration"
-            android:title="Magisk Manager"
+            android:summary="@string/MagiskSummary"
+            android:title="@string/Magisk"
             app:componentName="com.topjohnwu.magisk/com.topjohnwu.magisk.MainActivity" />
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Manage AdBlocker Preferences"
-            android:title="AdAway"
+            android:summary="@string/AdAwaySummary"
+            android:title="@string/AdAway"
             app:componentName="org.adaway/org.adaway.ui.BaseActivity" />
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Change Kernel settings"
-            android:title="Synapse"
+            android:summary="@string/KernelSummary"
+            android:title="@string/Synapse"
             app:componentName="com.af.synapse/com.af.synapse.MainActivity" />
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Change Kernel settings"
-            android:title="Kernel Adiutor"
+            android:summary="@string/KernelSummary"
+            android:title="@string/KernelAdiutor"
             app:componentName="com.grarak.kerneladiutor/com.grarak.kerneladiutor.activities.StartActivity" />
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Check if there's an update for your rom"
-            android:title="OTA Updater"
+            android:summary="@string/OTASummary"
+            android:title="@string/OTA"
             app:componentName="com.otaupdater/com.otaupdater.OTAUpdaterActivity" />
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Shows phone infos"
-            android:title="Phone Info"
+            android:summary="@string/PhoneInfoSummary"
+            android:title="@string/PhoneInfo"
             app:componentName="org.vndnguyen.phoneinfo/org.vndnguyen.phoneinfo.main" />
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Dolby Audio Settings"
-            android:title="Dolby Atmos"
-            app:componentName="com.atmos.daxappUI/com.atmos.daxappUI.MainActivity" />
-
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Viper Audio Settings"
-            android:title="Viper4Android"
+            android:summary="@string/ViperSummary"
+            android:title="@string/Viper4Android"
             app:componentName="com.vipercn.viper4android_v2/com.vipercn.viper4android_v2.activity.ViPER4Android" />
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Viper Audio Settings"
-            android:title="Viper4Android FX"
+            android:summary="@string/ViperSummary"
+            android:title="@string/Viper4AndroidFX"
             app:componentName="com.audlabs.viperfx/com.audlabs.viperfx.main.MainActivity" />
 
         <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Backup/Restore your app and data"
-            android:title="Titanium Backup"
-            app:componentName="com.keramidas.TitaniumBackup/.MainActivity" />
-
-        <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
-            android:summary="Check and install busybox to your phone"
-            android:title="Busybox"
+            android:summary="@string/BusyboxSummary"
+            android:title="@string/Busybox"
             app:componentName="com.jrummy.busybox.installer/com.jrummy.busybox.installer.MainActivity" />
 
     </PreferenceCategory>

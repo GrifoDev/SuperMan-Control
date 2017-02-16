@@ -77,66 +77,69 @@
             android:title="@string/toast_animation" />
     </PreferenceCategory>
 
-    <PreferenceScreen
-        android:summary="Change the background of the reboot menu"
-        android:title="Reboot background">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="reboot_custom_bg"
-            android:summaryOff="@string/Disabled"
-            android:summaryOn="@string/Enabled"
-            android:title="Enable custom background"/>
-        <PreferenceCategory
-            android:dependency="reboot_custom_bg"
-            android:title="General bg preferences">
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/custom_bg_type_entries"
-                android:entryValues="@array/custom_bg_type_values"
-                android:key="reboot_custom_bg_type"
-                android:title="Background type"
-                app:dependentValue="0"/>
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                android:defaultValue="255"
-                android:key="reboot_bg_opacity"
-                android:title="Background opacity"
-                app:maxValue="255"
-                app:minValue="0"/>
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:dependency="reboot_custom_bg"
-            android:title="Custom image preferences">
-            <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
-                android:key="reboot_bg_image_uri"
-                android:title="Select Bg image"/>
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/crop_entries"
-                android:entryValues="@array/crop_values"
-                android:key="reboot_bg_crop_type"
-                android:title="Set Image Scaling Type"/>
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:dependency="reboot_custom_bg"
-            android:title="Color and gradient preferences">
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#00000000"
-                android:dependency="reboot_custom_bg_type"
-                android:key="reboot_bg_primary_color"
-                android:title="Select primary color"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#00000000"
-                android:dependency="reboot_custom_bg_type"
-                android:key="reboot_second_gradient_color"
-                android:title="Secondary Color (for gradient)"/>
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:dependency="reboot_custom_bg_type"
-                android:entries="@array/gradient_entries"
-                android:entryValues="@array/gradient_values"
-                android:key="reboot_bg_gradient_orientation"
-                android:title="Gradient orientation"/>
-        </PreferenceCategory>
-    </PreferenceScreen>
+    <PreferenceCategory
+        android:title="@string/RebootBG">
+        <PreferenceScreen
+            android:summary="@string/RebootBGSummary"
+            android:title="@string/RebootBG">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="reboot_custom_bg"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/EnableCustomBG"/>
+            <PreferenceCategory
+                android:dependency="reboot_custom_bg"
+                android:title="@string/BGPreferences">
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:entries="@array/custom_bg_type_entries"
+                    android:entryValues="@array/custom_bg_type_values"
+                    android:key="reboot_custom_bg_type"
+                    android:title="@string/BGType"
+                    app:dependentValue="0"/>
+                <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                    android:defaultValue="255"
+                    android:key="reboot_bg_opacity"
+                    android:title="@string/BGOpacity"
+                    app:maxValue="255"
+                    app:minValue="0"/>
+            </PreferenceCategory>
+            <PreferenceCategory
+                android:dependency="reboot_custom_bg"
+                android:title="@string/ImagePreference">
+                <com.wubydax.romcontrol.v2.prefs.UriSelectionPreference
+                    android:key="reboot_bg_image_uri"
+                    android:title="@string/BGImage"/>
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:entries="@array/crop_entries"
+                    android:entryValues="@array/crop_values"
+                    android:key="reboot_bg_crop_type"
+                    android:title="@string/ImageScaling"/>
+            </PreferenceCategory>
+            <PreferenceCategory
+                android:dependency="reboot_custom_bg"
+                android:title="@string/GradientPreferences">
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="reboot_custom_bg_type"
+                    android:key="reboot_bg_primary_color"
+                    android:title="@string/PrimaryColor"/>
+                <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                    android:defaultValue="#00000000"
+                    android:dependency="reboot_custom_bg_type"
+                    android:key="reboot_second_gradient_color"
+                    android:title="@string/SecondaryColor"/>
+                <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                    android:defaultValue="0"
+                    android:dependency="reboot_custom_bg_type"
+                    android:entries="@array/gradient_entries"
+                    android:entryValues="@array/gradient_values"
+                    android:key="reboot_bg_gradient_orientation"
+                    android:title="@string/GradientOrientation"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
 
 </PreferenceScreen>

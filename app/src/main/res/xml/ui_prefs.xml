@@ -93,11 +93,11 @@
         <PreferenceCategory
             android:title="3Minit Battery Settings">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
+                android:defaultValue="true"
                 android:key="hide_battery_stock"
                 android:summaryOff="@string/Hidden"
                 android:summaryOn="@string/Shown"
-                android:title="Stock Battery Visability" />
+                android:title="Stock Battery Visibility" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="minit_battery_visible"
@@ -1046,7 +1046,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
-        android:summary="SystemUI features which doens't macht any category"
+        android:summary="SystemUI features which doesn't match any category"
         android:title="Misc SystemUI settings">
         <PreferenceCategory
             android:title="Misc SystemUI settings">

@@ -35,10 +35,11 @@ android {
         minSdkVersion 23
         //noinspection OldTargetApi
         targetSdkVersion 24
+        versionCode 1
         versionName '2.1.1'
         project.archivesBaseName = "RomControl"
-        versionCode 3
     }
+
     buildTypes {
         release {
             shrinkResources true
@@ -52,8 +53,6 @@ android {
                 }
             }
         }
-    }
-    productFlavors {
     }
 }
 

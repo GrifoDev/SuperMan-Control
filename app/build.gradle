@@ -29,14 +29,14 @@ android {
         }
     }
     compileSdkVersion 24
-    buildToolsVersion '24.0.3'
+    buildToolsVersion "24.0.3"
     defaultConfig {
-        applicationId "com.wubydax.romcontrol.superman"
-        minSdkVersion 23
+        applicationId "com.wubydax.romcontrol.supercontrol"
+        minSdkVersion 21
         //noinspection OldTargetApi
-        targetSdkVersion 24
+        targetSdkVersion 22
         versionCode 1
-        versionName '2.1.1'
+        versionName "1.0"
         project.archivesBaseName = "RomControl"
     }
 

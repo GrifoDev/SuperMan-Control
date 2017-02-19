@@ -480,7 +480,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
-        android:icon="@drawable/ic_setting_signal"
+        android:icon="@drawable/ic_setting_wifi"
         android:summary="Settings related to Wifi and Signal icon"
         android:title="Wifi/Signal icon settings">
         <PreferenceCategory
@@ -595,6 +595,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_recent"
         android:summary="Change mods for recent panel"
         android:title="Recent Panel">
         <PreferenceCategory
@@ -689,6 +690,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_volume"
         android:summary="Change behaviour of volume buttons while screen off"
         android:title="Volume Button settings">
         <PreferenceCategory
@@ -718,6 +720,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_network"
         android:summary="Change settings for network speed manager"
         android:title="Network traffic preferences">
         <PreferenceCategory
@@ -815,6 +818,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_colorizing"
         android:summary="Change colors of flightmode, wifi, signal and more"
         android:title="Statusbar colorizing">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -871,6 +875,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_virtuallock"
         android:summary="You can enable or disable virtual lock buttons on statusbar here"
         android:title="Virtual Lock buttons">
         <PreferenceCategory
@@ -948,6 +953,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_dynamic"
         android:summary="Settings to enable and adjust dynamic statusbar"
         android:title="@string/dynamic_status_bar_title">
         <PreferenceCategory
@@ -985,6 +991,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_data"
         android:summary="Data usage displayed on notification area"
         android:title="Data usage">
         <PreferenceCategory
@@ -1020,6 +1027,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_ambient"
         android:summary="If you enable this the display will wake up each time you receive a notification (AOD only)"
         android:title="Ambient Display">
         <PreferenceCategory
@@ -1046,6 +1054,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_misc"
         android:summary="SystemUI features which doesn't match any category"
         android:title="Misc SystemUI settings">
         <PreferenceCategory

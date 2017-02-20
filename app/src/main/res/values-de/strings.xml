@@ -518,4 +518,16 @@
     <string name="toast_Toko_animation">Toko Animation</string>
     <string name="toast_Translucent_animation">Translucent Animation</string>
     <string name="toast_Xylon_animation">Xylon Animation</string>
+    <string name="AboutDesignerSummary">Designer</string>
+    <string name="AboutDeveloperSummary">Entwicker</string>
+    <string name="AboutRomDevelopers">Rom Entwickler</string>
+    <string name="AboutTelegram">Telegram Links</string>
+    <string name="AboutTelegramChannel">Telegram News Channel</string>
+    <string name="AboutTelegramChannelSummary">Erfahren Sie die neusten Rom Infos</string>
+    <string name="AboutTelegramChat">Telegram Chat</string>
+    <string name="AboutTelegramChatSummary">Chatten Sie mit uns über die Rom</string>
+    <string name="AboutXDA">XDA Links, um uns zu besuchen</string>
+    <string name="AboutXDAS7ERom"></string>
+    <string name="PayPalDonation">Spenden</string>
+    <string name="about">Willkkommen bei SuperMan</string>
 </resources>

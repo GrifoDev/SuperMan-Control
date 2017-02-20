@@ -34,15 +34,6 @@
     This WILL NOT affect the intent for opening application. It's a cosmetic measure for your convenience.-->
 
     <PreferenceScreen
-        android:icon="@drawable/paypal"
-        android:summary="@string/PayPalSummary"
-        android:title="@string/PayPal">
-        <intent
-            android:action="android.intent.action.VIEW"
-            android:data="https://www.paypal.me/LucaGrifo" />
-    </PreferenceScreen>
-
-    <PreferenceScreen
         android:icon="@drawable/ic_setting_battery"
         android:summary="@string/BatterySummary"
         android:title="@string/Battery">

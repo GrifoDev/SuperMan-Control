@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/super_logo"/>
+
+    <PreferenceCategory
+        android:title="@string/PayPalDonation">
+        <PreferenceScreen
+            android:icon="@drawable/paypal"
+            android:summary="@string/PayPalSummary"
+            android:title="@string/PayPal">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.paypal.me/LucaGrifo" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/AboutXDA">
+        <PreferenceScreen
+            android:icon="@drawable/xda"
+            android:title="@string/AboutXDAS7Rom">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/galaxy-s7/development/rom-s7-rom-v1-0-t3356197" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/xda"
+            android:title="@string/AboutXDAS7ERom">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/s7-edge/development/rom-s7-edge-rom-v1-1-t3356699" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/xda"
+            android:title="@string/AboutXDAS7SuperKernel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/galaxy-s7/development/kernel-superkernel-v1-0-t3389247" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/xda"
+            android:title="@string/AboutXDAS7ESuperKernel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/s7-edge/development/kernel-superkernel-v1-0-t3389255" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/xda"
+            android:title="@string/AboutXDAS7SuperStockKernel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/galaxy-s7/development/kernel-superstock-v1-3-5-t3453464" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/xda"
+            android:title="@string/AboutXDAS7ESuperStockKernel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/s7-edge/development/kernel-superstock-v1-3-5-t3453462" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/AboutRomDevelopers">
+        <PreferenceScreen
+            android:summary="@string/AboutDeveloperSummary"
+            android:title="@string/AboutTkkg">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/member.php?u=5899304" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="@string/AboutDeveloperSummary"
+            android:title="@string/AboutGayos">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/member.php?u=7158231" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="@string/AboutDesignerSummary"
+            android:title="@string/AboutYellow">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/member.php?u=2639714" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="@string/AboutDesignerSummary"
+            android:title="@string/AboutAlex">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/member.php?u=4947202" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="@string/AboutDeveloperSummary"
+            android:title="@string/AboutMisterEvo">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/member.php?u=6499213" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
+        android:title="@string/AboutTelegram">
+        <PreferenceScreen
+            android:icon="@drawable/telegram"
+            android:summary="@string/AboutTelegramChatSummary"
+            android:title="@string/AboutTelegramChat">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/joinchat/AAAAAD-RcLTV9gB6WHH4zg" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/telegram"
+            android:summary="@string/AboutTelegramChannelSummary"
+            android:title="@string/AboutTelegramChannel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/SuperManRom" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+</PreferenceScreen>

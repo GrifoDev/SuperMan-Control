@@ -39,8 +39,6 @@
     <string name="restore_confirm_dialog_title">Please confirm restore</string>
     <string name="restore_confirm_message">You have chosen to restore data from previous Rom Control preferences.\n\n<b>Please note! This operation will change your device settings based on the settings stored in this file.\n\n<font fgcolor="red">DO NOT PROCEED unless absolutely sure!!!</font></b>\n\nRom Control will close to allow data restoration and reopen again upon its completion. Depending on the amount of your settings this may take some time.\n\nPlease click \"CONFIRM\" to proceed or \"CANCEL\" to quit.</string>
     <string name="backup_complete_toast">Backup completed successfully. The backup file can be found at\n%1$s</string>
-    <string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string>
-    <string name="backup_file_suffix" translatable="false">_RCBackup</string>
     <string name="restore_complete_toast">Restore complete</string>
     <string name="systemui_prefs">SystemUI Settings</string>
     <string name="phone_prefs">Phone Settings</string>

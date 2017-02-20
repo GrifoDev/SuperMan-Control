@@ -195,5 +195,14 @@
     <string name="DeviceInfoUpTime">Geräte Laufzeit</string>
     <string name="DeviceInfoView">Aktivieren Sie die Geräteanzeige</string>
     <string name="DeviceInfoWifi">Wlan Info</string>
-    <string name="Dialer"></string>
+    <string name="Dialer">Anruf App</string>
+    <string name="Disabled">Deaktiviert</string>
+    <string name="DoubleMeaning">Zweideutig</string>
+    <string name="DoubleTap">Doppelklicken</string>
+    <string name="DoubleTapSleep">Doppelklicken auf die Statusleiste, um Gerät zu sperren</string>
+    <string name="DownloadOnly">Nur Download</string>
+    <string name="EmergencyToggle">Notfallschalter</string>
+    <string name="EmergencyToggleSummary">Notfallschalter wird gezeigt</string>
+    <string name="EnableCustomBG">Aktiviere benutzerdefinierten Hintergrund</string>
+    <string name="Enabled">Aktiviert</string>
 </resources>

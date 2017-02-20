@@ -268,7 +268,7 @@
     <string name="RootSummary">Manage root permissions for apps and services</string>
     <string name="Magisk">Magisk Manager</string>
     <string name="MagiskSummary">Check your current magisk configuration</string>
-    <string name="AdAway">AdAway</string>
+    <string name="AdAway">Annonsblockare</string>
     <string name="AdAwaySummary">Manage AdBlocker Preferences</string>
     <string name="Synapse">Synapse</string>
     <string name="KernelAdiutor">Kernel Adiutor</string>

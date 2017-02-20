@@ -190,8 +190,8 @@
     <string name="UppercaseDate">Uppercase Date</string>
     <string name="RightSignal">Right Signal</string>
     <string name="LeftSignal">Left Signal</string>
-    <string name="Abstract">Abstract</string>
-    <string name="ACube">A Cube</string>
+    <string name="Abstract">Abstrakt</string>
+    <string name="ACube">En Kub</string>
     <string name="AlienTwerking">Alien Twerking</string>
     <string name="BadKoolAid">Bad Kool Aid</string>
     <string name="BadSkeleton">Bad Skeleton</string>
@@ -241,7 +241,7 @@
     <string name="DataToggleSummary">Data Toggle will be shown</string>
     <string name="DataToggle">Data Toggle</string>
     <string name="AirplaneToggleSummary">Airplane toggle will be shown</string>
-    <string name="AirplaneToggle">Airplane Toggle</string>
+    <string name="AirplaneToggle">Flygplans Läge</string>
     <string name="MultiUserToggleSummary">MultiUser toggle will be shown</string>
     <string name="MultiUserToggle">MultiUser Toggle</string>
     <string name="RebootBG">Background reboot menu</string>

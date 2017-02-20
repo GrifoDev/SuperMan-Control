@@ -491,7 +491,7 @@
                 android:entries="@array/SignalPositionName"
                 android:entryValues="@array/SignalPositionValue"
                 android:key="left_signal"
-                android:title="@string/SignalWifi"
+                android:title="@string/Signal"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>

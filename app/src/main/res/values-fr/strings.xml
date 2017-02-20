@@ -1,16 +1,16 @@
 <!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016-->
-<!--This program is free software: you can redistribute it and/or modify-->
-<!--it under the terms of the GNU General Public License as published by-->
-<!--the Free Software Foundation, either version 3 of the License, or-->
-<!--(at your option) any later version.-->
+    <!--This program is free software: you can redistribute it and/or modify-->
+    <!--it under the terms of the GNU General Public License as published by-->
+    <!--the Free Software Foundation, either version 3 of the License, or-->
+    <!--(at your option) any later version.-->
 
-<!--This program is distributed in the hope that it will be useful,-->
-<!--but WITHOUT ANY WARRANTY; without even the implied warranty of-->
-<!--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the-->
-<!--GNU General Public License for more details.-->
+    <!--This program is distributed in the hope that it will be useful,-->
+    <!--but WITHOUT ANY WARRANTY; without even the implied warranty of-->
+    <!--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the-->
+    <!--GNU General Public License for more details.-->
 
-<!--You should have received a copy of the GNU General Public License-->
-<!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
+    <!--You should have received a copy of the GNU General Public License-->
+    <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
     <string name="app_name">SuperMan Contrôle</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
@@ -160,7 +160,7 @@
     <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
     <string name="AlwaysOff">Always off</string>
     <string name="OneSecond">1 Second</string>
-    <string name="ThreeSeconds">2 Second</string>
+    <string name="ThreeSeconds">2 Seconds</string>
     <string name="FiveSeconds">5 Second</string>
     <string name="TenSeconds">10 Seconds</string>
     <string name="FifteenSeconds">15 Seconds</string>
@@ -207,7 +207,7 @@
     <string name="DancingElsa">Dancing Elsa</string>
     <string name="DoubleMeaning">Double Meaning</string>
     <string name="Eyeball">Eyeball</string>
-    <string name="MM">M M</string>
+    <string name="MM">MM</string>
     <string name="PifWithBacon">Pif With Bacon</string>
     <string name="PleaseNo">Please No</string>
     <string name="RotatingSkeleton">Rotating Skeleton On Chair</string>
@@ -263,7 +263,7 @@
     <string name="RootExplorerSummary">Application to browse your files, including root files</string>
     <string name="TWSwipe">Shortcut to GearTWSwipe</string>
     <string name="TWSwipeSummary">Choose what app or shortcut to open when TW launcher is being swiped to the magazine page</string>
-    <string name="SuperSU">Chainfires SuperSu App</string>
+    <string name="SuperSU">Chainfires SuperSU App</string>
     <string name="Superuser">Phhs Superuser</string>
     <string name="RootSummary">Manage root permissions for apps and services</string>
     <string name="Magisk">Magisk Manager</string>
@@ -387,14 +387,14 @@
     <string name="DataUsageColor">Data Usage text color</string>
     <string name="DataUsageGravity">Data Usage text gravity</string>
     <string name="DataUsageText">Data Usage text style</string>
-    <string name="VirtualLockButton">Virtual Lock Buttons</string>
-    <string name="VirtualLockButtonSummary">You can enable or disable virtual lock buttons on statusbar here</string>
+    <string name="VirtualLockButton">Virtual Buttons</string>
+    <string name="VirtualLockButtonSummary">Enable or disable virtual lock buttons on statusbar</string>
     <string name="VirtualLockHome">Home Button</string>
     <string name="VirtualLockRecent">Recent Button</string>
     <string name="VirtualLockPower">Power Button</string>
     <string name="StatusbarColor">Statusbar colorizing</string>
     <string name="StatusbarColors">Statusbar colors</string>
-    <string name="StatusbarColorSummary">Change colors of flightmode, wifi, signal and more</string>
+    <string name="StatusbarColorSummary">Change colors for Statusbar Icons</string>
     <string name="StatusbarColorsGlobal">Global Statusbar colors</string>
     <string name="StatusbarColorGlobal">Global Statusbar color</string>
     <string name="StatusbarClockColor">Clock Icon Color</string>
@@ -410,7 +410,7 @@
     <string name="NetworkSummary">Network traffic preferences</string>
     <string name="Network">Network Data</string>
     <string name="NetworkInfo">Displayed traffic info</string>
-    <string name="NetworkDataType">Display data in Type</string>
+    <string name="NetworkDataType">Display data Type</string>
     <string name="NetworkDisplayBytes">Displayed in Bytes</string>
     <string name="NetworkDisplayBits">Displayed in Bits (default)</string>
     <string name="NetworkArrow">Arrows display preferences</string>
@@ -457,9 +457,8 @@
     <string name="SignalTitle">Wifi/Signal icon settings</string>
     <string name="SignalSummary">Settings related to Wifi and Signal icon</string>
     <string name="Signal">Wifi/Signal Position</string>
-    <string name="SignalWifi">Signal/Wifi Position</string>
     <string name="WeatherTitle">Weather settings on lockscreen</string>
-    <string name="WeatherSummary">Change all settings related to weather on lockscreen</string>
+    <string name="WeatherSummary">Change settings related to weather on lockscreen</string>
     <string name="Weather">Weather</string>
     <string name="WeatherGeo">Geolocation</string>
     <string name="WeatherBarometer">Barometer</string>
@@ -476,7 +475,7 @@
     <string name="WeatherTextColor">Weather text color</string>
     <string name="LockscreenTitle">Lockscreen Mods</string>
     <string name="LockscreenSummary">Lockscreen clock settings and more</string>
-    <string name="LockscreenClock">Settings of display of Hours and Date</string>
+    <string name="LockscreenClock">Settings of Hours, Seconds and Date</string>
     <string name="LockscreenStockClock">Show stock clock</string>
     <string name="LockscreenClockSeconds">Show second</string>
     <string name="LockscreenClockDate">Show date</string>
@@ -489,7 +488,7 @@
     <string name="LockscreenMiscCarrierEdit">Edit carrier label</string>
     <string name="LockscreenMiscCarrierText">Carrier Custom Text</string>
     <string name="LockscreenMiscCarrierSet">Set Custom Text</string>
-    <string name="LockscreenAnalogTitle">Show date</string>
+    <string name="LockscreenAnalogTitle">Analog Clock</string>
     <string name="LockscreenAnalog">Analog clock on Lockscreen</string>
     <string name="LockscreenAnalog1">Style 1</string>
     <string name="LockscreenAnalog2">Style 2</string>

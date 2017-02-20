@@ -240,7 +240,7 @@
     <string name="DataToggleSummary">Data Toggle will be shown</string>
     <string name="DataToggle">Data Toggle</string>
     <string name="AirplaneToggleSummary">Airplane toggle will be shown</string>
-    <string name="AirplaneToggle">Airplane Toggle</string>
+    <string name="AirplaneToggle">Flygplans Läge</string>
     <string name="MultiUserToggleSummary">MultiUser toggle will be shown</string>
     <string name="MultiUserToggle">MultiUser Toggle</string>
     <string name="RebootBG">Background reboot menu</string>

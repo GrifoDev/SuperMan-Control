@@ -2,6 +2,7 @@
   <dictionary name="tkkg1994">
     <words>
       <w>adiutor</w>
+      <w>autohide</w>
       <w>backlight</w>
       <w>busybox</w>
       <w>lockscreen</w>
@@ -9,6 +10,7 @@
       <w>minit</w>
       <w>pulldown</w>
       <w>quickpanel</w>
+      <w>quicksettings</w>
       <w>statusbar</w>
       <w>touchwiz</w>
     </words>

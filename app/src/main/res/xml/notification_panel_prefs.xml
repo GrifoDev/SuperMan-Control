@@ -48,111 +48,111 @@
     </PreferenceScreen>
 
     <PreferenceScreen
-        android:summary="Change colors from pulldown menu"
-        android:title="Notification Panel Colors">
+        android:summary="@string/PullDownSummary"
+        android:title="@string/PullDownTitle">
         <PreferenceCategory
-            android:title="Header Colors">
+            android:title="@string/PullDownHeader">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="unlock_header_colors"
-                android:summaryOff="Colors are locked to stock"
-                android:summaryOn="Colors are unlocked for changes"
-                android:title="Allow colors to be changed"
+                android:summaryOff="@string/PullDownLock"
+                android:summaryOn="@string/PullDownUnlock"
+                android:title="@string/PullDownColor"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_header_colors"
                 android:key="header_background_color"
-                android:title="Header background color" />
+                android:title="@string/PullDownHeaderBackground" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff252525"
                 android:dependency="unlock_header_colors"
                 android:key="header_text_color"
-                android:title="Header text color" />
+                android:title="@string/PullDownHeaderText" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#b3252525"
                 android:dependency="unlock_header_colors"
                 android:key="header_icon_color"
-                android:title="Header icon colors" />
+                android:title="@string/PullDownHeaderIcon" />
         </PreferenceCategory>
         <PreferenceCategory
-            android:title="Quicksettings Colors">
+            android:title="@string/PullDownQuicksettings">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="unlock_qs_colors"
-                android:summaryOff="Colors are locked to stock"
-                android:summaryOn="Colors are unlocked for changes"
-                android:title="Allow colors to be changed"
+                android:summaryOff="@string/PullDownLock"
+                android:summaryOn="@string/PullDownUnlock"
+                android:title="@string/PullDownColor"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_background_color"
-                android:title="Quicksettings background color" />
+                android:title="@string/PullDownQuicksettingsBackground" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff252525"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_text_color"
-                android:title="Quicksettings text color" />
+                android:title="@string/PullDownQuicksettingsText" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff22c4ff"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_icon_on_color"
-                android:title="Quicksettings icon on color" />
+                android:title="@string/PullDownQuicksettingsIconOn" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#4d252525"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_icon_off_color"
-                android:title="Quicksettings icon off color" />
+                android:title="@string/PullDownQuicksettingsIconOff" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#33252525"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_divider_color"
-                android:title="Quicksettinsg divider color" />
+                android:title="@string/PullDownQuicksettingsDivider" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff56c0e5"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_slider_color"
-                android:title="Quicksettings Brightness slider color" />
+                android:title="@string/PullDownQuicksettingsBrightness" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_drag_handle_background_color"
-                android:title="Quicksettings drag handle background color" />
+                android:title="@string/PullDownQuicksettingsDragBackground" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#cc252525"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_drag_handle_icon_color"
-                android:title="Quicksettings drag handle icon color" />
+                android:title="@string/PullDownQuicksettingsDragIcon" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_qs_colors"
                 android:key="quickconnect_background_color"
-                android:title="Quick connect background color" />
+                android:title="@string/PullDownQuicksettingsQuickConnect" />
         </PreferenceCategory>
         <PreferenceCategory
-            android:title="Notification Colors">
+            android:title="@string/PullDownNotification">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="unlock_notification_colors"
-                android:summaryOff="Colors are locked to stock"
-                android:summaryOn="Colors are unlocked for changes"
-                android:title="Allow colors to be changed"
+                android:summaryOff="@string/PullDownLock"
+                android:summaryOn="@string/PullDownUnlock"
+                android:title="@string/PullDownColor"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_notification_colors"
                 android:key="notification_background_color"
-                android:title="Notification panel background color" />
+                android:title="@string/PullDownNotificationBackground" />
             <!--/*
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff212122"
                 android:dependency="unlock_notification_colors"
                 android:key="notification_text_color"
-                android:title="Notification text color" /> */-->
+                android:title="@string/PullDownNotificationText" /> */-->
         </PreferenceCategory>
     </PreferenceScreen>
 

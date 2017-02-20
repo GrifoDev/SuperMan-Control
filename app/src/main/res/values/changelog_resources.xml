@@ -30,7 +30,7 @@
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog">SuperMan-Rom V2.2</string>
+    <string name="rom_version_for_changelog" translatable="false">SuperMan-Rom V2.2</string>
 
 
 </resources>

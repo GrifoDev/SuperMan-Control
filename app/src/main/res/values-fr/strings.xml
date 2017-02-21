@@ -124,7 +124,7 @@
     <string name="Bold">Bold</string>
     <string name="Italic">Italic</string>
     <string name="BoldItalic">Bold Italic</string>
-    <string name="ActualCarrierText">Actual Carrier Text</string>
+    <string name="ActualCarrierText">Texte actuel de l\'opérateur</string>
     <string name="CustomText">Custom Text</string>
     <string name="CenterCrop">Center Crop</string>
     <string name="CenterInside">Center Inside</string>
@@ -190,9 +190,9 @@
     <string name="UppercaseDate">Uppercase Date</string>
     <string name="RightSignal">Right Signal</string>
     <string name="LeftSignal">Left Signal</string>
-    <string name="Abstract">Abstract</string>
+    <string name="Abstract">Abstrait</string>
     <string name="ACube">A Cube</string>
-    <string name="AlienTwerking">Alien Twerking</string>
+    <string name="AlienTwerking">Un alien qui twerk</string>
     <string name="BadKoolAid">Bad Kool Aid</string>
     <string name="BadSkeleton">Bad Skeleton</string>
     <string name="BattleStance">Battle Stance</string>
@@ -242,8 +242,8 @@
     <string name="EmergencyToggle">Emergency Toggle</string>
     <string name="DataToggleSummary">Data Toggle will be shown</string>
     <string name="DataToggle">Data Toggle</string>
-    <string name="AirplaneToggleSummary">Airplane toggle will be shown</string>
-    <string name="AirplaneToggle">Airplane Toggle</string>
+    <string name="AirplaneToggleSummary">Toggle du mode avion va être montré</string>
+    <string name="AirplaneToggle">Toggle du mode avion</string>
     <string name="MultiUserToggleSummary">MultiUser toggle will be shown</string>
     <string name="MultiUserToggle">MultiUser Toggle</string>
     <string name="RebootBG">Background reboot menu</string>
@@ -272,7 +272,7 @@
     <string name="Magisk">Magisk Manager</string>
     <string name="MagiskSummary">Check your current magisk configuration</string>
     <string name="AdAway">AdAway</string>
-    <string name="AdAwaySummary">Manage AdBlocker Preferences</string>
+    <string name="AdAwaySummary">"Manager les préférences de AdBlocker "</string>
     <string name="Synapse">Synapse</string>
     <string name="KernelAdiutor">Kernel Adiutor</string>
     <string name="KernelSummary">Change Kernel settings</string>
@@ -539,19 +539,19 @@
     <string name="ClockDateSettings">Date Type Settings</string>
     <string name="ClockDateStyle">Date Style</string>
     <string name="ClockDateFormat">Date Format</string>
-    <string name="AboutDeveloperSummary">Developer</string>
-    <string name="AboutDesignerSummary">Designer</string>
-    <string name="AboutRomDevelopers">Rom Developers</string>
-    <string name="AboutTelegram">Telegram Links</string>
-    <string name="AboutTelegramChat">Telegram Chat</string>
-    <string name="AboutTelegramChannel">Telegram News Channel</string>
-    <string name="AboutTelegramChatSummary">Chat with us about latest Rom stuff</string>
-    <string name="AboutTelegramChannelSummary">Get latest Information about the Rom</string>
-    <string name="AboutXDA">XDA Links to Visit</string>
-    <string name="AboutAFH">Download Links on AFH</string>
-    <string name="AboutAFHRom">Download latest SuperMan-Rom</string>
-    <string name="AboutAFHSuperKernel">Download latest SuperKernel</string>
-    <string name="AboutAFHSuperStockKernel">Download latest SuperStock-Kernel</string>
+    <string name="AboutDeveloperSummary">développeur</string>
+    <string name="AboutDesignerSummary">Designeur</string>
+    <string name="AboutRomDevelopers">développeurs de la ROM</string>
+    <string name="AboutTelegram">Liens Telegram</string>
+    <string name="AboutTelegramChat">Chat Telegram</string>
+    <string name="AboutTelegramChannel">Actualités Telegram</string>
+    <string name="AboutTelegramChatSummary">Chat avec nous a propos des dernières modifications sur la Rom</string>
+    <string name="AboutTelegramChannelSummary">Avoir les dernières informations sur la Rom</string>
+    <string name="AboutXDA">Liens XDA pour visiter</string>
+    <string name="AboutAFH">Liens de télécharment sur AFH</string>
+    <string name="AboutAFHRom">Télécharger la dernière version de SuperMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Télécharger la dernière version du SuperKernel</string>
+    <string name="AboutAFHSuperStockKernel">Télécharger la dernière version du SuperStock-Kernel</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

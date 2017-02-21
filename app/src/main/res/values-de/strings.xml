@@ -536,4 +536,8 @@
     <string name="SMLogoBlue">Superman Logo in Blau</string>
     <string name="SMLogoRed">Superman Logo in Rot</string>
     <string name="PullDownQuicksettingsSearchBackground">Schnelleinstellungs Suchleisten Hintergrundfarbe</string>
+    <string name="AboutAFH">Downloadlinks auf AFH</string>
+    <string name="AboutAFHRom">Laden Sie die neuste Rom runter</string>
+    <string name="AboutAFHSuperKernel">Laden Sie den neusten SuperKernel runter</string>
+    <string name="AboutAFHSuperStockKernel">Laden Sie den neusten SuperStock-Kernel runter</string>
 </resources>

@@ -548,6 +548,11 @@
     <string name="AboutTelegramChatSummary">Chat with us about latest Rom stuff</string>
     <string name="AboutTelegramChannelSummary">Get latest Information about the Rom</string>
     <string name="AboutXDA">XDA Links to Visit</string>
+    <string name="AboutAFH">Download Links on AFH</string>
+    <string name="AboutAFHRom">Download latest SuperMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Download latest SuperKernel</string>
+    <string name="AboutAFHSuperStockKernel">Download latest SuperStock-Kernel</string>
+    <string name="AboutTelegramChannelSummary">Get latest Information about the Rom</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

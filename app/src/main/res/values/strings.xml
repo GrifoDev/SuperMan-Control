@@ -561,6 +561,11 @@
     <string name="AboutXDAS7ESuperKernel" translatable="false">SuperKernel SM-G935X</string>
     <string name="AboutXDAS7SuperStockKernel" translatable="false">SuperStock-Kernel SM-G930X</string>
     <string name="AboutXDAS7ESuperStockKernel" translatable="false">SuperStock-Kernel SM-G935X</string>
+    <string name="AboutAFH">Download Links on AFH</string>
+    <string name="AboutAFHRom">Download latest SuperMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Download latest SuperKernel</string>
+    <string name="AboutAFHSuperStockKernel">Download latest SuperStock-Kernel</string>
+    <string name="AboutTelegramChannelSummary">Get latest Information about the Rom</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

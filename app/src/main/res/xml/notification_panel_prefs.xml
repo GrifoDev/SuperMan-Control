@@ -44,6 +44,12 @@
             android:summaryOff="@string/Disabled"
             android:summaryOn="@string/Enabled"
             android:title="@string/DoubleTapSleep" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="hide_brightness_warning"
+            android:summaryOff="@string/Enabled"
+            android:summaryOn="@string/Disabled"
+            android:title="@string/BrightnessWarning" />
     </PreferenceScreen>
 
     <PreferenceScreen
@@ -125,11 +131,23 @@
                 android:dependency="unlock_qs_colors"
                 android:key="qs_drag_handle_icon_color"
                 android:title="@string/PullDownQuicksettingsDragIcon" />
+            <!--/*
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_qs_colors"
                 android:key="quickconnect_background_color"
                 android:title="@string/PullDownQuicksettingsQuickConnect" />
+            */-->
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fff5f5f5"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_search_background_color"
+                android:title="@string/PullDownQuicksettingsSearchBackground" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#80252525"
+                android:dependency="unlock_qs_colors"
+                android:key="qs_search_text_color"
+                android:title="@string/PullDownQuicksettingsSearchText" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/PullDownNotification">
@@ -146,12 +164,23 @@
                 android:dependency="unlock_notification_colors"
                 android:key="notification_background_color"
                 android:title="@string/PullDownNotificationBackground" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#d9252525"
+                android:dependency="unlock_notification_colors"
+                android:key="notif_footer_text_color"
+                android:title="@string/PullDownNotificationFooter" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fffafafa"
+                android:dependency="unlock_notification_colors"
+                android:key="bottom_normal_mode_color"
+                android:title="@string/PullDownNotificationFooterBackground" />
             <!--/*
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff212122"
                 android:dependency="unlock_notification_colors"
                 android:key="notification_text_color"
-                android:title="@string/PullDownNotificationText" /> */-->
+                android:title="@string/PullDownNotificationText" />
+            */-->
         </PreferenceCategory>
     </PreferenceScreen>
 

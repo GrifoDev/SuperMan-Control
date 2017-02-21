@@ -17,6 +17,31 @@
     </PreferenceCategory>
 
     <PreferenceCategory
+        android:title="@string/AboutAFH">
+        <PreferenceScreen
+            android:icon="@drawable/afh"
+            android:title="@string/AboutAFHRom">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.androidfilehost.com/?fid=817550096634746726" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/afh"
+            android:title="@string/AboutAFHSuperKernel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.androidfilehost.com/?fid=817550096634747648" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/afh"
+            android:title="@string/AboutAFHSuperStockKernel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.androidfilehost.com/?fid=817550096634747652" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory
         android:title="@string/AboutXDA">
         <PreferenceScreen
             android:icon="@drawable/xda"

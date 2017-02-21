@@ -525,6 +525,7 @@
         <item>@drawable/gif32</item>
         <item>@drawable/gif33</item>
         <item>@drawable/gif34</item>
+        <item>@drawable/gif35</item>
     </array>
     <string-array name="gif_animation_entries">
         <item>@string/Abstract</item>
@@ -560,7 +561,8 @@
         <item>@string/WalkingDeadBirth</item>
         <item>@string/WalkingWolf</item>
         <item>@string/WavingFrozen</item>
-        <item>@string/SMLogo</item>
+        <item>@string/SMLogoRed</item>
+        <item>@string/SMLogoBlue</item>
     </string-array>
     <string-array name="gif_animation_entries_values" translatable="false">
         <item>1</item>
@@ -597,6 +599,7 @@
         <item>32</item>
         <item>33</item>
         <item>34</item>
+        <item>35</item>
     </string-array>
 
 </resources>

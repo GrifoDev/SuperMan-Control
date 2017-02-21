@@ -223,7 +223,8 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogo">SuperMan Logo</string>
+    <string name="SMLogoRed">SuperMan Logo in Red</string>
+    <string name="SMLogoBlue">SuperMan Logo in Blue</string>
     <string name="CurrentlyRemoved">Currently removed</string>
     <string name="RestartToggleSummary">Restart toggle will be shown</string>
     <string name="RestartToggle">Restart Toggle</string>
@@ -301,6 +302,7 @@
     <string name="OngoingNotifications">Make Ongoing Notifications Removable</string>
     <string name="HeadsUp">Heads Up Notifications</string>
     <string name="DoubleTapSleep">Double tab to sleep on statusbar</string>
+    <string name="BrightnessWarning">Disable high brightness warning</string>
     <string name="GearRebootCategory">Reboot visibility on top left corner</string>
     <string name="GearReboot">Reboot view visibility</string>
     <string name="GearRebootColor">Reboot view color</string>
@@ -330,7 +332,7 @@
     <string name="GifAnimationSelect">Select gif animation</string>
     <string name="GifAnimationShow">Show gif animation in notification pulldown</string>
     <string name="PullDownSummary">Change colors from pulldown menu</string>
-    <string name="PullDownTitle">Notification Panel Colors</string>
+    <string name="PullDownTitle">Pulldown Menu Colors</string>
     <string name="PullDownColor">Allow colors to be changed</string>
     <string name="PullDownUnlock">Colors are unlocked for changes</string>
     <string name="PullDownLock">Colors are locked to stock</string>
@@ -348,9 +350,13 @@
     <string name="PullDownQuicksettingsDragBackground">Drag handle background color</string>
     <string name="PullDownQuicksettingsDragIcon">Drag handle icon color</string>
     <string name="PullDownQuicksettingsQuickConnect">Quick connect background color</string>
+    <string name="PullDownQuicksettingsSearchBackground">Quicksettings search background color</string>
+    <string name="PullDownQuicksettingsSearchText">Quicksettings search text color</string>
     <string name="PullDownNotification">Notification Colors</string>
     <string name="PullDownNotificationBackground">Notification panel background color</string>
     <string name="PullDownNotificationText">Notification text color</string>
+    <string name="PullDownNotificationFooter">Notification footer text color</string>
+    <string name="PullDownNotificationFooterBackground">Notification footer background color</string>
     <string name="PayPalSummary">Click to visit</string>
     <string name="PayPal">Visit my PayPal website</string>
     <string name="PayPalDonation">Donation</string>
@@ -542,6 +548,11 @@
     <string name="AboutTelegramChatSummary">Chatta med oss om den senaste Rom:en</string>
     <string name="AboutTelegramChannelSummary">Få den senaste informationen om Rom:en</string>
     <string name="AboutXDA">XDA Links, att besöka</string>
+    <string name="AboutAFH">Download Links on AFH</string>
+    <string name="AboutAFHRom">Download latest SuperMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Download latest SuperKernel</string>
+    <string name="AboutAFHSuperStockKernel">Download latest SuperStock-Kernel</string>
+    <string name="AboutTelegramChannelSummary">Get latest Information about the Rom</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

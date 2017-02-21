@@ -332,7 +332,7 @@
     <string name="GifAnimationSelect">Select gif animation</string>
     <string name="GifAnimationShow">Show gif animation in notification pulldown</string>
     <string name="PullDownSummary">Change colors from pulldown menu</string>
-    <string name="PullDownTitle">Notification Panel Colors</string>
+    <string name="PullDownTitle">Pulldown Menu Colors</string>
     <string name="PullDownColor">Allow colors to be changed</string>
     <string name="PullDownUnlock">Colors are unlocked for changes</string>
     <string name="PullDownLock">Colors are locked to stock</string>

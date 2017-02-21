@@ -361,7 +361,7 @@
     <string name="PullDownQuicksettingsDragBackground">Herunterziehen Hintergrundfarbe</string>
     <string name="PullDownQuicksettingsDragIcon">Herunterziehen Symbolfarbe</string>
     <string name="PullDownSummary">Ändern Sie die Farben aus dem Pulldown Menü</string>
-    <string name="PullDownTitle">Benachrichtigungs Panelfarben</string>
+    <string name="PullDownTitle">Pulldown Panelfarben</string>
     <string name="PullDownUnlock">Farben sind für Änderungen freigeschalten</string>
     <string name="PulldownMenuSettings">Pulldown Menüeinstellungen</string>
     <string name="PulldownMenuSettingsSummary">Ändern Sie  allgemeine Einstellungen für das Pulldown Menü</string>
@@ -535,5 +535,5 @@
     <string name="PullDownQuicksettingsSearchText">Schnelleinstellungs Suchleisten Textfarbe</string>
     <string name="SMLogoBlue">Superman Logo in Blau</string>
     <string name="SMLogoRed">Superman Logo in Rot</string>
-    <string name="PullDownQuicksettingsSearchBackground">Schnelleinstellungs Suchleisten Hintergrundfrabe</string>
+    <string name="PullDownQuicksettingsSearchBackground">Schnelleinstellungs Suchleisten Hintergrundfarbe</string>
 </resources>

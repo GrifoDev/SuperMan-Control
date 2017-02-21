@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SuperMan Kontrolle</string>
+    <string name="app_name">SuperMan Einstellungen</string>
     <string name="ACube">Ein Würfel</string>
     <string name="Abstract">Abstrakt</string>
     <string name="ActualCarrierText">Aktueller Provider Text</string>
@@ -36,12 +36,12 @@
     <string name="Battery3MinitApp">Stellen Sie die 3Minit Batterie ein (nur bei aktiviertem 3Minit)</string>
     <string name="Battery3MinitProApp">Bezahlte 3Minit App</string>
     <string name="Battery3MinitTitle">3Minit Batterie Einstellungen</string>
-    <string name="BatteryBar">Batterie Bar</string>
-    <string name="BatteryBarAnimation">Batterie Bar auflade Animation</string>
-    <string name="BatteryBarColor">Batterie Bar Farbe</string>
-    <string name="BatteryBarColorSummary">Wählen Sie die Batterie Bar Farbe</string>
-    <string name="BatteryBarStyle">Batterie Bar Stil</string>
-    <string name="BatteryBarThick">Batterie Bar Dicke</string>
+    <string name="BatteryBar">Akku Bar</string>
+    <string name="BatteryBarAnimation">Akkuleiste Aufladeanimation</string>
+    <string name="BatteryBarColor">Akkuleiste Farbe</string>
+    <string name="BatteryBarColorSummary">Wählen Sie die Akkuleiste Farbe</string>
+    <string name="BatteryBarStyle">Akkuleiste Stil</string>
+    <string name="BatteryBarThick">Akkuleiste Dicke</string>
     <string name="BatteryBarOn">Wird überall gezeigt</string>
     <string name="BatteryBarOff">Versteckt im Pulldownmenu/Sperrbildschirm</string>
     <string name="BatteryBarTitle">Einstellungen für untere Anzeige</string>
@@ -73,7 +73,7 @@
     <string name="Cascade">Kaskade</string>
     <string name="Cats">Katzen</string>
     <string name="CenterClock">Mittlere Uhr</string>
-    <string name="Center">Mittenverspiegelt</string>
+    <string name="Center">Mittig</string>
     <string name="CenterCrop">Mitte zerlegen</string>
     <string name="CenterHorizontal">Mitte horizontal</string>
     <string name="CenterInside">Mitte innen</string>
@@ -93,13 +93,13 @@
     <string name="DarkTheme">Dunkles Theme</string>
     <string name="DataToggle">Datenschalter</string>
     <string name="DataToggleSummary">Datenschalter wird gezeigt</string>
-    <string name="DataUsage">Datenverbauch</string>
-    <string name="DataUsageColor">Datenverbauch Text Farbe</string>
-    <string name="DataUsageGravity">Datenverbauch Text Schwere</string>
-    <string name="DataUsageSummary">Datenverbauch in Benachrichtigungsbereich gezeigt</string>
-    <string name="DataUsageText">Datenverbauch Text Stil</string>
-    <string name="DataUsageTitle">Datenverbauch Sicht Einstellungen</string>
-    <string name="DataUsageVisibility">Datenverbauch Sichtbarkeit</string>
+    <string name="DataUsage">Datenverbrauch</string>
+    <string name="DataUsageColor">Datenverbrauch Text Farbe</string>
+    <string name="DataUsageGravity">Datenverbrauch Text Schwere</string>
+    <string name="DataUsageSummary">Datenverbrauch in Benachrichtigungsbereich gezeigt</string>
+    <string name="DataUsageText">Datenverbrauch Text Stil</string>
+    <string name="DataUsageTitle">Datenverbrauch Sicht Einstellungen</string>
+    <string name="DataUsageVisibility">Datenverbrauch Sichtbarkeit</string>
     <string name="DeviceInfoAlarm">Nächster Wecker</string>
     <string name="Clock3Minit">3Minit Uhr</string>
     <string name="toast_animation_title">Toast Animationen</string>
@@ -241,8 +241,8 @@
     <string name="KernelSummary">Stellen Sie Kernelsachen ein</string>
     <string name="LauncherEffects">Launcher Effekte</string>
     <string name="Left">Linke Seite</string>
-    <string name="LeftClock">Linke Uhr</string>
-    <string name="LeftSignal">Linkes Signal</string>
+    <string name="LeftClock">Uhr Links</string>
+    <string name="LeftSignal">Signal Links</string>
     <string name="LeftToRight">Von links nach rechts</string>
     <string name="Light">Leicht</string>
     <string name="LightItalic">Leicht kursiv</string>
@@ -279,7 +279,7 @@
     <string name="LockscreenMiscCarrierSet">Setzen Sie einen benutzerdefinierten Text</string>
     <string name="LockscreenMiscCarrierText">Benutzerdefinierter Providertext</string>
     <string name="LockscreenMiscHelp">Versteckt den Hilfetext auf dem Sperrbildschirm</string>
-    <string name="LockscreenMiscRotation">Sperrbildrotation</string>
+    <string name="LockscreenMiscRotation">Sperrbildschirmrotation</string>
     <string name="LockscreenMiscTitle">Verschiedene Sperrbildeinstellungen</string>
     <string name="LockscreenSummary">Sperrbildeinstellungen und mehr</string>
     <string name="LockscreenTitle">Sperrbildschirm Mods</string>
@@ -291,7 +291,7 @@
     <string name="MiscKeyboard">Tastenbeleuchtungsdauer</string>
     <string name="MiscSummary">SystemUI Mods, welche in keine Kategorie passen</string>
     <string name="MiscTitle">Verschiedene SystemUI Einstellungen</string>
-    <string name="MiscUBS">UBS ein/ausstecken aufwachen</string>
+    <string name="MiscUBS">USB ein/ausstecken aufwachen</string>
     <string name="MultiUser">MultiUser Avatar</string>
     <string name="MultiUserToggle">MultiUser Schalter</string>
     <string name="MultiUserToggleSummary">MultiUser Schalter wird gezeigt</string>
@@ -392,8 +392,8 @@
     <string name="RestartToggleSummary">Neustartschalter wird gezeigt</string>
     <string name="RestoreData">Stelle Daten wieder her</string>
     <string name="Right">Rechte Seite</string>
-    <string name="RightClock">Rechte Uhr</string>
-    <string name="RightSignal">Rechtes Signal</string>
+    <string name="RightClock">Uhr Rechts</string>
+    <string name="RightSignal">Signal Rechts</string>
     <string name="RightToLeft">Rechts nach links</string>
     <string name="RootExplorer">Root Explorer</string>
     <string name="RootExplorerSummary">App, um Dateien zu verschieben, inklusiv Root Dateien</string>
@@ -443,9 +443,9 @@
     <string name="StockClock">Normale Uhr</string>
     <string name="StockDate">Normales Datum</string>
     <string name="SuperSU">Chainfires SuperSU APp</string>
-    <string name="Superuser" translatable="false">Phhs Superuser</string>
-    <string name="SwipeDown">Wischen SIe nach unten</string>
-    <string name="SwipeUp">Wischen SIe nach oben</string>
+    <string name="Superuser">Phhs Superuser</string>
+    <string name="SwipeDown">Wischen Sie nach unten</string>
+    <string name="SwipeUp">Wischen Sie nach oben</string>
     <string name="SwitchBluetooth">Wechselt Bluetooth</string>
     <string name="SwitchMobileData">Wechselt Mobile Daten</string>
     <string name="SwitchWiFi">Wechselt Wlan</string>
@@ -472,12 +472,12 @@
     <string name="Viper4AndroidFX">Viper4Android FX</string>
     <string name="VirtualLockButton">Viertuelle Tasten</string>
     <string name="ViperSummary">Viper Ton Einstellungen</string>
-    <string name="VirtualLockButtonSummary">Hier können Virtuelle Tasten in der Statusleiste aktiviert werden</string>
+    <string name="VirtualLockButtonSummary">Hier können virtuelle Tasten in der Statusleiste aktiviert werden</string>
     <string name="VirtualLockHome">Home Taste</string>
     <string name="VirtualLockPower">Power Taste</string>
     <string name="VirtualLockRecent">Kürzliche Apps Taste</string>
     <string name="Volume">Anpassung der Lautstärketaste</string>
-    <string name="VolumeDouble">Doppelklick für Spielen / Pause</string>
+    <string name="VolumeDouble">Doppelklick für Play / Pause</string>
     <string name="VolumeLongPress">Zeitüberschreitung bei langen Drücken</string>
     <string name="VolumeMinus">Volume -</string>
     <string name="VolumePlus">Volume +</string>
@@ -519,7 +519,7 @@
     <string name="toast_Translucent_animation">Translucent Animation</string>
     <string name="toast_Xylon_animation">Xylon Animation</string>
     <string name="AboutDesignerSummary">Designer</string>
-    <string name="AboutDeveloperSummary">Entwicker</string>
+    <string name="AboutDeveloperSummary">Entwickler</string>
     <string name="AboutRomDevelopers">Rom Entwickler</string>
     <string name="AboutTelegram">Telegram Links</string>
     <string name="AboutTelegramChannel">Telegram News Channel</string>
@@ -527,7 +527,7 @@
     <string name="AboutTelegramChat">Telegram Chat</string>
     <string name="AboutTelegramChatSummary">Chatten Sie mit uns über die Rom</string>
     <string name="AboutXDA">XDA Links, um uns zu besuchen</string>
-    <string name="AboutXDAS7ERom"></string>
     <string name="PayPalDonation">Spenden</string>
     <string name="about">Willkkommen bei SuperMan</string>
+    <string name="SMLogo">SuperMan Logo</string>
 </resources>

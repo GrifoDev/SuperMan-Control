@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Controllo</string>
+    <string name="app_name">SuperMan Impostazioni</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="dialog_color_picker">Pick Color</string>
@@ -223,6 +223,7 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
+    <string name="SMLogo">SuperMan Logo</string>
     <string name="CurrentlyRemoved">Currently removed</string>
     <string name="RestartToggleSummary">Restart toggle will be shown</string>
     <string name="RestartToggle">Restart Toggle</string>

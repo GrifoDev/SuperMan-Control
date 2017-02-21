@@ -66,17 +66,17 @@
     <string name="DarkTheme">Dark Theme</string>
     <string name="RestoreData">Restore Data</string>
     <string name="BackupData">Backup Data</string>
-    <string name="Icon1">Icon 1</string>
-    <string name="Icon2">Icon 2</string>
+    <string name="Icon1">Ikon 1</string>
+    <string name="Icon2">Ikon 2</string>
     <string name="Shown">Shown</string>
     <string name="Hidden">Hidden</string>
     <string name="Enabled">Enabled</string>
     <string name="Disabled">Disabled</string>
     <string name="On">On</string>
     <string name="Off">Off</string>
-    <string name="Left">Left Side</string>
-    <string name="Right">Right Side</string>
-    <string name="Centered">Centered</string>
+    <string name="Left">Vänster Sida</string>
+    <string name="Right">Höger Sida</string>
+    <string name="Centered">Mitten</string>
     <string name="ShowOnTop">Show on top</string>
     <string name="ShowDownBelow">Show down below</string>
     <string name="Regular">Regular</string>
@@ -159,7 +159,7 @@
     <string name="toast_Translucent_animation">Translucent Animation</string>
     <string name="toast_SlideLeftRight_animation">Slide Left To Right Animation</string>
     <string name="toast_SlideRightLeft_animation">Slide Right To Left Animation</string>
-    <string name="AlwaysOff">Always off</string>
+    <string name="AlwaysOff">Alltid av</string>
     <string name="OneSecond">1 Second</string>
     <string name="ThreeSeconds">2 Seconds</string>
     <string name="FiveSeconds">5 Second</string>
@@ -192,7 +192,7 @@
     <string name="LeftSignal">Left Signal</string>
     <string name="Abstract">Abstrakt</string>
     <string name="ACube">En Kub</string>
-    <string name="AlienTwerking">Alien Twerking</string>
+    <string name="AlienTwerking">Utomjording som Twerkar</string>
     <string name="BadKoolAid">Bad Kool Aid</string>
     <string name="BadSkeleton">Bad Skeleton</string>
     <string name="BattleStance">Battle Stance</string>
@@ -240,7 +240,7 @@
     <string name="EmergencyToggle">Emergency Toggle</string>
     <string name="DataToggleSummary">Data Toggle will be shown</string>
     <string name="DataToggle">Data Toggle</string>
-    <string name="AirplaneToggleSummary">Airplane toggle will be shown</string>
+    <string name="AirplaneToggleSummary">Flygplans läge kommer visas</string>
     <string name="AirplaneToggle">Flygplans Läge</string>
     <string name="MultiUserToggleSummary">MultiUser toggle will be shown</string>
     <string name="MultiUserToggle">MultiUser Toggle</string>
@@ -269,8 +269,8 @@
     <string name="RootSummary">Manage root permissions for apps and services</string>
     <string name="Magisk">Magisk Manager</string>
     <string name="MagiskSummary">Check your current magisk configuration</string>
-    <string name="AdAway">Annonsblockare</string>
-    <string name="AdAwaySummary">Manage AdBlocker Preferences</string>
+    <string name="AdAway">Annonsblockerare</string>
+    <string name="AdAwaySummary">Hantera annonsblockerar preferenser</string>
     <string name="Synapse">Synapse</string>
     <string name="KernelAdiutor">Kernel Adiutor</string>
     <string name="KernelSummary">Change Kernel settings</string>
@@ -378,9 +378,9 @@
     <string name="MiscSummary">SystemUI features which does not match any category</string>
     <string name="MiscUBS">USB plug in/out wakeup</string>
     <string name="MiscKeyboard">Keyboard backlight duration</string>
-    <string name="Ambient">Ambient Display</string>
+    <string name="Ambient">Ambient display</string>
     <string name="AmbientTitle">Ambient display settings</string>
-    <string name="AmbientSummary">If you enable this the display will wake up each time you receive a notification (AOD only)</string>
+    <string name="AmbientSummary">Om du aktiverar detta kommer skärmen vakna upp varje gång du får en notifikation (AOD endast)</string>
     <string name="AmbientTimeout">Ambient Display Screen Time</string>
     <string name="DataUsage">Data Usage</string>
     <string name="DataUsageSummary">Data Usage displayed on notification area</string>
@@ -532,15 +532,15 @@
     <string name="ClockDateSettings">Date Type Settings</string>
     <string name="ClockDateStyle">Date Style</string>
     <string name="ClockDateFormat">Date Format</string>
-    <string name="AboutDeveloperSummary">Developer</string>
+    <string name="AboutDeveloperSummary">Utvecklare</string>
     <string name="AboutDesignerSummary">Designer</string>
-    <string name="AboutRomDevelopers">Rom Developers</string>
+    <string name="AboutRomDevelopers">Rom Utvecklare</string>
     <string name="AboutTelegram">Telegram Links</string>
     <string name="AboutTelegramChat">Telegram Chat</string>
     <string name="AboutTelegramChannel">Telegram News Channel</string>
-    <string name="AboutTelegramChatSummary">Chat with us about latest Rom stuff</string>
-    <string name="AboutTelegramChannelSummary">Get latest Information about the Rom</string>
-    <string name="AboutXDA">XDA Links to Visit</string>
+    <string name="AboutTelegramChatSummary">Chatta med oss om den senaste Rom:en</string>
+    <string name="AboutTelegramChannelSummary">Få den senaste informationen om Rom:en</string>
+    <string name="AboutXDA">XDA Links, att besöka</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

@@ -354,7 +354,8 @@
     <string name="PullDownQuicksettingsSearchText">Quicksettings search text color</string>
     <string name="PullDownNotification">Notification Colors</string>
     <string name="PullDownNotificationBackground">Notification panel background color</string>
-    <string name="PullDownNotificationText">Notification text color</string>
+    <string name="PullDownNotificationText">Notification title text color</string>
+    <string name="PullDownNotificationTextSummary">Notification summary text color</string>
     <string name="PullDownNotificationFooter">Notification footer text color</string>
     <string name="PullDownNotificationFooterBackground">Notification footer background color</string>
     <string name="PayPalSummary">Click to visit</string>

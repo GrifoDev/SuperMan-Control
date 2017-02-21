@@ -349,7 +349,7 @@
     <string name="PullDownLock">Farben sind auf Normal gesperrt</string>
     <string name="PullDownNotification">Benachrichtigungsfarben</string>
     <string name="PullDownNotificationBackground">Benachrichtigungs Hintergrundfarbe</string>
-    <string name="PullDownNotificationText">Benachrichtigungs Textfarbe</string>
+    <string name="PullDownNotificationText">Benachrichtigungstitel Textfarbe</string>
     <string name="PullDownQuicksettings">Schnelleinstellungsfarben</string>
     <string name="PullDownQuicksettingsBackground">Schnelleinstellungs Hintergrundfarben</string>
     <string name="PullDownQuicksettingsDivider">Schnelleinstellungs Teilerfarbe</string>
@@ -582,4 +582,5 @@
     <string name="SignalWifi9">Wlan 9</string>
     <string name="SignalWifiArrowChooser">Wählen Sie die Wlanpfeile</string>
     <string name="SignalWifiIconChooser">Wählen Sie das Wlansymbol</string>
+    <string name="PullDownNotificationTextSummary">Benachrichtungszusammenfassung Textfarbe</string>
 </resources>

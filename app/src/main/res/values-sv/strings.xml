@@ -65,7 +65,7 @@
     <string name="LightTheme">Light Theme</string>
     <string name="DarkTheme">Dark Theme</string>
     <string name="RestoreData">Restore Data</string>
-    <string name="BackupData">Backup Data</string>
+    <string name="BackupData">Säkerhetskopiera Data</string>
     <string name="Icon1">Ikon 1</string>
     <string name="Icon2">Ikon 2</string>
     <string name="Shown">Shown</string>
@@ -248,11 +248,11 @@
     <string name="RebootBG">Background reboot menu</string>
     <string name="RebootBGSummary">Change the background of the reboot menu</string>
     <string name="EnableCustomBG">Enable custom background</string>
-    <string name="BGPreferences">General bg preferences</string>
-    <string name="BGType">Background type</string>
-    <string name="BGOpacity">Background opacity</string>
+    <string name="BGPreferences">Generell Bakgrund Preferenser</string>
+    <string name="BGType">Bakgrund Typ</string>
+    <string name="BGOpacity">Bakgrund Opacitet</string>
     <string name="ImagePreference">Custom image preferences</string>
-    <string name="BGImage">Select Bg image</string>
+    <string name="BGImage">Välj Bakgrundsbild</string>
     <string name="ImageScaling">Set Image Scaling Type</string>
     <string name="GradientPreferences">Color and gradient preferences</string>
     <string name="PrimaryColor">Select primary color</string>
@@ -290,7 +290,7 @@
     <string name="SwipeDown">Swipe Down</string>
     <string name="LauncherEffects">Launcher Effects</string>
     <string name="TouchwizPageEffect">Touchwiz Page Effect</string>
-    <string name="AutoCallRecordCategory">Auto Call Record</string>
+    <string name="AutoCallRecordCategory">Automatiskt Samtalsinspelning</string>
     <string name="IncomingAutoCallRecord">Incoming auto call record</string>
     <string name="OutgoingAutoCallRecord">Outgoing auto call record</string>
     <string name="PulldownMenuSettings">Pulldown Menu Settings</string>
@@ -381,7 +381,7 @@
     <string name="MiscKeyboard">Keyboard backlight duration</string>
     <string name="Ambient">Ambient display</string>
     <string name="AmbientTitle">Ambient display settings</string>
-    <string name="AmbientSummary">Om du aktiverar detta kommer skärmen vakna upp varje gång du får en notifikation (AOD endast)</string>
+    <string name="AmbientSummary">Om du aktiverar denna funktAion kommer skärmen vakna upp varje gång du får en notifikation (AOD endast)</string>
     <string name="AmbientTimeout">Ambient Display Screen Time</string>
     <string name="DataUsage">Data Usage</string>
     <string name="DataUsageSummary">Data Usage displayed on notification area</string>

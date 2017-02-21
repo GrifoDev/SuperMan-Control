@@ -602,4 +602,140 @@
         <item>35</item>
     </string-array>
 
+    <array name="signal_drawables">
+        <item>@drawable/signal1</item>
+        <item>@drawable/signal2</item>
+        <item>@drawable/signal3</item>
+        <item>@drawable/signal4</item>
+        <item>@drawable/signal5</item>
+        <item>@drawable/signal6</item>
+        <item>@drawable/signal7</item>
+        <item>@drawable/signal8</item>
+        <item>@drawable/signal9</item>
+        <item>@drawable/signal10</item>
+        <item>@drawable/signal11</item>
+        <item>@drawable/signal12</item>
+        <item>@drawable/signal13</item>
+        <item>@drawable/signal14</item>
+        <item>@drawable/signal15</item>
+        <item>@drawable/signal16</item>
+    </array>
+    <string-array name="signal_entries">
+        <item>@string/Signal1</item>
+        <item>@string/Signal2</item>
+        <item>@string/Signal3</item>
+        <item>@string/Signal4</item>
+        <item>@string/Signal5</item>
+        <item>@string/Signal6</item>
+        <item>@string/Signal7</item>
+        <item>@string/Signal8</item>
+        <item>@string/Signal9</item>
+        <item>@string/Signal10</item>
+        <item>@string/Signal11</item>
+        <item>@string/Signal12</item>
+        <item>@string/Signal13</item>
+        <item>@string/Signal14</item>
+        <item>@string/Signal15</item>
+        <item>@string/Signal16</item>
+    </string-array>
+    <string-array name="signal_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+
+    <array name="wifi_drawables">
+        <item>@drawable/wifi1</item>
+        <item>@drawable/wifi2</item>
+        <item>@drawable/wifi3</item>
+        <item>@drawable/wifi4</item>
+        <item>@drawable/wifi5</item>
+        <item>@drawable/wifi6</item>
+        <item>@drawable/wifi7</item>
+        <item>@drawable/wifi8</item>
+        <item>@drawable/wifi9</item>
+        <item>@drawable/wifi10</item>
+        <item>@drawable/wifi11</item>
+        <item>@drawable/wifi12</item>
+    </array>
+    <string-array name="wifi_entries">
+        <item>@string/SignalWifi1</item>
+        <item>@string/SignalWifi2</item>
+        <item>@string/SignalWifi3</item>
+        <item>@string/SignalWifi4</item>
+        <item>@string/SignalWifi5</item>
+        <item>@string/SignalWifi6</item>
+        <item>@string/SignalWifi7</item>
+        <item>@string/SignalWifi8</item>
+        <item>@string/SignalWifi9</item>
+        <item>@string/SignalWifi10</item>
+        <item>@string/SignalWifi11</item>
+        <item>@string/SignalWifi12</item>
+    </string-array>
+    <string-array name="wifi_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+
+    <array name="wifiarrow_drawables">
+        <item>@drawable/arrow1</item>
+        <item>@drawable/arrow2</item>
+    </array>
+    <string-array name="wifiarrow_entries">
+        <item>@string/SignalStockArrows</item>
+        <item>@string/SignalNoArrows</item>
+    </string-array>
+    <string-array name="wifiarrow_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+
+    <array name="alarm_drawables">
+        <item>@drawable/alarm1</item>
+        <item>@drawable/alarm2</item>
+        <item>@drawable/alarm3</item>
+        <item>@drawable/alarm4</item>
+        <item>@drawable/alarm5</item>
+        <item>@drawable/alarm6</item>
+    </array>
+    <string-array name="alarm_entries">
+        <item>@string/SignalAlarm1</item>
+        <item>@string/SignalAlarm2</item>
+        <item>@string/SignalAlarm3</item>
+        <item>@string/SignalAlarm4</item>
+        <item>@string/SignalAlarm5</item>
+        <item>@string/SignalAlarm6</item>
+    </string-array>
+    <string-array name="alarm_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
 </resources>

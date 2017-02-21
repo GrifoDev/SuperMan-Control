@@ -553,6 +553,5 @@
     <string name="AboutAFHSuperKernel">Download latest SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Download latest SuperStock-Kernel</string>
 
-
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

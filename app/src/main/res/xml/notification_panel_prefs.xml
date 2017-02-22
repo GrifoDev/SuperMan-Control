@@ -165,6 +165,20 @@
                 android:key="notification_background_color"
                 android:title="@string/PullDownNotificationBackground" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff212122"
+                android:dependency="unlock_notification_colors"
+                android:key="notification_title_text_color"
+                android:title="@string/PullDownNotificationText"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff212122"
+                android:dependency="unlock_notification_colors"
+                android:key="notification_summary_text_color"
+                android:title="@string/PullDownNotificationTextSummary"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#d9252525"
                 android:dependency="unlock_notification_colors"
                 android:key="notif_footer_text_color"
@@ -174,13 +188,6 @@
                 android:dependency="unlock_notification_colors"
                 android:key="bottom_normal_mode_color"
                 android:title="@string/PullDownNotificationFooterBackground" />
-            <!--/*
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ff212122"
-                android:dependency="unlock_notification_colors"
-                android:key="notification_text_color"
-                android:title="@string/PullDownNotificationText" />
-            */-->
         </PreferenceCategory>
     </PreferenceScreen>
 

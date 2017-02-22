@@ -242,6 +242,71 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_wifi"
+        android:summary="@string/SignalSummary"
+        android:title="@string/SignalTitle">
+        <PreferenceCategory
+            android:title="@string/Signal">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/SignalPositionName"
+                android:entryValues="@array/SignalPositionValue"
+                android:key="left_signal"
+                android:title="@string/Signal"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="@string/SignalIcon">
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:defaultValue="1"
+                android:key="switch_signal"
+                android:title="@string/SignalIconChooser"
+                app:drawableArray="@array/signal_drawables"
+                app:entryList="@array/signal_entries"
+                app:entryValuesList="@array/signal_values"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:defaultValue="1"
+                android:key="switch_signal_sim2"
+                android:title="@string/SignalIconChooserSim2"
+                app:drawableArray="@array/signal_drawables"
+                app:entryList="@array/signal_entries"
+                app:entryValuesList="@array/signal_values"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:defaultValue="1"
+                android:key="switch_wifi"
+                android:title="@string/SignalWifiIconChooser"
+                app:drawableArray="@array/wifi_drawables"
+                app:entryList="@array/wifi_entries"
+                app:entryValuesList="@array/wifi_values"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:defaultValue="1"
+                android:key="arrow_wifi"
+                android:title="@string/SignalWifiArrowChooser"
+                app:drawableArray="@array/wifiarrow_drawables"
+                app:entryList="@array/wifiarrow_entries"
+                app:entryValuesList="@array/wifiarrow_values"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ThumbnailListPreference
+                android:defaultValue="1"
+                android:key="switch_alarm"
+                android:title="@string/SignalAlarmChooser"
+                app:drawableArray="@array/alarm_drawables"
+                app:entryList="@array/alarm_entries"
+                app:entryValuesList="@array/alarm_values"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
         android:icon="@drawable/ic_setting_lockscreen"
         android:summary="@string/LockscreenSummary"
         android:title="@string/LockscreenTitle">
@@ -282,6 +347,7 @@
                 android:summaryOff="@string/Hidden"
                 android:summaryOn="@string/Shown"
                 android:title="@string/LockscreenMiscAlarm"
+                app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 alphaSlider="false"
@@ -321,8 +387,8 @@
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="analog_clock_enable"
-                android:summaryOff="@string/Enabled"
-                android:summaryOn="@string/Disabled"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
                 android:title="@string/LockscreenAnalog" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
@@ -468,23 +534,6 @@
                 android:summaryOff="@string/Hidden"
                 android:summaryOn="@string/Shown"
                 android:title="@string/LockscreenAnalog18" />
-        </PreferenceCategory>
-    </PreferenceScreen>
-
-    <PreferenceScreen
-        android:icon="@drawable/ic_setting_wifi"
-        android:summary="@string/SignalSummary"
-        android:title="@string/SignalTitle">
-        <PreferenceCategory
-            android:title="@string/Signal">
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/SignalPositionName"
-                android:entryValues="@array/SignalPositionValue"
-                android:key="left_signal"
-                android:title="@string/Signal"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>
     </PreferenceScreen>
 

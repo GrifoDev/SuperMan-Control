@@ -301,6 +301,7 @@
     <string name="ChargingNotification">Ongoing Charging Pulldown Notification</string>
     <string name="OngoingNotifications">Make Ongoing Notifications Removable</string>
     <string name="HeadsUp">Heads Up Notifications</string>
+    <string name="SFinder">Disable sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Double tab to sleep on statusbar</string>
     <string name="BrightnessWarning">Disable high brightness warning</string>
     <string name="GearRebootCategory">Reboot visibility on top left corner</string>
@@ -312,6 +313,7 @@
     <string name="CarrierLabelTextEnable">Carrier label text</string>
     <string name="CarrierLabelText">Custom text for carrier label</string>
     <string name="DeviceInfoCategory">Device info settings</string>
+    <string name="DeviceInfoSummary">Adjust pulldown device info</string>
     <string name="DeviceInfoPreference">Device info customization</string>
     <string name="DeviceInfoView">Enable device info view</string>
     <string name="DeviceInfoColor">Text colors</string>

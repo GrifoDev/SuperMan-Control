@@ -140,6 +140,17 @@
                     android:key="reboot_bg_gradient_orientation"
                     android:title="@string/GradientOrientation"/>
             </PreferenceCategory>
+
+            <PreferenceCategory android:title="AOD brightness " />
+
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+                android:title="AOD brightness"
+                android:key="aod_brightness"
+                android:defaultValue="17"
+                app:minValue="0"
+                app:maxValue="255"
+                app:rebootDevice="true" />
+            
         </PreferenceScreen>
     </PreferenceCategory>
 

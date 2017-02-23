@@ -272,7 +272,7 @@
     <string name="Magisk">Magisk Manager</string>
     <string name="MagiskSummary">Check your current magisk configuration</string>
     <string name="AdAway">AdAway</string>
-    <string name="AdAwaySummary">"Manager les préférences de AdBlocker "</string>
+    <string name="AdAwaySummary">Manager les préférences de AdBlocker</string>
     <string name="Synapse">Synapse</string>
     <string name="KernelAdiutor">Kernel Adiutor</string>
     <string name="KernelSummary">Change Kernel settings</string>

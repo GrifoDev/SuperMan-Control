@@ -738,4 +738,24 @@
         <item>6</item>
     </string-array>
 
+    <!-- Arrays for lockscreen timeout delay -->
+    <string-array name="display_timeout_entries">
+        <item>5 seconds</item>
+        <item>10 seconds (default)</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>60 seconds</item>
+        <item>2 minutes</item>
+        <item>5 minutes</item>
+    </string-array>
+    <string-array name="display_timeout_values">
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+        <item>60000</item>
+        <item>120000</item>
+        <item>300000</item>
+    </string-array>
+
 </resources>

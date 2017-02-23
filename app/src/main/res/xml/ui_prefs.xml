@@ -381,6 +381,13 @@
                 android:title="@string/LockscreenMiscCarrierText"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
+	    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        	android:entries="@array/display_timeout_entries"
+        	android:title="Lockscreen Display Timeout"
+        	android:key="display_timeout_delay"
+        	android:defaultValue="10000"
+        	android:entryValues="@array/display_timeout_values"
+        	app:packageNameToKill="com.android.systemui"/>
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/LockscreenAnalogTitle">

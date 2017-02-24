@@ -128,7 +128,9 @@
                 android:defaultValue="#ff56c0e5"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_slider_color"
-                android:title="@string/PullDownQuicksettingsBrightness" />
+                android:title="@string/PullDownQuicksettingsBrightness"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_qs_colors"
@@ -139,13 +141,6 @@
                 android:dependency="unlock_qs_colors"
                 android:key="qs_drag_handle_icon_color"
                 android:title="@string/PullDownQuicksettingsDragIcon" />
-            <!--/*
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="unlock_qs_colors"
-                android:key="quickconnect_background_color"
-                android:title="@string/PullDownQuicksettingsQuickConnect" />
-            */-->
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fff5f5f5"
                 android:dependency="unlock_qs_colors"
@@ -156,6 +151,11 @@
                 android:dependency="unlock_qs_colors"
                 android:key="qs_search_text_color"
                 android:title="@string/PullDownQuicksettingsSearchText" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fffafafa"
+                android:dependency="unlock_qs_colors"
+                android:key="quickconnect_background_color"
+                android:title="@string/PullDownQuicksettingsQuickConnect" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/PullDownNotification">
@@ -194,7 +194,7 @@
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_notification_colors"
-                android:key="bottom_normal_mode_color"
+                android:key="notif_footer_background_color"
                 android:title="@string/PullDownNotificationFooterBackground" />
         </PreferenceCategory>
     </PreferenceScreen>

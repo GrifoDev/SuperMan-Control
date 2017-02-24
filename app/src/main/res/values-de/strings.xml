@@ -585,4 +585,10 @@
     <string name="PullDownNotificationTextSummary">Benachrichtungszusammenfassung Textfarbe</string>
     <string name="DeviceInfoSummary">Ändern Sie die Geräteinfos im Herunterziehmenü</string>
     <string name="SFinder">Verstecken Sie die Sfinder bar im Herunterziehmenü</string>
+    <string name="FiveMinutes">5 Minuten</string>
+    <string name="LockscreenTimeout">Sperrbildschirm Timout Zeit</string>
+    <string name="MiscAODisplay">AOD Helligkeit</string>
+    <string name="OneMinute">1 Minute</string>
+    <string name="ThirtySeconds">30 Sekunden</string>
+    <string name="TwoMinutes">2 Minuten</string>
 </resources>

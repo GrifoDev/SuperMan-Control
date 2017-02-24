@@ -169,6 +169,10 @@
     <string name="FifteenSeconds">15 Seconds</string>
     <string name="TwentySeconds">20 Seconds</string>
     <string name="TwentyFiveSeconds">25 Seconds</string>
+    <string name="ThirtySeconds">30 Seconds</string>
+    <string name="OneMinute">1 Minute</string>
+    <string name="TwoMinutes">2 Minutes</string>
+    <string name="FiveMinutes">5 Minutes</string>
     <string name="RightClock">Right Clock</string>
     <string name="LeftClock">Left Clock</string>
     <string name="CenterClock">Center Clock</string>
@@ -303,6 +307,7 @@
     <string name="ChargingNotification">Ongoing Charging Pulldown Notification</string>
     <string name="OngoingNotifications">Make Ongoing Notifications Removable</string>
     <string name="HeadsUp">Heads Up Notifications</string>
+    <string name="SFinder">Disable sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Double tab to sleep on statusbar</string>
     <string name="BrightnessWarning">Disable high brightness warning</string>
     <string name="GearRebootCategory">Reboot visibility on top left corner</string>
@@ -314,6 +319,7 @@
     <string name="CarrierLabelTextEnable">Carrier label text</string>
     <string name="CarrierLabelText">Custom text for carrier label</string>
     <string name="DeviceInfoCategory">Device info settings</string>
+    <string name="DeviceInfoSummary">Adjust pulldown device info</string>
     <string name="DeviceInfoPreference">Device info customization</string>
     <string name="DeviceInfoView">Enable device info view</string>
     <string name="DeviceInfoColor">Text colors</string>
@@ -388,6 +394,7 @@
     <string name="MiscSummary">SystemUI features which does not match any category</string>
     <string name="MiscUBS">USB plug in/out wakeup</string>
     <string name="MiscKeyboard">Keyboard backlight duration</string>
+    <string name="MiscAODisplay">AOD brightness</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display settings</string>
     <string name="AmbientSummary">If you enable this the display will wake up each time you receive a notification (AOD only)</string>
@@ -562,6 +569,7 @@
     <string name="LockscreenAnalog16">Style 16</string>
     <string name="LockscreenAnalog17">Style 17</string>
     <string name="LockscreenAnalog18">Style 18</string>
+    <string name="LockscreenTimeout">Lockscreen Display Timeout</string>
     <string name="ClockTitle">Clock Settings</string>
     <string name="ClockSummary">Change all settings related to statusbar clock</string>
     <string name="ClockStock">Stock Clock</string>

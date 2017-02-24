@@ -424,7 +424,7 @@
     <string name="StatusbarAirplaneColor">Flugzeugmodus Farbe</string>
     <string name="StatusbarBatteryColor">Batterieprozent Farbe</string>
     <string name="StatusbarClockColor">Uhr Farbe</string>
-    <string name="StatusbarColor">Statusleiste Kolorisierung</string>
+    <string name="StatusbarColor">Statusleiste Kolorierung</string>
     <string name="StatusbarColorGlobal">Globale Statusbarfarbe</string>
     <string name="StatusbarColorSummary">Ändern Sie Farben für Symbole in der Statusleiste</string>
     <string name="StatusbarColors">Statusleiste Farben</string>
@@ -583,4 +583,12 @@
     <string name="SignalWifiArrowChooser">Wählen Sie die Wlanpfeile</string>
     <string name="SignalWifiIconChooser">Wählen Sie das Wlansymbol</string>
     <string name="PullDownNotificationTextSummary">Benachrichtungszusammenfassung Textfarbe</string>
+    <string name="DeviceInfoSummary">Ändern Sie die Geräteinfos im Herunterziehmenü</string>
+    <string name="SFinder">Verstecken Sie die Sfinder bar im Herunterziehmenü</string>
+    <string name="FiveMinutes">5 Minuten</string>
+    <string name="LockscreenTimeout">Sperrbildschirm Timout Zeit</string>
+    <string name="MiscAODisplay">AOD Helligkeit</string>
+    <string name="OneMinute">1 Minute</string>
+    <string name="ThirtySeconds">30 Sekunden</string>
+    <string name="TwoMinutes">2 Minuten</string>
 </resources>

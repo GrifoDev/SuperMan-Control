@@ -3,8 +3,9 @@
                   xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <PreferenceScreen
-            android:summary="@string/PulldownMenuSettingsSummary"
-            android:title="@string/PulldownMenuSettings">
+        android:icon="@drawable/ic_setting_pulldown"
+        android:summary="@string/PulldownMenuSettingsSummary"
+        android:title="@string/PulldownMenuSettings">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="show_multi_user"
@@ -39,6 +40,12 @@
             android:summaryOn="@string/Enabled"
             android:title="@string/HeadsUp" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="hide_sfinder"
+            android:summaryOff="@string/Shown"
+            android:summaryOn="@string/Hidden"
+            android:title="@string/SFinder" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="double_tap_sleep"
             android:summaryOff="@string/Disabled"
@@ -53,6 +60,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_pulldown_color"
         android:summary="@string/PullDownSummary"
         android:title="@string/PullDownTitle">
         <PreferenceCategory
@@ -120,7 +128,9 @@
                 android:defaultValue="#ff56c0e5"
                 android:dependency="unlock_qs_colors"
                 android:key="qs_slider_color"
-                android:title="@string/PullDownQuicksettingsBrightness" />
+                android:title="@string/PullDownQuicksettingsBrightness"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_qs_colors"
@@ -131,13 +141,6 @@
                 android:dependency="unlock_qs_colors"
                 android:key="qs_drag_handle_icon_color"
                 android:title="@string/PullDownQuicksettingsDragIcon" />
-            <!--/*
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="unlock_qs_colors"
-                android:key="quickconnect_background_color"
-                android:title="@string/PullDownQuicksettingsQuickConnect" />
-            */-->
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fff5f5f5"
                 android:dependency="unlock_qs_colors"
@@ -148,6 +151,11 @@
                 android:dependency="unlock_qs_colors"
                 android:key="qs_search_text_color"
                 android:title="@string/PullDownQuicksettingsSearchText" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#fffafafa"
+                android:dependency="unlock_qs_colors"
+                android:key="quickconnect_background_color"
+                android:title="@string/PullDownQuicksettingsQuickConnect" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/PullDownNotification">
@@ -186,14 +194,15 @@
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_notification_colors"
-                android:key="bottom_normal_mode_color"
+                android:key="notif_footer_background_color"
                 android:title="@string/PullDownNotificationFooterBackground" />
         </PreferenceCategory>
     </PreferenceScreen>
 
     <PreferenceScreen
-            android:summary="@string/GifAnimationSummary"
-            android:title="@string/GifAnimationTitle">
+        android:icon="@drawable/ic_setting_gif"
+        android:summary="@string/GifAnimationSummary"
+        android:title="@string/GifAnimationTitle">
         <PreferenceCategory
             android:title="@string/GifAnimation">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -215,6 +224,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_pulldown_background"
         android:summary="@string/NotificationBGSummary"
         android:title="@string/NotificationBG">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -279,6 +289,8 @@
     <PreferenceCategory
         android:title="@string/DeviceInfoCategory">
         <PreferenceScreen
+            android:icon="@drawable/ic_setting_device_info"
+            android:summary="@string/DeviceInfoSummary"
             android:title="@string/DeviceInfoPreference">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"

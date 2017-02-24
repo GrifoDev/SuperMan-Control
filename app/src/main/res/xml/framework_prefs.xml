@@ -140,6 +140,7 @@
                     android:key="reboot_bg_gradient_orientation"
                     android:title="@string/GradientOrientation"/>
             </PreferenceCategory>
+            
         </PreferenceScreen>
     </PreferenceCategory>
 

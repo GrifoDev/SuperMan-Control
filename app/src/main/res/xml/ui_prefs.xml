@@ -341,6 +341,14 @@
                 android:title="@string/LockscreenMiscRotation"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui"/>
+	   <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+            	android:title="Lockscreen notifications number"
+            	android:key="lockscreen_notifications"
+            	app:minValue="1"
+            	app:maxValue="4"
+            	android:defaultValue="4"
+            	app:packageNameToKill="com.android.systemui"
+            	app:isSilent="false" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="hide_nextalarm"

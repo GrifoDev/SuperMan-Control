@@ -824,6 +824,7 @@
     </PreferenceScreen>
 
     <PreferenceScreen
+        android:icon="@drawable/ic_setting_back"
         android:summary="@string/ButtonSummary"
         android:title="@string/ButtonTitle">
         <PreferenceCategory

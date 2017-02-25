@@ -308,6 +308,9 @@
     <string name="SFinder">Disable sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Double tap pt inchiderea ecranului pe bara de stare</string>
     <string name="BrightnessWarning">Dezactiveaza anun?ul de avertizare pt luminozitate excesiva</string>
+    <string name="BlurEffect">Blur Effect on pulldown menu</string>
+    <string name="BlurEffectBackground">Background value of blur effect</string>
+    <string name="BlurEffectDegree">Degree value of blur effect</string>
     <string name="GearRebootCategory">Reboot visibility on top left corner</string>
     <string name="GearReboot">Reboot view visibility</string>
     <string name="GearRebootColor">Reboot view color</string>

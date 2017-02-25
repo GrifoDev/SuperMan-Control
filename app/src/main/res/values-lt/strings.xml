@@ -308,6 +308,9 @@
     <string name="SFinder">Disable sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Dvigubas bakstelėjimas ant Būsenos juostos užmigdo įrenginį</string>
     <string name="BrightnessWarning">Panaikina perspėjimą dėl per didelio ekrano ryškumo</string>
+    <string name="BlurEffect">Blur Effect on pulldown menu</string>
+    <string name="BlurEffectBackground">Background value of blur effect</string>
+    <string name="BlurEffectDegree">Degree value of blur effect</string>
     <string name="GearRebootCategory">Rodomas Perkrovimas viršutiniame kairiajame kampe</string>
     <string name="GearReboot">Rodomas vaizdo Perkrovimas</string>
     <string name="GearRebootColor">Perkrauti vaizdo spalvas</string>

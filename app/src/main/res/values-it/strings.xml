@@ -308,6 +308,9 @@
     <string name="SFinder">Disable sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Doppio tap sulla statusbar per bloccare</string>
     <string name="BrightnessWarning">Disable high brightness warning</string>
+    <string name="BlurEffect">Blur Effect on pulldown menu</string>
+    <string name="BlurEffectBackground">Background value of blur effect</string>
+    <string name="BlurEffectDegree">Degree value of blur effect</string>
     <string name="GearRebootCategory">Tasto riavvio visibile in alto a sinistra</string>
     <string name="GearReboot">Visibilità tasto riavvio</string>
     <string name="GearRebootColor">Colore icona tasto riavvio</string>

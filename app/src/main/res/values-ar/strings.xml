@@ -308,6 +308,9 @@
     <string name="SFinder">Disable sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">نقر مزدوج على شريط الحالة لقفل الجهاز</string>
     <string name="BrightnessWarning">تعطيل التحذير عن السطوع العالي</string>
+    <string name="BlurEffect">Blur Effect on pulldown menu</string>
+    <string name="BlurEffectBackground">Background value of blur effect</string>
+    <string name="BlurEffectDegree">Degree value of blur effect</string>
     <string name="GearRebootCategory">رؤية إعادة التشغيل على الركن الأعلى الأيسر</string>
     <string name="GearReboot">رؤية إعادة التشغيل</string>
     <string name="GearRebootColor">لون إعادة تشغيل</string>

@@ -57,6 +57,24 @@
             android:summaryOff="@string/Enabled"
             android:summaryOn="@string/Disabled"
             android:title="@string/BrightnessWarning" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="enable_blur"
+            android:summaryOff="@string/Disabled"
+            android:summaryOn="@string/Enabled"
+            android:title="@string/BlurEffect" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+            android:defaultValue="3"
+            android:dependency="enable_blur"
+            android:key="blur_degree_effect"
+            android:title="@string/BlurEffectDegree"
+            app:maxValue="20" />
+        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+            android:defaultValue="128"
+            android:dependency="enable_blur"
+            android:key="blur_background_effect"
+            android:title="@string/BlurEffectBackground"
+            app:maxValue="250" />
     </PreferenceScreen>
 
     <PreferenceScreen

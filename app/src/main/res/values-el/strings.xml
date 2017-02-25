@@ -308,6 +308,9 @@
     <string name="SFinder">Disable sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Διπλό κλικ για ύπνο για μπάρα κατάστασης</string>
     <string name="BrightnessWarning">Απενεργοποίηση μηνύματος  αυξημένης φωτεινότητας</string>
+    <string name="BlurEffect">Blur Effect on pulldown menu</string>
+    <string name="BlurEffectBackground">Background value of blur effect</string>
+    <string name="BlurEffectDegree">Degree value of blur effect</string>
     <string name="GearRebootCategory">Ορατότητα επανεκκίνησης πάνω αριστερά</string>
     <string name="GearReboot">Ορατότητα θέας επανεκκίνησης</string>
     <string name="GearRebootColor">Χρώμα θέας επανεκκίνησης</string>

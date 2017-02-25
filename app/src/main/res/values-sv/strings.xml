@@ -108,7 +108,7 @@
     <string name="RecentApplications">Senaste applikationer</string>
     <string name="VolumePlus">Volym  +</string>
     <string name="VolumeMinus">Volym  -</string>
-    <string name="Uppringare">d</string>
+    <string name="Dialer">Uppringare</string>
     <string name="GoogleSearch">Google sök</string>
     <string name="SoundMode">Ljud läge: Ljud / Vibration / Ljudlös</string>
     <string name="Torchlight">Ficklampa</string>
@@ -308,6 +308,9 @@
     <string name="SFinder">Disable sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Double tab to sleep on statusbar</string>
     <string name="BrightnessWarning">Disable high brightness warning</string>
+    <string name="BlurEffect">Blur Effect on pulldown menu</string>
+    <string name="BlurEffectBackground">Background value of blur effect</string>
+    <string name="BlurEffectDegree">Degree value of blur effect</string>
     <string name="GearRebootCategory">Reboot visibility on top left corner</string>
     <string name="GearReboot">Reboot view visibility</string>
     <string name="GearRebootColor">Reboot view color</string>

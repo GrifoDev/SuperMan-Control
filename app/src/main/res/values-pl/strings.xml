@@ -308,6 +308,9 @@
     <string name="SFinder">Wyłącz wyszukiwarkę w rozwijanym menu</string>
     <string name="DoubleTapSleep">Podwójne tapnięcie na pasek stanu aby uśpić</string>
     <string name="BrightnessWarning">Wyłącz ostrzeżenie o zbyt wysokiej jasności</string>
+    <string name="BlurEffect">Blur Effect on pulldown menu</string>
+    <string name="BlurEffectBackground">Background value of blur effect</string>
+    <string name="BlurEffectDegree">Degree value of blur effect</string>
     <string name="GearRebootCategory">Reboot visibility on top left corner</string>
     <string name="GearReboot">Reboot view visibility</string>
     <string name="GearRebootColor">Reboot view color</string>

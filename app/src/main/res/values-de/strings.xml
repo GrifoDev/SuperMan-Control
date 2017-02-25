@@ -607,4 +607,7 @@
     <string name="LockscreenClockColorHour">Ändern Sie die Farbe für den Stundentext</string>
     <string name="LockscreenClockColorMin">Ändern Sie die Farbe für den Minutentext</string>
     <string name="LockscreenClockColorSec">Ändern Sie die Farbe für den Sekundentext</string>
+    <string name="BlurEffect">Blur Effekt im Herunterziehmenü</string>
+    <string name="BlurEffectBackground">Hintergrundeinstellungen des Blureffekts</string>
+    <string name="BlurEffectDegree">Festigkeitseinstellung des Blureffekts</string>
 </resources>

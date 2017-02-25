@@ -273,7 +273,6 @@
     <string name="LockscreenClockSeconds">Zeige Sekunden</string>
     <string name="LockscreenMiscAlarm">Nächster Wecker auf Sperrbildschirm</string>
     <string name="LockscreenMiscAlarmColor">Weckerfarbe auf Sperrbildschirm</string>
-    <string name="LockscreenStockClock">Zeige normale Uhr</string>
     <string name="LockscreenMiscCarrier">Benutzerdefinierter Providertext</string>
     <string name="LockscreenMiscCarrierEdit">Bearbeiten Sie das Providerlabel</string>
     <string name="LockscreenMiscCarrierSet">Setzen Sie einen benutzerdefinierten Text</string>
@@ -591,4 +590,21 @@
     <string name="OneMinute">1 Minute</string>
     <string name="ThirtySeconds">30 Sekunden</string>
     <string name="TwoMinutes">2 Minuten</string>
+    <string name="ButtonBackBehaviour">Entferne gekillte Apps von Recent</string>
+    <string name="ButtonBackBehaviour0">Menü (Normal)</string>
+    <string name="ButtonBackBehaviour1">Schliesse Anwendung</string>
+    <string name="ButtonBackPress">Lang drücken beim Zurückbutton</string>
+    <string name="ButtonRecentBehaviour0">Recent/Multiwindod (Normal)</string>
+    <string name="ButtonRecentBehaviour1">Schliesse Anwendung</string>
+    <string name="ButtonRecentBehaviour2">Menü</string>
+    <string name="ButtonRecentPress">Lang drücken beim Recentbutton</string>
+    <string name="ButtonTitle">Recent und Zurückbutton</string>
+    <string name="ButtonSummary">Einstellung für Hardwarebutton</string>
+    <string name="LockscreenNotification">Sperrbildschirm Benachrichtigungsnummer</string>
+    <string name="LockscreenClockHour">Zeige Stunde</string>
+    <string name="LockscreenClockMin">Zeige Minuten</string>
+    <string name="LockscreenClockColor">Ändern Sie die Farbe der Sperrbildschirmuhr</string>
+    <string name="LockscreenClockColorHour">Ändern Sie die Farbe für den Stundentext</string>
+    <string name="LockscreenClockColorMin">Ändern Sie die Farbe für den Minutentext</string>
+    <string name="LockscreenClockColorSec">Ändern Sie die Farbe für den Sekundentext</string>
 </resources>

@@ -314,10 +314,16 @@
             android:title="@string/LockscreenClock">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="1"
-                android:key="hide_digital_clock"
+                android:key="hide_digital_hour"
                 android:summaryOff="@string/Off"
                 android:summaryOn="@string/On"
-                android:title="@string/LockscreenStockClock" />
+                android:title="@string/LockscreenClockHour" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="1"
+                android:key="hide_digital_min"
+                android:summaryOff="@string/Off"
+                android:summaryOn="@string/On"
+                android:title="@string/LockscreenClockMin" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="0"
                 android:key="hide_digital_sec"
@@ -332,6 +338,39 @@
                 android:title="@string/LockscreenClockDate" />
         </PreferenceCategory>
         <PreferenceCategory
+            android:title="@string/LockscreenClockColor">
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:defaultValue="\#fffafafa"
+                android:dependency="hide_digital_hour"
+                android:key="kg_clock_hours_color"
+                android:summary="@string/WeatherColor"
+                android:title="@string/LockscreenClockColorHour"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:defaultValue="\#fffafafa"
+                android:dependency="hide_digital_min"
+                android:key="kg_clock_minutes_color"
+                android:summary="@string/WeatherColor"
+                android:title="@string/LockscreenClockColorMin"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                alphaSlider="true"
+                hexValue="true"
+                android:defaultValue="\#fffafafa"
+                android:dependency="hide_digital_sec"
+                android:key="kg_clock_second_color"
+                android:summary="@string/WeatherColor"
+                android:title="@string/LockscreenClockColorSec"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+        </PreferenceCategory>
+        <PreferenceCategory
             android:title="@string/LockscreenMiscTitle">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
@@ -341,14 +380,14 @@
                 android:title="@string/LockscreenMiscRotation"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui"/>
-	   <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-            	android:title="Lockscreen notifications number"
-            	android:key="lockscreen_notifications"
-            	app:minValue="1"
-            	app:maxValue="4"
+	        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
             	android:defaultValue="4"
-            	app:packageNameToKill="com.android.systemui"
-            	app:isSilent="false" />
+            	android:key="lockscreen_notifications"
+            	android:title="@string/LockscreenNotification"
+            	app:isSilent="false"
+            	app:maxValue="4"
+            	app:minValue="1"
+            	app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="hide_nextalarm"
@@ -781,6 +820,34 @@
                 app:maxValue="1300"
                 app:minValue="300"
                 app:unitsValue="mSec" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:summary="@string/ButtonSummary"
+        android:title="@string/ButtonTitle">
+        <PreferenceCategory
+            android:title="@string/ButtonTitle">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/back_key_entries"
+                android:entryValues="@array/back_key_values"
+                android:key="back_key"
+                android:summary="%s"
+                android:title="@string/ButtonBackPress" />
+            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
+                android:defaultValue="false"
+                android:key="remove_killed_apps_from_recents"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/ButtonBackBehaviour" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/multi_key_entries"
+                android:entryValues="@array/multi_key_values"
+                android:key="recent_key"
+                android:summary="%s"
+                android:title="@string/ButtonRecentPress" />
         </PreferenceCategory>
     </PreferenceScreen>
 

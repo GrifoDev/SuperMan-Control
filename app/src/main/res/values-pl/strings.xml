@@ -141,8 +141,8 @@
     <string name="UploadOnly">Tylko wysyłanie</string>
     <string name="ToEndOfView">Do końca widoku</string>
     <string name="ToStartOfView">Do początku widoku</string>
-    <string name="toast_animation">Animacja TOST"a UI framework</string>
-    <string name="toast_animation_title">Animacja TOST'u</string>
+    <string name="toast_animation">Animacja TOST\'a UI framework</string>
+    <string name="toast_animation_title">Animacja TOST\'u</string>
     <string name="toast_none_animation">Nic</string>
     <string name="toast_default_animation">Podstawowy</string>
     <string name="toast_fade_animation">Fade Animation</string>

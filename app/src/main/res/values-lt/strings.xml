@@ -308,9 +308,9 @@
     <string name="SFinder">Nerodyti sFinder Išplėčiamuose nustatymuose</string>
     <string name="DoubleTapSleep">Užmigdo įrenginį dvigubas Būsenos juostos bakstelėjimas</string>
     <string name="BrightnessWarning">Panaikina perspėjimą dėl per didelio ekrano ryškumo</string>
-    <string name="BlurEffect">Blur Effect on pulldown menu</string>
-    <string name="BlurEffectBackground">Background value of blur effect</string>
-    <string name="BlurEffectDegree">Degree value of blur effect</string>
+    <string name="BlurEffect">Susiliejimo efektas Išplečiamąjame meniu</string>
+    <string name="BlurEffectBackground">Fono susiliejimo reikšmė</string>
+    <string name="BlurEffectDegree">Susiliejimo laipsnis</string>
     <string name="GearRebootCategory">Rodomas Vaizdo perkrovimas viršutiniame kairiajame kampe</string>
     <string name="GearReboot">Rodomas Vaizdo perkrovimas</string>
     <string name="GearRebootColor">Parinkti Vaizdo perkrovimo piktogramos spalvą</string>

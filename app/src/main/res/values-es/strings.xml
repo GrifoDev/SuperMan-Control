@@ -308,9 +308,9 @@
     <string name="SFinder">Desactivar sFinder en el menú desplegable</string>
     <string name="DoubleTapSleep">Tocar dos veces para dormir en la barra de estado</string>
     <string name="BrightnessWarning">Deshabilitar aviso de brillo alto</string>
-    <string name="BlurEffect">Blur Effect on pulldown menu</string>
-    <string name="BlurEffectBackground">Background value of blur effect</string>
-    <string name="BlurEffectDegree">Degree value of blur effect</string>
+    <string name="BlurEffect">Efecto de desenfoque en el menú desplegable </string>
+    <string name="BlurEffectBackground">Valor de fondo del efecto de desenfoque</string>
+    <string name="BlurEffectDegree">Valor del grado de efecto de desenfoque</string>
     <string name="GearRebootCategory">Visibilidad de Reinicio en la esquina superior izquierda</string>
     <string name="GearReboot">Visibilidad de la vista de Reinicio</string>
     <string name="GearRebootColor">Reiniciar el color de la vista</string>
@@ -576,12 +576,12 @@
     <string name="LockscreenAnalog17">Estilo 17</string>
     <string name="LockscreenAnalog18">Estilo 18</string>
     <string name="LockscreenTimeout">Tiempo de espera de la pantalla de bloqueo</string>
-    <string name="LockscreenNotification">Lockscreen notifications number</string>
+    <string name="LockscreenNotification">Numero de notificaciones en pantalla de bloqueo</string>
     <string name="ButtonTitle">Boton de reciente y atras</string>
     <string name="ButtonSummary">Cambia los ajustes relacionados con los botones del hardware</string>
     <string name="ButtonBackPress">Comportamiento del boton atras al presionado largo</string>
     <string name="ButtonRecentPress">Comportamiento del boton reciente al presionado largo</string>
-    <string name="ButtonBackBehaviour">Remover al killer de la barra reciente</string>
+    <string name="ButtonBackBehaviour">Remover matar apps de la barra reciente</string>
     <string name="ButtonRecentBehaviour0">Recientes/MultiVentana (por defecto)</string>
     <string name="ButtonRecentBehaviour1">Matar aplicacion</string>
     <string name="ButtonRecentBehaviour2">Menu</string>

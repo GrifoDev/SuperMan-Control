@@ -32,8 +32,8 @@
     <string name="app_reboot_required_dialog_message">För att den här ändringen ska ta effekt måste applikationen startas om %1$s.\n\nKlicka OK för omstart.</string>
     <string name="theme_dialog_title">Välj tema.</string>
     <string name="changelog_version_title">Rom Version: %1$s</string>
-    <string name="backup_restore_dialog_title">Säkerhetskopiering/Återställning av SM-inställningars system data</string>
-    <string name="choose_backup_dialog_title">Var vänlig välj säkerhetskopiering för återställning.</string>
+    <string name="backup_restore_dialog_title">Backup/Återställning av SM-inställningars system data</string>
+    <string name="choose_backup_dialog_title">Var vänlig välj backup för återställning.</string>
     <string name="no_backup_dialog_title">Ingen säkerhetskopia finns på denna enhet</string>
     <string name="no_backup_dialog_message">Vill du skapa en ny säkerhetskopia nu?</string>
     <string name="restore_confirm_dialog_title">Var vänlig bekräfta återställning</string>
@@ -41,7 +41,7 @@
     <string name="backup_complete_toast">Säkerhetskoperingen slutförd. Filen kan du hitta här\n%1$s</string>
     <string name="restore_complete_toast">Återställningen slutförd.</string>
     <string name="about">Välkommen till SuperMan</string>
-    <string name="systemui_prefs">Användargränssnitts-inställningar</string>
+    <string name="systemui_prefs">Anv-gränssnitts-inställningar</string>
     <string name="phone_prefs">Telefoninställningar</string>
     <string name="framework_prefs">Framework-preferenser</string>
     <string name="settings_prefs">Appgenväg</string>
@@ -49,7 +49,7 @@
     <string name="notification_panel_prefs">Notifikationspanel</string>
     <string name="more_options">Mer alternativ</string>
     <string name="set_theme">Välj tema</string>
-    <string name="backup_and_restore"><![CDATA[Säkerhetskopiering & Återställning]]></string>
+    <string name="backup_and_restore"><![CDATA[Backup & Återställning]]></string>
     <string name="changelog">Ändringslogg</string>
     <string name="about_us">Om oss</string>
     <string name="confirm_script_dialog_message">"Är du säker på att du vill köra %1$s?"</string>
@@ -391,7 +391,7 @@
     <string name="BatteryLowPercentageSummary">Ställ in nivå för varning om lågt batteri i procent</string>
     <string name="BatteryCriticalPercentage">Procent för varning av kritiskt lågt batteri</string>
     <string name="BatteryCriticalPercentageSummary">Ställ in nivå för kritiskt lågt batteri i procent</string>
-    <string name="MiscTitle">Diverse användargränssnitts-nställningar</string>
+    <string name="MiscTitle">Diverse användargränssnitts-inställningar</string>
     <string name="MiscSummary">Användargränssnitts-verktyg som inte passar in i någon specifik kategori</string>
     <string name="MiscUBS">Väckning av enhet vid in- och utkoppling av USB</string>
     <string name="MiscKeyboard">Varaktighet för bakgrundsbelysning av tangentbord</string>

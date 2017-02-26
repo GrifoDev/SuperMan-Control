@@ -308,9 +308,9 @@
     <string name="SFinder">Slå av sFinder i pulldown-menyn</string>
     <string name="DoubleTapSleep">Dubbelklicka på statusfältet för att släcka skärmen</string>
     <string name="BrightnessWarning">Stäng av varing för hög ljusstyrka</string>
-    <string name="BlurEffect">Blur Effect on pulldown menu</string>
-    <string name="BlurEffectBackground">Background value of blur effect</string>
-    <string name="BlurEffectDegree">Degree value of blur effect</string>
+    <string name="BlurEffect">Blur Effekt på pulldown meny</string>
+    <string name="BlurEffectBackground">Bakgrunds värde av blur effekt</string>
+    <string name="BlurEffectDegree">Grad värde av blur effekt</string>
     <string name="GearRebootCategory">Omstartssynlighet i övre vänstra hörnet</string>
     <string name="GearReboot">Synlighet för omstartsvy</string>
     <string name="GearRebootColor">Färg för omstartsvy</string>

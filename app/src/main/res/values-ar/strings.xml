@@ -19,7 +19,7 @@
     <string name="press_color_to_apply">إضغط للتطبيق</string>
     <string name="root_progress_dialog_title">الحصول على صلاحيات الروت</string>
     <string name="root_progress_dialog_message">المرجو الإنتظار ...</string>
-    <string name="no_su_dialog_title">ليس لديك صلاحيات الروتء</string>
+    <string name="no_su_dialog_title">ليس لديك صلاحيات الروت</string>
     <string name="no_su_dialog_message">لم نستطع الحصول على صلاحيات الروت بهذا الجهاز.\n\nيمكن القيام بمعظم مهام هذا التطبيق بدون صلاحيات الروت. غير أنه، يمكن لك أن تواجه بعض المشاكل مع استخدام سكريبتات أو مع إعادة تشغيل الجهاز.\n\nلذلك قد نوصي بشدة لسماح الحصول على صلاحيات الروت في المحاولة القادمة أو لسماح الحصول على صلاحيات الروت يدويا.</string>
     <string name="no_su_dialog_dismiss_button_text">حسنا</string>
     <string name="command_executed_success_toast">تم بنجاح</string>
@@ -37,7 +37,7 @@
     <string name="no_backup_dialog_title">لا توجد أي نسخة احتياط بهذا الجهاز</string>
     <string name="no_backup_dialog_message">هل تود أن تحدث نسخة احتياط جديدة الاَن؟</string>
     <string name="restore_confirm_dialog_title">المرجو تأكيد الاسترجاع</string>
-    <string name="restore_confirm_message">لقد قمت باختيار استرجاع البيانات من إعدادات Rom Control سابقة.\n\n<b>كملاحظة! ستقوم هذه العملية بتغيير إعدادات الجهاز اعتمادا على إعدادات تم تخزينها في هذا الملف.\n\n<font fgcolor="red">لا تقم بالاستمرار إلا وأنت متأكد مما تقوم به!!!</font></b>\n\nسيتم إغلاق Rom Control ليتم استرجاع البيانات وستتم إعادة فتحه بعد الانتهاء. ستكلف هذه العملية بعض الوقت حسب كمية الإعدادات.\n\nالمرجو النقر على \"CONFIRM\" للمتابعة أو إلغاء للرجوع.</string>
+    <string name="restore_confirm_message">لقد قمت باختيار استرجاع البيانات من إعدادات Rom Control سابقة.\n\n<b>كملاحظة! ستقوم هذه العملية بتغيير إعدادات الجهاز اعتمادا على إعدادات تم تخزينها في هذا الملف.\n\n<font fgcolor="red">لا تقم بالاستمرار إلا وأنت متأكد مما تقوم به!!!</font></b>\n\nسيتم إغلاق Rom Control ليتم استرجاع البيانات وستتم إعادة فتحه بعد الانتهاء. ستكلف هذه العملية بعض الوقت حسب كمية الإعدادات.\n\nالمرجو النقر على \"CONFIRM\" للمتابعة أو "إلغاء" للرجوع.</string>
     <string name="backup_complete_toast">تم عمل النسخة الاحتياطية بنجاح، يمكن إيجاد هذه النسخة الاحتياطية في \n%1$s</string>
     <string name="restore_complete_toast">تم الاسترجاع بنجاح</string>
     <string name="about">مرحبا بك على سوبرمان</string>
@@ -168,9 +168,9 @@
     <string name="TwentySeconds">20 ثانية</string>
     <string name="TwentyFiveSeconds">25 ثانية</string>
     <string name="ThirtySeconds">30 ثانية</string>
-    <string name="OneMinute">1 Minute</string>
-    <string name="TwoMinutes">2 Minutes</string>
-    <string name="FiveMinutes">5 Minutes</string>
+    <string name="OneMinute">دقيقة</string>
+    <string name="TwoMinutes">دقيقتان</string>
+    <string name="FiveMinutes">5 دقائق</string>
     <string name="RightClock">ساعة  على اليمين</string>
     <string name="LeftClock">ساعة على الشمال</string>
     <string name="CenterClock">ساعة في الوسط</string>
@@ -251,7 +251,7 @@
     <string name="MultiUserToggleSummary">سيظهر مبدل تعدد المستخدمين</string>
     <string name="MultiUserToggle">مبدل تعدد المستخدمين</string>
     <string name="RebootBG">خلفية قائمةإعادة التشغيل</string>
-    <string name="RebootBGSummary">قم بتغيير خلفية قائمةإعادة التشغيل</string>
+    <string name="RebootBGSummary">قم بتغيير خلفية قائمة إعادة التشغيل</string>
     <string name="EnableCustomBG">استعمال خلفية مخصصة</string>
     <string name="BGPreferences">إعدادات الخلفية العامة</string>
     <string name="BGType">نوع الخلفية</string>
@@ -582,7 +582,7 @@
     <string name="ButtonBackPress">سلوك الضغط الطويل على زر الرجوع</string>
     <string name="ButtonRecentPress">سلوك الضغط الطويل على زر التطبيقات المفتوحة</string>
     <string name="ButtonBackBehaviour">إخفاء ما تم إيقافه تعسفيا من شريط التطبيقات المفتوحة</string>
-    <string name="ButtonRecentBehaviour0">التطبيقات المفتوحة/متعدد المنافذ (الأصلي)</string>
+    <string name="ButtonRecentBehaviour0">التطبيقات المفتوحة/متعدد النوافذ (الأصلي)</string>
     <string name="ButtonRecentBehaviour1">الإيقاف التعسفي للتطبيق</string>
     <string name="ButtonRecentBehaviour2">القائمة الرئيسية</string>
     <string name="ButtonBackBehaviour0">القائمة الرئيسية (الأصلية)</string>
@@ -591,7 +591,7 @@
     <string name="ClockSummary">غير جميع الإعدادات المتعلقة بساعة شريط الحالة</string>
     <string name="ClockStock">الساعة الأصلية</string>
     <string name="Clock3Minit">3Minit ساعة</string>
-    <string name="Clock3MinitTitle">3Minit إعدادات ساعة</string>
+    <string name="Clock3MinitTitle">إعدادات ساعة 3Minit</string>
     <string name="Clock3MinitSummary">غير إعدادات الساعة (ستشتغل فقط عندما يكون تطبيق ساعة Minit3 مشغل)</string>
     <string name="ClockPositionTitle">موضع الساعة</string>
     <string name="ClockPosition">إختر موضع الساعة</string>

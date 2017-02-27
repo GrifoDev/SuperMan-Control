@@ -373,9 +373,9 @@
     <string name="Battery">Batteri-nställningar</string>
     <string name="BatterySummary">Olika batteri-relaterade inställningar kan ändras här</string>
     <string name="BatteryBar">Batteriband</string>
-    <string name="BatteryBarOn">Om dolda från visas överallt</string>
-    <string name="BatteryBarOff">Om dolda från Pulldown/Låsskärm</string>
-    <string name="BatteryBarTitle">Om dolda pulldown-inställningar</string>
+    <string name="BatteryBarOn">Längst ner visas överallt (Om Batteriband visa längst ner är aktiverad)</string>
+    <string name="BatteryBarOff">Längst ner Pulldown/Låsskärm (Om Batteriband visa längst ner är aktiverad)</string>
+    <string name="BatteryBarTitle">Längst NER pulldown-inställningar</string>
     <string name="BatteryBarAnimation">Animation för batteriband vid laddning</string>
     <string name="BatteryBarStyle">Stil för batteriband</string>
     <string name="BatteryBarThick">Tjocklek av batteribands-band</string>
@@ -384,7 +384,7 @@
     <string name="Battery3MinitTitle">Inställningar för 3Minit-batteri</string>
     <string name="BatteryStock">Synlighet för normal batteriikon</string>
     <string name="Battery3Minit">3Minit-batteri</string>
-    <string name="Battery3MinitApp">Ändra batteri-inställningar (fungerar endast när 3Minit batteryi är påslagen)</string>
+    <string name="Battery3MinitApp">Ändra batteri-inställningar (fungerar endast när 3Minit batteryi är aktiverad)</string>
     <string name="Battery3MinitProApp">Betalad version av 3Minit apk</string>
     <string name="BatteryLow">Inställningar för varning om lågt batteri</string>
     <string name="BatteryLowPercentage">Procent för varning om lågt batteri</string>

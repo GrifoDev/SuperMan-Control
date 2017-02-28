@@ -169,11 +169,13 @@
                 android:dependency="unlock_qs_colors"
                 android:key="qs_search_text_color"
                 android:title="@string/PullDownQuicksettingsSearchText" />
+            <!--/*
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_qs_colors"
                 android:key="quickconnect_background_color"
                 android:title="@string/PullDownQuicksettingsQuickConnect" />
+            */-->
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/PullDownNotification">

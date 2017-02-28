@@ -12,7 +12,7 @@
     <!--Debería haber recibido una copia de la Licencia Pública General de GNU-->
     <!--Junto con este programa. Si no, vea <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Ajustes</string>
+    <string name="app_name">SuperMan Ajustes Pro</string>
     <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
     <string name="dialog_color_picker">Elegir Color</string>
@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Editar etiqueta de la operadora</string>
     <string name="LockscreenMiscCarrierText">Establecer texto personalizado de la operadora</string>
     <string name="LockscreenMiscCarrierSet">Establecer texto personalizado</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Reloj Analogico</string>
     <string name="LockscreenAnalog">Reloj analogico en pantalla de bloqueo</string>
     <string name="LockscreenAnalog1">Estilo 1</string>

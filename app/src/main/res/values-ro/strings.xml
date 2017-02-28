@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Setari</string>
+    <string name="app_name">SuperMan Setari pro</string>
     <string name="navigation_drawer_open">Deschide meniul de navigatie</string>
     <string name="navigation_drawer_close">inchide meniu de navigatie</string>
     <string name="dialog_color_picker">Alege Culoarea</string>
@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Editeaza textul operatorului</string>
     <string name="LockscreenMiscCarrierText">Operator personalizat</string>
     <string name="LockscreenMiscCarrierSet">Seteaza textul customizat</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Ceas Analog</string>
     <string name="LockscreenAnalog">Ceas analog pe Lockscreen</string>
     <string name="LockscreenAnalog1">Stil 1</string>

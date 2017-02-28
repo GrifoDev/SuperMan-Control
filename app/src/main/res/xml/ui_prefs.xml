@@ -380,14 +380,6 @@
                 android:title="@string/LockscreenMiscRotation"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui"/>
-	        <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-            	android:defaultValue="4"
-            	android:key="lockscreen_notifications"
-            	android:title="@string/LockscreenNotification"
-            	app:isSilent="false"
-            	app:maxValue="4"
-            	app:minValue="1"
-            	app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="hide_nextalarm"
@@ -411,6 +403,14 @@
                 android:title="@string/LockscreenMiscHelp"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="wake_on_finger"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/LockscreenMiscWake"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                 android:defaultValue="false"
                 android:key="custom_lock_carrier"
@@ -428,14 +428,24 @@
                 android:title="@string/LockscreenMiscCarrierText"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
-	        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-        	    android:defaultValue="10000"
-        	    android:entries="@array/display_timeout_entries"
-        	    android:entryValues="@array/display_timeout_values"
-        	    android:key="display_timeout_delay"
-        	    android:title="@string/LockscreenTimeout"
-                app:isSilent="false"
-        	    app:packageNameToKill="com.android.systemui"/>
+            <!--/*
+	    <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        	android:defaultValue="10000"
+        	android:entries="@array/display_timeout_entries"
+        	android:entryValues="@array/display_timeout_values"
+        	android:key="display_timeout_delay"
+		android:title="@string/LockscreenTimeout"
+		app:isSilent="false"
+        	app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
+            	android:defaultValue="4"
+            	android:key="lockscreen_notifications"
+            	android:title="@string/LockscreenNotification"
+            	app:isSilent="false"
+            	app:maxValue="4"
+            	app:minValue="1"
+            	app:packageNameToKill="com.android.systemui" />
+            */-->
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/LockscreenAnalogTitle">
@@ -1206,6 +1216,7 @@
                 android:key="button_key_light"
                 android:summary="%s"
                 android:title="@string/MiscKeyboard" />
+            <!--/*
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                 android:defaultValue="17"
                 android:key="aod_brightness"
@@ -1213,6 +1224,7 @@
                 app:maxValue="255"
                 app:minValue="0"
                 app:rebootDevice="true" />
+            */-->
         </PreferenceCategory>
     </PreferenceScreen>
 

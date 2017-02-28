@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SuperMan Einstellungen</string>
+    <string name="app_name">SuperMan Einstellungen Pro</string>
     <string name="ACube">Ein Würfel</string>
     <string name="Abstract">Abstrakt</string>
     <string name="ActualCarrierText">Aktueller Provider Text</string>
@@ -610,4 +610,5 @@
     <string name="BlurEffect">Blur Effekt im Herunterziehmenü</string>
     <string name="BlurEffectBackground">Hintergrundeinstellungen des Blureffekts</string>
     <string name="BlurEffectDegree">Festigkeitseinstellung des Blureffekts</string>
+    <string name="LockscreenMiscWake">Fingerabruck entsperren ohne den Bildschirm aufzuwecken</string>
 </resources>

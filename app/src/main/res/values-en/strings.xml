@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Settings</string>
+    <string name="app_name">SuperMan Settings Pro</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="dialog_color_picker">Pick Color</string>
@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Edit carrier label</string>
     <string name="LockscreenMiscCarrierText">Carrier Custom Text</string>
     <string name="LockscreenMiscCarrierSet">Set Custom Text</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Analog Clock</string>
     <string name="LockscreenAnalog">Analog clock on Lockscreen</string>
     <string name="LockscreenAnalog1">Style 1</string>

@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Επιλογές SuperMan</string>
+    <string name="app_name">Επιλογές SuperMan pro</string>
     <string name="navigation_drawer_open">Άνοιγμα συρταριού πλοήγησης</string>
     <string name="navigation_drawer_close">Κλείσιμο συρταριού πλοήγησης</string>
     <string name="dialog_color_picker">Επιλογή χρώματος</string>
@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Επεξεργασία ετικέτας φορέα</string>
     <string name="LockscreenMiscCarrierText">Τροποποιημένη λέξη για φορεα</string>
     <string name="LockscreenMiscCarrierSet">Τροποποιημένη λέξη</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Αναλογικό ρολόι</string>
     <string name="LockscreenAnalog">Αναλογικό ρολόι στην οθόνη κλειδώματος</string>
     <string name="LockscreenAnalog1">Στύλ 1</string>

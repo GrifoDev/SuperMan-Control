@@ -12,14 +12,14 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">إعدادات سوبرمان</string>
+    <string name="app_name">إعدادات سوبرمان الاحترافي</string>
     <string name="navigation_drawer_open">إفتح شريط التنقل</string>
     <string name="navigation_drawer_close">إغلق شريط التنقل</string>
     <string name="dialog_color_picker">إختر اللون</string>
     <string name="press_color_to_apply">إضغط للتطبيق</string>
     <string name="root_progress_dialog_title">الحصول على صلاحيات الروت</string>
     <string name="root_progress_dialog_message">المرجو الإنتظار ...</string>
-    <string name="no_su_dialog_title">ليس لديك صلاحيات الروت</string>
+    <string name="no_su_dialog_title">ليس لديك صلاحيات الروتء</string>
     <string name="no_su_dialog_message">لم نستطع الحصول على صلاحيات الروت بهذا الجهاز.\n\nيمكن القيام بمعظم مهام هذا التطبيق بدون صلاحيات الروت. غير أنه، يمكن لك أن تواجه بعض المشاكل مع استخدام سكريبتات أو مع إعادة تشغيل الجهاز.\n\nلذلك قد نوصي بشدة لسماح الحصول على صلاحيات الروت في المحاولة القادمة أو لسماح الحصول على صلاحيات الروت يدويا.</string>
     <string name="no_su_dialog_dismiss_button_text">حسنا</string>
     <string name="command_executed_success_toast">تم بنجاح</string>
@@ -113,14 +113,14 @@
     <string name="SoundMode">وضع الصوت: صوت / اهتزاز / صامت</string>
     <string name="Torchlight">الفلاش</string>
     <string name="Screenshot">التقاط صورة للشاشة</string>
-    <string name="NotificationsPanel">لوحة الأشعارات</string>
+    <string name="NotificationsPanel">لوحة الإشعارات</string>
     <string name="SwitchWiFi">تشغيل Wi-Fi</string>
     <string name="SwitchMobileData">تشغيل Mobile Data</string>
     <string name="SwitchBluetooth">تشغيل Bluetooth</string>
     <string name="ClearMemory">مسح الذاكرة</string>
     <string name="ToEnd">نحو النهاية</string>
     <string name="ToStart">نحو البداية</string>
-    <string name="CenterHorizontal">مركز أفقيا</string>
+    <string name="CenterHorizontal">مُرَكَّز أفقيا</string>
     <string name="Bold">عريض</string>
     <string name="Italic">مائل</string>
     <string name="BoldItalic">عريض ومائل</string>
@@ -250,7 +250,7 @@
     <string name="AirplaneToggle">مبدل وضع الطائرة</string>
     <string name="MultiUserToggleSummary">سيظهر مبدل تعدد المستخدمين</string>
     <string name="MultiUserToggle">مبدل تعدد المستخدمين</string>
-    <string name="RebootBG">خلفية قائمةإعادة التشغيل</string>
+    <string name="RebootBG">خلفية قائمة إعادة التشغيل</string>
     <string name="RebootBGSummary">قم بتغيير خلفية قائمة إعادة التشغيل</string>
     <string name="EnableCustomBG">استعمال خلفية مخصصة</string>
     <string name="BGPreferences">إعدادات الخلفية العامة</string>
@@ -305,12 +305,12 @@
     <string name="ChargingNotification">إشعارات شحن البطارية على قائمة الإنسدال</string>
     <string name="OngoingNotifications">إمكانية حذف الإشعارات الجارية التنفيذ</string>
     <string name="HeadsUp">إشعارات الإنتباه</string>
-    <string name="SFinder">حذف sFinder من قائمة الانسدال</string>
+    <string name="SFinder">إخفاء sFinder من قائمة الانسدال</string>
     <string name="DoubleTapSleep">نقر مزدوج على شريط الحالة لقفل الجهاز</string>
     <string name="BrightnessWarning">تعطيل التحذير عن السطوع العالي</string>
-    <string name="BlurEffect">Blur Effect on pulldown menu</string>
-    <string name="BlurEffectBackground">Background value of blur effect</string>
-    <string name="BlurEffectDegree">Degree value of blur effect</string>
+    <string name="BlurEffect">التأثير الضبابي في قائمة الإنسدال</string>
+    <string name="BlurEffectBackground">قيمة التأثير الضبابي في الخلفية</string>
+    <string name="BlurEffectDegree">درجة التأثير الضبابي</string>
     <string name="GearRebootCategory">رؤية إعادة التشغيل على الركن الأعلى الأيسر</string>
     <string name="GearReboot">رؤية إعادة التشغيل</string>
     <string name="GearRebootColor">لون إعادة تشغيل</string>
@@ -381,7 +381,7 @@
     <string name="BatteryBarThick">سمك شريط البطارية</string>
     <string name="BatteryBarColor">لون شريط البطارية</string>
     <string name="BatteryBarColorSummary">إختر لون شريط البطارية</string>
-    <string name="Battery3MinitTitle">3Minit Battery إعدادات</string>
+    <string name="Battery3MinitTitle">إعدادات 3Minit Battery</string>
     <string name="BatteryStock">ظهور الأيقونة الأصلية للبطارية</string>
     <string name="Battery3Minit">3Minit Battery</string>
     <string name="Battery3MinitApp">غير إعدادات البطارية (تعمل فقط إذا كان Minit Battery3 مشغل)</string>
@@ -397,9 +397,9 @@
     <string name="MiscKeyboard">مدة إضاءة خلفية لوحة المفاتيح</string>
     <string name="MiscAODisplay">سطوع AOD</string>
     <string name="Ambient">Ambient Display</string>
-    <string name="AmbientTitle">Ambient display إعدادات</string>
+    <string name="AmbientTitle">إعدادات Ambient display</string>
     <string name="AmbientSummary">إذا ما فعلت هذا الخيار ستستيقظ الشاشة في كل مرة توصل فيها الجهاز على إشعارات (فقط AOD)</string>
-    <string name="AmbientTimeout">Ambient Display مدة شاشة</string>
+    <string name="AmbientTimeout">مدة شاشة Ambient display</string>
     <string name="DataUsage">استعمال البيانات الخلوية</string>
     <string name="DataUsageSummary">إظهار استعمال البيانات الخلوية في مكان الإشعارات</string>
     <string name="DataUsageTitle">خصائص استعمال البيانات الخلوية</string>
@@ -418,11 +418,11 @@
     <string name="StatusbarColorsGlobal">الألوان العامة لشريط الحالة</string>
     <string name="StatusbarColorGlobal">اللون العام لشريط الحالة</string>
     <string name="StatusbarClockColor">لون أيقونة الساعة</string>
-    <string name="StatusbarWifiColor">Wifi لون إشارة</string>
-    <string name="StatusbarSignalColor">لون إشارة الخدمة الخلوية</string>
-    <string name="StatusbarMobileColor">نوع الخدمة الخلوية ولون الأسهم</string>
+    <string name="StatusbarWifiColor">لون أيقونة إشارة WiFi</string>
+    <string name="StatusbarSignalColor">لون أيقونة إشارة الخدمة الخلوية</string>
+    <string name="StatusbarMobileColor">لون أيقونة نوع الخدمة الخلوية والأسهم</string>
     <string name="StatusbarRoamingColor">لون أيقونة خدمة التجوال</string>
-    <string name="StatusbarAirplaneColor">لون وضع الطائرة</string>
+    <string name="StatusbarAirplaneColor">لون أيقونة وضع الطائرة</string>
     <string name="StatusbarStatusColor">لون أيقونة حالة شريط الحالة</string>
     <string name="StatusbarNotificationColor">لون أيقونة الإشعارات</string>
     <string name="StatusbarBatteryColor">لون النسبة المئوية للبطارية</string>
@@ -465,8 +465,8 @@
     <string name="RecentRamBarTitle">A.O.K.P شريط الذاكرة العشوائية</string>
     <string name="RecentRamBarFreeRam">لون نص الذاكرة العشوائية غير المستغلة</string>
     <string name="RecentRamBarUsedRam">لون نص الذاكرة العشوائية المستغلة</string>
-    <string name="RecentMatrix">Matrix Animation</string>
-    <string name="RecentMatrixTitle">Matrix Animation في التطبيقات المفتوحة</string>
+    <string name="RecentMatrix">تأثيرات Matrix المتحركة</string>
+    <string name="RecentMatrixTitle">تأثيرات Matrix في التطبيقات المفتوحة</string>
     <string name="RecentMatrixTextColorSummary">Matrix إختر لون نص</string>
     <string name="RecentMatrixTextColor">Matrix تلوين نص</string>
     <string name="RecentMatrixBackgroundColorSummary">Matrix إختر لون خلفية</string>
@@ -507,7 +507,7 @@
     <string name="SignalAlarm4">المنبه 4</string>
     <string name="SignalAlarm5">المنبه 5</string>
     <string name="SignalAlarm6">المنبه 6</string>
-    <string name="SignalWifi1">Wifi 1 (الأصلي)</string>
+    <string name="SignalWifi1">(الأصلي) Wifi 1</string>
     <string name="SignalWifi2">Wifi 2</string>
     <string name="SignalWifi3">Wifi 3</string>
     <string name="SignalWifi4">Wifi 4</string>
@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">غير إسم شركة الإتصال</string>
     <string name="LockscreenMiscCarrierText">إسم شركة الإتصال</string>
     <string name="LockscreenMiscCarrierSet">غير الإسم</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">ساعة العقارب</string>
     <string name="LockscreenAnalog">ساعة العقارب في شاشة القفل</string>
     <string name="LockscreenAnalog1">الشكل 1</string>
@@ -591,7 +592,7 @@
     <string name="ClockSummary">غير جميع الإعدادات المتعلقة بساعة شريط الحالة</string>
     <string name="ClockStock">الساعة الأصلية</string>
     <string name="Clock3Minit">3Minit ساعة</string>
-    <string name="Clock3MinitTitle">إعدادات ساعة 3Minit</string>
+    <string name="Clock3MinitTitle">3Minit إعدادات ساعة</string>
     <string name="Clock3MinitSummary">غير إعدادات الساعة (ستشتغل فقط عندما يكون تطبيق ساعة Minit3 مشغل)</string>
     <string name="ClockPositionTitle">موضع الساعة</string>
     <string name="ClockPosition">إختر موضع الساعة</string>
@@ -600,7 +601,7 @@
     <string name="ClockTapSettings">إضغط لتشغيل تطبيق الساعة</string>
     <string name="ClockTapSelection">إضغط لاختيار تطبيق الساعة</string>
     <string name="ClockAndDate">أظهر الساعة والتاريخ</string>
-    <string name="ClockFormat">إعدادات شكل التاريخ</string>
+    <string name="ClockFormat">إعدادات شكل الساعة</string>
     <string name="ClockUppercase">إظهار الساعة بأحرف كبيرة</string>
     <string name="ClockAMPMSettings">AM/PM إعدادات الساعة</string>
     <string name="ClockFont">شكل خط الساعة</string>
@@ -612,13 +613,13 @@
     <string name="AboutDeveloperSummary">مطور</string>
     <string name="AboutDesignerSummary">مصمم</string>
     <string name="AboutRomDevelopers">مطوروا الروم</string>
-    <string name="AboutTelegram">Telegram روابط</string>
+    <string name="AboutTelegram">روابط Telegram</string>
     <string name="AboutTelegramChat">Telegram دردشة على</string>
     <string name="AboutTelegramChannel">Telegram قناة المستجدات على</string>
     <string name="AboutTelegramChatSummary">دردش معنا حول أمور الرومات الأخيرة</string>
     <string name="AboutTelegramChannelSummary">أحصل على اَخر المعلومات حول الروم</string>
     <string name="AboutXDA">روابط من موقع XDA للزيارة</string>
-    <string name="AboutAFH">AFH روابط التحميل من</string>
+    <string name="AboutAFH">روابط التحميل من AFH</string>
     <string name="AboutAFHRom">حمل اَخِر SuperMan-ROM</string>
     <string name="AboutAFHSuperKernel">حمل اَخِر SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">حمل اَخِر SuperStock-Kernel</string>

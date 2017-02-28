@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan-inställningar</string>
+    <string name="app_name">SuperMan-inställningar pro</string>
     <string name="navigation_drawer_open">Öppna navigeringspanelen</string>
     <string name="navigation_drawer_close">Stäng navigeringspanelen</string>
     <string name="dialog_color_picker">Välj färg</string>
@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Ändra operatörstitel</string>
     <string name="LockscreenMiscCarrierText">Anpassad operatörstext</string>
     <string name="LockscreenMiscCarrierSet">Sätt egen text</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Analog klocka</string>
     <string name="LockscreenAnalog">Analog klocka på låsskärmen</string>
     <string name="LockscreenAnalog1">Stil 1</string>

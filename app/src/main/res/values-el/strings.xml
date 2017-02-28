@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Επεξεργασία ετικέτας φορέα</string>
     <string name="LockscreenMiscCarrierText">Τροποποιημένη λέξη για φορεα</string>
     <string name="LockscreenMiscCarrierSet">Τροποποιημένη λέξη</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Αναλογικό ρολόι</string>
     <string name="LockscreenAnalog">Αναλογικό ρολόι στην οθόνη κλειδώματος</string>
     <string name="LockscreenAnalog1">Στύλ 1</string>

@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Editeaza textul operatorului</string>
     <string name="LockscreenMiscCarrierText">Operator personalizat</string>
     <string name="LockscreenMiscCarrierSet">Seteaza textul customizat</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Ceas Analog</string>
     <string name="LockscreenAnalog">Ceas analog pe Lockscreen</string>
     <string name="LockscreenAnalog1">Stil 1</string>

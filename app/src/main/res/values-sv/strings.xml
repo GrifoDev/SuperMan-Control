@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Ändra operatörstitel</string>
     <string name="LockscreenMiscCarrierText">Anpassad operatörstext</string>
     <string name="LockscreenMiscCarrierSet">Sätt egen text</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Analog klocka</string>
     <string name="LockscreenAnalog">Analog klocka på låsskärmen</string>
     <string name="LockscreenAnalog1">Stil 1</string>

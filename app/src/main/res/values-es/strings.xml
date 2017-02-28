@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Editar etiqueta de la operadora</string>
     <string name="LockscreenMiscCarrierText">Establecer texto personalizado de la operadora</string>
     <string name="LockscreenMiscCarrierSet">Establecer texto personalizado</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Reloj Analogico</string>
     <string name="LockscreenAnalog">Reloj analogico en pantalla de bloqueo</string>
     <string name="LockscreenAnalog1">Estilo 1</string>

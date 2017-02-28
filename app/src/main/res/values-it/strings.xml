@@ -557,6 +557,7 @@
     <string name="LockscreenMiscCarrierSet">Applica testo personalizzato</string>
     <string name="LockscreenAnalogTitle">Orologio analogico</string>
     <string name="LockscreenAnalog">Orologio analogico sulla schermata di blocco</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalog1">Stile 1</string>
     <string name="LockscreenAnalog2">Stile 2</string>
     <string name="LockscreenAnalog3">Stile 3</string>

@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Edytuj napis operatora</string>
     <string name="LockscreenMiscCarrierText">Inny napis operatora</string>
     <string name="LockscreenMiscCarrierSet">Ustaw inny napis</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Zegar analogowy</string>
     <string name="LockscreenAnalog">Zegar analogowy na ekranie blokady</string>
     <string name="LockscreenAnalog1">Style 1</string>

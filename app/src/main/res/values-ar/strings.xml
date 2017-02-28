@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">غير إسم شركة الإتصال</string>
     <string name="LockscreenMiscCarrierText">إسم شركة الإتصال</string>
     <string name="LockscreenMiscCarrierSet">غير الإسم</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">ساعة العقارب</string>
     <string name="LockscreenAnalog">ساعة العقارب في شاشة القفل</string>
     <string name="LockscreenAnalog1">الشكل 1</string>

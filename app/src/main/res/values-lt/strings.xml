@@ -555,6 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Redaguoti Ryšio operatoriaus logotipą</string>
     <string name="LockscreenMiscCarrierText">Individualus Ryšio operatoriaus tekstas</string>
     <string name="LockscreenMiscCarrierSet">Nustatyti Individualų Tekstą</string>
+    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
     <string name="LockscreenAnalogTitle">Analoginis Laikrodis</string>
     <string name="LockscreenAnalog">Analoginis laikrodis Užrakintame ekrane</string>
     <string name="LockscreenAnalog1">Stilius 1</string>

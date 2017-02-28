@@ -12,7 +12,7 @@
     <!--Debería haber recibido una copia de la Licencia Pública General de GNU-->
     <!--Junto con este programa. Si no, vea <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Ajustes</string>
+    <string name="app_name">SuperMan Ajustes Pro</string>
     <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
     <string name="dialog_color_picker">Elegir Color</string>

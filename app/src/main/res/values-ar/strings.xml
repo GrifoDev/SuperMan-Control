@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">إعدادات سوبرمان</string>
+    <string name="app_name">إعدادات سوبرمان الاحترافي</string>
     <string name="navigation_drawer_open">إفتح شريط التنقل</string>
     <string name="navigation_drawer_close">إغلق شريط التنقل</string>
     <string name="dialog_color_picker">إختر اللون</string>

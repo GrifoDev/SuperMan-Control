@@ -38,7 +38,7 @@
     <string name="no_backup_dialog_message">Chciałbyś teraz utworzyć nową kopie zapasową?</string>
     <string name="restore_confirm_dialog_title">Proszę potwierdzić przywracanie kopii zapasowej</string>
     <string name="restore_confirm_message">Wybrałeś przywrócenie danych z poprzednich ustawień Rom Control.\n\n<b>UWAGA! Ta operacja przywróci wszystkie dane z poprzednich ustawień Rom Control zawartych w tym pliku.\n\n<font fgcolor="red">NIE KONTYNUUJ jeśli nie jesteś absolutnie pewny!!!</font></b>\n\nRom Control zostanie zamknięty, aby umożliwić przywrócenie danych i ponownie otwarty, kiedy operacja dobignie końca. Zależnie od ilości danych może to zająć trochę czasu.\n\nNaciśnij \"POTWIERDŹ\" aby kontynuować lub \"ANULUJ\" aby wyjść.</string>
-    <string name="backup_complete_toast">Kobia zapasowa utworzona pomyślnie. Plik kopii można znaleźć w\n%1$s</string>
+    <string name="backup_complete_toast">Kopia zapasowa utworzona pomyślnie. Plik kopii można znaleźć w\n%1$s</string>
     <string name="restore_complete_toast">Przywrócono pomyślnie</string>
     <string name="about">Witamy w SuperMan\'ie</string>
     <string name="systemui_prefs">Ustawienia interfejsu użytkownika</string>
@@ -53,7 +53,7 @@
     <string name="changelog">Lista zmian</string>
     <string name="about_us">O nas</string>
     <string name="confirm_script_dialog_message">"Jesteś pewien, że chcesz uruchomić %1$s?"</string>
-    <string name="run_script_confirm_dialog_title">Wymagane potwierdzenie</string>
+    <string name="run_script_confirm_dialog_title">Wymagane zatwierdzenie</string>
     <string name="run_script_confirm_dialog_positive_button">Tak, uruchom</string>
     <string name="find_app">Znajdź aplikacje</string>
     <string name="reboot_required_dialog_title">Wymagane ponowne uruchomienie</string>
@@ -80,7 +80,7 @@
     <string name="ShowOnTop">Pokaż na górze</string>
     <string name="ShowDownBelow">Pokaż na dole</string>
     <string name="Regular">Standardowy</string>
-    <string name="Center">Wyśrodkowany - odwrócony</string>
+    <string name="Center">Wyśrodkowany - odbicie lustrzane</string>
     <string name="dynamic_status_bar_title">Dynamiczny pasek stanu</string>
     <string name="dynamic_status_bar_color">Kolor Dynamicznego paska stanu</string>
     <string name="dynamic_status_bar_title_summary">Włącz i wyreguluj dynamiczny pasek stanu</string>
@@ -308,12 +308,12 @@
     <string name="SFinder">Wyłącz wyszukiwarkę w rozwijanym menu</string>
     <string name="DoubleTapSleep">Podwójne tapnięcie na pasek stanu aby uśpić</string>
     <string name="BrightnessWarning">Wyłącz ostrzeżenie o zbyt wysokiej jasności</string>
-    <string name="BlurEffect">Blur Effect on pulldown menu</string>
-    <string name="BlurEffectBackground">Background value of blur effect</string>
-    <string name="BlurEffectDegree">Degree value of blur effect</string>
-    <string name="GearRebootCategory">Reboot visibility on top left corner</string>
-    <string name="GearReboot">Reboot view visibility</string>
-    <string name="GearRebootColor">Reboot view color</string>
+    <string name="BlurEffect">Efekt rozmycia w rozwijanym menu</string>
+    <string name="BlurEffectBackground">Tło - efekt rozmycia</string>
+    <string name="BlurEffectDegree">Stopień rozmycia</string>
+    <string name="GearRebootCategory">Widok restartu na lewym górnym rogu</string>
+    <string name="GearReboot">Widok restartu</string>
+    <string name="GearRebootColor">Kolor restartu</string>
     <string name="CarrierLabelCategory">Ustaweinia tekstu operatora</string>
     <string name="CarrierLabel">Pokaż tekst operatora</string>
     <string name="CarrierLabelColor">Kolor tekstu operatora</string>
@@ -332,7 +332,7 @@
     <string name="DeviceInfoBuild">Wersja kompilacji</string>
     <string name="DeviceInfoBattery">Naładowanie baterii</string>
     <string name="DeviceInfoNetwork">Nazwa sieci</string>
-    <string name="DeviceInfoWifi">WIFI info</string>
+    <string name="DeviceInfoWifi">WiFi info</string>
     <string name="DeviceInfoAlarm">Nastepny alarm</string>
     <string name="DeviceInfoUpTime">Czas uruchomienia</string>
     <string name="GifAnimation">Animacje GIF</string>
@@ -460,7 +460,7 @@
     <string name="RecentTitle">Panel OSTATNIE</string>
     <string name="RecentSummary">Zmodyfikuj panel OSTATNIE</string>
     <string name="RecentQuickLaunch">Szybkie uruchamianie</string>
-    <string name="RecentQuickLaunchTitle">Panel OSTATNIE szybkiego uruchamiania</string>
+    <string name="RecentQuickLaunchTitle">Dwa razy aby włączyć ostatnią app</string>
     <string name="RecentRamBar">Belka ramu</string>
     <string name="RecentRamBarTitle">Belka ramu A.O.K.P</string>
     <string name="RecentRamBarFreeRam">Kolor wolnego ramu</string>

@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan-inställningar pro</string>
+    <string name="app_name">SM-inställningar pro</string>
     <string name="navigation_drawer_open">Öppna navigeringspanelen</string>
     <string name="navigation_drawer_close">Stäng navigeringspanelen</string>
     <string name="dialog_color_picker">Välj färg</string>
@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Du har valt att återställa data från tidigare SM-inställningar preferenser.\n\n<b>Var vänlig notera! Denna åtgärd kommer ändra din telefons inställningar till det som finns i filen.\n\n<font fgcolor="red">FORTSÄTT INTE ifall du inte är säker!</font></b>\n\nSM-inställningar kommer stängas medans data återställningen utförs, sedan startas applikationen om när det är klart. Beroende på vad som ändras av dina inställningar kan det ta tid.\n\nVänligen klicka \"CONFIRM\" För att fortsätta eller \"CANCEL\" för att avsluta.</string>
     <string name="backup_complete_toast">Säkerhetskoperingen slutförd. Filen kan du hitta här\n%1$s</string>
     <string name="restore_complete_toast">Återställningen slutförd.</string>
-    <string name="about">Välkommen till SuperMan</string>
+    <string name="about">Välkommen till SM-Rom</string>
     <string name="systemui_prefs">Anv-gränssnitts-inställningar</string>
     <string name="phone_prefs">Telefoninställningar</string>
     <string name="framework_prefs">Framework-preferenser</string>

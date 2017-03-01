@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Setari pro</string>
+    <string name="app_name">SM Setari pro</string>
     <string name="navigation_drawer_open">Deschide meniul de navigatie</string>
     <string name="navigation_drawer_close">inchide meniu de navigatie</string>
     <string name="dialog_color_picker">Alege Culoarea</string>
@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Ai ales sa restaurezi Setarile precedente din Superman Rom.\n\n<b>Ai grija! Aceasta operatiune va aplica Setarile din fisier.\n\n<font fgcolor="red">NU CONTINUA daca nu esti complet sigur!!!</font></b>\n\nRom Control se va inchide si se va redeschide cind operatiune va fi gata. in functe de cite setari sunt timpul poate varia.\n\nTe rog apasa\"CONFIRM\" pentru a continua sau\"CANCEL\" pentru a renunta.</string>
     <string name="backup_complete_toast">Backup terminat cu succes. Fisierul de backup poate fi gasit in\n%1$s</string>
     <string name="restore_complete_toast">Restore complet</string>
-    <string name="about">Bun venit la SuperMan</string>
+    <string name="about">Bun venit la SM-Rom</string>
     <string name="systemui_prefs">Setari SystemUI</string>
     <string name="phone_prefs">Setari telefon</string>
     <string name="framework_prefs">Preferinte Framework</string>

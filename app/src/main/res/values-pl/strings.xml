@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Ustawienia SuperMan\'a zawodowiec</string>
+    <string name="app_name">Ustawienia SM\'a zawodowiec</string>
     <string name="navigation_drawer_open">Otwórz panel nawigacyjny</string>
     <string name="navigation_drawer_close">Zamknij panel nawigacyjny</string>
     <string name="dialog_color_picker">Wybierz kolor</string>
@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Wybrałeś przywrócenie danych z poprzednich ustawień Rom Control.\n\n<b>UWAGA! Ta operacja przywróci wszystkie dane z poprzednich ustawień Rom Control zawartych w tym pliku.\n\n<font fgcolor="red">NIE KONTYNUUJ jeśli nie jesteś absolutnie pewny!!!</font></b>\n\nRom Control zostanie zamknięty, aby umożliwić przywrócenie danych i ponownie otwarty, kiedy operacja dobignie końca. Zależnie od ilości danych może to zająć trochę czasu.\n\nNaciśnij \"POTWIERDŹ\" aby kontynuować lub \"ANULUJ\" aby wyjść.</string>
     <string name="backup_complete_toast">Kopia zapasowa utworzona pomyślnie. Plik kopii można znaleźć w\n%1$s</string>
     <string name="restore_complete_toast">Przywrócono pomyślnie</string>
-    <string name="about">Witamy w SuperMan\'ie</string>
+    <string name="about">Witamy w SM-Rom\'ie</string>
     <string name="systemui_prefs">Ustawienia interfejsu użytkownika</string>
     <string name="phone_prefs">Ustawienia telefonu</string>
     <string name="framework_prefs">Ustawienia frameworka</string>

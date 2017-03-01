@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Paramètres Pro</string>
+    <string name="app_name">SM Paramètres Pro</string>
     <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
     <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
     <string name="dialog_color_picker">Choisir une couleur</string>
@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Vous avez choisi de restaurer les données des préférences d\'un Rom Control antérieures.\n\n<b>Notez s\'il vous plaît! Cette opération modifie les paramètres de votre appareil en fonction des paramètres stockés dans ce fichier.\n\n<font fgcolor="red">NE PAS PROCÉDER à moins d\'être absolument sûr!!!</font></b>\n\nRom Control sera fermé pour permettre la restauration des données et rouvrir à nouveau à la fin. Selon la quantité de vos paramètres, cela peut prendre un certain temps.\n\nCliquez s\'il vous plait \"CONFIRM\" pour procéder ou \"CANCEL\" pour quitter.</string>
     <string name="backup_complete_toast">La sauvegarde a été effectuée avec succès. Le fichier de sauvegarde se trouve dans \n%1$s</string>
     <string name="restore_complete_toast">Restauration complète</string>
-    <string name="about">Bienvenue chez SuperMan</string>
+    <string name="about">Bienvenue chez SM-Rom</string>
     <string name="systemui_prefs">Paramètres Système</string>
     <string name="phone_prefs">Paramètres Téléphone</string>
     <string name="framework_prefs">Paramètres Framework</string>

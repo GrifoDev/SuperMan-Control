@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Rom regolazione professionista</string>
+    <string name="app_name">SM regolazione professionista</string>
     <string name="navigation_drawer_open">Apri menu navigazione</string>
     <string name="navigation_drawer_close">Chiudi menu navigazione</string>
     <string name="dialog_color_picker">Scegli il colore</string>
@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Hai scelto di ripristinare le configurazioni da una versione precedente di Rom Control.\n\n<b>Attenzione! Tale operazione cambierà i settaggi attuali con quelli presenti nel file.\n\n<font fgcolor="red">NON PROCEDETE se non completamente sicuri!!!</font></b>\n\nRom Control si chiuderà per effetuare il ripristino dei dati. Potrebbe richiedere del tempo.\n\nPremi \"CONFERMA\" per procedere oppure \"ANNULLA\" per uscire.</string>
     <string name="backup_complete_toast">Il salvataggio completato correttamente. Il file di salvataggio si trova in\n%1$s</string>
     <string name="restore_complete_toast">Ripristino completo</string>
-    <string name="about">Benvenuti in SuperMan</string>
+    <string name="about">Benvenuti in SM-Rom</string>
     <string name="systemui_prefs">Preferenze SystemUI</string>
     <string name="phone_prefs">Preferenze chiamata</string>
     <string name="framework_prefs">Preferenze Framework</string>
@@ -118,7 +118,7 @@
     <string name="SwitchMobileData">Interrutore Dati mobili</string>
     <string name="SwitchBluetooth">Interrutore Bluetooth</string>
     <string name="ClearMemory">Pulisci la memoria</string>
-    <string name="ToEnd">All\'inizio</string>
+    <string name="ToEnd">All\Sinizio</string>
     <string name="ToStart">Alla fine</string>
     <string name="CenterHorizontal">Centrato  orizzontale</string>
     <string name="Bold">Grossetto</string>

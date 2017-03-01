@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SuperMan Settings Pro</string>
+    <string name="app_name">SM Settings Pro</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="dialog_color_picker">Pick Color</string>
@@ -42,7 +42,7 @@
     <string name="backup_file_prefix_date_format" translatable="false">dd-MM-yy_HH:mm</string>
     <string name="backup_file_suffix" translatable="false">_RCBackup</string>
     <string name="restore_complete_toast">Restore complete</string>
-    <string name="about">Welcome to SuperMan</string>
+    <string name="about">Welcome to SM-Rom</string>
     <string name="systemui_prefs">SystemUI Settings</string>
     <string name="phone_prefs">Phone Settings</string>
     <string name="framework_prefs">Framework Preferences</string>

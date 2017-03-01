@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SuperMan Einstellungen Pro</string>
+    <string name="app_name">SM Einstellungen Pro</string>
     <string name="ACube">Ein Würfel</string>
     <string name="Abstract">Abstrakt</string>
     <string name="ActualCarrierText">Aktueller Provider Text</string>
@@ -527,7 +527,7 @@
     <string name="AboutTelegramChatSummary">Chatten Sie mit uns über die Rom</string>
     <string name="AboutXDA">XDA Links, um uns zu besuchen</string>
     <string name="PayPalDonation">Spenden</string>
-    <string name="about">Willkkommen bei SuperMan</string>
+    <string name="about">Willkkommen bei der SM-Rom</string>
     <string name="BrightnessWarning">Deaktivieren Sie die hohe Helligkeitswarnung</string>
     <string name="PullDownNotificationFooter">Benachrichtigungs Footer Textfarbe</string>
     <string name="PullDownNotificationFooterBackground">Benachrichtigungs Footer Hintergrundfarbe</string>

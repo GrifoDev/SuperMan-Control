@@ -51,7 +51,7 @@
     <string name="set_theme">Επιλογή Θέματος</string>
     <string name="backup_and_restore"><![CDATA[Αποθήκευση και Ανάκτηση]]></string>
     <string name="changelog">Κείμενο Αλλαγών</string>
-    <string name="about_us">Σχετικά με μας</string>
+    <string name="about_us">Σχετικά με εμάς</string>
     <string name="confirm_script_dialog_message">"Είστε σίγουροι ότι θέλετε να τρέξετε %1$s?"</string>
     <string name="run_script_confirm_dialog_title">Απαιτείτε επιβεβαίωση</string>
     <string name="run_script_confirm_dialog_positive_button">Ναι, τρέξε</string>
@@ -481,7 +481,7 @@
     <string name="SignalIconChooser">Εικονίδιο σήματος</string>
     <string name="SignalIconChooserSim2">Εικονίδιο σήματος για sim2 (dual sim)</string>
     <string name="SignalWifiIconChooser">Εικονίδιο wifi</string>
-    <string name="SignalWifiArrowChooser">Bελοι wifi</string>
+    <string name="SignalWifiArrowChooser">Bέλη wifi</string>
     <string name="SignalAlarmChooser">Επιλογή εικονίδιου σήματος</string>
     <string name="Signal1">Σήμα 1 (Stock)</string>
     <string name="Signal2">Σήμα 2</string>
@@ -519,7 +519,7 @@
     <string name="SignalWifi10">Wifi 10</string>
     <string name="SignalWifi11">Wifi 11</string>
     <string name="SignalWifi12">Wifi 12</string>
-    <string name="WeatherTitle">Επιλογες καιρού στην οθόνη κλειδωματος</string>
+    <string name="WeatherTitle">Επιλογές καιρού στην οθόνη κλειδωματος</string>
     <string name="WeatherSummary">Αλλαγή επιλογών καιρού στην οθόνη κλειδωματος</string>
     <string name="Weather">Καιρός</string>
     <string name="WeatherGeo">Τοποθεσία</string>
@@ -530,9 +530,9 @@
     <string name="WeatherMaxTempColor"> Χρώμα μέγιστης θερμοκρασίας </string>
     <string name="WeatherMinTempColor">Χρώμα ελάχιστης θερμοκρασίας</string>
     <string name="WeatherSunriseTempColor">Χρώμα ώρας Ανατολής ηλίου</string>
-    <string name="WeatherSunriseTextColor">Χρώμα Ανατολής ηλίου </string>
+    <string name="WeatherSunriseTextColor">Χρώμα γραμμάτων Ανατολής ηλίου </string>
     <string name="WeatherSunsetTempColor">Χρώμα ώρας Δύσης ηλίου</string>
-    <string name="WeatherSunsetTextColor">Χρώμα Δύση ηλίου</string>
+    <string name="WeatherSunsetTextColor">Χρώμα γραμμάτων Δύσης ηλίου</string>
     <string name="WeatherGeoTextColor">Χρώμα τοποθεσίας</string>
     <string name="WeatherTextColor">Χρώμα καιρού</string>
     <string name="LockscreenTitle">Επιλογές οθόνης κλειδώματος</string>
@@ -555,7 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Επεξεργασία ετικέτας φορέα</string>
     <string name="LockscreenMiscCarrierText">Τροποποιημένη λέξη για φορεα</string>
     <string name="LockscreenMiscCarrierSet">Τροποποιημένη λέξη</string>
-    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
+    <string name="LockscreenMiscWake">Ξεκλείδωμα με δακτυλικό αποτύπωμα, χωρίς να περπατήσει στην οθόνη πρώτα</string>
     <string name="LockscreenAnalogTitle">Αναλογικό ρολόι</string>
     <string name="LockscreenAnalog">Αναλογικό ρολόι στην οθόνη κλειδώματος</string>
     <string name="LockscreenAnalog1">Στύλ 1</string>
@@ -616,7 +616,7 @@
     <string name="AboutTelegram">Links για Telegram</string>
     <string name="AboutTelegramChat">Συνομιλία Telegram</string>
     <string name="AboutTelegramChannel">Κανάλι νέων Telegram</string>
-    <string name="AboutTelegramChatSummary">Συνομιλία με μας για την Rom</string>
+    <string name="AboutTelegramChatSummary">Συνομιλία με εμάς για την Rom</string>
     <string name="AboutTelegramChannelSummary">Ενημερωθείτε για την Rom</string>
     <string name="AboutXDA">Links για XDA</string>
     <string name="AboutAFH">Κατεβάστε το τελευταίο</string>

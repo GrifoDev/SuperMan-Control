@@ -27,7 +27,7 @@
     <string name="reboot_menu">Μενού Επανεκκίνησης</string>
     <string name="reboot_device_text">Επανεκκίνηση Συσκευής</string>
     <string name="reboot_recovery_text">Επανεκκίνηση στο Recovery</string>
-    <string name="reboot_ui_text">Επανεκκίνηση toy SystemUI</string>
+    <string name="reboot_ui_text">Επανεκκίνηση του SystemUI</string>
     <string name="app_reboot_required_dialog_title">Απαίτηση επανεκκίνησης εφαρμογής</string>
     <string name="app_reboot_required_dialog_message">Για να λειτουργήσει σωστά αύτη η επιλογή, θα χρειαστεί να κάνετε επανεκκίνηση %1$s.\n\nπίεσε OK για επανεκκίνηση</string>
     <string name="theme_dialog_title">Επιλογή Θέματος</string>

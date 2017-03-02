@@ -40,7 +40,7 @@
     <string name="restore_confirm_message">Vous avez choisi de restaurer les données des préférences d\'un Rom Control antérieures.\n\n<b>Notez s\'il vous plaît! Cette opération modifie les paramètres de votre appareil en fonction des paramètres stockés dans ce fichier.\n\n<font fgcolor="red">NE PAS PROCÉDER à moins d\'être absolument sûr!!!</font></b>\n\nRom Control sera fermé pour permettre la restauration des données et rouvrir à nouveau à la fin. Selon la quantité de vos paramètres, cela peut prendre un certain temps.\n\nCliquez s\'il vous plait \"CONFIRM\" pour procéder ou \"CANCEL\" pour quitter.</string>
     <string name="backup_complete_toast">La sauvegarde a été effectuée avec succès. Le fichier de sauvegarde se trouve dans \n%1$s</string>
     <string name="restore_complete_toast">Restauration complète</string>
-    <string name="about">Bienvenue chez SM-Rom</string>
+    <string name="about">Bienvenue dans SM-Rom</string>
     <string name="systemui_prefs">Paramètres Système</string>
     <string name="phone_prefs">Paramètres Téléphone</string>
     <string name="framework_prefs">Paramètres Framework</string>
@@ -232,12 +232,12 @@
     <string name="CurrentlyRemoved">Actuellement inactif</string>
     <string name="RestartToggleSummary">Interrupteur de redémarrage sera affiché</string>
     <string name="RestartToggle">Interrupteur Redémarrer</string>
-    <string name="RecoveryToggleSummary">Interrupteur Recovery sera affiché</string>
+    <string name="RecoveryToggleSummary">Interrupteur Redémarrer en Recovery sera affiché</string>
     <string name="RecoveryToggle">Interrupteur Redémarrer Recovery</string>
-    <string name="HotRebootToggleSummary">Interrupteur Hot reboot sera affiché</string>
-    <string name="HotRebootToggle">Interrupteur Hot Reboot</string>
+    <string name="HotRebootToggleSummary">Interrupteur redémarrage rapide sera affiché</string>
+    <string name="HotRebootToggle">Interrupteur Redémarrer Rapide</string>
     <string name="ScreencastToggleSummary">Interrupteur Capture vidéo sera affiché</string>
-    <string name="ScreencastToggle">Interrupteur Capture Vidéo</string>
+    <string name="ScreencastToggle">Interrupteur Capture vidéo</string>
     <string name="ScreenshotToggleSummary">Interrupteur capture d\'écran sera affiché</string>
     <string name="ScreenshotToggle">Interrupteur Capture d\'écran</string>
     <string name="FlashlightToggleSummary">Interrupteur Flash sera affiché</string>
@@ -323,8 +323,8 @@
     <string name="DeviceInfoPreference">Personnalisation infos appareil</string>
     <string name="DeviceInfoView">Activer l\'affichage des informations appareil</string>
     <string name="DeviceInfoColor">Couleurs du texte</string>
-    <string name="DeviceInfoColorNames">Couleur du texte des informations</string>
-    <string name="DeviceInfoColorInfo">Valeurs d\'information couleur du texte</string>
+    <string name="DeviceInfoColorNames">Couleur du texte des infos</string>
+    <string name="DeviceInfoColorInfo">Couleur de la valeur des infos</string>
     <string name="DeviceInfoItems">Éléments d\'information de l\'appareil</string>
     <string name="DeviceInfoModel">Modèle de l\'appareil</string>
     <string name="DeviceInfoAndroid">Version d\'Android</string>
@@ -350,13 +350,13 @@
     <string name="PullDownHeaderIcon">Couleur des icônes d\'arrière-plan</string>
     <string name="PullDownQuicksettings">Couleurs paramètres rapides</string>
     <string name="PullDownQuicksettingsBackground">Arrière-plan des paramètres rapides</string>
-    <string name="PullDownQuicksettingsText">Couleur texte d\'ar.plan param. rapides</string>
-    <string name="PullDownQuicksettingsIconOn">Couleur icône d\'ar.plan des param. rapides</string>
-    <string name="PullDownQuicksettingsIconOff">Couleur icône desactivé d\'ar.plan param. rapides</string>
+    <string name="PullDownQuicksettingsText">Couleur texte ar.plan param. rapides</string>
+    <string name="PullDownQuicksettingsIconOn">Couleur icônes ar.plan des param. rapides</string>
+    <string name="PullDownQuicksettingsIconOff">Couleur icônes desactivés ar.plan param. rapides</string>
     <string name="PullDownQuicksettingsDivider">Couleur des paramètres rapides</string>
     <string name="PullDownQuicksettingsBrightness">Couleur du curseur de luminosité</string>
     <string name="PullDownQuicksettingsDragBackground">Couleur d\'ar.plan lors du déplacement</string>
-    <string name="PullDownQuicksettingsDragIcon">Couleur d\'icône en déplacement</string>
+    <string name="PullDownQuicksettingsDragIcon">Couleur d\'icônes en déplacement</string>
     <string name="PullDownQuicksettingsQuickConnect">Couleur de fond de connexion rapide</string>
     <string name="PullDownQuicksettingsSearchBackground">Couleur fond recherche param. rapides</string>
     <string name="PullDownQuicksettingsSearchText">Couleur texte recherche des param. rapides</string>
@@ -410,7 +410,7 @@
     <string name="VirtualLockHome">Touche d\'accueil</string>
     <string name="VirtualLockRecent">Menu récent</string>
     <string name="VirtualLockPower">Touche d\'alimentation</string>
-    <string name="StatusbarColor">Colorisation barre d\'état</string>
+    <string name="StatusbarColor">Couleurs icônes barre d\'état</string>
     <string name="StatusbarColors">Couleurs barre d\'état</string>
     <string name="StatusbarColorSummary">Modifier les couleurs des icônes de la barre d\'état</string>
     <string name="StatusbarColorsGlobal">Couleurs globales de la barre d\'état</string>
@@ -553,7 +553,7 @@
     <string name="LockscreenMiscCarrierEdit">Editer le texte opérateur</string>
     <string name="LockscreenMiscCarrierText">Texte opérateur</string>
     <string name="LockscreenMiscCarrierSet">Assigner texte opérateur</string>
-    <string name="LockscreenMiscWake">Déverrouillage empreinte sans écran</string>
+    <string name="LockscreenMiscWake">Déverrouillage effleurement empreinte</string>
     <string name="LockscreenAnalogTitle">Horloge analogique</string>
     <string name="LockscreenAnalog">Horloge analogique sur écran verrouillage</string>
     <string name="LockscreenAnalog1">Style 1</string>

@@ -618,6 +618,8 @@
     <string name="AboutTelegramChannel">Κανάλι νέων Telegram</string>
     <string name="AboutTelegramChatSummary">Συνομιλία με εμάς για την Rom</string>
     <string name="AboutTelegramChannelSummary">Ενημερωθείτε για την Rom</string>
+    <string name="AboutGooglePlus">Google Plus Community</string>
+    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
     <string name="AboutXDA">Links για XDA</string>
     <string name="AboutAFH">Κατεβάστε το τελευταίο</string>
     <string name="AboutAFHRom">Κατεβάστε το SuperMan-Rom</string>

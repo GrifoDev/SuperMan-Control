@@ -618,6 +618,8 @@
     <string name="AboutTelegramChannel">Telegram News Channel</string>
     <string name="AboutTelegramChatSummary">Vorbeste cu noi despre cele mai noi informatii despre ROM</string>
     <string name="AboutTelegramChannelSummary">Primeste cele mai noi informatii despre ROM</string>
+    <string name="AboutGooglePlus">Google Plus Community</string>
+    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
     <string name="AboutXDA">Link-uri XDA</string>
     <string name="AboutAFH">Link-uri download AFH</string>
     <string name="AboutAFHRom">Ultima versiune SuperMan-Rom</string>

@@ -611,4 +611,6 @@
     <string name="BlurEffectBackground">Hintergrundeinstellungen des Blureffekts</string>
     <string name="BlurEffectDegree">Festigkeitseinstellung des Blureffekts</string>
     <string name="LockscreenMiscWake">Fingerabruck entsperren ohne den Bildschirm aufzuwecken</string>
+    <string name="AboutGooglePlus">Google Plus Community</string>
+    <string name="AboutGooglePlusSummary">Um neue Requests und Rom Sachen zu diskutieren</string>
 </resources>

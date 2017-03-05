@@ -146,4 +146,16 @@
         </PreferenceScreen>
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:title="@string/AboutGooglePlus">
+        <PreferenceScreen
+            android:icon="@drawable/gplus"
+            android:summary="@string/AboutGooglePlusSummary"
+            android:title="@string/AboutGooglePlus">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://plus.google.com/communities/108548285682852156652" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
 </PreferenceScreen>

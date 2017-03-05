@@ -253,6 +253,7 @@
     <string name="RebootBG">Fond d\'écran menu redémarrer</string>
     <string name="RebootBGSummary">Changer le fond d\'écran du menu redémarrer</string>
     <string name="EnableCustomBG">Activer l\'arrière-plan personnalisé</string>
+    <string name="BGPreferences">Préférences générales de l\'image de fond</string>
     <string name="BGType">Type de fond d\'écran</string>
     <string name="BGOpacity">Opacité du fond d\'écran</string>
     <string name="ImagePreference">Préferences fond d\'écran</string>
@@ -382,6 +383,7 @@
     <string name="BatteryBarColorSummary">Choisisez la couleur de la barre de batterie</string>
     <string name="Battery3MinitTitle">Paramètres 3Minit Battery</string>
     <string name="BatteryStock">Visibilité batterie par défaut</string>
+    <string name="Battery3Minit">3Minit Battery</string>
     <string name="Battery3MinitApp">Changer les paramètres de la batterie (fonctionne seulement si 3Minit est activé)</string>
     <string name="Battery3MinitProApp">Version payante de 3Minit</string>
     <string name="BatteryLow">Paramètres avertissement batterie faible</string>
@@ -616,13 +618,13 @@
     <string name="AboutTelegramChannel">Actualités Telegram</string>
     <string name="AboutTelegramChatSummary">Chat avec nous à propos des dernières modifications sur la Rom</string>
     <string name="AboutTelegramChannelSummary">Avoir les dernières informations sur la Rom</string>
+    <string name="AboutGooglePlus">Google Plus Community</string>
+    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
     <string name="AboutXDA">Liens XDA pour visiter</string>
     <string name="AboutAFH">Liens de télécharments sur AFH</string>
     <string name="AboutAFHRom">Dernière version SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Dernière version SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Dernière version SuperStock-Kernel</string>
-    <string name="BGPreferences">Préférences générales de l\'image de fond</string>
-    <string name="Battery3Minit">3Minit Battery</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

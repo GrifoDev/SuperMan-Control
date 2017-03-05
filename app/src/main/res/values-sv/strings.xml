@@ -618,6 +618,8 @@
     <string name="AboutTelegramChannel">Telegram nyhetskanal</string>
     <string name="AboutTelegramChatSummary">Chatta med oss om den senaste Rom:en</string>
     <string name="AboutTelegramChannelSummary">Få den senaste informationen om Rom:en</string>
+    <string name="AboutGooglePlus">Google Plus Community</string>
+    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
     <string name="AboutXDA">Besök oss på XDA</string>
     <string name="AboutAFH">Länkar för nedladdning på AFH</string>
     <string name="AboutAFHRom">Ladda ner senaste versionen av SuperMan-Rom</string>

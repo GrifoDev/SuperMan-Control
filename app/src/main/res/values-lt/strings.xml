@@ -618,6 +618,8 @@
     <string name="AboutTelegramChannel">Telegram Naujienų kanalas</string>
     <string name="AboutTelegramChatSummary">Pokalbiai ir diskusijos apie naujausią ROM</string>
     <string name="AboutTelegramChannelSummary">Gauti naujausią informaciją apie ROM</string>
+    <string name="AboutGooglePlus">Google Plus Community</string>
+    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
     <string name="AboutXDA">XDA nuoroda</string>
     <string name="AboutAFH">AFH parsisiuntimo nuoroda</string>
     <string name="AboutAFHRom">Atsisiųsti naujausią SuperMan-Rom versiją</string>

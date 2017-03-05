@@ -308,6 +308,7 @@
     <string name="SFinder">Slå av sFinder i pulldown-menyn</string>
     <string name="DoubleTapSleep">Dubbelklicka på statusfältet för att släcka skärmen</string>
     <string name="BrightnessWarning">Stäng av varing för hög ljusstyrka</string>
+    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="BlurEffect">Blur Effekt på pulldown meny</string>
     <string name="BlurEffectBackground">Bakgrunds värde av blur effekt</string>
     <string name="BlurEffectDegree">Grad värde av blur effekt</string>

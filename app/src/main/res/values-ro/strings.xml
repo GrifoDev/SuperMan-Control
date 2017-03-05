@@ -308,6 +308,7 @@
     <string name="SFinder">Dezactiveaza sFinder in meniul pulldown</string>
     <string name="DoubleTapSleep">Double tap pt inchiderea ecranului pe bara de stare</string>
     <string name="BrightnessWarning">Dezactiveaza anuntul de avertizare pt luminozitate excesiva</string>
+    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="BlurEffect">Efect de blurare al meniului pulldown</string>
     <string name="BlurEffectBackground">Puterea blurarii fundalului</string>
     <string name="BlurEffectDegree">Puterea efectului de blurare</string>

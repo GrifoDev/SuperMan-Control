@@ -308,6 +308,7 @@
     <string name="SFinder">Desabilitar o sFinder na barra de status</string>
     <string name="DoubleTapSleep">Toque duplo para desligar na barra de status</string>
     <string name="BrightnessWarning">Desativar aviso de brilho muito alto</string>
+    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="BlurEffect">Efeito de desfoque ao puxar a barra de notificações</string>
     <string name="BlurEffectBackground">Valores do efeito desfoque</string>
     <string name="BlurEffectDegree">Diminuir a intensidade do efeito desfoque</string>

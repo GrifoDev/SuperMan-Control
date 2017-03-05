@@ -308,6 +308,7 @@
     <string name="SFinder">Disabilta barra ricerca sulle impostazioni rapide</string>
     <string name="DoubleTapSleep">Doppio tap sulla statusbar per bloccare</string>
     <string name="BrightnessWarning">Disabilita avviso alta luminosità</string>
+    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="BlurEffect">Effetto blur nelle impostazioni rapide</string>
     <string name="BlurEffectBackground">Valore sfondo effetto blur</string>
     <string name="BlurEffectDegree">Gradazione sfondo effetto blur</string>

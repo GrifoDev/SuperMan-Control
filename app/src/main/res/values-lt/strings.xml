@@ -308,6 +308,7 @@
     <string name="SFinder">Nerodyti sFinder Išplėčiamuose nustatymuose</string>
     <string name="DoubleTapSleep">Užmigdo įrenginį dvigubas Būsenos juostos bakstelėjimas</string>
     <string name="BrightnessWarning">Panaikina perspėjimą dėl per didelio ekrano ryškumo</string>
+    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="BlurEffect">Susiliejimo efektas Išplečiamąjame meniu</string>
     <string name="BlurEffectBackground">Fono susiliejimo reikšmė</string>
     <string name="BlurEffectDegree">Susiliejimo laipsnis</string>

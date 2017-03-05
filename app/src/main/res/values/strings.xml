@@ -307,9 +307,10 @@
     <string name="ChargingNotification">Ongoing Charging Pulldown Notification</string>
     <string name="OngoingNotifications">Make Ongoing Notifications Removable</string>
     <string name="HeadsUp">Heads Up Notifications</string>
-    <string name="SFinder">Disable sFinder in pulldown menu</string>
+    <string name="SFinder">sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Double tab to sleep on statusbar</string>
-    <string name="BrightnessWarning">Disable high brightness warning</string>
+    <string name="BrightnessWarning">High brightness warning</string>
+    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="BlurEffect">Blur Effect on pulldown menu</string>
     <string name="BlurEffectBackground">Background value of blur effect</string>
     <string name="BlurEffectDegree">Degree value of blur effect</string>

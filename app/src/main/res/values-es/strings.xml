@@ -308,6 +308,7 @@
     <string name="SFinder">Desactivar sFinder en el menú desplegable</string>
     <string name="DoubleTapSleep">Tocar dos veces para dormir en la barra de estado</string>
     <string name="BrightnessWarning">Deshabilitar aviso de brillo alto</string>
+    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="BlurEffect">Efecto de desenfoque en el menú desplegable </string>
     <string name="BlurEffectBackground">Valor de fondo del efecto de desenfoque</string>
     <string name="BlurEffectDegree">Valor del grado de efecto de desenfoque</string>

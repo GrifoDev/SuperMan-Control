@@ -308,6 +308,7 @@
     <string name="SFinder">إخفاء sFinder من قائمة الانسدال</string>
     <string name="DoubleTapSleep">نقر مزدوج على شريط الحالة لقفل الجهاز</string>
     <string name="BrightnessWarning">تعطيل التحذير عن السطوع العالي</string>
+    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="BlurEffect">التأثير الضبابي في قائمة الإنسدال</string>
     <string name="BlurEffectBackground">قيمة التأثير الضبابي في الخلفية</string>
     <string name="BlurEffectDegree">درجة التأثير الضبابي</string>

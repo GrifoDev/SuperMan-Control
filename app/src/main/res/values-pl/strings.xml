@@ -308,6 +308,7 @@
     <string name="SFinder">Wyłącz wyszukiwarkę w rozwijanym menu</string>
     <string name="DoubleTapSleep">Podwójne tapnięcie na pasek stanu aby uśpić</string>
     <string name="BrightnessWarning">Wyłącz ostrzeżenie o zbyt wysokiej jasności</string>
+    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="BlurEffect">Efekt rozmycia w rozwijanym menu</string>
     <string name="BlurEffectBackground">Tło - efekt rozmycia</string>
     <string name="BlurEffectDegree">Stopień rozmycia</string>

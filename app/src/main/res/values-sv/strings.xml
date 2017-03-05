@@ -555,7 +555,7 @@
     <string name="LockscreenMiscCarrierEdit">Ändra operatörstitel</string>
     <string name="LockscreenMiscCarrierText">Anpassad operatörstext</string>
     <string name="LockscreenMiscCarrierSet">Sätt egen text</string>
-    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
+    <string name="LockscreenMiscWake">Fingeravtryck upplåsning utan att slå på skärmen först</string>
     <string name="LockscreenAnalogTitle">Analog klocka</string>
     <string name="LockscreenAnalog">Analog klocka på låsskärmen</string>
     <string name="LockscreenAnalog1">Stil 1</string>
@@ -582,7 +582,7 @@
     <string name="ButtonSummary">Ändra inställningar för hårdvaruknappar</string>
     <string name="ButtonBackPress">Beteende för långtryck på tillbaka-knappen</string>
     <string name="ButtonRecentPress">Beteende för långtryck på recent-knappen</string>
-    <string name="ButtonBackBehaviour">Remove killed from the recent bar</string>
+    <string name="ButtonBackBehaviour">Ta bort döda appar från senaste panelen</string>
     <string name="ButtonRecentBehaviour0">Senaste/Flera Fönster(standard)</string>
     <string name="ButtonRecentBehaviour1">Döda applikation</string>
     <string name="ButtonRecentBehaviour2">Meny</string>
@@ -618,8 +618,8 @@
     <string name="AboutTelegramChannel">Telegram nyhetskanal</string>
     <string name="AboutTelegramChatSummary">Chatta med oss om den senaste Rom:en</string>
     <string name="AboutTelegramChannelSummary">Få den senaste informationen om Rom:en</string>
-    <string name="AboutGooglePlus">Google Plus Community</string>
-    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
+    <string name="AboutGooglePlus">Google Plus Mötesplats</string>
+    <string name="AboutGooglePlusSummary">Diskutera önskemål av funktioner och generella rom saker</string>
     <string name="AboutXDA">Besök oss på XDA</string>
     <string name="AboutAFH">Länkar för nedladdning på AFH</string>
     <string name="AboutAFHRom">Ladda ner senaste versionen av SuperMan-Rom</string>

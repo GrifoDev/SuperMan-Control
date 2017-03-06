@@ -1,66 +1,66 @@
 <!--/*      Creado por Roberto Mariani y Anna Berkovitch, 2015-2016-->
     <!--Este programa es software libre: Puedes redistribuirlo y/o modificarlo-->
-    <!--Bajo los términos de la Licencia Pública General de GNU publicada por-->
-    <!--La Fundación de Software Libre, ya sea la versión 3 de la Licencia, o-->
-    <!--(A su elección) cualquier versión posterior.-->
+    <!--bajo los términos de la Licencia Pública General de GNU publicada por-->
+    <!--la Fundación de Software Libre, ya sea la versión 3 de la Licencia, o-->
+    <!--(a su elección) cualquier versión posterior.-->
 
     <!--Este programa se distribuye con la esperanza de que sea útil,-->
-    <!--Pero SIN NINGUNA GARANTÍA; Sin la garantía implícita de-->
+    <!--pero SIN NINGUNA GARANTÍA; Sin la garantía implícita de-->
     <!--COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Vea el-->
     <!--GNU General Public License para más detalles.-->
 
     <!--Debería haber recibido una copia de la Licencia Pública General de GNU-->
-    <!--Junto con este programa. Si no, vea <http://www.gnu.org/licenses/>.*/-->
+    <!--junto con este programa. Si no, vea <http://www.gnu.org/licenses/>.*/-->
 <resources>
     <string name="app_name">SM Ajustes Pro</string>
     <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
     <string name="navigation_drawer_close">Cerrar el cajón de navegación</string>
     <string name="dialog_color_picker">Elegir Color</string>
     <string name="press_color_to_apply">Presionar para aplicar</string>
-    <string name="root_progress_dialog_title">Adquisicion de acceso root</string>
+    <string name="root_progress_dialog_title">Adquiriendo acceso root</string>
     <string name="root_progress_dialog_message">Por favor espera……</string>
     <string name="no_su_dialog_title">Sin privilegios root</string>
     <string name="no_su_dialog_message">No pudimos obtener acceso root en su dispositivo. \n\n La mayoría de las funciones de esta aplicación pueden realizarse sin acceso root. Sin embargo, es posible que experimente problemas al ejecutar secuencias de comandos o al reiniciar. \n\n Recomendamos encarecidamente permitir el acceso root en la siguiente solicitud o permitir tal acceso en su cliente de SuperSu manualmente.</string>
     <string name="no_su_dialog_dismiss_button_text">Lo que sea, hombre</string>
     <string name="command_executed_success_toast">Ejecutado correctamente</string>
     <string name="root_tools_exception_toast">Archivo no encontrado o Acceso root denegado</string>
-    <string name="reboot_menu">Menu de Reinicio</string>
+    <string name="reboot_menu">Menú de Reinicio</string>
     <string name="reboot_device_text">Reinicia el Terminal</string>
     <string name="reboot_recovery_text">Reinicio Recovery</string>
     <string name="reboot_ui_text">Reinicia SystemUI</string>
     <string name="app_reboot_required_dialog_title">Requiere reiniciar la App</string>
-    <string name="app_reboot_required_dialog_message">Para que esta acción tenga efecto es necesario reiniciar %1$s.\n\nPresiona OK para restaurar ahora</string>
+    <string name="app_reboot_required_dialog_message">Para que esta acción tenga efecto es necesario reiniciar %1$s.\n\nPresiona OK para reiniciar ahora</string>
     <string name="theme_dialog_title">Elige el tema</string>
-    <string name="changelog_version_title">Version de Rom: %1$s</string>
+    <string name="changelog_version_title">Versión de Rom: %1$s</string>
     <string name="backup_restore_dialog_title">Respaldo/Restaurar datos del Rom Control</string>
     <string name="choose_backup_dialog_title">Por favor seleccione un respaldo para restaurar</string>
-    <string name="no_backup_dialog_title">Ningun respaldo encontrado en este dispositivo</string>
-    <string name="no_backup_dialog_message">Te gustaria crear un nuevo respaldo ahora?</string>
+    <string name="no_backup_dialog_title">Ningún respaldo encontrado en este dispositivo</string>
+    <string name="no_backup_dialog_message">¿Te gustaría crear un nuevo respaldo ahora?</string>
     <string name="restore_confirm_dialog_title">Por favor confirma restaurar</string>
-    <string name="restore_confirm_message">Ha elegido restaurar los datos de las preferencias de Rom Control anteriores.\n\n<b>Tenga en cuenta! Esta operación cambiará la configuración de su dispositivo en función de los ajustes almacenados en este archivo.\n\n<font fgcolor="red">NO PROCEDA a menos que este absolutamente seguro!!!</font></b>\n\nRom Control se cerrará para permitir la restauración de datos y volver a abrirse una vez finalizada. Dependiendo de la cantidad de ajustes, esto puede tomar algún tiempo.\n\nPor favor click \"CONFIRMAR\" para proceder o \"CANCELAR\" para salir.</string>
+    <string name="restore_confirm_message">Ha elegido restaurar los datos de las preferencias de Rom Control anteriores.\n\n<b>¡Tenga cuidado! Esta operación cambiará la configuración de su dispositivo en función de los ajustes almacenados en este archivo.\n\n<font fgcolor="red">¡¡¡NO PROCEDA a menos que este absolutamente seguro!!!</font></b>\n\nRom Control se cerrará para permitir la restauración de datos y volverá a abrirse una vez finalizada. Dependiendo de la cantidad de ajustes, esto puede tomar algún tiempo.\n\nPor favor click \"CONFIRMAR\" para proceder o \"CANCELAR\" para salir.</string>
     <string name="backup_complete_toast">Copia de seguridad completada correctamente. El archivo de copia de seguridad se puede encontrar en\n%1$s</string>
-    <string name="restore_complete_toast">Restauracion completa</string>
-    <string name="about">Bienvenido a SM-Rom</string>
-    <string name="systemui_prefs">Ajustes SystemUI</string>
-    <string name="phone_prefs">Ajustes Telefono</string>
+    <string name="restore_complete_toast">Restauración completa</string>
+    <string name="about">Bienvenido a SuperMan</string>
+    <string name="systemui_prefs">Ajustes de SystemUI</string>
+    <string name="phone_prefs">Ajustes del Teléfono</string>
     <string name="framework_prefs">Perferencias del Framework</string>
     <string name="settings_prefs">Atajos de Apps</string>
     <string name="launcher_prefs">Ajustes del Launcher</string>
-    <string name="notification_panel_prefs">Panel de Notification</string>
-    <string name="more_options">Mas opciones</string>
+    <string name="notification_panel_prefs">Panel de Notificaciones</string>
+    <string name="more_options">Más opciones</string>
     <string name="set_theme">Seleccionar Tema</string>
-    <string name="backup_and_restore"><![CDATA[Respaldar & Restaurar]]></string>
-    <string name="changelog">Changelog</string>
+    <string name="backup_and_restore"><![CDATA[Respaldar y Restaurar]]></string>
+    <string name="changelog">Registro de cambios</string>
     <string name="about_us">Acerca de</string>
-    <string name="confirm_script_dialog_message">"Estas seguro que lo quieres ejecutar? %1$s?"</string>
-    <string name="run_script_confirm_dialog_title">Confirmacion requerida</string>
-    <string name="run_script_confirm_dialog_positive_button">Si, ejecutar</string>
+    <string name="confirm_script_dialog_message">"¿Estás seguro de que lo quieres ejecutar? %1$s?"</string>
+    <string name="run_script_confirm_dialog_title">Confirmación requerida</string>
+    <string name="run_script_confirm_dialog_positive_button">Sí, ejecutar</string>
     <string name="find_app">Encontrar App</string>
     <string name="reboot_required_dialog_title">Reinicio del dispositivo requerido</string>
-    <string name="reboot_required_dialog_message">Para que esta acción surta efecto, se requiere un reinicio completo del dispositivo. Le gustaría reiniciar ahora?</string>
-    <string name="reboot_later_negative_button">mas tarde</string>
+    <string name="reboot_required_dialog_message">Para que esta acción surta efecto, se requiere un reinicio completo del dispositivo. ¿Le gustaría reiniciar ahora?</string>
+    <string name="reboot_later_negative_button">más tarde</string>
     <string name="reboot_now_dialog_button">reiniciar ahora</string>
-    <string name="imminent_reboot_warning">Su dispositivo se reiniciará INMEDIATAMENTE al finalizar la secuencia de comandos!!!</string>
+    <string name="imminent_reboot_warning">¡¡¡Su dispositivo se reiniciará INMEDIATAMENTE al finalizar la secuencia de comandos!!!</string>
     <string name="restore_dialog_description">Esta acción restaurará los siguientes elementos a los colores de stock</string>
     <string name="LightTheme">Tema ligero</string>
     <string name="DarkTheme">Tema oscuro</string>
@@ -69,7 +69,7 @@
     <string name="Icon1">Icono 1</string>
     <string name="Icon2">Icono 2</string>
     <string name="Shown">Mostrar</string>
-    <string name="Hidden">Esconder</string>
+    <string name="Hidden">Ocultar</string>
     <string name="Enabled">Activado</string>
     <string name="Disabled">Desactivado</string>
     <string name="On">On</string>
@@ -78,9 +78,9 @@
     <string name="Right">Lado derecho</string>
     <string name="Centered">Centrado</string>
     <string name="ShowOnTop">Mostrar en la parte superior</string>
-    <string name="ShowDownBelow">Muestra abajo</string>
+    <string name="ShowDownBelow">Mostrar en la parte inferior</string>
     <string name="Regular">Regular</string>
-    <string name="Center">Centrado en el centro</string>
+    <string name="Center">Centrado</string>
     <string name="dynamic_status_bar_title">Barra de estado dinámica</string>
     <string name="dynamic_status_bar_color">Color dinámico de la barra de estado</string>
     <string name="dynamic_status_bar_title_summary">Ajustes para habilitar y ajustar la barra de estado dinámica</string>
@@ -91,7 +91,7 @@
     <string name="dynamic_status_bar_filter_title">Oscurecimiento</string>
     <string name="dynamic_status_bar_filter_summary">Superposición de un filtro de oscurecimiento en la barra de estado</string>
     <string name="dsb_gradient_filter_value_0">Off</string>
-    <string name="dsb_gradient_filter_value_1">Solo en el escritorio</string>
+    <string name="dsb_gradient_filter_value_1">Sólo en el escritorio</string>
     <string name="dsb_gradient_filter_value_2">En todas partes excepto el escritorio</string>
     <string name="dsb_gradient_filter_value_3">On</string>
     <string name="dynamic_status_bar_filter_value">La intensidad del filtro de oscurecimiento</string>
@@ -109,13 +109,13 @@
     <string name="VolumePlus">Volumen  +</string>
     <string name="VolumeMinus">Volumen  -</string>
     <string name="Dialer">Marcador</string>
-    <string name="GoogleSearch">Busqueda de Google</string>
+    <string name="GoogleSearch">Búsqueda de Google</string>
     <string name="SoundMode">Modo de sonido: Sonido / Vibración / Silencio</string>
     <string name="Torchlight">Linterna</string>
     <string name="Screenshot">Captura de Pantalla</string>
     <string name="NotificationsPanel">Panel de Notificationes</string>
     <string name="SwitchWiFi">Interruptor Wi-Fi</string>
-    <string name="SwitchMobileData">Interruptor Datos Moviles</string>
+    <string name="SwitchMobileData">Interruptor Datos Móviles</string>
     <string name="SwitchBluetooth">Interruptor Bluetooth</string>
     <string name="ClearMemory">Borrar Memoria</string>
     <string name="ToEnd">Para terminar</string>
@@ -141,24 +141,24 @@
     <string name="UploadOnly">Cargar solo</string>
     <string name="ToEndOfView">Al final de la vista</string>
     <string name="ToStartOfView">Comienzo de la vista</string>
-    <string name="toast_animation">Animacion Toast UI Framework</string>
-    <string name="toast_animation_title">Animacion Toast</string>
+    <string name="toast_animation">Animación Toast UI Framework</string>
+    <string name="toast_animation_title">Animación Toast</string>
     <string name="toast_none_animation">Ninguna</string>
     <string name="toast_default_animation">Defecto</string>
     <string name="toast_fade_animation">Animación de desvanecimiento</string>
     <string name="toast_SlideRight_animation">Diapositiva de la animación derecha</string>
     <string name="toast_SlideLeft_animation">Diapositiva de la animación Izquierda</string>
-    <string name="toast_Xylon_animation">Animacion Xylon</string>
-    <string name="toast_Toko_animation">Animacion Toko</string>
-    <string name="toast_Tn_animation">Animacion Tn</string>
-    <string name="toast_Honami_animation">Animacion Honami</string>
-    <string name="toast_FastFade_animation">Animacion FastFade</string>
-    <string name="toast_GrowFade_animation">Animacion GrowFade</string>
-    <string name="toast_GrowFadeCenter_animation">Animacion GrowFadeCenter</string>
-    <string name="toast_GrowFadeBottom_animation">Animacion GrowFadeBottom</string>
-    <string name="toast_Translucent_animation">Animacion Translucent</string>
-    <string name="toast_SlideLeftRight_animation">Deslizar Animación Izquierda a Derecha</string>
-    <string name="toast_SlideRightLeft_animation">Deslizar Animación Derecha a Izquierda</string>
+    <string name="toast_Xylon_animation">Animación Xylon</string>
+    <string name="toast_Toko_animation">Animación Toko</string>
+    <string name="toast_Tn_animation">Animación Tn</string>
+    <string name="toast_Honami_animation">Animación Honami</string>
+    <string name="toast_FastFade_animation">Animación FastFade</string>
+    <string name="toast_GrowFade_animation">Animación GrowFade</string>
+    <string name="toast_GrowFadeCenter_animation">Animación GrowFadeCenter</string>
+    <string name="toast_GrowFadeBottom_animation">Animación GrowFadeBottom</string>
+    <string name="toast_Translucent_animation">Animación Translucent</string>
+    <string name="toast_SlideLeftRight_animation">Deslizar Animación de Izquierda a Derecha</string>
+    <string name="toast_SlideRightLeft_animation">Deslizar Animación de Derecha a Izquierda</string>
     <string name="AlwaysOff">Siempre apagado</string>
     <string name="OneSecond">1 Segundo</string>
     <string name="ThreeSeconds">2 Segundos</string>
@@ -230,28 +230,28 @@
     <string name="SMLogoRed">SuperMan Logo en Rojo</string>
     <string name="SMLogoBlue">SuperMan Logo en Azul</string>
     <string name="CurrentlyRemoved">Eliminado actualmente</string>
-    <string name="RestartToggleSummary">Se mostrara el boton de reinicio</string>
-    <string name="RestartToggle">Boton Reinicio</string>
-    <string name="RecoveryToggleSummary">Se mostrara el boton de reinicio recovery</string>
-    <string name="RecoveryToggle">Boton Reinicio Recovery</string>
-    <string name="HotRebootToggleSummary">Se mostrara el boton de reinicio rapido</string>
-    <string name="HotRebootToggle">Boton Reinicio Rapido</string>
-    <string name="ScreencastToggleSummary">Se mostrara el boton de grabacion de pantalla</string>
-    <string name="ScreencastToggle">Boton Grabacion de Pantalla</string>
-    <string name="ScreenshotToggleSummary">Se mostrara el boton de captura de pantalla</string>
-    <string name="ScreenshotToggle">Boton Captura de Pantalla</string>
-    <string name="FlashlightToggleSummary">Se mostrara el boton de linterna</string>
-    <string name="FlashlightToggle">Boton Linterna</string>
-    <string name="EmergencyToggleSummary">Se mostrara el boton de emergencia</string>
-    <string name="EmergencyToggle">Boton Emergencia</string>
-    <string name="DataToggleSummary">Se mostrara el boton de datos</string>
-    <string name="DataToggle">Boton Datos</string>
-    <string name="AirplaneToggleSummary">Se mostrara el boton de modo avion</string>
-    <string name="AirplaneToggle">Boton Modo Avion</string>
-    <string name="MultiUserToggleSummary">Se mostrara el boton multiusuario</string>
-    <string name="MultiUserToggle">Boton MultiUsuario</string>
-    <string name="RebootBG">Fondo del menu de Reinicio</string>
-    <string name="RebootBGSummary">Cambia el fondo del menu de reinicio</string>
+    <string name="RestartToggleSummary">Se mostrará el botón de reinicio</string>
+    <string name="RestartToggle">Botón Reinicio</string>
+    <string name="RecoveryToggleSummary">Se mostrará el botón de reinicio recovery</string>
+    <string name="RecoveryToggle">Botón Reinicio Recovery</string>
+    <string name="HotRebootToggleSummary">Se mostrará el botón de reinicio rápido</string>
+    <string name="HotRebootToggle">Botón Reinicio Rapido</string>
+    <string name="ScreencastToggleSummary">Se mostrará el botón de grabación de pantalla</string>
+    <string name="ScreencastToggle">Botón Grabación de Pantalla</string>
+    <string name="ScreenshotToggleSummary">Se mostrará el botón de captura de pantalla</string>
+    <string name="ScreenshotToggle">Botón Captura de Pantalla</string>
+    <string name="FlashlightToggleSummary">Se mostrará el botón de linterna</string>
+    <string name="FlashlightToggle">Botón Linterna</string>
+    <string name="EmergencyToggleSummary">Se mostrará el botón de emergencia</string>
+    <string name="EmergencyToggle">Botón Emergencia</string>
+    <string name="DataToggleSummary">Se mostrará el botón de datos</string>
+    <string name="DataToggle">Botón Datos</string>
+    <string name="AirplaneToggleSummary">Se mostrará el botón de modo avion</string>
+    <string name="AirplaneToggle">Botón Modo Avion</string>
+    <string name="MultiUserToggleSummary">Se mostrará el botón multiusuario</string>
+    <string name="MultiUserToggle">Botón MultiUsuario</string>
+    <string name="RebootBG">Fondo del menú de Reinicio</string>
+    <string name="RebootBGSummary">Cambia el fondo del menú de reinicio</string>
     <string name="EnableCustomBG">Habilitar fondo personalizado</string>
     <string name="BGPreferences">Preferencias generales del fondo</string>
     <string name="BGType">Tipo de fondo</string>
@@ -262,7 +262,7 @@
     <string name="GradientPreferences">Preferencias de color y degradado</string>
     <string name="PrimaryColor">Seleccionar color primario</string>
     <string name="SecondaryColor">Color secundario (para degradado)</string>
-    <string name="GradientOrientation">Orientacion del degradado</string>
+    <string name="GradientOrientation">Orientación del degradado</string>
     <string name="NotificationBG">Fondo del panel de notificacion</string>
     <string name="NotificationBGSummary">Cambiar el fondo desplegable del panel de notificaciones</string>
     <string name="ShortCutTitle">Acceso directo a aplicaciones útiles</string>
@@ -308,7 +308,7 @@
     <string name="SFinder">Desactivar sFinder en el menú desplegable</string>
     <string name="DoubleTapSleep">Tocar dos veces para dormir en la barra de estado</string>
     <string name="BrightnessWarning">Deshabilitar aviso de brillo alto</string>
-    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
+    <string name="BrightnessSlider">Barra de brillo en menú desplegable</string>
     <string name="BlurEffect">Efecto de desenfoque en el menú desplegable </string>
     <string name="BlurEffectBackground">Valor de fondo del efecto de desenfoque</string>
     <string name="BlurEffectDegree">Valor del grado de efecto de desenfoque</string>
@@ -331,15 +331,15 @@
     <string name="DeviceInfoModel">Modelo del dispositivo</string>
     <string name="DeviceInfoAndroid">Version de Android</string>
     <string name="DeviceInfoBuild">Versión de la compilación</string>
-    <string name="DeviceInfoBattery">Nivel de bateria</string>
+    <string name="DeviceInfoBattery">Nivel de batería</string>
     <string name="DeviceInfoNetwork">Nombre de red</string>
     <string name="DeviceInfoWifi">info WiFi</string>
     <string name="DeviceInfoAlarm">Proxima alarma</string>
     <string name="DeviceInfoUpTime">Tiempo de activación del dispositivo</string>
-    <string name="GifAnimation">Animacion Gif</string>
+    <string name="GifAnimation">Animación Gif</string>
     <string name="GifAnimationTitle">Animación Gif en el área de notificación</string>
-    <string name="GifAnimationSummary">Ajustes para la animacion gif</string>
-    <string name="GifAnimationSelect">Seleccionar animacion gif</string>
+    <string name="GifAnimationSummary">Ajustes para la animación gif</string>
+    <string name="GifAnimationSelect">Seleccionar animación gif</string>
     <string name="GifAnimationShow">Mostrar animación gif en el menú desplegable de notificaciones</string>
     <string name="PullDownSummary">Cambiar los colores del menú desplegable</string>
     <string name="PullDownTitle">Colores del menú desplegable</string>
@@ -370,19 +370,19 @@
     <string name="PullDownNotificationFooterBackground">Color de fondo del pie de notificación</string>
     <string name="PayPalSummary">Click para visitar</string>
     <string name="PayPal">Visita mi sitio web de PayPal</string>
-    <string name="PayPalDonation">Donacion</string>
-    <string name="Battery">Ajustes de bateria</string>
-    <string name="BatterySummary">Se pueden cambiar diferentes ajustes relacionados con la batería aquí</string>
-    <string name="BatteryBar">Barra de bateria</string>
+    <string name="PayPalDonation">Donación</string>
+    <string name="Battery">Ajustes de batería</string>
+    <string name="BatterySummary">Aquí se pueden cambiar diferentes ajustes relacionados con la batería</string>
+    <string name="BatteryBar">Barra de batería</string>
     <string name="BatteryBarOn">Desplazar ABAJO mostrado en todas partes</string>
     <string name="BatteryBarOff">Desplazar ABAJO ocultado de la pantalla de abajo/bloqueo</string>
     <string name="BatteryBarTitle">Ajustes de desplazamiento ABAJO</string>
-    <string name="BatteryBarAnimation">Animacion de la carga de la barra de bateria</string>
-    <string name="BatteryBarStyle">Estilo de la barra de bateria</string>
+    <string name="BatteryBarAnimation">Animación de la carga de la barra de batería</string>
+    <string name="BatteryBarStyle">Estilo de la barra de batería</string>
     <string name="BatteryBarThick">Espesor de la barra de batería</string>
-    <string name="BatteryBarColor">Color de la barra de bateria</string>
-    <string name="BatteryBarColorSummary">Elegir el color de la barra de bateria</string>
-    <string name="Battery3MinitTitle">Ajustes de la bateria 3Minit</string>
+    <string name="BatteryBarColor">Color de la barra de batería</string>
+    <string name="BatteryBarColorSummary">Elegir el color de la barra de batería</string>
+    <string name="Battery3MinitTitle">Ajustes de la batería 3Minit</string>
     <string name="BatteryStock">Visibilidad de la batería Stock</string>
     <string name="Battery3Minit">Bateria 3Minit</string>
     <string name="Battery3MinitApp">Cambiar los ajustes de la batería (sólo funciona cuando la batería 3Minit está activada)</string>
@@ -393,7 +393,7 @@
     <string name="BatteryCriticalPercentage">Porcentaje crítico de advertencia de la batería</string>
     <string name="BatteryCriticalPercentageSummary">Configurar el porcentaje de advertencia de batería crítica</string>
     <string name="MiscTitle">Otros ajustes de SystemUI</string>
-    <string name="MiscSummary">SystemUI características que no coincide con ninguna categoría</string>
+    <string name="MiscSummary">Características de SystemUI que no coinciden con ninguna categoría</string>
     <string name="MiscUBS">Encender pantala al enchufar USB encendido/apagado</string>
     <string name="MiscKeyboard">Duración de la luz de fondo del teclado</string>
     <string name="MiscAODisplay">Brillo AOD</string>
@@ -412,7 +412,7 @@
     <string name="VirtualLockButtonSummary">Activar o desactivar los botones de bloqueo virtual en la barra de estado</string>
     <string name="VirtualLockHome">Botón de inicio</string>
     <string name="VirtualLockRecent">Botón reciente</string>
-    <string name="VirtualLockPower">Boton de encendido</string>
+    <string name="VirtualLockPower">Botón de encendido</string>
     <string name="StatusbarColor">Color de la barra de estado</string>
     <string name="StatusbarColors">Colores de la barra de estado</string>
     <string name="StatusbarColorSummary">Cambiar los colores de los iconos de la barra de estado</string>
@@ -420,10 +420,10 @@
     <string name="StatusbarColorGlobal">Color global de la barra de estado</string>
     <string name="StatusbarClockColor">Color del icono de Reloj</string>
     <string name="StatusbarWifiColor">Color de la señal de WiFi</string>
-    <string name="StatusbarSignalColor">Color de la señal del movil</string>
-    <string name="StatusbarMobileColor">Color del Móvil de flechas y tipo</string>
+    <string name="StatusbarSignalColor">Color de la señal del móvil</string>
+    <string name="StatusbarMobileColor">Tipo del móvil y color de las flechas</string>
     <string name="StatusbarRoamingColor">Color del icono de Roaming</string>
-    <string name="StatusbarAirplaneColor">Color del icono ModoAvion</string>
+    <string name="StatusbarAirplaneColor">Color del icono del Modo Avión</string>
     <string name="StatusbarStatusColor">Color del icono de estado</string>
     <string name="StatusbarNotificationColor">Color del icono de notificacion</string>
     <string name="StatusbarBatteryColor">Color del porcentaje de la batería</string>
@@ -441,7 +441,7 @@
     <string name="NetworkDisplayAutohide">Ocultar automáticamente con poco tráfico</string>
     <string name="NetworkDisplayAutohideEnable">Ocultar automáticamente habilitado</string>
     <string name="NetworkDisplayAutohideDisable">Se muestra siempre</string>
-    <string name="NetworkDisplayAutohideThreshold">Limite de ocultacion automatica</string>
+    <string name="NetworkDisplayAutohideThreshold">Limite de ocultación automatica</string>
     <string name="NetworkDisplayFont">Estilo de fuente</string>
     <string name="NetworkDisplaySize">Factor de escala del tamaño del texto</string>
     <string name="NetworkColor">Colores de tráfico de red</string>
@@ -452,21 +452,21 @@
     <string name="NetworkColorUpload">Color del texto de carga</string>
     <string name="NetworkColorDownload">Color del texto de descarga</string>
     <string name="NetworkColorTraffic">Color de flechas de tráfico</string>
-    <string name="VolumeTitle">Ajustes del boton de volumen</string>
+    <string name="VolumeTitle">Ajustes del botón de volumen</string>
     <string name="VolumeSummary">Cambiar el comportamiento de los botones de volumen mientras la pantalla está apagada</string>
-    <string name="Volume">Customizacion del boton de volumen</string>
-    <string name="VolumeSkip">Saltar musica mientras la pantalla está apagada</string>
+    <string name="Volume">Personalización del botón de volumen</string>
+    <string name="VolumeSkip">Saltar música mientras la pantalla está apagada</string>
     <string name="VolumeDouble">Doble click para play/pause</string>
-    <string name="VolumeLongPress">Tiempo de espera de presionado largo</string>
-    <string name="RecentTitle">Panel reciente</string>
-    <string name="RecentSummary">Cambiar mods para el panel reciente</string>
-    <string name="RecentQuickLaunch">Lanzamiento rapido</string>
+    <string name="VolumeLongPress">Tiempo pulsación para considerar presionado largo</string>
+    <string name="RecentTitle">Panel de aplicaciones recientes</string>
+    <string name="RecentSummary">Cambiar ajusted del panel de aplicaciones recientes</string>
+    <string name="RecentQuickLaunch">Lanzamiento rápido</string>
     <string name="RecentQuickLaunchTitle">Panel reciente de lanzamiento rápido</string>
     <string name="RecentRamBar">Barra Ram</string>
     <string name="RecentRamBarTitle">Barra RAM A.O.K.P</string>
     <string name="RecentRamBarFreeRam">Ram Libre Color del texto</string>
     <string name="RecentRamBarUsedRam">Color del texto de la RAM</string>
-    <string name="RecentMatrix">Animacion Matrix</string>
+    <string name="RecentMatrix">Animación Matrix</string>
     <string name="RecentMatrixTitle">Animación de Matrix en Reciente</string>
     <string name="RecentMatrixTextColorSummary">Elija un color de texto Matrix</string>
     <string name="RecentMatrixTextColor">Matrix Colorización de texto</string>
@@ -521,15 +521,15 @@
     <string name="SignalWifi11">Wifi 11</string>
     <string name="SignalWifi12">Wifi 12</string>
     <string name="WeatherTitle">Ajustes del clima en pantalla de bloqueo</string>
-    <string name="WeatherSummary">Cambiar la configuración relacionada con el clima en pantalla de bloqueo</string>
+    <string name="WeatherSummary">Cambiar la configuración relacionada con el clima en la pantalla de bloqueo</string>
     <string name="Weather">Clima</string>
-    <string name="WeatherGeo">Geolocalizacion</string>
+    <string name="WeatherGeo">Geolocalización</string>
     <string name="WeatherBarometer">Barometro</string>
     <string name="WeatherBarometerTextColor">Color del texto del barómetro</string>
     <string name="WeatherColor">Elegir color</string>
     <string name="WeatherDegreeColor">Color de texto de los grados</string>
-    <string name="WeatherMaxTempColor">Color de texto de temperatura maxima</string>
-    <string name="WeatherMinTempColor">Color de texto de temperatura minima</string>
+    <string name="WeatherMaxTempColor">Color de texto de temperatura máxima</string>
+    <string name="WeatherMinTempColor">Color de texto de temperatura mínima</string>
     <string name="WeatherSunriseTempColor">Color de la temperatura del amanecer</string>
     <string name="WeatherSunriseTextColor">Color del texto del amanecer</string>
     <string name="WeatherSunsetTempColor">Color de la temperatura del atardecer</string>
@@ -537,7 +537,7 @@
     <string name="WeatherGeoTextColor">Color de texto de geolocalización</string>
     <string name="WeatherTextColor">Color de texto de clima</string>
     <string name="LockscreenTitle">Mods de pantalla de bloqueo</string>
-    <string name="LockscreenSummary">Ajustes del reloj de la pantalla bloqueada y más</string>
+    <string name="LockscreenSummary">Ajustes del reloj de la pantalla de bloqueo y más</string>
     <string name="LockscreenClock">Ajustes de horas, segundos y fecha</string>
     <string name="LockscreenClockHour">Mostrar reloj stock</string>
     <string name="LockscreenClockMin">Mostrar minutos</string>
@@ -548,7 +548,7 @@
     <string name="LockscreenClockColorMin">Cambiar el color para el texto de minutos</string>
     <string name="LockscreenClockColorSec">Cambiar el color para el texto de segundos</string>
     <string name="LockscreenMiscTitle">Otros ajustes de pantalla de bloqueo</string>
-    <string name="LockscreenMiscRotation">Rotacion de pantalla de bloqueo</string>
+    <string name="LockscreenMiscRotation">Rotación de pantalla de bloqueo</string>
     <string name="LockscreenMiscAlarm">Siguiente alarma en pantalla de bloqueo</string>
     <string name="LockscreenMiscAlarmColor">Color de alarma en pantalla de bloqueo</string>
     <string name="LockscreenMiscHelp">Ocultar texto de ayuda de la pantalla de bloqueo</string>
@@ -556,9 +556,9 @@
     <string name="LockscreenMiscCarrierEdit">Editar etiqueta de la operadora</string>
     <string name="LockscreenMiscCarrierText">Establecer texto personalizado de la operadora</string>
     <string name="LockscreenMiscCarrierSet">Establecer texto personalizado</string>
-    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
-    <string name="LockscreenAnalogTitle">Reloj Analogico</string>
-    <string name="LockscreenAnalog">Reloj analogico en pantalla de bloqueo</string>
+    <string name="LockscreenMiscWake">Desbloqueo mediante huella sin encender pantalla</string>
+    <string name="LockscreenAnalogTitle">Reloj Analógico</string>
+    <string name="LockscreenAnalog">Reloj analógico en pantalla de bloqueo</string>
     <string name="LockscreenAnalog1">Estilo 1</string>
     <string name="LockscreenAnalog2">Estilo 2</string>
     <string name="LockscreenAnalog3">Estilo 3</string>
@@ -579,18 +579,18 @@
     <string name="LockscreenAnalog18">Estilo 18</string>
     <string name="LockscreenTimeout">Tiempo de espera de la pantalla de bloqueo</string>
     <string name="LockscreenNotification">Numero de notificaciones en pantalla de bloqueo</string>
-    <string name="ButtonTitle">Boton de reciente y atras</string>
+    <string name="ButtonTitle">Botón de reciente y atrás</string>
     <string name="ButtonSummary">Cambia los ajustes relacionados con los botones del hardware</string>
-    <string name="ButtonBackPress">Comportamiento del boton atras al presionado largo</string>
-    <string name="ButtonRecentPress">Comportamiento del boton reciente al presionado largo</string>
+    <string name="ButtonBackPress">Comportamiento del botón atrás con presionado largo</string>
+    <string name="ButtonRecentPress">Comportamiento del botón reciente con presionado largo</string>
     <string name="ButtonBackBehaviour">Remover matar apps de la barra reciente</string>
     <string name="ButtonRecentBehaviour0">Recientes/MultiVentana (por defecto)</string>
-    <string name="ButtonRecentBehaviour1">Matar aplicacion</string>
-    <string name="ButtonRecentBehaviour2">Menu</string>
-    <string name="ButtonBackBehaviour0">Menu (por defecto)</string>
-    <string name="ButtonBackBehaviour1">Matar aplicacion</string>
-    <string name="ClockTitle">Ajustes Reloj</string>
-    <string name="ClockSummary">Cambiar todos los ajustes relacionados con el reloj de la barra de estado</string>
+    <string name="ButtonRecentBehaviour1">Matar aplicación</string>
+    <string name="ButtonRecentBehaviour2">Menú</string>
+    <string name="ButtonBackBehaviour0">Menú (por defecto)</string>
+    <string name="ButtonBackBehaviour1">Matar aplicación</string>
+    <string name="ClockTitle">Ajustes del Reloj</string>
+    <string name="ClockSummary">Cambia los ajustes relacionados con el reloj de la barra de estado</string>
     <string name="ClockStock">Reloj Stock</string>
     <string name="Clock3Minit">Reloj 3Minit</string>
     <string name="Clock3MinitTitle">Ajustes del reloj3Minit</string>
@@ -617,15 +617,15 @@
     <string name="AboutTelegram">Links de Telegram</string>
     <string name="AboutTelegramChat">Chat de Telegram</string>
     <string name="AboutTelegramChannel">Canal de noticias de Telegram</string>
-    <string name="AboutTelegramChatSummary">Charla con nosotros sobre las últimas cosas de Rom</string>
+    <string name="AboutTelegramChatSummary">Charla con nosotros sobre las últimas cosas de la Rom</string>
     <string name="AboutTelegramChannelSummary">Obtener la información más reciente sobre la Rom</string>
-    <string name="AboutGooglePlus">Google Plus Community</string>
-    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
+    <string name="AboutGooglePlus">Comunidad de Google Plus</string>
+    <string name="AboutGooglePlusSummary">Para debatir sobre futuras implementaciones y cosas en general sobre la ROM</string>
     <string name="AboutXDA">XDA Enlaces a Visitar</string>
     <string name="AboutAFH">Enlaces de descarga en AFH</string>
-    <string name="AboutAFHRom">Descargar la ultima SuperMan-Rom</string>
-    <string name="AboutAFHSuperKernel">Descargar el ultimo SuperKernel</string>
-    <string name="AboutAFHSuperStockKernel">Descargar el ultimo SuperStock-Kernel</string>
+    <string name="AboutAFHRom">Descargar la última SuperMan-Rom</string>
+    <string name="AboutAFHSuperKernel">Descargar el último SuperKernel</string>
+    <string name="AboutAFHSuperStockKernel">Descargar el último SuperStock-Kernel</string>
 
     <!--Estas cadenas son para establecer el fragmento por defecto para abrir por primera vez la aplicación se inicia-->
 </resources>

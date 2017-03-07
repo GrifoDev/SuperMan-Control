@@ -63,27 +63,42 @@
 
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
     </array>
     <string-array name="about_credits_names">
-        <item>SuperR - For the kitchen</item>
-        <item>svadev - for his great deodex tool</item>
-        <item>Chainfire - For SuperSU</item>
-        <item>Zubi182 - For sound mod</item>
-        <item>Amarullz - For his aroma installer</item>
-        <item>topjohnwu - For Systemless Xposed</item>
+        <item>Grzechu - Polish Translation</item>
+        <item>Gabriel Campos - Portuguese Translation</item>
+        <item>myellow - Swedish Translation</item>
+        <item>Alex74 - Italian Translation</item>
+        <item>Perracomax - Spanish Translation</item>
+        <item>Kodasnl - Lithuanian Translation</item>
+        <item>Ric and Remy - French Translation</item>
+        <item>Niufy - Greek Translation</item>
+        <item>agabey_42 - Turkish Translation</item>
+        <item>Mohamed - Arabic Translation</item>
+        <item>Alexandru Prună - Romanian Translation</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
-        <item>http://forum.xda-developers.com/member.php?u=5787964/</item>
-        <item>http://forum.xda-developers.com/member.php?u=6242674/</item>
-        <item>http://forum.xda-developers.com/member.php?u=631273/</item>
-        <item>http://forum.xda-developers.com/member.php?u=4415982/</item>
-        <item>http://forum.xda-developers.com/member.php?u=402300/</item>
-        <item>http://forum.xda-developers.com/member.php?u=4470081/</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
     </string-array>
 </resources>

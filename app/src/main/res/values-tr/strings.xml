@@ -40,15 +40,15 @@
     <string name="restore_confirm_message">Rom Kontrol ayarları daha önce yedeklenmiş ayarlara döndürülecek.\n\n<b>Bu işlem Rom Kontrol ayarlarınızı yedek dosyada saklanan ayarlara göre değiştirecektir.\n\n<font fgcolor="red">Kesin emin olmadan DEVAM ETMEYİNİZ!!!</font></b>\n\nRom Kontrol ayarlarının yedekten geri yüklenmesinin ardından cihaz yeniden başlatılabilir. Ayarlarınıza bağlı olarak bu biraz zaman alabilir.\n\nDevam etmek için\"ONAYLA\" veya çıkmak için \"iPTAL\".e tıklayınız.</string>
     <string name="backup_complete_toast">Yedekleme başarıyla tamamlandı. Yedek dosyası konumu.: \n%1$s</string>
     <string name="restore_complete_toast">Geri yükleme tamamlandı</string>
-    <string name="about">SuperMan ROM Hoşgeldiniz</string>
-    <string name="systemui_prefs">Sistem Arayüzü (SYSTEMUI) Ayarları</string>
+    <string name="about">Hoşgeldiniz</string>
+    <string name="systemui_prefs">Sistem Arayüzü (SYSTEMUI)</string>
     <string name="phone_prefs">Telefon Ayarları</string>
     <string name="framework_prefs">Framework Ayarları</string>
     <string name="settings_prefs">Uygulama Kısayolları</string>
     <string name="launcher_prefs">Başlatıcı Ayarları</string>
     <string name="notification_panel_prefs">Bildirim Paneli</string>
-    <string name="more_options">Daha fazla ayar</string>
-    <string name="set_theme">Temayı ayarla</string>
+    <string name="more_options">Diğer Ayarlar...</string>
+    <string name="set_theme">Temayı Değiştir</string>
     <string name="backup_and_restore"><![CDATA[Yedek Al & Geri Yükle]]></string>
     <string name="changelog">Güncelleme Günlüğü</string>
     <string name="about_us">Hakkımızda</string>
@@ -64,11 +64,11 @@
     <string name="restore_dialog_description">Bu eylem aşağıdaki ayarları varsayılan renklerine döndürecektir.</string>
     <string name="LightTheme">Açık Tema</string>
     <string name="DarkTheme">Koyu Tema</string>
-    <string name="RestoreData">Geri yükleme</string>
-    <string name="BackupData">Yedekleme</string>
+    <string name="RestoreData">Geri Yükle</string>
+    <string name="BackupData">Yedek Al</string>
     <string name="Icon1">İkon 1</string>
     <string name="Icon2">İkon 2</string>
-    <string name="Shown">Gösterilen</string>
+    <string name="Shown">...Etkin...</string>
     <string name="Hidden">Gizli</string>
     <string name="Enabled">Etkin</string>
     <string name="Disabled">Devre Dışı</string>
@@ -81,8 +81,8 @@
     <string name="ShowDownBelow">Aşağıda göster</string>
     <string name="Regular">Normal</string>
     <string name="Center">Ortada</string>
-    <string name="dynamic_status_bar_title">Dinamik durum çubuğu</string>
-    <string name="dynamic_status_bar_color">Dinamik durum çubuğu rengi</string>
+    <string name="dynamic_status_bar_title">Dinamik Durum Çubuğu</string>
+    <string name="dynamic_status_bar_color">Dinamik Durum Çubuğu Özel Renkler</string>
     <string name="dynamic_status_bar_title_summary">Dinamik durum çubuğunu etkinleştirmek ve özelleştirmek için  ayarlar</string>
     <string name="dynamic_status_bar_color_title">Dinamik durum çubuğu rengi</string>
     <string name="dynamic_status_bar_color_summary">Durum çubuğu rengini otomatik olarak güncelle</string>
@@ -113,7 +113,7 @@
     <string name="SoundMode">Ses modu: Ses / Titreşim / Sessiz</string>
     <string name="Torchlight">El feneri</string>
     <string name="Screenshot">Ekran görüntüsü</string>
-    <string name="NotificationsPanel">Bildirim paneli</string>
+    <string name="NotificationsPanel">Bildirim Paneli Ayarları</string>
     <string name="SwitchWiFi">Wi-Fi Aç/Kapat</string>
     <string name="SwitchMobileData">Mobil Veri Aç/Kapat</string>
     <string name="SwitchBluetooth">Bluetooth Aç/Kapat</string>
@@ -141,8 +141,8 @@
     <string name="UploadOnly">Sadece Yükleme</string>
     <string name="ToEndOfView">Sayı Sonunda</string>
     <string name="ToStartOfView">Sayı Önünde</string>
-    <string name="toast_animation">Toast Animasyonları</string>
-    <string name="toast_animation_title">Toast animasyonları</string>
+    <string name="toast_animation">İşlem Sonuç Animasyonu Seçiniz</string>
+    <string name="toast_animation_title">İşlem Sonuç Bilgi Animasyonu</string>
     <string name="toast_none_animation">Yok</string>
     <string name="toast_default_animation">Varsayılan</string>
     <string name="toast_fade_animation">Solma animasyonu</string>
@@ -227,29 +227,29 @@
     <string name="WalkingDeadBirth">Walking Dead Birth</string>
     <string name="WalkingWolf">Walking Wolf</string>
     <string name="WavingFrozen">Waving Frozen</string>
-    <string name="SMLogoRed">Kırmızı SuperMan logosu</string>
-    <string name="SMLogoBlue">Mavi SuperMan logosu</string>
-    <string name="CurrentlyRemoved">Şu anda kaldırılmış</string>
-    <string name="RestartToggleSummary">Yeniden başlatma tuşu gösterilecek</string>
-    <string name="RestartToggle">Yeniden başlatma tuşu</string>
-    <string name="RecoveryToggleSummary">Kurtarma moduna başlatma tuşu gösterilecek</string>
-    <string name="RecoveryToggle">Kurtarma moduna başlatma tuşu</string>
-    <string name="HotRebootToggleSummary">Hızlı yeniden başlatma tuşu gösterilecek</string>
-    <string name="HotRebootToggle">Hızlı yeniden başlatma tuşu</string>
-    <string name="ScreencastToggleSummary">Ekran yansıtma tuşu gösterilecek</string>
-    <string name="ScreencastToggle">Ekran yansıtma tuşu</string>
-    <string name="ScreenshotToggleSummary">Ekran görüntüsü tuşu gösterilecek</string>
-    <string name="ScreenshotToggle">Ekran görüntüsü tuşu</string>
-    <string name="FlashlightToggleSummary">El feneri tuşu gösterilecek</string>
-    <string name="FlashlightToggle">El feneri tuşu</string>
-    <string name="EmergencyToggleSummary">Acil durum tuşu gösterilecek</string>
-    <string name="EmergencyToggle">Acil durum tuşu</string>
-    <string name="DataToggleSummary">Mobil veri tuşu gösterilecek</string>
-    <string name="DataToggle">Mobil veri tuşu</string>
-    <string name="AirplaneToggleSummary">Uçak modu tuşu gösterilecek</string>
-    <string name="AirplaneToggle">Uçak modu tuşu</string>
-    <string name="MultiUserToggleSummary">Kullanıcı hesabı tuşu gösterilecek</string>
-    <string name="MultiUserToggle">Kullanıcı hesabı tuşu</string>
+    <string name="SMLogoRed">Kırmızı SuperMan Logosu</string>
+    <string name="SMLogoBlue">Mavi SuperMan Logosu</string>
+    <string name="CurrentlyRemoved">..Devre Dışı..</string>
+    <string name="RestartToggleSummary">.Etkinleştirildi.</string>
+    <string name="RestartToggle">Yeniden Başlat Butonu</string>
+    <string name="RecoveryToggleSummary">.Etkinleştirildi.</string>
+    <string name="RecoveryToggle">Recovery Mod Butonu</string>
+    <string name="HotRebootToggleSummary">.Etkinleştirildi.</string>
+    <string name="HotRebootToggle">Hızlı Yeniden Başlat Butonu</string>
+    <string name="ScreencastToggleSummary">.Etkinleştirildi.</string>
+    <string name="ScreencastToggle">Ekranı Kaydet Butonu</string>
+    <string name="ScreenshotToggleSummary">.Etkinleştirildi.</string>
+    <string name="ScreenshotToggle">Ekran Görüntüsü Al Butonu</string>
+    <string name="FlashlightToggleSummary">.Etkinleştirildi.</string>
+    <string name="FlashlightToggle">El Feneri Butonu</string>
+    <string name="EmergencyToggleSummary">.Etkinleştirildi.</string>
+    <string name="EmergencyToggle">Acil Durum Butonu</string>
+    <string name="DataToggleSummary">.Etkinleştirildi.</string>
+    <string name="DataToggle">Mobil Veri Butonu</string>
+    <string name="AirplaneToggleSummary">.Etkinleştirildi.</string>
+    <string name="AirplaneToggle">Uçak Modu Butonu</string>
+    <string name="MultiUserToggleSummary">.Etkinleştirildi.</string>
+    <string name="MultiUserToggle">Kullanıcı Hesabı Butonu</string>
     <string name="RebootBG">Yeniden Başlat Menüsü Arkaplanı</string>
     <string name="RebootBGSummary">Yeniden başlatma menüsü arkaplanını değiştir</string>
     <string name="EnableCustomBG">Özel arkaplanı etkinleştir</string>
@@ -295,9 +295,9 @@
     <string name="SwipeDown">Aşağı Sürükleyince</string>
     <string name="LauncherEffects">Launcher Efektleri</string>
     <string name="TouchwizPageEffect">Touchwiz sayfa efekti</string>
-    <string name="AutoCallRecordCategory">Otomatik çağrı kaydı</string>
-    <string name="IncomingAutoCallRecord">Otomatik gelen çağrı kaydı</string>
-    <string name="OutgoingAutoCallRecord">Otomatik giden çağrı kaydı</string>
+    <string name="AutoCallRecordCategory">Otomatik Çağrı Kaydet Seçenekleri</string>
+    <string name="IncomingAutoCallRecord">Gelen Çağrıları Otomatik Kaydet</string>
+    <string name="OutgoingAutoCallRecord">Giden Çağrıları Otomatik Kaydet</string>
     <string name="PulldownMenuSettings">Aşağı Kaydırma menüsü ayarları</string>
     <string name="PulldownMenuSettingsSummary">Menüye ait genel ayarları değiştirin</string>
     <string name="MultiUser">Kullanıcı hesabı simgesi</string>
@@ -313,7 +313,7 @@
     <string name="BlurEffectBackground">Bulanıklık efektinin arka plan değeri</string>
     <string name="BlurEffectDegree">Bulanıklık efektinin derecesi değeri</string>
     <string name="GearRebootCategory">Sol üst köşede yeniden başlatma tuşu</string>
-    <string name="GearReboot">Yeniden başlatma tuşu belirginliği</string>
+    <string name="GearReboot">Yeniden Başlat Tuşu Görünümü</string>
     <string name="GearRebootColor">Yeniden başlatma tuşu rengi</string>
     <string name="CarrierLabelCategory">Operatör yazısı ayarları</string>
     <string name="CarrierLabel">Operatör yazısı görünülürlüğü</string>
@@ -322,8 +322,8 @@
     <string name="CarrierLabelText">Operatör yazısı için yazı</string>
     <string name="DeviceInfoCategory">Cihaz bilgisi ayarları</string>
     <string name="DeviceInfoSummary">Cihaz Bilgisi Ayarları</string>
-    <string name="DeviceInfoPreference">Cihaz bilgisi özelleştirmesi</string>
-    <string name="DeviceInfoView">Cihaz bilgisini ayarla</string>
+    <string name="DeviceInfoPreference">Cihaz Bilgisi Özelleştirme</string>
+    <string name="DeviceInfoView">Cihaz Bilgisi Bilgileri Görünümü</string>
     <string name="DeviceInfoColor">Yazı rengi</string>
     <string name="DeviceInfoColorNames">Başlık rengi</string>
     <string name="DeviceInfoColorInfo">İçerik rengi</string>
@@ -371,7 +371,7 @@
     <string name="PayPalSummary">Ziyaret etmek için tıkla</string>
     <string name="PayPal">PayPal sitemi ziyaret et</string>
     <string name="PayPalDonation">Bağış</string>
-    <string name="Battery">Pil ayarları</string>
+    <string name="Battery">Pil Bilgisi Görünüm Ayarları</string>
     <string name="BatterySummary">Çeşitli pil ayarları burada değiştirilebilir</string>
     <string name="BatteryBar">Pil çubuğu</string>
     <string name="BatteryBarOn">Her yerde gösterilir</string>
@@ -397,19 +397,19 @@
     <string name="MiscUBS">USB bağlantısında ekran uyanması</string>
     <string name="MiscKeyboard">Klavye arka aydınlatma süresi</string>
     <string name="MiscAODisplay">AOD parlaklık</string>
-    <string name="Ambient">Kilit Ekranında Bildirimler (Ambient Display)</string>
-    <string name="AmbientTitle">Ambient display ayarları</string>
-    <string name="AmbientSummary">Bunu etkinleştirirseniz, her bildirim aldığınızda ekran uyanacaktır (yalnızca AOD)</string>
+    <string name="Ambient">Ambient Display</string>
+    <string name="AmbientTitle">Ambient Display Ayarları</string>
+    <string name="AmbientSummary">Kilit Ekranında Bildirimlerin Görünmesi. Bunu etkinleştirirseniz, her bildirimde ekran uyanır. (yalnızca AOD)</string>
     <string name="AmbientTimeout">Bildirimlerin Görüntülenme Süresi</string>
     <string name="DataUsage">Kullanılan Veri</string>
-    <string name="DataUsageSummary">Bildirim alanında görüntülenen Veri Kullanımı</string>
-    <string name="DataUsageTitle">Veri Kullanımı görünüm tercihleri</string>
-    <string name="DataUsageVisibility">Veri Kullanımı görünümü görünürlüğü</string>
+    <string name="DataUsageSummary">Bildirim Alanında görüntülenen Veri Kullanımı</string>
+    <string name="DataUsageTitle">Veri Kullanımı Görünüm Tercihleri</string>
+    <string name="DataUsageVisibility">Veri Kullanımı Görünüklük Durumu</string>
     <string name="DataUsageColor">Veri Kullanımı metin rengi</string>
     <string name="DataUsageGravity">Kullanılan Veri Konumu</string>
     <string name="DataUsageText">Veri Kullanımı metin biçimi</string>
     <string name="VirtualLockButton">Sanal Butonlar</string>
-    <string name="VirtualLockButtonSummary">Durum çubuğundaki sanal düğmeleri etkinleştirin veya devre dışı bırakın</string>
+    <string name="VirtualLockButtonSummary">Durum çubuğundaki anal düğmeleri etkinleştirin veya devre dışı bırakın</string>
     <string name="VirtualLockHome">Ana Ekran Butonu</string>
     <string name="VirtualLockRecent">Geçmiş (Son İşlemler) Butonu</string>
     <string name="VirtualLockPower">Güç / Kilit Butonu</string>
@@ -421,7 +421,7 @@
     <string name="StatusbarClockColor">Saat Simgesi Rengi</string>
     <string name="StatusbarWifiColor">Wifi Sinyal Rengi</string>
     <string name="StatusbarSignalColor">Mobil Sinyal Rengi</string>
-    <string name="StatusbarMobileColor">Mobil Tür ve oklar Renkli</string>
+    <string name="StatusbarMobileColor">Mobil Tür ve Oklar Renkli</string>
     <string name="StatusbarRoamingColor">Dolaşım Simgesi Rengi</string>
     <string name="StatusbarAirplaneColor">Uçuş Modu Rengi</string>
     <string name="StatusbarStatusColor">Durum Simge Rengi</string>
@@ -430,8 +430,8 @@
     <string name="NetworkTitle">Ağ Trafiği Tercihleri</string>
     <string name="NetworkSummary">Ağ trafiği tercihleri</string>
     <string name="Network">Ağ Verisi</string>
-    <string name="NetworkInfo">Görüntülenen trafik bilgisi</string>
-    <string name="NetworkDataType">Veri türünü göster</string>
+    <string name="NetworkInfo">Görüntülenen Trafik Bilgisi</string>
+    <string name="NetworkDataType">Veri Türünü göster</string>
     <string name="NetworkDisplayBytes">Bytes biçiminde göster</string>
     <string name="NetworkDisplayBits">Bits biçiminde göster (varsayılan)</string>
     <string name="NetworkArrow">Ağ Okları Görünüm Tercihleri</string>
@@ -461,7 +461,7 @@
     <string name="RecentTitle">Geçmiş (Son Kullanılanlar) Paneli</string>
     <string name="RecentSummary">Geçmiş paneli için modları değiştir</string>
     <string name="RecentQuickLaunch">Hızlı Başlat</string>
-    <string name="RecentQuickLaunchTitle">Geçmiş Panelinde Uygulama Kısayolları</string>
+    <string name="RecentQuickLaunchTitle">Geçmiş Panelinde Uyg. Kısayolları</string>
     <string name="RecentRamBar">Ram Çubuğu</string>
     <string name="RecentRamBarTitle">A.O.K.P RAM Çubuğu</string>
     <string name="RecentRamBarFreeRam">Boş Ram Yazı Rengi</string>
@@ -475,7 +475,7 @@
     <string name="RecentMatrixTextTransparency">Matrix Metin şeffaflığı</string>
     <string name="RecentMatrixTextFontSize">Matrix yazı tipi boyutu</string>
     <string name="RecentMatrixFrequency">Matrix Sıklığı</string>
-    <string name="SignalTitle">Wifi/Sinyal simgesi ayarları</string>
+    <string name="SignalTitle">Wifi/Sinyal Simgesi Ayarları</string>
     <string name="SignalSummary">WiFi ve Sinyal Simgesi Ayarları</string>
     <string name="Signal">Wifi/Sinyal Konumu</string>
     <string name="SignalIcon">Durum Çubuğu Simgelerini Değiştir</string>
@@ -589,7 +589,7 @@
     <string name="ButtonRecentBehaviour2">Menü</string>
     <string name="ButtonBackBehaviour0">Menü (varsayılan)</string>
     <string name="ButtonBackBehaviour1">Uygulama Durdur.</string>
-    <string name="ClockTitle">Saat Ayarları</string>
+    <string name="ClockTitle">Saat Görünüm Ayarları</string>
     <string name="ClockSummary">Durum çubuğu saatiyle ilgili ayarları değiştir</string>
     <string name="ClockStock">Stok Saat</string>
     <string name="Clock3Minit">3Minit Saat</string>
@@ -599,8 +599,8 @@
     <string name="ClockPosition">Saat konumunuzu seçin</string>
     <string name="ClockOtherTitle">Diğer Saat Ayarları</string>
     <string name="ClockLaunch">Seçilen Uygulama için Dokunun</string>
-    <string name="ClockTapSettings">Saat Ayarları üzerine dokunun</string>
-    <string name="ClockTapSelection">Saate Dokunarak Uyg.Çalıştır</string>
+    <string name="ClockTapSettings">Saate Dokunarak Uyg.Çalıştırmak</string>
+    <string name="ClockTapSelection">Çalıştırılacak Uyg.Seçiniz</string>
     <string name="ClockAndDate">Saat ve Tarihi Göster</string>
     <string name="ClockFormat">Saat Biçimi Ayarları</string>
     <string name="ClockUppercase">Büyük Harfli Saat</string>
@@ -616,24 +616,15 @@
     <string name="AboutRomDevelopers">Rom Geliştiricisi</string>
     <string name="AboutTelegram">Telegram Bağlantıları</string>
     <string name="AboutTelegramChat">Telegram Sohbet</string>
-    <string name="AboutTelegramChannel">Telegram Haber kanalı</string>
+    <string name="AboutTelegramChannel">Telegram Haber Kanalı</string>
     <string name="AboutTelegramChatSummary">Roma ait konular hakkında bizimle sohbet edin</string>
     <string name="AboutTelegramChannelSummary">Rom hakkında en yeni bilgileri edinin</string>
     <string name="AboutGooglePlus">Google Plus Topluluk</string>
     <string name="AboutGooglePlusSummary">Özel istekleri ve genel rom şeyler hakkında konuşmak</string>
-    <string name="AboutXDA">XDA Linklerini ziyaret</string>
+    <string name="AboutXDA">XDA Linklerimiz</string>
     <string name="AboutAFH">İndirme Linkleri AFH</string>
     <string name="AboutAFHRom">SuperMan-Rom Son Sürüm İndir</string>
     <string name="AboutAFHSuperKernel">SuperKernel Son Sürümü İndir</string>
-    <string name="AboutAFHSuperStockKernel">SuperStock-Kernel Son Sürümü İndir</string>
-
-	
-1-	"credits and thanks" add please 
-	Türkçe Çeviri - agabey_42
-
-2- and add
-<string name="creditsandthanks">Katkılar ve Teşekkürler</string>
-
-	
+    <string name="AboutAFHSuperStockKernel">SuperStock-Kernel Son Sürümü İndir</string>	
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

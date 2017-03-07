@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Ustawienia SM\'a zawodowiec</string>
+    <string name="app_name">Ustawienia SM pro</string>
     <string name="navigation_drawer_open">Otwórz panel nawigacyjny</string>
     <string name="navigation_drawer_close">Zamknij panel nawigacyjny</string>
     <string name="dialog_color_picker">Wybierz kolor</string>
@@ -590,7 +590,7 @@
     <string name="ButtonBackBehaviour0">Menu (domyślnie)</string>
     <string name="ButtonBackBehaviour1">Zamknij aplikacje</string>
     <string name="ClockTitle">Zegar</string>
-    <string name="ClockSummary"> Dostosuj zegar na pasku stanu</string>
+    <string name="ClockSummary">Dostosuj zegar na pasku stanu</string>
     <string name="ClockStock">Zegar fabryczny</string>
     <string name="Clock3Minit">Zegar 3Minit\'u</string>
     <string name="Clock3MinitTitle">Ustawienia Zegara 3Minit\'u</string>
@@ -619,8 +619,8 @@
     <string name="AboutTelegramChannel">Informacje o update\'tach na Telegramie</string>
     <string name="AboutTelegramChatSummary">Pogadaj z nami na temat nowości w Rom\'ie</string>
     <string name="AboutTelegramChannelSummary">Zdobądź najnowsze informacje o narzym Rom\'ie</string>
-    <string name="AboutGooglePlus">Google Plus Community</string>
-    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
+    <string name="AboutGooglePlus">Społeczność Google Plus</string>
+    <string name="AboutGooglePlusSummary">Zaproponuj nowe modyfikacje i porozmawiaj o naszym systemie</string>
     <string name="AboutXDA">Linki XDA</string>
     <string name="AboutAFH">Pliki na Android File Hosts</string>
     <string name="AboutAFHRom">Pobierz najnowszy SuperMan-Rom</string>

@@ -44,17 +44,19 @@
         <item>@drawable/xda</item>
         <item>@drawable/telegram</item>
         <item>@drawable/telegram</item>
+        <item>@drawable/gplus</item>
         <item>@drawable/paypal</item>
     </array>
     <string-array name="about_team_names">
-        <item>Tkkg1994</item>
-        <item>Gayos24 (Developer)</item>
-        <item>myellow (Designer)</item>
-        <item>_alex74_ (Designer)</item>
-        <item>MisterEvo (Java Guy)</item>
-        <item>Telegram Group</item>
-        <item>Telegram Channel</item>
-        <item>Donation Link</item>
+        <item>@string/AboutTkkg</item>
+        <item>@string/AboutGayos</item>
+        <item>@string/AboutYellow</item>
+        <item>@string/AboutAlex</item>
+        <item>@string/AboutMisterEvo</item>
+        <item>@string/AboutTelegramChat</item>
+        <item>@string/AboutTelegramChannel</item>
+        <item>@string/AboutGooglePlus</item>
+        <item>@string/PayPal</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
         <item>https://forum.xda-developers.com/member.php?u=5899304</item>
@@ -64,6 +66,7 @@
         <item>https://forum.xda-developers.com/member.php?u=6499213</item>
         <item>https://t.me/joinchat/AAAAAD-RcLTV9gB6WHH4zg</item>
         <item>https://t.me/SuperManRom</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
         <item>https://www.paypal.me/LucaGrifo</item>
     </string-array>
 

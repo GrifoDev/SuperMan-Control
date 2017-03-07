@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Nustatymai pro</string>
+    <string name="app_name">SM Nustatymai PRO</string>
     <string name="navigation_drawer_open">Atidaryti Nustatymų pasirinkimą</string>
     <string name="navigation_drawer_close">Uždaryti Nustatymų pasirinkimą</string>
     <string name="dialog_color_picker">Nustatyti spalvą</string>
@@ -168,9 +168,9 @@
     <string name="TwentySeconds">20 Sekundžių</string>
     <string name="TwentyFiveSeconds">25 Sekundės</string>
     <string name="ThirtySeconds">30 Sekundės</string>
-    <string name="OneMinute">1 Minute</string>
-    <string name="TwoMinutes">2 Minutes</string>
-    <string name="FiveMinutes">5 Minutes</string>
+    <string name="OneMinute">1 Minutė</string>
+    <string name="TwoMinutes">2 Minutės</string>
+    <string name="FiveMinutes">5 Minutės</string>
     <string name="RightClock">Laikrodis Dešinėje</string>
     <string name="LeftClock">Laikrodis Kairėje</string>
     <string name="CenterClock">Laikrodis Centre</string>
@@ -289,7 +289,7 @@
     <string name="ViperSummary">Viper Audio Nustatymas</string>
     <string name="Busybox">Busybox</string>
     <string name="BusyboxSummary">Patikrinti ir įdiegti Busybox į jūsų įrenginį</string>
-    <string name="GestureCategory">Gestai, bet kur pradžios ekrane</string>
+    <string name="GestureCategory">Gestai, bet kur, pradžios ekrane</string>
     <string name="DoubleTap">Dvigubas bakstelėjimas</string>
     <string name="SwipeUp">Braukti į viršų</string>
     <string name="SwipeDown">Braukti į apačią</string>
@@ -306,16 +306,16 @@
     <string name="OngoingNotifications">Leisti pašalinti Pranešimus</string>
     <string name="HeadsUp">Heads Up Pranešimai</string>
     <string name="SFinder">Nerodyti sFinder Išplėčiamuose nustatymuose</string>
-    <string name="DoubleTapSleep">Užmigdo įrenginį dvigubas Būsenos juostos bakstelėjimas</string>
+    <string name="DoubleTapSleep">Užmigdo įrenginį, dvigubas Būsenos juostos bakstelėjimas</string>
     <string name="BrightnessWarning">Panaikina perspėjimą dėl per didelio ekrano ryškumo</string>
-    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
+    <string name="BrightnessSlider">Ryškumo Slankiklis Išplečiamąjame meniu</string>
     <string name="BlurEffect">Susiliejimo efektas Išplečiamąjame meniu</string>
     <string name="BlurEffectBackground">Fono susiliejimo reikšmė</string>
     <string name="BlurEffectDegree">Susiliejimo laipsnis</string>
     <string name="GearRebootCategory">Rodomas Vaizdo perkrovimas viršutiniame kairiajame kampe</string>
     <string name="GearReboot">Rodomas Vaizdo perkrovimas</string>
     <string name="GearRebootColor">Parinkti Vaizdo perkrovimo piktogramos spalvą</string>
-    <string name="CarrierLabelCategory">Ryšio tiekėjo elogotipo teksto nustatymai</string>
+    <string name="CarrierLabelCategory">Ryšio tiekėjo logotipo teksto nustatymai</string>
     <string name="CarrierLabel">Rodoma Ryšio tiekėjo logotipas</string>
     <string name="CarrierLabelColor">Ryšio tiekėjo logotipo teksto spalva</string>
     <string name="CarrierLabelTextEnable">Ryšio tiekėjo logotipo tekstas</string>
@@ -556,7 +556,7 @@
     <string name="LockscreenMiscCarrierEdit">Redaguoti Ryšio operatoriaus logotipą</string>
     <string name="LockscreenMiscCarrierText">Individualus Ryšio operatoriaus tekstas</string>
     <string name="LockscreenMiscCarrierSet">Nustatyti Individualų Tekstą</string>
-    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
+    <string name="LockscreenMiscWake">Atrakinimas piršto anspaudu, nereikalauja pažadinti prietaisą</string>
     <string name="LockscreenAnalogTitle">Analoginis Laikrodis</string>
     <string name="LockscreenAnalog">Analoginis laikrodis Užrakintame ekrane</string>
     <string name="LockscreenAnalog1">Stilius 1</string>
@@ -619,8 +619,8 @@
     <string name="AboutTelegramChannel">Telegram Naujienų kanalas</string>
     <string name="AboutTelegramChatSummary">Pokalbiai ir diskusijos apie naujausią ROM</string>
     <string name="AboutTelegramChannelSummary">Gauti naujausią informaciją apie ROM</string>
-    <string name="AboutGooglePlus">Google Plus Community</string>
-    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
+    <string name="AboutGooglePlus">Google+ Bendruomenė</string>
+    <string name="AboutGooglePlusSummary">Diskusijoms dėl naujų ir esamų ROM funkcijų</string>
     <string name="AboutXDA">XDA nuoroda</string>
     <string name="AboutAFH">AFH parsisiuntimo nuoroda</string>
     <string name="AboutAFHRom">Atsisiųsti naujausią SuperMan-Rom versiją</string>

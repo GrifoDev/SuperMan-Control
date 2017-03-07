@@ -19,7 +19,7 @@
     <string name="press_color_to_apply">إضغط للتطبيق</string>
     <string name="root_progress_dialog_title">الحصول على صلاحيات الروت</string>
     <string name="root_progress_dialog_message">المرجو الإنتظار ...</string>
-    <string name="no_su_dialog_title">ليس لديك صلاحيات الروتء</string>
+    <string name="no_su_dialog_title">ليس لديك صلاحيات الروت</string>
     <string name="no_su_dialog_message">لم نستطع الحصول على صلاحيات الروت بهذا الجهاز.\n\nيمكن القيام بمعظم مهام هذا التطبيق بدون صلاحيات الروت. غير أنه، يمكن لك أن تواجه بعض المشاكل مع استخدام سكريبتات أو مع إعادة تشغيل الجهاز.\n\nلذلك قد نوصي بشدة لسماح الحصول على صلاحيات الروت في المحاولة القادمة أو لسماح الحصول على صلاحيات الروت يدويا.</string>
     <string name="no_su_dialog_dismiss_button_text">حسنا</string>
     <string name="command_executed_success_toast">تم بنجاح</string>
@@ -556,7 +556,7 @@
     <string name="LockscreenMiscCarrierEdit">غير إسم شركة الإتصال</string>
     <string name="LockscreenMiscCarrierText">إسم شركة الإتصال</string>
     <string name="LockscreenMiscCarrierSet">غير الإسم</string>
-    <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
+    <string name="LockscreenMiscWake">فتح الهاتف ببصمة الأصبع من دون الحاجة إلى إيقاظ الشاشة</string>
     <string name="LockscreenAnalogTitle">ساعة العقارب</string>
     <string name="LockscreenAnalog">ساعة العقارب في شاشة القفل</string>
     <string name="LockscreenAnalog1">الشكل 1</string>
@@ -619,8 +619,8 @@
     <string name="AboutTelegramChannel">Telegram قناة المستجدات على</string>
     <string name="AboutTelegramChatSummary">دردش معنا حول أمور الرومات الأخيرة</string>
     <string name="AboutTelegramChannelSummary">أحصل على اَخر المعلومات حول الروم</string>
-    <string name="AboutGooglePlus">Google Plus Community</string>
-    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
+    <string name="AboutGooglePlus">مجتمع Google Plus</string>
+    <string name="AboutGooglePlusSummary">لمناقشة طلبات المميزات الجديدة وما يتعلق بالروم عموما</string>
     <string name="AboutXDA">روابط من موقع XDA للزيارة</string>
     <string name="AboutAFH">روابط التحميل من AFH</string>
     <string name="AboutAFHRom">حمل اَخِر SuperMan-ROM</string>

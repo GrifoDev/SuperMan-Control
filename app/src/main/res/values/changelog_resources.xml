@@ -8,7 +8,7 @@
     Add as many items as you want or delete some if those are too many
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
-    <string-array name="changelog_items">
+    <string-array name="changelog_items" translatable="false">
         <item>Rebased on latest DQB7 updated</item>
         <item>Fully retweaked and remodded on february base</item>
         <item>Left signal added</item>

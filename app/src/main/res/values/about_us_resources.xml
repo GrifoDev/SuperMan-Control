@@ -75,7 +75,7 @@
         <item>@drawable/telegram</item>
         <item>@drawable/telegram</item>
     </array>
-    <string-array name="about_credits_names">
+    <string-array name="about_credits_names" translatable="false">
         <item>Grzechu - Polish Translation</item>
         <item>Gabriel Campos - Portuguese Translation</item>
         <item>myellow - Swedish Translation</item>

@@ -32,7 +32,7 @@
     <string name="app_reboot_required_dialog_message">Bu işlemin etkili olması için uygulamayı yeniden başlatmak gerekiyor %1$s.\n\nYeniden başlatmak için Tamam.a basın.</string>
     <string name="theme_dialog_title">Tema seç</string>
     <string name="changelog_version_title">Rom sürümü: %1$s</string>
-    <string name="backup_restore_dialog_title">Rom Kontrol Ayarlarını Yedekle/Geri Yükle</string>
+    <string name="backup_restore_dialog_title">Rom Kontrol Ayarlarını Yedekle / Geri Yükle</string>
     <string name="choose_backup_dialog_title">Lütfen geri yüklemek için bir yedek seçiniz.</string>
     <string name="no_backup_dialog_title">Cihazda yedek bulunamadı</string>
     <string name="no_backup_dialog_message">Yeni bir yedek oluşturmak ister misiniz?</string>
@@ -72,7 +72,7 @@
     <string name="Hidden">Gizli</string>
     <string name="Enabled">Etkin</string>
     <string name="Disabled">Devre Dışı</string>
-    <string name="On">Açık</string>
+    <string name="On">.Etkin..</string>
     <string name="Off">Kapalı</string>
     <string name="Left">Sol Taraf</string>
     <string name="Right">Sağ Taraf</string>
@@ -141,7 +141,7 @@
     <string name="UploadOnly">Sadece Yükleme</string>
     <string name="ToEndOfView">Sayı Sonunda</string>
     <string name="ToStartOfView">Sayı Önünde</string>
-    <string name="toast_animation">İşlem Sonuç Animasyonu Seçiniz</string>
+    <string name="toast_animation">Animasyonu Seçiniz</string>
     <string name="toast_animation_title">İşlem Sonuç Bilgi Animasyonu</string>
     <string name="toast_none_animation">Yok</string>
     <string name="toast_default_animation">Varsayılan</string>
@@ -171,8 +171,8 @@
     <string name="OneMinute">1 Dakika</string>
     <string name="TwoMinutes">2 Dakika</string>
     <string name="FiveMinutes">5 Dakika</string>
-    <string name="RightClock">Saat Sağda</string>
-    <string name="LeftClock">Saat Solda</string>
+    <string name="RightClock">Sağ Köşede.</string>
+    <string name="LeftClock">Sol Köşede.</string>
     <string name="CenterClock">Ortada</string>
     <string name="StockClock">Varsayılan saat</string>
     <string name="FunkyClock">Harfli Saat Biçimi (İng.)</string>
@@ -252,8 +252,8 @@
     <string name="MultiUserToggle">Kullanıcı Hesabı Butonu</string>
     <string name="RebootBG">Yeniden Başlat Menüsü Arkaplanı</string>
     <string name="RebootBGSummary">Yeniden başlatma menüsü arkaplanını değiştir</string>
-    <string name="EnableCustomBG">Özel arkaplanı etkinleştir</string>
-    <string name="BGPreferences">Genel arkaplan ayarları</string>
+    <string name="EnableCustomBG">Özel Arka Planı Etkinleştir</string>
+    <string name="BGPreferences">Genel Arka Plan Ayarları</string>
     <string name="BGType">Arkaplan türü</string>
     <string name="BGOpacity">Arkaplan saydamlığı</string>
     <string name="ImagePreference">Özel Resim Ayarları</string>
@@ -293,12 +293,12 @@
     <string name="DoubleTap">Çift Tıklatınca</string>
     <string name="SwipeUp">Yukarı Sürükleyince</string>
     <string name="SwipeDown">Aşağı Sürükleyince</string>
-    <string name="LauncherEffects">Launcher Efektleri</string>
-    <string name="TouchwizPageEffect">Touchwiz sayfa efekti</string>
+    <string name="LauncherEffects">Başlatıcı (Touchwiz) Efekt Ayarı</string>
+    <string name="TouchwizPageEffect">Başlatıcı Sayfa Geçiş Efekti</string>
     <string name="AutoCallRecordCategory">Çağrıları Otomatik Kaydet Seçenekleri</string>
     <string name="IncomingAutoCallRecord">Gelen Çağrıları Otomatik Kaydet</string>
     <string name="OutgoingAutoCallRecord">Giden Çağrıları Otomatik Kaydet</string>
-    <string name="PulldownMenuSettings">Aşağı Kaydırma menüsü ayarları</string>
+    <string name="PulldownMenuSettings">Üst Panele Ait Ayarlar</string>
     <string name="PulldownMenuSettingsSummary">Menüye ait genel ayarları değiştirin</string>
     <string name="MultiUser">Kullanıcı Hesabı Simgesi</string>
     <string name="SingleSwipe">Orta-Sağ Aralığından Tüm Panel</string>
@@ -320,11 +320,11 @@
     <string name="CarrierLabelColor">Operatör Yazı Rengi</string>
     <string name="CarrierLabelTextEnable">Gösterilecek Operatör Bilgisi</string>
     <string name="CarrierLabelText">Özel Operatör Bilgisi</string>
-    <string name="DeviceInfoCategory">Cihaz Bilgisi Ayarları..</string>
-    <string name="DeviceInfoSummary">Cihaz Bilgisi Ayarları</string>
-    <string name="DeviceInfoPreference">Cihaz Bilgisi Özelleştirme</string>
+    <string name="DeviceInfoCategory">Cihaz Bilgisi Ayarlarını Özelleştir</string>
+    <string name="DeviceInfoSummary">Cihaz Bilgilerini Özelleştirebilirsiniz</string>
+    <string name="DeviceInfoPreference">Cihaz Bilgileri Görünümü</string>
     <string name="DeviceInfoView">Cihaz Bilgisi Bilgileri Görünümü</string>
-    <string name="DeviceInfoColor">Yazı rengi</string>
+    <string name="DeviceInfoColor">Yazı Rengi</string>
     <string name="DeviceInfoColorNames">Başlık rengi</string>
     <string name="DeviceInfoColorInfo">İçerik rengi</string>
     <string name="DeviceInfoItems">Cihaz bilgisinde bulunanlar</string>
@@ -342,7 +342,7 @@
     <string name="GifAnimationSelect">Gif animasyonu seç</string>
     <string name="GifAnimationShow">Bildirim panelinde gif animasyonu göster</string>
     <string name="PullDownSummary">Üst panel renklerini özelleştirebilirsiniz</string>
-    <string name="PullDownTitle">Üst Panel Menüsü Özel Renkler</string>
+    <string name="PullDownTitle">Üst Panel Özel Renkler</string>
     <string name="PullDownColor">Özel Renklendirmeye İzin Ver</string>
     <string name="PullDownUnlock">Renkler değiştirilebilir</string>
     <string name="PullDownLock">Renkler Değiştirilemez. Kilitli</string>
@@ -395,7 +395,7 @@
     <string name="MiscTitle">Çeşitli SistemUI ayarları</string>
     <string name="MiscSummary">Herhangi bir kategoriye uymayan SystemUI özellikleri</string>
     <string name="MiscUBS">USB bağlantısında ekran uyanması</string>
-    <string name="MiscKeyboard">Klavye arka aydınlatma süresi</string>
+    <string name="MiscKeyboard">Fiziki Tuşlar Aydınlatma Süresi</string>
     <string name="MiscAODisplay">AOD parlaklık</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient Display Ayarları</string>
@@ -403,8 +403,8 @@
     <string name="AmbientTimeout">Bildirimlerin Görüntülenme Süresi</string>
     <string name="DataUsage">Kullanılan Veri</string>
     <string name="DataUsageSummary">Bildirim Alanında Görüntülenen Veri Kullanımı</string>
-    <string name="DataUsageTitle">Veri Kullanımı Görünüm Tercihleri</string>
-    <string name="DataUsageVisibility">Veri Kullanımı Görünüklük Durumu</string>
+    <string name="DataUsageTitle">Kullanılan Veri Görünüm Tercihleri</string>
+    <string name="DataUsageVisibility">Kullanılan Veri Görünüklük Durumu</string>
     <string name="DataUsageColor">Veri Kullanımı metin rengi</string>
     <string name="DataUsageGravity">Kullanılan Veri Konumu</string>
     <string name="DataUsageText">Veri Kullanımı metin biçimi</string>
@@ -413,11 +413,11 @@
     <string name="VirtualLockHome">Ana Ekran Butonu</string>
     <string name="VirtualLockRecent">Geçmiş (Son İşlemler) Butonu</string>
     <string name="VirtualLockPower">Kapat / Kilit Butonu</string>
-    <string name="StatusbarColor">Durum Çubuğu Ögelerine Özel Renkler</string>
-    <string name="StatusbarColors">Durum çubuğu renkleri</string>
+    <string name="StatusbarColor">Durum Çub.Ögelerine Özel Renk</string>
+    <string name="StatusbarColors">Ögeleri Ayrı Ayrı Renklendirin</string>
     <string name="StatusbarColorSummary">Durum Çubuğu Simgelerinin renklerini değiştir</string>
-    <string name="StatusbarColorsGlobal">Genel Durum çubuğu renkleri</string>
-    <string name="StatusbarColorGlobal">Genel Durum çubuğu rengi</string>
+    <string name="StatusbarColorsGlobal">Durum Çubuğu Özel Renkler</string>
+    <string name="StatusbarColorGlobal">Tüm Ögeler İçin Tek Renk</string>
     <string name="StatusbarClockColor">Saat Simgesi Rengi</string>
     <string name="StatusbarWifiColor">Wifi Sinyal Rengi</string>
     <string name="StatusbarSignalColor">Mobil Sinyal Rengi</string>
@@ -480,7 +480,7 @@
     <string name="Signal">Wifi / Sinyal Konumu</string>
     <string name="SignalIcon">Durum Çubuğundaki Simgelerini Değiştir</string>
     <string name="SignalIconChooser">Özel Sinyal Simgesi Seçin</string>
-    <string name="SignalIconChooserSim2">Sim2 Özel Sinyal Simgesi(çift sim)</string>
+    <string name="SignalIconChooserSim2">Sim2 Özel Sinyal Simgesi (çift sim)</string>
     <string name="SignalWifiIconChooser">Özel WiFi Simgesi Seçin</string>
     <string name="SignalWifiArrowChooser">Özel WiFi Oku seçin</string>
     <string name="SignalAlarmChooser">Özel Alarm Simgesi Seçin</string>
@@ -548,14 +548,14 @@
     <string name="LockscreenClockColorMin">Dakika rengini değiştir</string>
     <string name="LockscreenClockColorSec">Saniye rengini değiştir</string>
     <string name="LockscreenMiscTitle">Kilit Ekranına Ait Diğer Ayarlar</string>
-    <string name="LockscreenMiscRotation">Kilit Ekranı Ekran Dönmesi</string>
+    <string name="LockscreenMiscRotation">Kilit Ekranında Ekran Dönmesi</string>
     <string name="LockscreenMiscAlarm">Kilit Ekranında Sonraki Alarm</string>
     <string name="LockscreenMiscAlarmColor">Kilit Ekranında Alarm Rengi</string>
-    <string name="LockscreenMiscHelp">Kilit ekran yardım metnini gizle</string>
-    <string name="LockscreenMiscCarrier">Özel Operatör Metni Kullan</string>
+    <string name="LockscreenMiscHelp">Kilit Ekran Yardım Metnini Gizle</string>
+    <string name="LockscreenMiscCarrier">Özel Operatör Bilgisi Kullan</string>
     <string name="LockscreenMiscCarrierEdit">Operatör Başlığı Düzenle</string>
-    <string name="LockscreenMiscCarrierText">Operatör Özel Metin</string>
-    <string name="LockscreenMiscCarrierSet">Özel Metin Ayarla</string>
+    <string name="LockscreenMiscCarrierText">Özel Operatör Başlığı Göster</string>
+    <string name="LockscreenMiscCarrierSet">Görüntülenecek Başlığı Giriniz</string>
     <string name="LockscreenMiscWake">Ekranı uyandırmadan parmak izi kilidi açma</string>
     <string name="LockscreenAnalogTitle">Analog Saat İşlemleri</string>
     <string name="LockscreenAnalog">Kilit Ekranında Analog Saat</string>
@@ -579,7 +579,7 @@
     <string name="LockscreenAnalog18">Biçim 18</string>
     <string name="LockscreenTimeout">Ekran Kilitleme Ekranı Zaman Aşımı</string>
     <string name="LockscreenNotification">Kilit ekran bildirimleri sayısı</string>
-    <string name="ButtonTitle">Geçmiş ve Geri Düğmesi</string>
+    <string name="ButtonTitle">Geçmiş ve Geri Düğmesi Özelleştir</string>
     <string name="ButtonSummary">Fiziki Buton Ayarları Değiştirme</string>
     <string name="ButtonBackPress">Geri düğmesine uzun basınca</string>
     <string name="ButtonRecentPress">Geçmiş düğmesine uzun basınca</string>
@@ -596,7 +596,7 @@
     <string name="Clock3MinitTitle">3Minit Saat Ayarları</string>
     <string name="Clock3MinitSummary">Saat ayarlarını değiştir (yalnızca 3Minit saat etkinse çalışır)</string>
     <string name="ClockPositionTitle">Saat Konumu</string>
-    <string name="ClockPosition">Saat konumunuzu seçin</string>
+    <string name="ClockPosition">Saat Konumunu Seçin</string>
     <string name="ClockOtherTitle">Saate Ait Diğer Ayarlar</string>
     <string name="ClockLaunch">Seçilen Uygulama için Dokunun</string>
     <string name="ClockTapSettings">Saate Dokunarak Uyg.Çalıştırmak</string>
@@ -625,6 +625,10 @@
     <string name="AboutAFH">İndirme Linkleri AFH</string>
     <string name="AboutAFHRom">SuperMan-Rom Son Sürüm İndir</string>
     <string name="AboutAFHSuperKernel">SuperKernel Son Sürümü İndir</string>
-    <string name="AboutAFHSuperStockKernel">SuperStock-Kernel Son Sürümü İndir</string>	
+    <string name="AboutAFHSuperStockKernel">SuperStock-Kernel Son Sürümü İndir</string>
+    <string name="ContactUs">İletişim</string>
+    <string name="OurTeam">Geliştirici Takım</string>
+    <string name="CreditsThanks">Katkılar ve Teşekkürler</string>
+
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

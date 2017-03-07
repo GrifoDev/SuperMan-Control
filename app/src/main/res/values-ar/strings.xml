@@ -626,6 +626,9 @@
     <string name="AboutAFHRom">حمل اَخِر SuperMan-ROM</string>
     <string name="AboutAFHSuperKernel">حمل اَخِر SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">حمل اَخِر SuperStock-Kernel</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="OurTeam">Our Team</string>
+    <string name="CreditsThanks">Credits and Thanks</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

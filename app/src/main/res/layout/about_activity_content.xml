@@ -51,7 +51,7 @@
                     android:paddingBottom="3dp"
                     android:paddingStart="16dp"
                     android:paddingTop="3dp"
-                    android:text="Contact Us"
+                    android:text="@string/ContactUs"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@android:color/white"/>
 
@@ -69,7 +69,7 @@
                     android:paddingBottom="3dp"
                     android:paddingStart="16dp"
                     android:paddingTop="3dp"
-                    android:text="Our Team"
+                    android:text="@string/OurTeam"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@android:color/white"/>
 
@@ -87,7 +87,7 @@
                     android:paddingBottom="3dp"
                     android:paddingStart="16dp"
                     android:paddingTop="3dp"
-                    android:text="Credits and Thanks"
+                    android:text="@string/CreditsThanks"
                     android:textAppearance="?android:attr/textAppearanceMedium"
                     android:textColor="@android:color/white"/>
 

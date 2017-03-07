@@ -1,16 +1,16 @@
-<!--/*      Creado por Roberto Mariani y Anna Berkovitch, 2015-2016-->
-    <!--Este programa es software libre: Puedes redistribuirlo y/o modificarlo-->
-    <!--bajo los términos de la Licencia Pública General de GNU publicada por-->
-    <!--la Fundación de Software Libre, ya sea la versión 3 de la Licencia, o-->
-    <!--(a su elección) cualquier versión posterior.-->
+<!--/*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016-->
+    <!--This program is free software: you can redistribute it and/or modify-->
+    <!--it under the terms of the GNU General Public License as published by-->
+    <!--the Free Software Foundation, either version 3 of the License, or-->
+    <!--(at your option) any later version.-->
 
-    <!--Este programa se distribuye con la esperanza de que sea útil,-->
-    <!--pero SIN NINGUNA GARANTÍA; Sin la garantía implícita de-->
-    <!--COMERCIABILIDAD o APTITUD PARA UN PROPÓSITO PARTICULAR. Vea el-->
-    <!--GNU General Public License para más detalles.-->
+    <!--This program is distributed in the hope that it will be useful,-->
+    <!--but WITHOUT ANY WARRANTY; without even the implied warranty of-->
+    <!--MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the-->
+    <!--GNU General Public License for more details.-->
 
-    <!--Debería haber recibido una copia de la Licencia Pública General de GNU-->
-    <!--junto con este programa. Si no, vea <http://www.gnu.org/licenses/>.*/-->
+    <!--You should have received a copy of the GNU General Public License-->
+    <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
     <string name="app_name">SM Ajustes Pro</string>
     <string name="navigation_drawer_open">Abrir el cajón de navegación</string>
@@ -626,6 +626,9 @@
     <string name="AboutAFHRom">Descargar la última SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Descargar el último SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Descargar el último SuperStock-Kernel</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="OurTeam">Our Team</string>
+    <string name="CreditsThanks">Credits and Thanks</string>
 
-    <!--Estas cadenas son para establecer el fragmento por defecto para abrir por primera vez la aplicación se inicia-->
+    <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

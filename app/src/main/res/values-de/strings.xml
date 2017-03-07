@@ -614,4 +614,7 @@
     <string name="AboutGooglePlus">Google Plus Community</string>
     <string name="AboutGooglePlusSummary">Um neue Requests und Rom Sachen zu diskutieren</string>
     <string name="BrightnessSlider">Helligskeits Slider im Herunterziehmenü</string>
+    <string name="ContactUs">Kontaktieren Sie uns</string>
+    <string name="OurTeam">Unser Team</string>
+    <string name="CreditsThanks">Credits und Danksagung</string>
 </resources>

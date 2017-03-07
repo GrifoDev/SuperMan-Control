@@ -308,7 +308,7 @@
     <string name="SFinder">sFinder στο μενού pulldown</string>
     <string name="DoubleTapSleep">Διπλό κλίκ για ύπνο για την μπάρα κατάστασης</string>
     <string name="BrightnessWarning">Μηνύματα αυξημένης φωτεινότητας</string>
-    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
+    <string name="BrightnessSlider">Η μπάρα φωτεινότητας στο μενού pulldown</string>
     <string name="BlurEffect">Εφέ θολούρας για το μενού Pulldown</string>
     <string name="BlurEffectBackground">Τιμές φόντου του εφέ θολούρας</string>
     <string name="BlurEffectDegree">Βαθμός εφέ θολούρας</string>
@@ -626,6 +626,9 @@
     <string name="AboutAFHRom">Κατεβάστε το SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Κατεβάστε το SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Κατεβάστε το SuperStock-Kernel</string>
+    <string name="ContactUs">Contact Us</string>
+    <string name="OurTeam">Our Team</string>
+    <string name="CreditsThanks">Credits and Thanks</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

@@ -19,20 +19,23 @@
     <!--In this array you will put the icons for contact information,
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
     <array name="about_contact_us_drawables">
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/telegram</item>
+        <item>@drawable/gplus</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
-        <item>S7 Flat SuperMan-Rom Thread</item>
-        <item>S7 Edge SuperMan-Rom Thread</item>
+        <item>@string/AboutTelegramChat</item>
+        <item>@string/AboutTelegramChannel</item>
+        <item>@string/AboutGooglePlus</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
-        <item>https://forum.xda-developers.com/galaxy-s7/development/rom-s7-rom-v1-0-t3356197</item>
-        <item>https://forum.xda-developers.com/s7-edge/development/rom-s7-edge-rom-v1-1-t3356699</item>
+        <item>https://t.me/joinchat/AAAAAD-RcLTV9gB6WHH4zg</item>
+        <item>https://t.me/SuperManRom</item>
+        <item>https://plus.google.com/communities/108548285682852156652</item>
     </string-array>
 
     <!--Team info arrays-->
@@ -42,9 +45,6 @@
         <item>@drawable/xda</item>
         <item>@drawable/xda</item>
         <item>@drawable/xda</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/gplus</item>
     </array>
     <string-array name="about_team_names">
         <item>@string/AboutTkkg</item>
@@ -52,9 +52,6 @@
         <item>@string/AboutYellow</item>
         <item>@string/AboutAlex</item>
         <item>@string/AboutMisterEvo</item>
-        <item>@string/AboutTelegramChat</item>
-        <item>@string/AboutTelegramChannel</item>
-        <item>@string/AboutGooglePlus</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
         <item>https://forum.xda-developers.com/member.php?u=5899304</item>
@@ -62,9 +59,6 @@
         <item>https://forum.xda-developers.com/member.php?u=2639714</item>
         <item>https://forum.xda-developers.com/member.php?u=4947202</item>
         <item>https://forum.xda-developers.com/member.php?u=6499213</item>
-        <item>https://t.me/joinchat/AAAAAD-RcLTV9gB6WHH4zg</item>
-        <item>https://t.me/SuperManRom</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
     </string-array>
 
     <!--Credits and thanks info arrays-->

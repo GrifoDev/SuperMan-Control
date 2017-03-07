@@ -45,7 +45,6 @@
         <item>@drawable/telegram</item>
         <item>@drawable/telegram</item>
         <item>@drawable/gplus</item>
-        <item>@drawable/paypal</item>
     </array>
     <string-array name="about_team_names">
         <item>@string/AboutTkkg</item>
@@ -56,7 +55,6 @@
         <item>@string/AboutTelegramChat</item>
         <item>@string/AboutTelegramChannel</item>
         <item>@string/AboutGooglePlus</item>
-        <item>@string/PayPal</item>
     </string-array>
     <string-array name="about_team_links" translatable="false">
         <item>https://forum.xda-developers.com/member.php?u=5899304</item>
@@ -67,7 +65,6 @@
         <item>https://t.me/joinchat/AAAAAD-RcLTV9gB6WHH4zg</item>
         <item>https://t.me/SuperManRom</item>
         <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://www.paypal.me/LucaGrifo</item>
     </string-array>
 
     <!--Credits and thanks info arrays-->

@@ -20,22 +20,22 @@
     for example xda icon for your xda thread, site icon for your site, facebook icon and so on-->
     <array name="about_contact_us_drawables">
         <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
         <item>@drawable/gplus</item>
+        <item>@drawable/telegram</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
         <item>@string/AboutTelegramChat</item>
-        <item>@string/AboutTelegramChannel</item>
         <item>@string/AboutGooglePlus</item>
+        <item>@string/AboutTelegramChannel</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
         <item>https://t.me/joinchat/AAAAAD-RcLTV9gB6WHH4zg</item>
-        <item>https://t.me/SuperManRom</item>
         <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://t.me/SuperManRom</item>
     </string-array>
 
     <!--Team info arrays-->

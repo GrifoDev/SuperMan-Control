@@ -167,10 +167,10 @@
     <string name="FifteenSeconds">15 Δευτερόλεπτο</string>
     <string name="TwentySeconds">20 Δευτερόλεπτο</string>
     <string name="TwentyFiveSeconds">25 Δευτερόλεπτο</string>
-    <string name="ThirtySeconds">30 Seconds</string>
-    <string name="OneMinute">1 Minute</string>
-    <string name="TwoMinutes">2 Minutes</string>
-    <string name="FiveMinutes">5 Minutes</string>
+    <string name="ThirtySeconds">30 Δευτερόλεπτο</string>
+    <string name="OneMinute">1 Λεπτό</string>
+    <string name="TwoMinutes">2 Λεπτά</string>
+    <string name="FiveMinutes">5 Λεπτά</string>
     <string name="RightClock">Δεξιά</string>
     <string name="LeftClock">Αριστερά</string>
     <string name="CenterClock">Κέντρο</string>
@@ -243,7 +243,7 @@
     <string name="FlashlightToggleSummary">Εμφάνιση διακόπτη πυρσού</string>
     <string name="FlashlightToggle">Πυρσός</string>
     <string name="EmergencyToggleSummary">Εμφάνιση διακόπτη έκτακτης ανάγης</string>
-    <string name="EmergencyToggle">Εκτακτη ανάγκη</string>
+    <string name="EmergencyToggle">Έκτακτη ανάγκη</string>
     <string name="DataToggleSummary">Εμφάνιση διακόπτη δεδομένων</string>
     <string name="DataToggle">Δεδομένα Κινητής</string>
     <string name="AirplaneToggleSummary">Εμφάνιση διακόπτη αεροπλάνου</string>
@@ -603,7 +603,7 @@
     <string name="ClockTapSelection">Επιλογή εγαρμογής όταν πιέζετε το ρολόι</string>
     <string name="ClockAndDate">Εμφάνησε το ρολόι και την ημερομηνία</string>
     <string name="ClockFormat">Επιλογές τύπου ρολογιού</string>
-    <string name="ClockUppercase">Κεγαλαία γράμματα ρολογιού</string>
+    <string name="ClockUppercase">Κεφαλαία γράμματα ρολογιού</string>
     <string name="ClockAMPMSettings">Επιλογές AM/PM ρολογιού</string>
     <string name="ClockFont">Στύλ γραμματοσειράς ρολογιού</string>
     <string name="ClockScale">Επιλογή κλίμακας ρολογιού</string>
@@ -617,10 +617,10 @@
     <string name="AboutTelegram">Links για Telegram</string>
     <string name="AboutTelegramChat">Συνομιλία Telegram</string>
     <string name="AboutTelegramChannel">Κανάλι νέων Telegram</string>
-    <string name="AboutTelegramChatSummary">Συνομιλία με εμάς για την Rom</string>
+    <string name="AboutTelegramChatSummary">Συνομιλία με εμάς για την Rom στο Telegram</string>
     <string name="AboutTelegramChannelSummary">Ενημερωθείτε για την Rom</string>
-    <string name="AboutGooglePlus">Google Plus Community</string>
-    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
+    <string name="AboutGooglePlus">Google Plus Κοινότητα</string>
+    <string name="AboutGooglePlusSummary">Συνομιλία με εμάς για την Rom στο Google+</string>
     <string name="AboutXDA">Links για XDA</string>
     <string name="AboutAFH">Κατεβάστε το τελευταίο</string>
     <string name="AboutAFHRom">Κατεβάστε το SuperMan-Rom</string>

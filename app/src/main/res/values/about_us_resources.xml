@@ -21,30 +21,18 @@
     <array name="about_contact_us_drawables">
         <item>@drawable/xda</item>
         <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
-        <item>@drawable/xda</item>
     </array>
 
     <!--In this array you will put the titles for your contact info items. Keep the order consistent between all 3 arrays-->
     <string-array name="about_contact_us_text">
         <item>S7 Flat SuperMan-Rom Thread</item>
         <item>S7 Edge SuperMan-Rom Thread</item>
-        <item>S7 Flat SuperKernel Thread</item>
-        <item>S7 Edge SuperKernel Thread</item>
-        <item>S7 Flat SuperStock-Kernel Thread</item>
-        <item>S7 Edge SuperStock-Kernel Thread</item>
     </string-array>
 
     <!--In this array you will put the titles for the URL strings that will open once a user clicked on the item-->
     <string-array name="about_contact_us_links" translatable="false">
         <item>https://forum.xda-developers.com/galaxy-s7/development/rom-s7-rom-v1-0-t3356197</item>
         <item>https://forum.xda-developers.com/s7-edge/development/rom-s7-edge-rom-v1-1-t3356699</item>
-        <item>https://forum.xda-developers.com/galaxy-s7/development/kernel-superkernel-v1-0-t3389247</item>
-        <item>https://forum.xda-developers.com/s7-edge/development/kernel-superkernel-v1-0-t3389255</item>
-        <item>https://forum.xda-developers.com/galaxy-s7/development/kernel-superstock-v1-3-5-t3453464</item>
-        <item>https://forum.xda-developers.com/s7-edge/development/kernel-superstock-v1-3-5-t3453462</item>
     </string-array>
 
     <!--Team info arrays-->

@@ -308,7 +308,7 @@
     <string name="SFinder">sFinder στο μενού pulldown</string>
     <string name="DoubleTapSleep">Διπλό κλίκ για ύπνο για την μπάρα κατάστασης</string>
     <string name="BrightnessWarning">Μηνύματα αυξημένης φωτεινότητας</string>
-    <string name="BrightnessSlider">Η μπάρα φωτεινότητας στο μενού pulldown</string>
+    <string name="BrightnessSlider">Μπάρα φωτεινότητας στο μενού pulldown</string>
     <string name="BlurEffect">Εφέ θολούρας για το μενού Pulldown</string>
     <string name="BlurEffectBackground">Τιμές φόντου του εφέ θολούρας</string>
     <string name="BlurEffectDegree">Βαθμός εφέ θολούρας</string>
@@ -539,7 +539,7 @@
     <string name="LockscreenTitle">Επιλογές οθόνης κλειδώματος</string>
     <string name="LockscreenSummary">Επιλογές ρολογιού οθόνης κλειδώματος και άλλα..</string>
     <string name="LockscreenClock">Επιλογές ώρας, δευτερολέπτων και ημερομηνίας</string>
-    <string name="LockscreenClockHour">Εργοστασιακό ρολόι</string>
+    <string name="LockscreenClockHour">Εμφάνιση ώρας</string>
     <string name="LockscreenClockMin">Εμφάνιση λεπτών</string>
     <string name="LockscreenClockSeconds">Εμφάνιση δευτερολέπτων</string>
     <string name="LockscreenClockDate">Εμφάνιση ημερομηνίας</string>

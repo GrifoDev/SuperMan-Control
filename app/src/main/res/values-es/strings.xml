@@ -37,13 +37,13 @@
     <string name="no_backup_dialog_title">Ningún respaldo encontrado en este dispositivo</string>
     <string name="no_backup_dialog_message">¿Te gustaría crear un nuevo respaldo ahora?</string>
     <string name="restore_confirm_dialog_title">Por favor confirma restaurar</string>
-    <string name="restore_confirm_message">Ha elegido restaurar los datos de las preferencias de Rom Control anteriores.\n\n<b>¡Tenga cuidado! Esta operación cambiará la configuración de su dispositivo en función de los ajustes almacenados en este archivo.\n\n<font fgcolor="red">¡¡¡NO PROCEDA a menos que este absolutamente seguro!!!</font></b>\n\nRom Control se cerrará para permitir la restauración de datos y volverá a abrirse una vez finalizada. Dependiendo de la cantidad de ajustes, esto puede tomar algún tiempo.\n\nPor favor click \"CONFIRMAR\" para proceder o \"CANCELAR\" para salir.</string>
+    <string name="restore_confirm_message">Ha elegido restaurar los datos de las preferencias de Rom Control anteriores.\n\n<b>¡Tenga cuidado! Esta operación cambiará la configuración de su dispositivo en función de los ajustes almacenados en este archivo.\n\n<font fgcolor="red">¡¡¡NO PROCEDA a menos que esté absolutamente seguro!!!</font></b>\n\nRom Control se cerrará para permitir la restauración de datos y volverá a abrirse una vez finalizada. Dependiendo de la cantidad de ajustes, esto puede tomar algún tiempo.\n\nPor favor click \"CONFIRMAR\" para proceder o \"CANCELAR\" para salir.</string>
     <string name="backup_complete_toast">Copia de seguridad completada correctamente. El archivo de copia de seguridad se puede encontrar en\n%1$s</string>
     <string name="restore_complete_toast">Restauración completa</string>
     <string name="about">Bienvenido a SuperMan</string>
     <string name="systemui_prefs">Ajustes de SystemUI</string>
     <string name="phone_prefs">Ajustes del Teléfono</string>
-    <string name="framework_prefs">Perferencias del Framework</string>
+    <string name="framework_prefs">Preferencias del Framework</string>
     <string name="settings_prefs">Atajos de Apps</string>
     <string name="launcher_prefs">Ajustes del Launcher</string>
     <string name="notification_panel_prefs">Panel de Notificaciones</string>
@@ -62,7 +62,7 @@
     <string name="reboot_now_dialog_button">reiniciar ahora</string>
     <string name="imminent_reboot_warning">¡¡¡Su dispositivo se reiniciará INMEDIATAMENTE al finalizar la secuencia de comandos!!!</string>
     <string name="restore_dialog_description">Esta acción restaurará los siguientes elementos a los colores de stock</string>
-    <string name="LightTheme">Tema ligero</string>
+    <string name="LightTheme">Tema claro</string>
     <string name="DarkTheme">Tema oscuro</string>
     <string name="RestoreData">Restaurar Datos</string>
     <string name="BackupData">Respaldar Datos</string>
@@ -394,7 +394,7 @@
     <string name="BatteryCriticalPercentageSummary">Configurar el porcentaje de advertencia de batería crítica</string>
     <string name="MiscTitle">Otros ajustes de SystemUI</string>
     <string name="MiscSummary">Características de SystemUI que no coinciden con ninguna categoría</string>
-    <string name="MiscUBS">Encender pantala al enchufar USB encendido/apagado</string>
+    <string name="MiscUBS">Encender pantalla al conectar USB encendido/apagado</string>
     <string name="MiscKeyboard">Duración de la luz de fondo del teclado</string>
     <string name="MiscAODisplay">Brillo AOD</string>
     <string name="Ambient">Ambient Display</string>

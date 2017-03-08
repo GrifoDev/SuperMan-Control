@@ -1148,7 +1148,7 @@
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#e61e4e78"
+                android:defaultValue="#ff22c4ff"
                 android:dependency="data_usage_visibility"
                 android:key="data_usage_text_color"
                 android:title="@string/DataUsageColor"/>

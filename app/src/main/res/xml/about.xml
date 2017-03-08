@@ -4,6 +4,7 @@
 
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/super_logo"/>
 
+    <!--/*
     <PreferenceCategory
         android:title="@string/PayPalDonation">
         <PreferenceScreen
@@ -15,6 +16,7 @@
                 android:data="https://www.paypal.me/LucaGrifo" />
         </PreferenceScreen>
     </PreferenceCategory>
+    */-->
 
     <PreferenceCategory
         android:title="@string/AboutAFH">

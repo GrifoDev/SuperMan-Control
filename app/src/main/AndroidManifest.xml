@@ -3,15 +3,16 @@
           xmlns:tools="http://schemas.android.com/tools"
           package="com.wubydax.romcontrol.v2">
 
-    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
-    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
     <uses-permission android:name="android.permission.REBOOT"
-                     tools:ignore="ProtectedPermissions"/>
+                     tools:ignore="ProtectedPermissions" />
     <uses-permission android:name="android.permission.DEVICE_POWER"
-                     tools:ignore="ProtectedPermissions"/>
-    <uses-permission android:name="android.permission.RECOVERY"/>
+                     tools:ignore="ProtectedPermissions" />
+    <uses-permission android:name="android.permission.RECOVERY" />
+    <uses-permission android:name="com.android.vending.BILLING" />
 
     <application
         android:name=".MyApp"

@@ -642,6 +642,8 @@
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>
+    <string name="allow">Allow the user access</string>
+    <string name="application_error">Application error: %1$s</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

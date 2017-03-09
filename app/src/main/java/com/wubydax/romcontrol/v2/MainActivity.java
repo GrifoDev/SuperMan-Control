@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.provider.Settings.Secure;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
 import android.support.v4.view.GravityCompat;
@@ -17,6 +18,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.google.android.vending.licensing.AESObfuscator;
+import com.google.android.vending.licensing.LicenseChecker;
+import com.google.android.vending.licensing.LicenseCheckerCallback;
+import com.google.android.vending.licensing.ServerManagedPolicy;
 import com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService;
 import com.wubydax.romcontrol.v2.utils.Constants;
 import com.wubydax.romcontrol.v2.utils.MyDialogFragment;
@@ -46,6 +51,15 @@ public class MainActivity extends AppCompatActivity
     private FragmentManager mFragmentManager;
     private SharedPreferences mSharedPreferences;
     private ArrayList<Integer> mNavMenuItemsIds;
+    private LicenseCheckerCallback mLicenseCheckerCallback;
+    private LicenseChecker mChecker;
+    private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn8G8VtHVQEukUBnDQRCOrkxTlymCKpMfFnCcqsCeTVxqDRqYrr5e4m7uZxxMVT+IURCl7vuKsUAs5C6zCrjCY88BXJxq7IkT0TMqp895/KgYfNSJrBu/dZsEggGFm2bA6pFWBXzFoZXh0yVAomAueELCB+PkoaTvntquwQBVVq1da25TWFNq/LRIQjbqf/Nr1oPZ2kjlWxKZ4GZgO9MLhjVl8LENTMDNFd1NDHohtbgRbRfFmQNkiaD/I9wiIviYRD6GyXEsFnkAgN+WpCnjVivetlif3RDNV40cc3p/6Czg5WSZyVNJXYFg42SexPEE8lVTKNg/Jz7Kwqr3I+gwjQIDAQAB";
+
+    // Generate your own 20 random bytes, and put them here.
+    private static final byte[] SALT = new byte[] {
+            35, 95, -43, -13, 123, 28, -123, -76, 12, 39, -75, 15, 94, -13, -100, 96, 55, -32, 46,
+            39
+    };
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -66,9 +80,18 @@ public class MainActivity extends AppCompatActivity
                 mProgressDialog = ProgressDialog.show(this, getString(R.string.root_progress_dialog_title), getString(R.string.root_progress_dialog_message), false);
             }
         }
+
+        String deviceId = Secure.getString(getContentResolver(), Secure.ANDROID_ID);
+
+        mLicenseCheckerCallback = new MyLicenseCheckerCallback();
+        mChecker = new LicenseChecker(
+                this, new ServerManagedPolicy(this,
+                new AESObfuscator(SALT, getPackageName(), deviceId)),
+                BASE64_PUBLIC_KEY);
+        doCheck();
+
         setTitle(titles[lastFragmentIndex]);
         initViews();
-
     }
 
     private void initViews() {
@@ -260,5 +283,38 @@ public class MainActivity extends AppCompatActivity
     @Override
     public View getDecorView() {
         return getWindow().getDecorView();
+    }
+
+    private void doCheck() {
+        mChecker.checkAccess(mLicenseCheckerCallback);
+    }
+
+    private class MyLicenseCheckerCallback implements LicenseCheckerCallback {
+        public void allow(int policyReason) {
+            if (isFinishing()) {
+                // Don't update UI if Activity is finishing.
+                return;
+            }
+        }
+
+        public void dontAllow(int policyReason) {
+            if (isFinishing()) {
+                // Don't update UI if Activity is finishing.
+                return;
+            }
+        }
+
+        public void applicationError(int errorCode) {
+            if (isFinishing()) {
+                // Don't update UI if Activity is finishing.
+                return;
+            }
+        }
+    }
+
+    @Override
+    protected void onDestroy() {
+        super.onDestroy();
+        mChecker.onDestroy();
     }
 }

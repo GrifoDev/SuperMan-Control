@@ -867,6 +867,15 @@
         android:summary="@string/NetworkSummary"
         android:title="@string/NetworkTitle">
         <PreferenceCategory
+            android:title="Samsung Networkspeed">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="network_speed"
+                android:summaryOff="@string/Hidden"
+                android:summaryOn="@string/Shown"
+                android:title="Samsung Networkspeed" />
+        </PreferenceCategory>
+        <PreferenceCategory
             android:title="@string/Network">
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                 android:defaultValue="0"

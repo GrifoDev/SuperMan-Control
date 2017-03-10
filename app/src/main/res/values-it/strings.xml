@@ -452,6 +452,7 @@
     <string name="NetworkColorUpload">Colore testo upload</string>
     <string name="NetworkColorDownload">Colore testo download</string>
     <string name="NetworkColorTraffic">Colore indicatori traffico</string>
+    <string name="NetworkSamsung">Velocità della rete Samsung</string>
     <string name="VolumeTitle">Preferenze tasti volume</string>
     <string name="VolumeSummary">Cambia azione tasti volume a schermo spento</string>
     <string name="Volume">Personalizzazione tasti volume</string>

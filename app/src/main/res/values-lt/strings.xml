@@ -452,6 +452,7 @@
     <string name="NetworkColorUpload">Įkėlimos spalva</string>
     <string name="NetworkColorDownload">Parsisiuntimo spalva</string>
     <string name="NetworkColorTraffic">Duomenų srauto rodyklių spalva</string>
+    <string name="NetworkSamsung">Samsung tinklo greitis</string>
     <string name="VolumeTitle">Garso mygtuko nustatymai</string>
     <string name="VolumeSummary">Čia galima keisti garso mygtuko veiksmus išjungtame ekrane</string>
     <string name="Volume">Garso mygtuko nustatymai</string>

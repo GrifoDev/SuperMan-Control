@@ -452,6 +452,7 @@
     <string name="NetworkColorUpload">Yükleme Yazı Rengi</string>
     <string name="NetworkColorDownload">İndirme Yazı Rengi</string>
     <string name="NetworkColorTraffic">Ağ Trafiği Okları Rengi</string>
+    <string name="NetworkSamsung">Samsung Ağ hızı</string>
     <string name="VolumeTitle">Ses Düğmesi Ayarları</string>
     <string name="VolumeSummary">Ekran kapalıyken ses seviyesi düğmelerinin davranışını değiştirme</string>
     <string name="Volume">Ses Butonlarını Özelleştirme Seçenekleri</string>

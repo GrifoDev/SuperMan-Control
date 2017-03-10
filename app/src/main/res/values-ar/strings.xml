@@ -452,6 +452,7 @@
     <string name="NetworkColorUpload">لون نص الرفع</string>
     <string name="NetworkColorDownload">لون نص التنزيل</string>
     <string name="NetworkColorTraffic">لون أسهم حركة المرور</string>
+    <string name="NetworkSamsung">سامسونج سرعة الشبكة</string>
     <string name="VolumeTitle">إعدادات أزرار الصوت</string>
     <string name="VolumeSummary">غير سلوك أزرار الصوت في وضع شاشة مقفلة</string>
     <string name="Volume">تعديل وتخصيص أزرار الصوت</string>

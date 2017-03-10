@@ -452,6 +452,7 @@
     <string name="NetworkColorUpload">Culoare text de upload</string>
     <string name="NetworkColorDownload">Culoare text de download</string>
     <string name="NetworkColorTraffic">Culori sageti de trafic</string>
+    <string name="NetworkSamsung">Viteză de rețea Samsung</string>
     <string name="VolumeTitle">Setari butoane volum</string>
     <string name="VolumeSummary">Schimba actiune butoane volum cu ecranul inchis</string>
     <string name="Volume">Personalizare butoane volum</string>

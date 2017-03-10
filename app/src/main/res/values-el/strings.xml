@@ -452,6 +452,7 @@
     <string name="NetworkColorUpload">Χρώμα ανεβάσματος</string>
     <string name="NetworkColorDownload">Χρώμα κατεβάσματος</string>
     <string name="NetworkColorTraffic">Χρώμα βελών κίνησης</string>
+    <string name="NetworkSamsung">Samsung ταχύτητα του δικτύου</string>
     <string name="VolumeTitle">Επιλογή κουμπιών έντασης</string>
     <string name="VolumeSummary">Αλλαγή της συμπεριφοράς των κουμπιών έντασης όταν η οθόνη είναι σβηστή</string>
     <string name="Volume">Τροποποίηση Κουμπιών έντασης</string>

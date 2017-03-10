@@ -452,6 +452,7 @@
     <string name="NetworkColorUpload">Color del texto de carga</string>
     <string name="NetworkColorDownload">Color del texto de descarga</string>
     <string name="NetworkColorTraffic">Color de flechas de tráfico</string>
+    <string name="NetworkSamsung">Velocidad de la red Samsung</string>
     <string name="VolumeTitle">Ajustes del botón de volumen</string>
     <string name="VolumeSummary">Cambiar el comportamiento de los botones de volumen mientras la pantalla está apagada</string>
     <string name="Volume">Personalización del botón de volumen</string>

@@ -454,6 +454,7 @@
     <string name="NetworkColorUpload">Upload text color</string>
     <string name="NetworkColorDownload">Download text color</string>
     <string name="NetworkColorTraffic">Traffic arrows color</string>
+    <string name="NetworkSamsung">Samsung Network Speed Meter</string>
     <string name="VolumeTitle">Volume Button settings</string>
     <string name="VolumeSummary">Change behaviour of volume buttons while screen off</string>
     <string name="Volume">Volume button customization</string>

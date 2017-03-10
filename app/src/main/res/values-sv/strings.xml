@@ -452,6 +452,7 @@
     <string name="NetworkColorUpload">Färg för uppladdningstext</string>
     <string name="NetworkColorDownload">Färg för nedladdningstext</string>
     <string name="NetworkColorTraffic">Färg för trafikpilar</string>
+    <string name="NetworkSamsung">Samsung nätverkshastighet</string>
     <string name="VolumeTitle">Volymknapps-inställningar</string>
     <string name="VolumeSummary">Ändra beteende för volymknapparna när skärmen är avstängd</string>
     <string name="Volume">Anpassa volymknappar</string>

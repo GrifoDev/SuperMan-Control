@@ -452,6 +452,7 @@
     <string name="NetworkColorUpload">Kolor wysyłania</string>
     <string name="NetworkColorDownload">Kolor pobierania</string>
     <string name="NetworkColorTraffic">Kolor strzałek transmisji danych</string>
+    <string name="NetworkSamsung">Samsung szybkość sieci</string>
     <string name="VolumeTitle">Ustawienia przycisków głośności</string>
     <string name="VolumeSummary">Zmień zastosowanie przycisków głośności na wygaszonym ekranie</string>
     <string name="Volume">Dostosowywanie przycisków głośności</string>

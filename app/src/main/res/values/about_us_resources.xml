@@ -63,17 +63,18 @@
 
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
-        <item>@drawable/telegram</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
+        <item>@drawable/gplus</item>
     </array>
     <string-array name="about_credits_names" translatable="false">
         <item>Grzechu - Polish Translation</item>
@@ -87,8 +88,10 @@
         <item>agabey_42 - Turkish Translation</item>
         <item>Mohamed - Arabic Translation</item>
         <item>Alexandru Prună and Andrei - Romanian Translation</item>
+        <item>Thijs1981nl - Dutch Translation</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
+        <item>https://plus.google.com/communities/108548285682852156652</item>
         <item>https://plus.google.com/communities/108548285682852156652</item>
         <item>https://plus.google.com/communities/108548285682852156652</item>
         <item>https://plus.google.com/communities/108548285682852156652</item>

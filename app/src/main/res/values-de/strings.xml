@@ -617,4 +617,5 @@
     <string name="ContactUs">Kontaktieren Sie uns</string>
     <string name="OurTeam">Unser Team</string>
     <string name="CreditsThanks">Credits und Danksagung</string>
+    <string name="NetworkSamsung">Samsungs Downloadspeed Anzeige</string>
 </resources>

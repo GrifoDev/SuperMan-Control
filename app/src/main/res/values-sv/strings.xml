@@ -298,7 +298,7 @@
     <string name="AutoCallRecordCategory">Automatiskt samtalsinspelning</string>
     <string name="IncomingAutoCallRecord">Automatisk inspelning av inkommande samtal</string>
     <string name="OutgoingAutoCallRecord">Automatiskt inspelningar av utgående samtal</string>
-    <string name="PulldownMenuSettings">Inställnignar för Pulldown-menyn</string>
+    <string name="PulldownMenuSettings">Inställningar för Pulldown-menyn</string>
     <string name="PulldownMenuSettingsSummary">Ändra generella inställningar relaterade till pulldown-menyn</string>
     <string name="MultiUser">Multianvändar-avatar</string>
     <string name="SingleSwipe">Enkel svepning på höger sida för snabbpanel</string>
@@ -351,9 +351,9 @@
     <string name="PullDownHeaderText">Textfärg för ledare</string>
     <string name="PullDownHeaderIcon">Ikonfärg för ledare</string>
     <string name="PullDownQuicksettings">Färg för snabbinställningar</string>
-    <string name="PullDownQuicksettingsBackground">Bakgrundsfärg för snabbinställnignar</string>
+    <string name="PullDownQuicksettingsBackground">Bakgrundsfärg för snabbinställningar</string>
     <string name="PullDownQuicksettingsText">Textfärg för snabbinställningar</string>
-    <string name="PullDownQuicksettingsIconOn">Färg för ikon på i snabbinstöllningar</string>
+    <string name="PullDownQuicksettingsIconOn">Färg för ikon på i snabbinställningar</string>
     <string name="PullDownQuicksettingsIconOff">Färg för ikon av i snabbinställningar</string>
     <string name="PullDownQuicksettingsDivider">Färg för avgränsare i snabbinställningar</string>
     <string name="PullDownQuicksettingsBrightness">Färg för ljusstyrke-reglage</string>
@@ -371,7 +371,7 @@
     <string name="PayPalSummary">Klicka för att visa</string>
     <string name="PayPal">Gå till min PayPal hemsida</string>
     <string name="PayPalDonation">Donation</string>
-    <string name="Battery">Batteri-nställningar</string>
+    <string name="Battery">Batteri-inställningar</string>
     <string name="BatterySummary">Olika batteri-relaterade inställningar kan ändras här</string>
     <string name="BatteryBar">Batteriband</string>
     <string name="BatteryBarOn">Längst ner visas överallt (Om Batteriband visa längst ner är aktiverad)</string>

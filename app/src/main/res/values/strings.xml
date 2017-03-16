@@ -386,6 +386,9 @@
     <string name="BatteryBarColorSummary">Choose color of battery bar</string>
     <string name="Battery3MinitTitle">3Minit Battery Settings</string>
     <string name="BatteryStock">Stock Battery Visibility</string>
+    <string name="BatteryStockTitle">Stock Battery Settings</string>
+    <string name="BatteryStockColor">Battery Color</string>
+    <string name="BatteryStockColorDark">Battery Color Dark</string>
     <string name="Battery3Minit">3Minit Battery</string>
     <string name="Battery3MinitApp">Change Battery settings (only works when 3Minit battery enabled)</string>
     <string name="Battery3MinitProApp">Paid version of 3Minit apk</string>

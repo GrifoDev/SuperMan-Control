@@ -29,7 +29,7 @@
     <string name="reboot_recovery_text">Recovery Modda Y.Başlat</string>
     <string name="reboot_ui_text">Sistem arayüzünü (SYSTEMUI) yeniden başlat</string>
     <string name="app_reboot_required_dialog_title">Uygulamanın yeniden başlatılması gerekiyor</string>
-    <string name="app_reboot_required_dialog_message">Bu işlemin etkili olması için uygulamayı yeniden başlatmak gerekiyor %1$s.\n\nYeniden başlatmak için Tamam.a basın.</string>
+    <string name="app_reboot_required_dialog_message">Bu işlem için uygulamanın yeniden başlatılması gerekiyor %1$s.\n\nYeniden başlatmak için Tamam.a basın.</string>
     <string name="theme_dialog_title">Tema Seçiniz</string>
     <string name="changelog_version_title">Rom sürümü: %1$s</string>
     <string name="backup_restore_dialog_title">Rom Kontrol Ayarlarını Yedekle / Geri Yükle</string>
@@ -37,7 +37,7 @@
     <string name="no_backup_dialog_title">Cihazda yedek bulunamadı</string>
     <string name="no_backup_dialog_message">Yeni bir yedek oluşturmak ister misiniz?</string>
     <string name="restore_confirm_dialog_title">....::!! LÜTFEN DİKKAT !!::....</string>
-    <string name="restore_confirm_message">Rom Kontrol ayarları daha önce yedeklenmiş ayarlara döndürülecek.\n\n<b>Bu işlem Rom Kontrol ayarlarınızı yedek dosyada saklanan ayarlara göre değiştirecektir.\n\n<font fgcolor="red">Kesin emin olmadan DEVAM ETMEYİNİZ!!!</font></b>\n\nRom Kontrol ayarlarının yedekten geri yüklenmesinin ardından cihaz yeniden başlatılabilir. Ayarlarınıza bağlı olarak bu biraz zaman alabilir.\n\nDevam etmek için\"ONAYLA\" veya çıkmak için \"iPTAL\".e tıklayınız.</string>
+    <string name="restore_confirm_message">Rom Kontrol ayarlarınız değiştirilecek.\n\n<b>Rom Kontrol ayarlarınız yedek dosyada saklanan ayarlara göre değiştirecek.\n\n<font fgcolor="red">Kesin emin olmadan DEVAM ETMEYİNİZ!!!</font></b>\n\nBu işlemden sonra cihaz yeniden başlatılabilir. Ayarlarınıza bağlı olarak bu biraz zaman alabilir.\n\nDevam etmek için\"ONAYLA\" veya çıkmak için \"iPTAL\".e tıklayınız.</string>
     <string name="backup_complete_toast">Yedekleme başarıyla tamamlandı. Yedek dosyası konumu.: \n%1$s</string>
     <string name="restore_complete_toast">Geri yükleme tamamlandı</string>
     <string name="about">Hoşgeldiniz</string>
@@ -142,7 +142,7 @@
     <string name="ToEndOfView">Sayı Sonunda</string>
     <string name="ToStartOfView">Sayı Önünde</string>
     <string name="toast_animation">Animasyonu Seçiniz</string>
-    <string name="toast_animation_title">İşlem Sonuç Bilgi Animasyonu</string>
+    <string name="toast_animation_title">İşlem Sonuçları Bilgilendirme Animasyonu</string>
     <string name="toast_none_animation">Yok</string>
     <string name="toast_default_animation">Varsayılan</string>
     <string name="toast_fade_animation">Solma animasyonu</string>
@@ -250,7 +250,7 @@
     <string name="AirplaneToggle">Uçak Modu Butonu</string>
     <string name="MultiUserToggleSummary">.Etkinleştirildi.</string>
     <string name="MultiUserToggle">Kullanıcı Hesabı Butonu</string>
-    <string name="RebootBG">Yeniden Başlat Menüsü Arkaplanı</string>
+    <string name="RebootBG">Yeniden Başlat Menüsü Arka Planı</string>
     <string name="RebootBGSummary">Yeniden başlat menüsünü özelleştirebilirsiniz</string>
     <string name="EnableCustomBG">Özel Arka Plan Yetkisi</string>
     <string name="BGPreferences">Arka Plan Ayarları</string>
@@ -288,14 +288,14 @@
     <string name="Viper4AndroidFX">Viper4Android FX</string>
     <string name="ViperSummary">Viper Audio ayarları</string>
     <string name="Busybox">Busybox</string>
-    <string name="BusyboxSummary">Telefonunuza busybox yükleyin</string>
+    <string name="BusyboxSummary">Telefonunuzda busybox yönetin</string>
     <string name="GestureCategory">Ana Ekranda Hareketle İşlem Yaptırmak\n\n(...YENİDEN BAŞLATMA GEREKLİDİR...)</string>
     <string name="DoubleTap">Çift Tıklatınca</string>
     <string name="SwipeUp">Yukarı Sürükleyince</string>
     <string name="SwipeDown">Aşağı Sürükleyince</string>
     <string name="LauncherEffects">Başlatıcı (Touchwiz) Efekt Ayarı</string>
     <string name="TouchwizPageEffect">Başlatıcı Sayfa Geçiş Efekti</string>
-    <string name="AutoCallRecordCategory">Çağrıları Otomatik Kaydet Seçenekleri</string>
+    <string name="AutoCallRecordCategory">Çağrıların Otomatik Kaydedilmesi Seçenekleri</string>
     <string name="IncomingAutoCallRecord">Gelen Çağrıları Otomatik Kaydet</string>
     <string name="OutgoingAutoCallRecord">Giden Çağrıları Otomatik Kaydet</string>
     <string name="PulldownMenuSettings">Üst Panel Genel Ayarları</string>
@@ -312,9 +312,9 @@
     <string name="BlurEffect">Arka Plana Bulanıklık Efekti</string>
     <string name="BlurEffectBackground">Bulanıklık Efektinin Arka Plan Değeri</string>
     <string name="BlurEffectDegree">Bulanıklık Efektinin Yoğunluğu</string>
-    <string name="GearRebootCategory">Sol Üst Köşede Power Butonu</string>
-    <string name="GearReboot">Power Butonu Görünümü</string>
-    <string name="GearRebootColor">Power Butonu Rengi</string>
+    <string name="GearRebootCategory">Sol Üst Köşede Aç / Kapat Butonu</string>
+    <string name="GearReboot">Aç/Kapat Butonu Görünüm İzni</string>
+    <string name="GearRebootColor">Butonun Rengi</string>
     <string name="CarrierLabelCategory">Operatör Görünüm Ayarları</string>
     <string name="CarrierLabel">Operatör Bilgisi Görünümü</string>
     <string name="CarrierLabelColor">Operatör Yazı Rengi</string>
@@ -346,7 +346,7 @@
     <string name="PullDownColor">Özel Renklendirme Yetkisi</string>
     <string name="PullDownUnlock">Renkler değiştirilebilir</string>
     <string name="PullDownLock">Renkler Değiştirilemez. Kilitli</string>
-    <string name="PullDownHeader">Üst Başlık Kısım Renklendir</string>
+    <string name="PullDownHeader">Üst Başlık Alanına Özel Renk Ayarları</string>
     <string name="PullDownHeaderBackground">Üst Bilgi Arka Plan Rengi</string>
     <string name="PullDownHeaderText">Üst Bilgideki Yazı Renkleri</string>
     <string name="PullDownHeaderIcon">Üst Bilgideki İkon Renkleri</string>
@@ -394,7 +394,7 @@
     <string name="BatteryCriticalPercentageSummary">Kritik Pil Uyarı Mesajının Yüzdesini Ayarlayın</string>
     <string name="MiscTitle">Diğer SistemUI Ayarları</string>
     <string name="MiscSummary">Herhangi bir kategoriye uymayan SystemUI özellikleri</string>
-    <string name="MiscUBS">USB bağlantısında ekran uyanması</string>
+    <string name="MiscUBS">USB Bağlantısında Ekran Uyansın</string>
     <string name="MiscKeyboard">Fiziki Tuşlar Aydınlatma Süresi</string>
     <string name="MiscAODisplay">AOD parlaklık</string>
     <string name="Ambient">Ambient Display Ayarları</string>
@@ -435,7 +435,7 @@
     <string name="NetworkDisplayBytes">Bytes Biçiminde Gösteriliyor</string>
     <string name="NetworkDisplayBits">Bits Biçiminde Gösteriliyor (varsayılan)</string>
     <string name="NetworkArrow">Ağ Okları Görünüm Tercihleri</string>
-    <string name="NetworkArrowTraffic">Ağ Trafiği oklarını göster</string>
+    <string name="NetworkArrowTraffic">Ağ Trafiği Oklarını Görünsün</string>
     <string name="NetworkArrowPosition">Veri Okların Gösterim Konumu</string>
     <string name="NetworkDisplay">Diğer Seçenekler....</string>
     <string name="NetworkDisplayAutohide">Düşük Trafikte Otomatik Gizlensin</string>
@@ -445,7 +445,7 @@
     <string name="NetworkDisplayFont">Yazı Biçimi</string>
     <string name="NetworkDisplaySize">Sayıların Boyutu Ayarlayabilirsiniz</string>
     <string name="NetworkColor">Ağ Trafik Ögelerine Özel Renkler</string>
-    <string name="NetworkColorSeparate">Ögeler için ayrı renkler</string>
+    <string name="NetworkColorSeparate">Ögeler İçin Ayrı Renk İzni</string>
     <string name="NetworkColorAll">Genel renk, tüm öğeler için geçerli olacak</string>
     <string name="NetworkColorEach">Tüm ögeler ayrı olarak renklendirilebilir</string>
     <string name="NetworkColorGlobal">Genel Renk</string>
@@ -462,13 +462,13 @@
     <string name="RecentTitle">Geçmiş (Son Kullanılanlar) Ayarları</string>
     <string name="RecentSummary">Geçmiş (Son Kullanılanlar) paneli özelliklerini değiştirebilirsiniz</string>
     <string name="RecentQuickLaunch">Panele Uygulama Kısayolları Eklemek</string>
-    <string name="RecentQuickLaunchTitle">Uygulama Kısayolları Görünümü</string>
+    <string name="RecentQuickLaunchTitle">Uygulama Kısayol Görünüm Yetkisi</string>
     <string name="RecentRamBar">Ram Durumu Bilgi Çubuğu</string>
     <string name="RecentRamBarTitle">A.O.K.P RAM Çubuğu</string>
     <string name="RecentRamBarFreeRam">Boş Ram Yazı Rengi</string>
     <string name="RecentRamBarUsedRam">Kullanılan Ram Yazı Rengi</string>
     <string name="RecentMatrix">Matrix Animasyonu Seçenekleri</string>
-    <string name="RecentMatrixTitle">Geçmiş Panelinde Matrix Animasyonu</string>
+    <string name="RecentMatrixTitle">Matrix Animasyonu Görünüm Yetkisi</string>
     <string name="RecentMatrixTextColorSummary">Matrix Yazı Rengi Seçin</string>
     <string name="RecentMatrixTextColor">Matrix Yazı Renklendirme</string>
     <string name="RecentMatrixBackgroundColorSummary">Matrix Arka Plan Rengini Seçin</string>
@@ -523,7 +523,7 @@
     <string name="SignalWifi12">Wifi 12</string>
     <string name="WeatherTitle">Kilit Ekranı Hava Durumu Ayarları</string>
     <string name="WeatherSummary">Kilit ekranında hava ile ilgili ayarları değiştir</string>
-    <string name="Weather">Hava Durumu Görünmesi</string>
+    <string name="Weather">Hava Durumu Görünme Yetkisi</string>
     <string name="WeatherGeo">Coğrafi Konum</string>
     <string name="WeatherBarometer">Barometre</string>
     <string name="WeatherBarometerTextColor">Barometre Yazı Rengi</string>
@@ -553,9 +553,9 @@
     <string name="LockscreenMiscAlarm">Kilit Ekranında Sonraki Alarm</string>
     <string name="LockscreenMiscAlarmColor">Kilit Ekranında Alarm Rengi</string>
     <string name="LockscreenMiscHelp">Kilit Ekran Yardım Metnini Gizle</string>
-    <string name="LockscreenMiscCarrier">Özel Operatör Bilgisi Kullan</string>
+    <string name="LockscreenMiscCarrier">Özel Operatör Bilgisi Kullanılsın</string>
     <string name="LockscreenMiscCarrierEdit">Operatör Başlığı Düzenle</string>
-    <string name="LockscreenMiscCarrierText">Özel Operatör Adını Giriniz</string>
+    <string name="LockscreenMiscCarrierText">Özel Operatör Bilgisini Girin</string>
     <string name="LockscreenMiscCarrierSet">Özel Operatör Adı.:</string>
     <string name="LockscreenMiscWake">Ekranı Uyandırmadan Parmak İzi Kilidi Açma</string>
     <string name="LockscreenAnalogTitle">Analog Saat İşlemleri</string>
@@ -585,11 +585,11 @@
     <string name="ButtonBackPress">Geri Butonuna Uzun Basınca</string>
     <string name="ButtonRecentPress">Geçmiş Butonuna Uzun Basınca</string>
     <string name="ButtonBackBehaviour">Durdurulanları Geçmişten Kaldır</string>
-    <string name="ButtonRecentBehaviour0">Geçmiş / Çoklu Pencere (varsayılan)</string>
-    <string name="ButtonRecentBehaviour1">Uygulama Durdur</string>
+    <string name="ButtonRecentBehaviour0">Son Kullanılanlar (varsayılan)</string>
+    <string name="ButtonRecentBehaviour1">Etkin Uygulammayı Durdur.</string>
     <string name="ButtonRecentBehaviour2">Menü</string>
     <string name="ButtonBackBehaviour0">Menü (varsayılan)</string>
-    <string name="ButtonBackBehaviour1">Uygulama Durdur.</string>
+    <string name="ButtonBackBehaviour1">Etkin Uygulammayı Durdur..</string>
     <string name="ClockTitle">Saat Görünüm Ayarları</string>
     <string name="ClockSummary">Durum çubuğu saatiyle ilgili ayarları değiştir</string>
     <string name="ClockStock">Stok Saat</string>

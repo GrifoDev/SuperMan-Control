@@ -87,6 +87,12 @@
                 android:summaryOff="@string/Hidden"
                 android:summaryOn="@string/Shown"
                 android:title="@string/BatteryStock" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="true"
+                android:key="display_battery_percentage"
+                android:summaryOff="@string/Hidden"
+                android:summaryOn="@string/Shown"
+                android:title="@string/BatteryStockPercentage" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
                 android:dependency="hide_battery_stock"

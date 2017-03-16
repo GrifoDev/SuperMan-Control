@@ -386,6 +386,7 @@
     <string name="BatteryBarColorSummary">Choose color of battery bar</string>
     <string name="Battery3MinitTitle">3Minit Battery Settings</string>
     <string name="BatteryStock">Stock Battery Visibility</string>
+    <string name="BatteryStockPercentage">Battery Percentage</string>
     <string name="BatteryStockTitle">Stock Battery Settings</string>
     <string name="BatteryStockColor">Battery Color</string>
     <string name="BatteryStockColorDark">Battery Color Dark</string>

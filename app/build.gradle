@@ -32,7 +32,7 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.wubydax.romcontrol.supercontrolpro"
-        minSdkVersion 20
+        minSdkVersion 21
         //noinspection OldTargetApi
         targetSdkVersion 22
         versionCode 2

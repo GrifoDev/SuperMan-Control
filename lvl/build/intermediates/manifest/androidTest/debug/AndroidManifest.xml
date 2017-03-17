@@ -3,7 +3,7 @@
     package="com.google.android.vending.licensing.test" >
 
     <uses-sdk
-        android:minSdkVersion="20"
+        android:minSdkVersion="21"
         android:targetSdkVersion="22" />
 
     <instrumentation

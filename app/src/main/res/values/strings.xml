@@ -311,6 +311,9 @@
     <string name="DoubleTapSleep">Double tab to sleep on statusbar</string>
     <string name="BrightnessWarning">High brightness warning</string>
     <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
+    <string name="NotificationShape">Notification bg shape</string>
+    <string name="StockShape">Stock look</string>
+    <string name="RoundedShape">Rounded Corners</string>
     <string name="BlurEffect">Blur Effect on pulldown menu</string>
     <string name="BlurEffectBackground">Background value of blur effect</string>
     <string name="BlurEffectDegree">Degree value of blur effect</string>

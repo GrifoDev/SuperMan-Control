@@ -472,6 +472,8 @@
     <string name="RecentSummary">Change mods for recent panel</string>
     <string name="RecentQuickLaunch">Quick Launch</string>
     <string name="RecentQuickLaunchTitle">Recent Panel Quick Launch</string>
+    <string name="RecentBlur">Blur Effect</string>
+    <string name="RecentBlurTitle">Blur Effect on Recent Panel</string>
     <string name="RecentRamBar">Ram Bar</string>
     <string name="RecentRamBarTitle">A.O.K.P RAM Bar</string>
     <string name="RecentRamBarFreeRam">Free Ram Text Color</string>

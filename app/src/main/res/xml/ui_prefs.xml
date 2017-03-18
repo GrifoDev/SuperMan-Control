@@ -724,6 +724,15 @@
                 android:title="@string/RecentQuickLaunchTitle" />
         </PreferenceCategory>
         <PreferenceCategory
+            android:title="@string/RecentBlur">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="blur_background_image_visible"
+                android:summaryOff="@string/Hidden"
+                android:summaryOn="@string/Shown"
+                android:title="@string/RecentBlurTitle" />
+        </PreferenceCategory>
+        <PreferenceCategory
             android:title="@string/RecentRamBar">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"

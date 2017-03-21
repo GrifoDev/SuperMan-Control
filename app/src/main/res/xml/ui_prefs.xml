@@ -1198,9 +1198,27 @@
                 android:summaryOn="@string/Enabled"
                 android:title="@string/Ambient"
                 app:rebootDevice="true" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:dependency="doze_enabled"
+                android:key="doze_pulse_pickup"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/AmbientPickUp"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:dependency="doze_enabled"
+                android:key="doze_vibrate_pickup"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/AmbientPickUpVibrate"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                 android:defaultValue="10000"
-                android:dependency="doze_toggle"
+                android:dependency="doze_enabled"
                 android:entries="@array/ambient_light_entries"
                 android:entryValues="@array/ambient_light_values"
                 android:key="doze_timeout"

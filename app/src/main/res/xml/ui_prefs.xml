@@ -728,8 +728,8 @@
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="blur_background_image_visible"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
                 android:title="@string/RecentBlurTitle" />
         </PreferenceCategory>
         <PreferenceCategory

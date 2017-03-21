@@ -317,6 +317,7 @@
     <string name="BlurEffect">Blur Effect on pulldown menu</string>
     <string name="BlurEffectBackground">Background value of blur effect</string>
     <string name="BlurEffectDegree">Degree value of blur effect</string>
+    <string name="BlurEffectColor">Change blur background color</string>
     <string name="GearRebootCategory">Reboot visibility on top left corner</string>
     <string name="GearReboot">Reboot view visibility</string>
     <string name="GearRebootColor">Reboot view color</string>

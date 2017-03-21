@@ -469,7 +469,6 @@
     <string name="RecentRamBarUsedRam">Цвет текста используемого RAM</string>
     <string name="RecentMatrix">Matrix анимация</string>
     <string name="RecentMatrixTitle">Matrix анимация в недавно использованых приложений</string>
-    <string name="RecentMatrixTitle">Matrix анимация в недавно использованых приложений</string>
     <string name="RecentMatrixTextColorSummary">Выбрать цвет текста Matrix</string>
     <string name="RecentMatrixTextColor">Раскраска текста Matrix</string>
     <string name="RecentMatrixBackgroundColorSummary">Выбрать цвет фона Matrix</string>

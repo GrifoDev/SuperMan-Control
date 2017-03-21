@@ -409,6 +409,7 @@
     <string name="MiscTorch">Torchlight on Lockscreen</string>
     <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>
     <string name="MiscTorchTimeout">Torch Timeout</string>
+    <string name="MiscKeyboardSwitch">Keyboard message in pulldown menu</string>
     <string name="MiscAODisplay">AOD brightness</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display settings</string>

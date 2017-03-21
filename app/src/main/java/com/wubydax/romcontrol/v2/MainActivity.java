@@ -6,6 +6,8 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.TypedArray;
 import android.os.Bundle;
+import android.os.Environment;
+import android.os.Handler;
 import android.provider.Settings.Secure;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
@@ -24,9 +26,12 @@ import com.google.android.vending.licensing.LicenseCheckerCallback;
 import com.google.android.vending.licensing.ServerManagedPolicy;
 import com.wubydax.romcontrol.v2.utils.BackupRestoreIntentService;
 import com.wubydax.romcontrol.v2.utils.Constants;
+import com.wubydax.romcontrol.v2.utils.FileHelper;
 import com.wubydax.romcontrol.v2.utils.MyDialogFragment;
 import com.wubydax.romcontrol.v2.utils.SuTask;
 
+import java.io.File;
+import java.io.IOException;
 import java.util.ArrayList;
 
 /*      Created by Roberto Mariani and Anna Berkovitch, 2015-2016
@@ -54,6 +59,13 @@ public class MainActivity extends AppCompatActivity
     private LicenseCheckerCallback mLicenseCheckerCallback;
     private LicenseChecker mChecker;
     private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn8G8VtHVQEukUBnDQRCOrkxTlymCKpMfFnCcqsCeTVxqDRqYrr5e4m7uZxxMVT+IURCl7vuKsUAs5C6zCrjCY88BXJxq7IkT0TMqp895/KgYfNSJrBu/dZsEggGFm2bA6pFWBXzFoZXh0yVAomAueELCB+PkoaTvntquwQBVVq1da25TWFNq/LRIQjbqf/Nr1oPZ2kjlWxKZ4GZgO9MLhjVl8LENTMDNFd1NDHohtbgRbRfFmQNkiaD/I9wiIviYRD6GyXEsFnkAgN+WpCnjVivetlif3RDNV40cc3p/6Czg5WSZyVNJXYFg42SexPEE8lVTKNg/Jz7Kwqr3I+gwjQIDAQAB";
+    private final String TEMP_FILE_NAME = ".other_temp.xml";
+    private final String cmdRT = "cat /system/csc/others.xml > " + Environment.getExternalStorageDirectory() + "/.tmpRC/" + TEMP_FILE_NAME + "\n";
+    private final String cmdTR = "cat " +Environment.getExternalStorageDirectory() + "/.tmpRC/" + TEMP_FILE_NAME + " > /system/csc/others.xml\n";
+    private String result;
+    private final File tempFile = new File(Environment.getExternalStorageDirectory() + "/.tmpRC/" + TEMP_FILE_NAME);
+    File direct = new File(Environment.getExternalStorageDirectory() + "/.tmpRC");
+    Process p;
 
     // Generate your own 20 random bytes, and put them here.
     private static final byte[] SALT = new byte[] {
@@ -80,6 +92,21 @@ public class MainActivity extends AppCompatActivity
                 mProgressDialog = ProgressDialog.show(this, getString(R.string.root_progress_dialog_title), getString(R.string.root_progress_dialog_message), false);
             }
         }
+        setTitle(titles[lastFragmentIndex]);
+        initViews();
+        try {
+            p = Runtime.getRuntime().exec("su");
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        if (!direct.exists()) {
+            direct.mkdir(); //directory is created;
+        }
+
+        FileHelper.copyFileToTemp(cmdRT, p);
+                result = FileHelper.readFile(tempFile);
+                FileHelper.investInput(result, tempFile);
+                FileHelper.copyFileToRoot(cmdTR, p);
 
         String deviceId = Secure.getString(getContentResolver(), Secure.ANDROID_ID);
 

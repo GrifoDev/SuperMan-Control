@@ -405,6 +405,7 @@
     <string name="MiscTitle">Misc SystemUI settings</string>
     <string name="MiscSummary">SystemUI features which does not match any category</string>
     <string name="MiscUBS">USB plug in/out wakeup</string>
+    <string name="MiscImsService">RCS Icon (Couldy Symbol) on Statusbar</string>
     <string name="MiscKeyboard">Keyboard backlight duration</string>
     <string name="MiscTorch">Torchlight on Lockscreen</string>
     <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>
@@ -497,6 +498,9 @@
     <string name="SignalTitle">Wifi/Signal icon settings</string>
     <string name="SignalSummary">Settings related to Wifi and Signal icon</string>
     <string name="Signal">Wifi/Signal Position</string>
+    <string name="SignalDataIcon">Data Icon on Statusbar</string>
+    <string name="SignalDataIconLTE">LTE</string>
+    <string name="SignalDataIcon4G">4G</string>
     <string name="SignalIcon">Change Statusbar Icons</string>
     <string name="SignalIconChooser">Choose custom signal icon</string>
     <string name="SignalIconChooserSim2">Choose custom signal icon for sim 2 (dual sim)</string>

@@ -37,7 +37,7 @@
     <string name="no_backup_dialog_title">Šiame įrenginyje nėra Atsarginės kopijos</string>
     <string name="no_backup_dialog_message">Ar norėtumėte dabar sukurti naują Atsarginę kopiją?</string>
     <string name="restore_confirm_dialog_title">Prašome patvirtinti atkūrimą</string>
-    <string name="restore_confirm_message">Reikia pasirinkti prieš tai nodotos Rom Control nustatymų versijos Atsarginę kopiją.\n\n<b>Perspėjame! Ši operacija pakeis įrenginio nustatymus į nustatymus iš Atsarginės kopijos.\n\n<font fgcolor="red">NEDARYKITE ŠITO jei nesate 100% tikri dėl pasirinkimo!!!</font></b>\n\nRom Control bus uždaryta, kad būtų galima atstatyti duomenis, ir bus paleista iš naujo po atstatymo. Priklausomai nuo atstatomų duomenų/nustatymų kiekio tai gali užtrukti.\n\nSpauskite \"TVIRTINU\" , kad tęsti arba \"NUTRAUKTI\" norint nutraukti.</string>
+    <string name="restore_confirm_message">Jūs pasirinkote atkurit prieš tai nodotos Rom Control nustatymų versijos Atsarginę kopiją.\n\n<b>Perspėjame! Ši operacija pakeis įrenginio nustatymus į nustatymus iš Atsarginės kopijos.\n\n<font fgcolor="red">NEDARYKITE ŠITO jei nesate 100% tikri dėl pasirinkimo!!!</font></b>\n\nRom Control bus uždaryta, kad būtų galima atstatyti duomenis, ir bus paleista iš naujo po atstatymo. Priklausomai nuo atstatomų duomenų/nustatymų kiekio tai gali užtrukti.\n\nSpauskite \"TVIRTINU\" , kad tęsti arba \"NUTRAUKTI\" norint nutraukti.</string>
     <string name="backup_complete_toast">Atsarginė kopija sukurta sėkmingai, ją galite rasti\n%1$s</string>
     <string name="restore_complete_toast">Atstatyta</string>
     <string name="about">Čia - SM-Rom</string>
@@ -78,7 +78,7 @@
     <string name="Right">Dešinėje pusėje</string>
     <string name="Centered">Per vidurį</string>
     <string name="ShowOnTop">Rodyti viršuje</string>
-    <string name="ShowDownBelow">Slenkant rodyti apačioje</string>
+    <string name="ShowDownBelow">Рodyti apačioje</string>
     <string name="Regular">Įprastas</string>
     <string name="Center">Per vidurį-veidrodinis atspindys</string>
     <string name="dynamic_status_bar_title">Dinamiškų spalvų Būsenos juosta nustatymai</string>
@@ -87,9 +87,9 @@
     <string name="dynamic_status_bar_color_title">Dinamiška Būsenos juostos spalva</string>
     <string name="dynamic_status_bar_color_summary">Automatiškai atnaujinti Būsenos juostos fono spalvą</string>
     <string name="dynamic_status_bar_gradient_title">Spalvų nuolydis</string>
-    <string name="dynamic_status_bar_gradient_summary">Būsenos juostos Perdengimas spalvų nuolydžiu</string>
+    <string name="dynamic_status_bar_gradient_summary">Taikyti Būsenos juostos spalvų nuolydį</string>
     <string name="dynamic_status_bar_filter_title">Užtemdymas</string>
-    <string name="dynamic_status_bar_filter_summary">Būsenos juostos Perdengimas Užtemdymo filtru</string>
+    <string name="dynamic_status_bar_filter_summary">Taikyti Užtemdymo filtrą Būsenos juostoje</string>
     <string name="dsb_gradient_filter_value_0">Išjungta</string>
     <string name="dsb_gradient_filter_value_1">Tik darbastalyje</string>
     <string name="dsb_gradient_filter_value_2">Visur išskyrus darbastalį</string>
@@ -139,8 +139,8 @@
     <string name="UploadAndDownload">Įkelti ir Parsisiųsti</string>
     <string name="DownloadOnly">Tik parsisiųsti</string>
     <string name="UploadOnly">Tik įkelti</string>
-    <string name="ToEndOfView">Dešinėje</string>
-    <string name="ToStartOfView">Kairėje</string>
+    <string name="ToEndOfView">Į peržiūros pabaigą</string>
+    <string name="ToStartOfView">Į peržiūros pradžią</string>
     <string name="toast_animation">Blukinimo (Toast) Animacija UI Struktūroje</string>
     <string name="toast_animation_title">Blukinimo (Toast) animacija</string>
     <string name="toast_none_animation">Jokios</string>
@@ -259,7 +259,7 @@
     <string name="ImagePreference">Individualaus paveikslėlio nustatymai</string>
     <string name="BGImage">Pasirinkti fono paveikslėlį</string>
     <string name="ImageScaling">Nustatyti paveikslėlio pritaikymo tipą</string>
-    <string name="GradientPreferences">Spalvų and splavų nuolydžio nustatymai</string>
+    <string name="GradientPreferences">Spalvų ir splavų nuolydžio nustatymai</string>
     <string name="PrimaryColor">Nustatyti pagrindinę splavą</string>
     <string name="SecondaryColor">Antrinė spalva (tik spalvų nuoldyžiui)</string>
     <string name="GradientOrientation">Splavų nuolydžio kryptis</string>
@@ -301,7 +301,7 @@
     <string name="PulldownMenuSettings">Išplečiamojo Meniu nustatymai</string>
     <string name="PulldownMenuSettingsSummary">Keisti pagrindinius Išplečiamojo meniu nustatymus</string>
     <string name="MultiUser">Kelių vartotojų Atvaizdas</string>
-    <string name="SingleSwipe">Vienas stmtelėjimas iš dešinės Greitosios panelės ištraukimui</string>
+    <string name="SingleSwipe">Vienas stumtelėjimas iš dešinės Greitosios panelės ištraukimui</string>
     <string name="ChargingNotification">Akumuliatoriaus įkrovimo išplečiamas pranešimas</string>
     <string name="OngoingNotifications">Leisti pašalinti Pranešimus</string>
     <string name="HeadsUp">Heads Up Pranešimai</string>
@@ -335,7 +335,7 @@
     <string name="DeviceInfoNetwork">Tinklo vardas</string>
     <string name="DeviceInfoWifi">WI-FI informacija</string>
     <string name="DeviceInfoAlarm">Žadintuvo signalas</string>
-    <string name="DeviceInfoUpTime">Įrenginio įjungimo laikas</string>
+    <string name="DeviceInfoUpTime">Įrenginio veikimo laikas nuo įjungimo</string>
     <string name="GifAnimation">Gif Animacija</string>
     <string name="GifAnimationTitle">Gif animacija pranešimų zonoje</string>
     <string name="GifAnimationSummary">Gif animacijos nustatymai</string>
@@ -627,9 +627,9 @@
     <string name="AboutAFHRom">Atsisiųsti naujausią SuperMan-Rom versiją</string>
     <string name="AboutAFHSuperKernel">Atsisiųsti paskutinę SuperKernel versiją</string>
     <string name="AboutAFHSuperStockKernel">Atsisiųsti paskutinę SuperStock-Kernel versiją</string>
-    <string name="ContactUs">Contact Us</string>
-    <string name="OurTeam">Our Team</string>
-    <string name="CreditsThanks">Credits and Thanks</string>
+    <string name="ContactUs">Susisiekite</string>
+    <string name="OurTeam">Mūsų komanda</string>
+    <string name="CreditsThanks">Nuopelanai ir Padėkos</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

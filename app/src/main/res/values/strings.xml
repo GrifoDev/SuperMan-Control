@@ -406,6 +406,9 @@
     <string name="MiscSummary">SystemUI features which does not match any category</string>
     <string name="MiscUBS">USB plug in/out wakeup</string>
     <string name="MiscKeyboard">Keyboard backlight duration</string>
+    <string name="MiscTorch">Torchlight on Lockscreen</string>
+    <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>
+    <string name="MiscTorchTimeout">Torch Timeout</string>
     <string name="MiscAODisplay">AOD brightness</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display settings</string>

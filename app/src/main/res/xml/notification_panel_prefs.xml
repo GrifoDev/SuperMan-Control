@@ -90,7 +90,7 @@
             android:title="@string/BlurEffectBackground"
             app:maxValue="250" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
+            android:defaultValue="#00ffffff"
             android:dependency="enable_blur"
             android:key="blur_background_color"
             android:title="@string/BlurEffectColor" />

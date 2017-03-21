@@ -1232,6 +1232,20 @@
                 android:key="button_key_light"
                 android:summary="%s"
                 android:title="@string/MiscKeyboard" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="torchlight_enable"
+                android:summaryOff="@string/Off"
+                android:summaryOn="@string/On"
+                android:summary="@string/MiscTorch"
+                android:title="@string/MiscTorch" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="15000"
+                android:dependency="torchlight_enable"
+                android:entries="@array/torchlight_timeout_entries"
+                android:entryValues="@array/torchlight_timeout_values"
+                android:key="torchlight_timeout"
+                android:title="@string/MiscTorchTimeout" />
             <!--/*
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                 android:defaultValue="17"

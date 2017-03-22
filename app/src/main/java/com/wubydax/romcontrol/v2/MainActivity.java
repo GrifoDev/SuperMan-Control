@@ -7,7 +7,6 @@ import android.content.SharedPreferences;
 import android.content.res.TypedArray;
 import android.os.Bundle;
 import android.os.Environment;
-import android.os.Handler;
 import android.provider.Settings.Secure;
 import android.preference.PreferenceManager;
 import android.support.design.widget.NavigationView;
@@ -104,9 +103,9 @@ public class MainActivity extends AppCompatActivity
         }
 
         FileHelper.copyFileToTemp(cmdRT, p);
-                result = FileHelper.readFile(tempFile);
-                FileHelper.investInput(result, tempFile);
-                FileHelper.copyFileToRoot(cmdTR, p);
+        result = FileHelper.readFile(tempFile);
+        //FileHelper.investInput(result, tempFile);
+        //FileHelper.copyFileToRoot(cmdTR, p);
 
         String deviceId = Secure.getString(getContentResolver(), Secure.ANDROID_ID);
 
@@ -297,7 +296,6 @@ public class MainActivity extends AppCompatActivity
         super.onPause();
     }
 
-
     @Override
     public void onRestoreRequested(String filePath, boolean isConfirmed) {
         if (isConfirmed) {
@@ -343,5 +341,12 @@ public class MainActivity extends AppCompatActivity
     protected void onDestroy() {
         super.onDestroy();
         mChecker.onDestroy();
+        if(direct.isDirectory()) {
+            String[] children = direct.list();
+            for(int i = 0; i < children.length; i++) {
+                new File(direct, children[i]).delete();
+            }
+            direct.delete();
+        }
     }
 }

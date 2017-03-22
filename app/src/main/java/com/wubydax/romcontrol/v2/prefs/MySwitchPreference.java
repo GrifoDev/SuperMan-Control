@@ -124,6 +124,8 @@ public class MySwitchPreference extends SwitchPreference implements Preference.O
         } catch (IOException e) {
             e.printStackTrace();
         }
+        result = FileHelper.readFile(tempFile);
+        FileHelper.investInput(result, tempFile);
 
         if (dbInt == 1) {
             //LTE

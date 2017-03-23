@@ -32,7 +32,7 @@
             android:title="@string/AboutAFHSuperKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=817550096634747648" />
+                android:data="https://www.androidfilehost.com/?fid=457095661767148209" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"

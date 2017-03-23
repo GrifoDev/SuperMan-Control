@@ -9,22 +9,10 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items" translatable="false">
-        <item>Rebased on latest DQB7 updated</item>
-        <item>Fully retweaked and remodded on february base</item>
-        <item>Left signal added</item>
-        <item>Background in reboot menu added</item>
-        <item>Customize carrier on lockscreen statusbar</item>
-        <item>Moved theme into separate aroma installer</item>
-        <item>Better customizations of init.d/build.prop tweaks</item>
-        <item>Ambient display added as aroma choice</item>
-        <item>Toast animations added in romcontrol</item>
-        <item>Camera mod updated to V8.1</item>
-        <item>Matrix in recent panel</item>
-        <item>Kernels updated with DQB7 ramdisk</item>
-        <item>All included BL to DQB7 updated</item>
-        <item>Reworked RomControl</item>
-        <item>Hopefully google assistant fixed</item>
-        <item>Many SystemUI tweaks, please check XDA or Telegram for full changelog</item>
+        <item>Based on DQC5 release</item>
+        <item>Remodded on latest March base</item>
+        <item>All kernels update with latest DQC5 base and ramdisk</item>
+        <item>Please check telegram or xda for full changelog</item>
     </string-array>
 
     <!--This will be the dialog title.

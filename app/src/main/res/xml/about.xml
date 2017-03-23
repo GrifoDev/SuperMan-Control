@@ -39,7 +39,14 @@
             android:title="@string/AboutAFHSuperStockKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=529152257862708706" />
+                android:data="https://www.androidfilehost.com/?fid=529152257862713574" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/afh"
+            android:title="@string/AboutAFHSuperCSC">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://www.androidfilehost.com/?fid=457095661767146041" />
         </PreferenceScreen>
     </PreferenceCategory>
 

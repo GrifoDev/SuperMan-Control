@@ -661,6 +661,7 @@
     <string name="AboutAFHRom">Download latest SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Download latest SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Download latest SuperStock-Kernel</string>
+    <string name="AboutAFHSuperCSC">Download latest CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>

@@ -618,4 +618,26 @@
     <string name="OurTeam">Unser Team</string>
     <string name="CreditsThanks">Credits und Danksagung</string>
     <string name="NetworkSamsung">Samsungs Downloadspeed Anzeige</string>
+    <string name="AmbientPickUp">Ambient wird beim aufnehmen eingeschalten</string>
+    <string name="AmbientPickUpVibrate">Beim aufnehmen vibriert das SmartPhone</string>
+    <string name="BatteryStockColor">Batteriefarbe</string>
+    <string name="BatteryStockColorDark">Dunkle Batteriefarbe</string>
+    <string name="BatteryStockPercentage">Batterie Prozentanzeige</string>
+    <string name="BatteryStockTitle">Einstellungen für die Batterie</string>
+    <string name="BlurEffectColor">Blureffektfarbe</string>
+    <string name="MiscImsService">RCS Symbol in der Statusleiste</string>
+    <string name="MiscKeyboardSwitch">Tastatur Benachrichtigung</string>
+    <string name="MiscTorch">Taschenlampe bei Sperrbildschirm</string>
+    <string name="MiscTorchSummary">Schalten SIe die Taschenlampe ein, indem die Lautertaste länger gedrückt wird</string>
+    <string name="MiscTorchTimeout">Taschenlampenzeit</string>
+    <string name="NotificationShape">Benachrichtigunsgeschalt</string>
+    <string name="PullDownNotificationMusic">Musik Weiter/Zurück Farben</string>
+    <string name="RecentBlur">Blur Effekt</string>
+    <string name="RecentBlurTitle">Blur Effekt im Recent Panel</string>
+    <string name="RoundedShape">Gerundede Ecken</string>
+    <string name="SignalDataIcon">Mobiledaten Symbol in der Statusleiste</string>
+    <string name="SignalDataIcon4G">4G</string>
+    <string name="SignalDataIconLTE">LTE</string>
+    <string name="StockShape">Normale Ecken</string>
+    <string name="AboutAFHCSC">Laden Sie die neuste CSC Selektion runter</string>
 </resources>

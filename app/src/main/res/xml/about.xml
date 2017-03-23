@@ -43,7 +43,7 @@
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
-            android:title="@string/AboutAFHSuperCSC">
+            android:title="@string/AboutAFHCSC">
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://www.androidfilehost.com/?fid=457095661767146041" />

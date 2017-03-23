@@ -71,6 +71,7 @@
             android:title="@string/NotificationShape"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
+        <!--/*
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:key="pekaka_memCleanView"
             android:summaryOff="@string/Hidden"
@@ -80,6 +81,7 @@
             android:defaultValue="#ff22c4ff"
             android:key="db_inkeffect_pekaka_memkiller_picker"
             android:title="@string/WeatherColor" />
+        */-->
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="enable_blur"

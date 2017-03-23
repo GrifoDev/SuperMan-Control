@@ -274,7 +274,7 @@
     <string name="Superuser">Phh Superuser</string>
     <string name="RootSummary">Uygulamalar için root haklarını yönetir</string>
     <string name="Magisk">Magisk Manager</string>
-    <string name="MagiskSummary">Magisk kurulumunuzu gözden geçirin</string>
+    <string name="MagiskSummary">Magisk ayarlarınızı yönetin</string>
     <string name="AdAway">AdAway</string>
     <string name="AdAwaySummary">Reklam engelleyici</string>
     <string name="Synapse">Synapse</string>
@@ -289,7 +289,7 @@
     <string name="ViperSummary">Viper Audio ayarları</string>
     <string name="Busybox">Busybox</string>
     <string name="BusyboxSummary">Telefonunuzda busybox yönetin</string>
-    <string name="GestureCategory">Ana Ekranda Hareketle İşlem Yaptırmak\n\n(...YENİDEN BAŞLATMA GEREKLİDİR...)</string>
+    <string name="GestureCategory">Ana Ekranda Hareketle İşlem Yaptırmak\n(...YENİDEN BAŞLATMA GEREKLİDİR...)</string>
     <string name="DoubleTap">Çift Tıklatınca</string>
     <string name="SwipeUp">Yukarı Sürükleyince</string>
     <string name="SwipeDown">Aşağı Sürükleyince</string>
@@ -309,9 +309,13 @@
     <string name="DoubleTapSleep">Kilit İçin D.Çubuğuna Çift Tık</string>
     <string name="BrightnessWarning">Yüksek Parlaklık Uyarısını Kapat</string>
     <string name="BrightnessSlider">Üst Menüdeki Parlaklık Ayarlayıcısı</string>
+    <string name="NotificationShape">Bildirim A.Plan Şekli</string>
+    <string name="StockShape">Stok Görünüm</string>
+    <string name="RoundedShape">Yuvarlatılmış Köşeler</string>
     <string name="BlurEffect">Arka Plana Bulanıklık Efekti</string>
     <string name="BlurEffectBackground">Bulanıklık Efektinin Arka Plan Değeri</string>
     <string name="BlurEffectDegree">Bulanıklık Efektinin Yoğunluğu</string>
+    <string name="BlurEffectColor">Bulanıklık ArkaPlan Rengini Değiştir</string>
     <string name="GearRebootCategory">Sol Üst Köşede Aç / Kapat Butonu</string>
     <string name="GearReboot">Aç/Kapat Butonu Görünüm İzni</string>
     <string name="GearRebootColor">Butonun Rengi</string>
@@ -366,6 +370,7 @@
     <string name="PullDownNotificationBackground">Bildirim Paneli Arka Plan Rengi</string>
     <string name="PullDownNotificationText">Bildirim Başlığı Yazı Rengi</string>
     <string name="PullDownNotificationTextSummary">Bildirim Özeti Yazı Rengi</string>
+    <string name="PullDownNotificationMusic">Müzik Düğmesi Rengi</string>
     <string name="PullDownNotificationFooter">Bildirim Pan.Altbilgi Yazı Rengi</string>
     <string name="PullDownNotificationFooterBackground">Bildirim Pan.Altbilgi Arkaplan Rengi</string>
     <string name="PayPalSummary">Ziyaret etmek için tıkla</string>
@@ -384,6 +389,10 @@
     <string name="BatteryBarColorSummary">Pil Çubuğunun Rengini Seç</string>
     <string name="Battery3MinitTitle">Pil Görünüm Türünü Seçiniz</string>
     <string name="BatteryStock">Varsayılan Pil</string>
+    <string name="BatteryStockPercentage">Pil Yüzdesi</string>
+    <string name="BatteryStockTitle">Stok Pil Ayarları</string>
+    <string name="BatteryStockColor">Pil Rengi</string>
+    <string name="BatteryStockColorDark">Koyu Pil Rengi</string>
     <string name="Battery3Minit">3Minit Pil</string>
     <string name="Battery3MinitApp">Ücretsiz Sürüm (sadece 3Minit pil seçilmiş ise)</string>
     <string name="Battery3MinitProApp">Ücretli 3Minit Sürümü</string>
@@ -395,10 +404,17 @@
     <string name="MiscTitle">Diğer SistemUI Ayarları</string>
     <string name="MiscSummary">Herhangi bir kategoriye uymayan SystemUI özellikleri</string>
     <string name="MiscUBS">USB Bağlantısında Ekran Uyansın</string>
+    <string name="MiscImsService">Dur.Çubuğunda RCS Simgesi (Bulut Sembol)</string>
     <string name="MiscKeyboard">Fiziki Tuşlar Aydınlatma Süresi</string>
+    <string name="MiscTorch">Kilit Ekranında El Feneri</string>
+    <string name="MiscTorchSummary">Ekran kapalıyken ses seviyesini artırma tuşunu basılı tutarak flaşı açın</string>
+    <string name="MiscTorchTimeout">El Feneri Zaman Aşımı</string>
+    <string name="MiscKeyboardSwitch">Açılan menüdeki klavye mesajı</string>
     <string name="MiscAODisplay">AOD parlaklık</string>
     <string name="Ambient">Ambient Display Ayarları</string>
     <string name="AmbientTitle">Ambient Display Görünüm - Süre Ayarları</string>
+    <string name="AmbientPickUp">Ambient display Yakalandıklarında gösterecek</string>
+    <string name="AmbientPickUpVibrate">Ambient display Alındığında titreşecek</string>
     <string name="AmbientSummary">Kilit Ekranında Bildirimlerin Görünmesi. Bunu etkinleştirirseniz, her bildirimde ekran uyanır. (yalnızca AOD)</string>
     <string name="AmbientTimeout">Bildirimlerin Görüntülenme Süresi</string>
     <string name="DataUsage">Kullanılan Veri Görünüm Ayarları</string>
@@ -452,7 +468,7 @@
     <string name="NetworkColorUpload">Yükleme Yazı Rengi</string>
     <string name="NetworkColorDownload">İndirme Yazı Rengi</string>
     <string name="NetworkColorTraffic">Ağ Trafiği Okları Rengi</string>
-    <string name="NetworkSamsung">Samsung Ağ hızı</string>
+    <string name="NetworkSamsung">Varsayılan Ağ Hızı Göster</string>
     <string name="VolumeTitle">Ses Düğmesi Ayarları</string>
     <string name="VolumeSummary">Ekran kapalıyken ses seviyesi düğmelerinin davranışını değiştirme</string>
     <string name="Volume">Ses Butonlarını Özelleştirme Seçenekleri</string>
@@ -463,6 +479,8 @@
     <string name="RecentSummary">Geçmiş (Son Kullanılanlar) paneli özelliklerini değiştirebilirsiniz</string>
     <string name="RecentQuickLaunch">Panele Uygulama Kısayolları Eklemek</string>
     <string name="RecentQuickLaunchTitle">Uygulama Kısayol Görünüm Yetkisi</string>
+    <string name="RecentBlur">Bulanıklık Efekti</string>
+    <string name="RecentBlurTitle">Geçmiş Paneli Bulanıklık Efekti</string>
     <string name="RecentRamBar">Ram Durumu Bilgi Çubuğu</string>
     <string name="RecentRamBarTitle">A.O.K.P RAM Çubuğu</string>
     <string name="RecentRamBarFreeRam">Boş Ram Yazı Rengi</string>
@@ -479,6 +497,9 @@
     <string name="SignalTitle">Wifi / Sinyal Simgesi Ayarları</string>
     <string name="SignalSummary">WiFi ve Sinyal Simgesi Ayarları</string>
     <string name="Signal">Wifi / Sinyal Simgesinin Konumu</string>
+    <string name="SignalDataIcon">Durum Çubuğunda Veri İkonu</string>
+    <string name="SignalDataIconLTE">LTE</string>
+    <string name="SignalDataIcon4G">4G</string>
     <string name="SignalIcon">Durum Çubuğundaki Simgelerini Değiştir</string>
     <string name="SignalIconChooser">Özel Sinyal Simgesi Seçin</string>
     <string name="SignalIconChooserSim2">Sim2 Özel Sinyal Simgesi (çift sim)</string>

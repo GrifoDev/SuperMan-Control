@@ -72,6 +72,15 @@
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:key="pekaka_memCleanView"
+            android:summaryOff="@string/Hidden"
+            android:summaryOn="@string/Shown"
+            android:title="@string/ClearMemory" />
+        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ff22c4ff"
+            android:key="db_inkeffect_pekaka_memkiller_picker"
+            android:title="@string/WeatherColor" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="enable_blur"
             android:summaryOff="@string/Disabled"
@@ -225,6 +234,13 @@
                 android:title="@string/PullDownNotificationTextSummary"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff212122"
+                android:dependency="unlock_notification_colors"
+                android:key="notification_button_color"
+                android:title="@string/PullDownNotificationMusic"
+                app:isSilent="false"
+                app:packageNameToKill="com.sec.android.app.music"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#d9252525"
                 android:dependency="unlock_notification_colors"

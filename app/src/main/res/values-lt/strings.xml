@@ -300,7 +300,6 @@
     <string name="OutgoingAutoCallRecord">Automatinis išeinančio skambučio įrašas</string>
     <string name="PulldownMenuSettings">Išplečiamojo Meniu nustatymai</string>
     <string name="PulldownMenuSettingsSummary">Keisti pagrindinius Išplečiamojo meniu nustatymus</string>
-    <string name="PullDownNotificationMusic">Muzikos mygtuko spalva</string>
     <string name="MultiUser">Kelių vartotojų Atvaizdas</string>
     <string name="SingleSwipe">Vienas stumtelėjimas iš dešinės Greitosios panelės ištraukimui</string>
     <string name="ChargingNotification">Akumuliatoriaus įkrovimo išplečiamas pranešimas</string>
@@ -371,7 +370,7 @@
     <string name="PullDownNotificationBackground">Pranešimų panelės fono spalva</string>
     <string name="PullDownNotificationText">Pranešimų pavadinimo teksto spalva</string>
     <string name="PullDownNotificationTextSummary">Pranešimų santraukos teksto spalva</string>
-    <string name="PullDownNotificationMusic">Music Button color</string>
+    <string name="PullDownNotificationMusic">Muzikos mygtuko spalva</string>
     <string name="PullDownNotificationFooter">Pranešimų apačios teksto spalva</string>
     <string name="PullDownNotificationFooterBackground">Pranešimų apačios fono spalva</string>
     <string name="PayPalSummary">Spustelėkite, jei norite paremti</string>

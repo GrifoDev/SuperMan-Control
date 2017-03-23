@@ -479,10 +479,9 @@
     <string name="RecentSummary">Modifier les paramètres relatifs au menu récent</string>
     <string name="RecentQuickLaunch">Lancement rapide</string>
     <string name="RecentQuickLaunchTitle">Lancement rapide dans menu récent</string>
-    <string name="RecentRamBar">Barre de Ram</string>
     <string name="RecentBlur">Effet flou</string>
     <string name="RecentBlurTitle">Effet de flou sur le panneau récent</string>
-    <string name="RecentRamBar">Barre Ram</string>
+    <string name="RecentRamBar">Barre de Ram</string>
     <string name="RecentRamBarTitle">A.O.K.P RAM Bar</string>
     <string name="RecentRamBarFreeRam">Couleur du texte Ram libre</string>
     <string name="RecentRamBarUsedRam">Couleur du texte Ram utilisée</string>

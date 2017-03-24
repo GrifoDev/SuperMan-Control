@@ -408,7 +408,7 @@
     <string name="MiscUBS">USB plug in/out wakeup</string>
     <string name="MiscImsService">RCS Icon (Couldy Symbol) on Statusbar</string>
     <string name="MiscKeyboard">Keyboard backlight duration</string>
-    <string name="MiscTorch">Torchlight on Lockscreen</string>
+    <string name="MiscTorch">Torchlight while screen off</string>
     <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>
     <string name="MiscTorchTimeout">Torch Timeout</string>
     <string name="MiscKeyboardSwitch">Keyboard message in pulldown menu</string>
@@ -417,7 +417,7 @@
     <string name="AmbientTitle">Ambient display settings</string>
     <string name="AmbientPickUp">Ambient display will show when picked up</string>
     <string name="AmbientPickUpVibrate">Ambient display will vibrate when picked up</string>
-    <string name="AmbientSummary">If you enable this the display will wake up each time you receive a notification (AOD only)</string>
+    <string name="AmbientSummary">If you enable this the display will wake up each time you receive a notification</string>
     <string name="AmbientTimeout">Ambient Display Screen Time</string>
     <string name="DataUsage">Data Usage</string>
     <string name="DataUsageSummary">Data Usage displayed on notification area</string>

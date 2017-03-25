@@ -116,8 +116,6 @@ public class MainActivity extends AppCompatActivity
                 BASE64_PUBLIC_KEY);
         doCheck();
 
-        setTitle(titles[lastFragmentIndex]);
-        initViews();
     }
 
     private void initViews() {

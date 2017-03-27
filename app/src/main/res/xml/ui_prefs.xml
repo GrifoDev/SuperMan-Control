@@ -459,15 +459,15 @@
 		android:title="@string/LockscreenTimeout"
 		app:isSilent="false"
         	app:packageNameToKill="com.android.systemui"/>
+            */-->
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-            	android:defaultValue="4"
+            	android:defaultValue="2"
             	android:key="lockscreen_notifications"
             	android:title="@string/LockscreenNotification"
             	app:isSilent="false"
-            	app:maxValue="4"
+            	app:maxValue="3"
             	app:minValue="1"
             	app:packageNameToKill="com.android.systemui" />
-            */-->
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/LockscreenAnalogTitle">

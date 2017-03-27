@@ -309,9 +309,13 @@
     <string name="DoubleTapSleep">Dubbelklicka på statusfältet för att släcka skärmen</string>
     <string name="BrightnessWarning">Stäng av varing för hög ljusstyrka</string>
     <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
+    <string name="NotificationShape">Notification bg shape</string>
+    <string name="StockShape">Stock look</string>
+    <string name="RoundedShape">Rounded Corners</string>
     <string name="BlurEffect">Blur Effekt på pulldown meny</string>
     <string name="BlurEffectBackground">Bakgrunds värde av blur effekt</string>
     <string name="BlurEffectDegree">Grad värde av blur effekt</string>
+    <string name="BlurEffectColor">Change blur background color</string>
     <string name="GearRebootCategory">Omstartssynlighet i övre vänstra hörnet</string>
     <string name="GearReboot">Synlighet för omstartsvy</string>
     <string name="GearRebootColor">Färg för omstartsvy</string>
@@ -366,6 +370,7 @@
     <string name="PullDownNotificationBackground">Färg för bakgrunden på notifikationspanelen</string>
     <string name="PullDownNotificationText">Färg för titel på notifikationspanelen</string>
     <string name="PullDownNotificationTextSummary">Färg för summeringar på notifikationspanelen</string>
+    <string name="PullDownNotificationMusic">Music Button color</string>
     <string name="PullDownNotificationFooter">Färg för text på den nedre delen av notifikationspanelen</string>
     <string name="PullDownNotificationFooterBackground">Färg för bakgrund på nedre delen av notifikationspanelen</string>
     <string name="PayPalSummary">Klicka för att visa</string>
@@ -384,6 +389,10 @@
     <string name="BatteryBarColorSummary">Välj färg för batteribandet</string>
     <string name="Battery3MinitTitle">Inställningar för 3Minit-batteri</string>
     <string name="BatteryStock">Synlighet för normal batteriikon</string>
+    <string name="BatteryStockPercentage">Battery Percentage</string>
+    <string name="BatteryStockTitle">Stock Battery Settings</string>
+    <string name="BatteryStockColor">Battery Color</string>
+    <string name="BatteryStockColorDark">Battery Color Dark</string>
     <string name="Battery3Minit">3Minit-batteri</string>
     <string name="Battery3MinitApp">Ändra batteri-inställningar (fungerar endast när 3Minit batteryi är aktiverad)</string>
     <string name="Battery3MinitProApp">Betalad version av 3Minit apk</string>
@@ -395,10 +404,17 @@
     <string name="MiscTitle">Diverse användargränssnitts-inställningar</string>
     <string name="MiscSummary">Användargränssnitts-verktyg som inte passar in i någon specifik kategori</string>
     <string name="MiscUBS">Väckning av enhet vid in- och utkoppling av USB</string>
+    <string name="MiscImsService">RCS Icon (Cloudy Symbol) on Statusbar</string>
     <string name="MiscKeyboard">Varaktighet för bakgrundsbelysning av tangentbord</string>
+    <string name="MiscTorch">>Torchlight while screen off</string>
+    <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>
+    <string name="MiscTorchTimeout">Torch Timeout</string>
+    <string name="MiscKeyboardSwitch">Keyboard message in pulldown menu</string>
     <string name="MiscAODisplay">AOD-ljusstyrka</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Inställningar för Ambient Display</string>
+    <string name="AmbientPickUp">Ambient display will show when picked up</string>
+    <string name="AmbientPickUpVibrate">Ambient display will vibrate when picked up</string>
     <string name="AmbientSummary">Om du aktiverar denna funktion kommer skärmen vakna upp varje gång du får en notifikation (AOD endast)</string>
     <string name="AmbientTimeout">Skärmtid för Ambient Display</string>
     <string name="DataUsage">Dataanvändning</string>
@@ -463,6 +479,8 @@
     <string name="RecentSummary">Ändra modifikationer för senaste-panelen</string>
     <string name="RecentQuickLaunch">Snabbstart</string>
     <string name="RecentQuickLaunchTitle">Snabbstart för senaste-panelen</string>
+    <string name="RecentBlur">Blur Effect</string>
+    <string name="RecentBlurTitle">Blur Effect on Recent Panel</string>
     <string name="RecentRamBar">Ram-band</string>
     <string name="RecentRamBarTitle">A.O.K.P ram-band</string>
     <string name="RecentRamBarFreeRam">Fri ram-textfärg</string>
@@ -479,6 +497,9 @@
     <string name="SignalTitle">Inställningar för ikoner för Wifi/Signal</string>
     <string name="SignalSummary">Inställningar för Wifi- och signalikon</string>
     <string name="Signal">Wifi/Signal-position</string>
+    <string name="SignalDataIcon">Data Icon on Statusbar</string>
+    <string name="SignalDataIconLTE">LTE</string>
+    <string name="SignalDataIcon4G">4G</string>
     <string name="SignalIcon">Ändra ikoner på statusfält</string>
     <string name="SignalIconChooser">Välj anpassad ikon för signal</string>
     <string name="SignalIconChooserSim2">Välj anpassad signal-ikon för sim 2 (Dubbel sim)</string>
@@ -627,6 +648,7 @@
     <string name="AboutAFHRom">Ladda ner senaste versionen av SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Ladda ner den senaste versionen av SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Ladda ner den senaste versionen av SuperStock-Kernel</string>
+    <string name="AboutAFHCSC">Download latest CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>

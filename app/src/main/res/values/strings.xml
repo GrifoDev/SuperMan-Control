@@ -406,7 +406,7 @@
     <string name="MiscTitle">Misc SystemUI settings</string>
     <string name="MiscSummary">SystemUI features which does not match any category</string>
     <string name="MiscUBS">USB plug in/out wakeup</string>
-    <string name="MiscImsService">RCS Icon (Couldy Symbol) on Statusbar</string>
+    <string name="MiscImsService">RCS Icon (Cloudy Symbol) on Statusbar</string>
     <string name="MiscKeyboard">Keyboard backlight duration</string>
     <string name="MiscTorch">Torchlight while screen off</string>
     <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>

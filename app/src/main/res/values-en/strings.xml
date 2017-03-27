@@ -406,7 +406,7 @@
     <string name="MiscUBS">USB plug in/out wakeup</string>
     <string name="MiscImsService">RCS Icon (Cloudy Symbol) on Statusbar</string>
     <string name="MiscKeyboard">Keyboard backlight duration</string>
-    <string name="MiscTorch">>Torchlight while screen off</string>
+    <string name="MiscTorch">Torchlight while screen off</string>
     <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>
     <string name="MiscTorchTimeout">Torch Timeout</string>
     <string name="MiscKeyboardSwitch">Keyboard message in pulldown menu</string>
@@ -648,6 +648,7 @@
     <string name="AboutAFHRom">Download latest SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Download latest SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Download latest SuperStock-Kernel</string>
+    <string name="AboutAFHCSC">Download latest CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>

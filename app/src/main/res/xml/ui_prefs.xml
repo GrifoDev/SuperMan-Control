@@ -451,14 +451,14 @@
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
             <!--/*
-	    <com.wubydax.romcontrol.v2.prefs.MyListPreference
-        	android:defaultValue="10000"
-        	android:entries="@array/display_timeout_entries"
-        	android:entryValues="@array/display_timeout_values"
-        	android:key="display_timeout_delay"
-		android:title="@string/LockscreenTimeout"
-		app:isSilent="false"
-        	app:packageNameToKill="com.android.systemui"/>
+	        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+        	    android:defaultValue="10000"
+        	    android:entries="@array/display_timeout_entries"
+        	    android:entryValues="@array/display_timeout_values"
+        	    android:key="display_timeout_delay"
+		        android:title="@string/LockscreenTimeout"
+		        app:isSilent="false"
+        	    app:packageNameToKill="com.android.systemui"/>
             */-->
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
             	android:defaultValue="2"
@@ -468,6 +468,15 @@
             	app:maxValue="3"
             	app:minValue="1"
             	app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="0"
+                android:entries="@array/secure_lockscreen_entries"
+                android:entryValues="@array/secure_lockscreen_values"
+                android:key="lock_screen_allow_remote_input"
+                android:summary="%s"
+                android:title="@string/LockscreenReply"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/LockscreenAnalogTitle">

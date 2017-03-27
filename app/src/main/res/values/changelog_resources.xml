@@ -9,16 +9,16 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items" translatable="false">
-        <item>Based on DQC5 release</item>
+        <item>Based on DQCG release</item>
         <item>Remodded on latest March base</item>
-        <item>All kernels update with latest DQC5 base and ramdisk</item>
+        <item>All kernels update with latest DQCG base and ramdisk</item>
         <item>Please check telegram or xda for full changelog</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog" translatable="false">SuperMan-Rom V2.4</string>
+    <string name="rom_version_for_changelog" translatable="false">SuperMan-Rom V2.4.1</string>
 
 
 </resources>

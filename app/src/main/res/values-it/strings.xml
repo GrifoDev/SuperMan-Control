@@ -413,8 +413,8 @@
     <string name="MiscAODisplay">AOD brightness</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Preferenze Ambient display</string>
-    <string name="AmbientPickUp">L'ambient display illumina lo schermo al sollevare del telefono</string>
-    <string name="AmbientPickUpVibrate">L'ambient display vibra al sollevare del telefono</string>
+    <string name="AmbientPickUp">L\'ambient display illumina lo schermo al sollevare del telefono</string>
+    <string name="AmbientPickUpVibrate">L\'ambient display vibra al sollevare del telefono</string>
     <string name="AmbientSummary">Se si attiva tale opzione, lo schermo si accenderà alla ricezione di ogni notifica</string>
     <string name="AmbientTimeout">Tempo accensione Ambient Display</string>
     <string name="DataUsage">Uso dati</string>

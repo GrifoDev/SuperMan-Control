@@ -310,7 +310,7 @@
     <string name="BrightnessWarning">Wyłącz ostrzeżenie o zbyt wysokiej jasności</string>
     <string name="BrightnessSlider">Suwak jasności na rozwijanym menu</string>
     <string name="NotificationShape">Kształt powiadomień</string>
-    <string name="StockShape">Wygląd Stock'owy</string>
+    <string name="StockShape">Wygląd Stock\'owy</string>
     <string name="RoundedShape">Zaokrąglone rogi</string>
     <string name="BlurEffect">Efekt rozmycia w rozwijanym menu</string>
     <string name="BlurEffectBackground">Tło - efekt rozmycia</string>

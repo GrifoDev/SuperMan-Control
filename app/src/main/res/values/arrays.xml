@@ -802,4 +802,13 @@
         <item>300000</item>
     </string-array>
 
+    <string-array name="secure_lockscreen_entries">
+        <item>@string/Disabled</item>
+        <item>@string/Enabled</item>
+    </string-array>
+    <string-array name="secure_lockscreen_values" translatable="false">
+        <item>0</item>
+        <item>2</item>
+    </string-array>
+
 </resources>

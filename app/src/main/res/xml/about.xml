@@ -25,7 +25,7 @@
             android:title="@string/AboutAFHRom">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=817550096634750162" />
+                android:data="https://www.androidfilehost.com/?fid=673368273298943060" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"

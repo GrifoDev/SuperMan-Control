@@ -32,7 +32,8 @@
             android:key="ongoing_notifications"
             android:summaryOff="@string/Disabled"
             android:summaryOn="@string/Enabled"
-            android:title="@string/OngoingNotifications" />
+            android:title="@string/OngoingNotifications"
+            app:rebootDevice="true" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"
             android:key="heads_up_notifications_enabled"
@@ -44,7 +45,9 @@
             android:key="hide_sfinder"
             android:summaryOff="@string/Shown"
             android:summaryOn="@string/Hidden"
-            android:title="@string/SFinder" />
+            android:title="@string/SFinder"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="double_tap_sleep"
@@ -56,13 +59,17 @@
             android:key="hide_brightness_warning"
             android:summaryOff="@string/Enabled"
             android:summaryOn="@string/Disabled"
-            android:title="@string/BrightnessWarning" />
+            android:title="@string/BrightnessWarning"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="hide_brightness_slider"
             android:summaryOff="@string/Shown"
             android:summaryOn="@string/Hidden"
-            android:title="@string/BrightnessSlider" />
+            android:title="@string/BrightnessSlider"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:defaultValue="0"
             android:entries="@array/shape_entries"

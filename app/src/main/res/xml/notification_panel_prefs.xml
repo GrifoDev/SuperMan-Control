@@ -79,6 +79,24 @@
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
         <!--/*
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="4"
+            android:entries="@array/qs_tile_column_entries"
+            android:entryValues="@array/qs_tile_column_values"
+            android:key="qs_tile_column"
+            android:title="Number of quick setting tile columns" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="6"
+            android:entries="@array/qs_tile_column_landscape_entries"
+            android:entryValues="@array/qs_tile_column_landscape_values"
+            android:key="qs_tile_column_landscape"
+            android:title="Number of quick setting tile columns while in landscape mode" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="3"
+            android:entries="@array/qs_tile_row_entries"
+            android:entryValues="@array/qs_tile_row_values"
+            android:key="qs_tile_row"
+            android:title="Number of quick setting tile rows (only affects portrait mode)" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:key="pekaka_memCleanView"
             android:summaryOff="@string/Hidden"

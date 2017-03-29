@@ -415,7 +415,7 @@
     <string name="AmbientTitle">Inställningar för Ambient Display</string>
     <string name="AmbientPickUp">Ambient display kommer visas när du tar upp telefonen</string>
     <string name="AmbientPickUpVibrate">Ambient display kommer vibrera när du tar upp telefonen</string>
-    <string name="AmbientSummary">Om du aktiverar denna funktion kommer skärmen vakna upp varje gång du får en notifikation (AOD endast)</string>
+    <string name="AmbientSummary">Om du aktiverar denna funktion kommer skärmen vakna upp varje gång du får en notifikation</string>
     <string name="AmbientTimeout">Skärmtid för Ambient Display</string>
     <string name="DataUsage">Dataanvändning</string>
     <string name="DataUsageSummary">Visa notifikationer för datanvändning</string>
@@ -601,6 +601,7 @@
     <string name="LockscreenAnalog18">Stil 18</string>
     <string name="LockscreenTimeout">Visa tidsgräns på låsskärmen</string>
     <string name="LockscreenNotification">Låsskärmsnofikiationsnummer</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Senaste- och tillbakaknappen</string>
     <string name="ButtonSummary">Ändra inställningar för hårdvaruknappar</string>
     <string name="ButtonBackPress">Beteende för långtryck på tillbaka-knappen</string>

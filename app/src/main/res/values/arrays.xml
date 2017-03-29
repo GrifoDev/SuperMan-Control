@@ -802,13 +802,62 @@
         <item>300000</item>
     </string-array>
 
-    <string-array name="secure_lockscreen_entries">
+    <string-array name="lock_screen_allow_remote_input_entries">
         <item>@string/Disabled</item>
         <item>@string/Enabled</item>
     </string-array>
-    <string-array name="secure_lockscreen_values" translatable="false">
+    <string-array name="lock_screen_allow_remote_input_values" translatable="false">
         <item>0</item>
         <item>2</item>
+    </string-array>
+
+    <string-array name="qs_tile_column_entries" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="qs_tile_column_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+
+    <string-array name="qs_tile_column_landscape_entries" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="qs_tile_column_landscape_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+
+    <string-array name="qs_tile_row_entries" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="qs_tile_row_values" translatable="false">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
     </string-array>
 
 </resources>

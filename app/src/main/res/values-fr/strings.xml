@@ -415,7 +415,7 @@
     <string name="AmbientTitle">Paramètres de l\'écran ambiant</string>
     <string name="AmbientPickUp">L\'écran ambiant s\'affiche aux mouvements</string>
     <string name="AmbientPickUpVibrate">L\'écran ambiant vibre aux mouvements</string>
-    <string name="AmbientSummary">Si vous activez cette option l\'écran va s\'allumer à chaque fois que vous recevez une notification (AOD seulement)</string>
+    <string name="AmbientSummary">Si vous activez cette option l\'écran va s\'allumer à chaque fois que vous recevez une notification</string>
     <string name="AmbientTimeout">Temps d\'affichage de l\'écran ambiant</string>
     <string name="DataUsage">Utilisations des données</string>
     <string name="DataUsageSummary">Utilisation des données affichée sur la zone de notification</string>
@@ -601,6 +601,7 @@
     <string name="LockscreenAnalog18">Style 18</string>
     <string name="LockscreenTimeout">Délai d\'affichage d\'écran de verrouillage</string>
     <string name="LockscreenNotification">Nombre de notification sur écran de verrouillage</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Paramètres touches physiques</string>
     <string name="ButtonSummary">Changer les paramètres des touches</string>
     <string name="ButtonBackPress">Appui long sur touche retour</string>
@@ -648,6 +649,7 @@
     <string name="AboutAFHRom">Dernière version SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Dernière version SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Dernière version SuperStock-Kernel</string>
+    <string name="AboutAFHCSC">Dernière version CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>

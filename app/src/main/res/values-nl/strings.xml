@@ -290,11 +290,7 @@
     <string name="ViperSummary">Viper Audio Instellingen</string>
     <string name="Busybox">Busybox</string>
     <string name="BusyboxSummary">Controleer en installeer busybox op uw telefoon</string>
-    
-
-
-STOP
-<string name="GestureCategory">Gesture Anywhere op Home scherm</string>
+    <string name="GestureCategory">Gesture Anywhere op Home scherm</string>
     <string name="DoubleTap">Double Tap</string>
     <string name="SwipeUp">Swipe Up</string>
     <string name="SwipeDown">Swipe Down</string>
@@ -314,10 +310,13 @@ STOP
     <string name="DoubleTapSleep">Double tab om te slapen op statusbalk</string>
     <string name="BrightnessWarning">Hoge helderheid waarschuwing</string>
     <string name="BrightnessSlider">Helderheid slider in pulldown menu</string>
+    <string name="NotificationShape">Notification bg shape</string>
+    <string name="StockShape">Stock look</string>
+    <string name="RoundedShape">Rounded Corners</string>
     <string name="BlurEffect">Blur Effect in pulldown menu</string>
-    <string name="BlurEffectBackground">Achtergrond waarde van 
-blur effect</string>j
+    <string name="BlurEffectBackground">Achtergrond waarde van blur effect</string>
     <string name="BlurEffectDegree">Graad waarde van blur effect</string>
+    <string name="BlurEffectColor">Change blur background color</string>
     <string name="GearRebootCategory">Herstart zichtbaarheid in de hoek links boven</string>
     <string name="GearReboot">Herstart view zichtbaarheid</string>
     <string name="GearRebootColor">Herstart view kleur</string>
@@ -372,6 +371,7 @@ blur effect</string>j
     <string name="PullDownNotificationBackground">Notificatie paneel achtergrondkleuren</string>
     <string name="PullDownNotificationText">Notificatie  titel tekst kleur</string>
     <string name="PullDownNotificationTextSummary">Notificatie samenvatting tekstkleur</string>
+    <string name="PullDownNotificationMusic">Music Button color</string>
     <string name="PullDownNotificationFooter">Notificatie footer tekstkleur</string>
     <string name="PullDownNotificationFooterBackground">Notificatie footer achtergrondkleur</string>
     <string name="PayPalSummary">Klik om te bezoeken</string>
@@ -390,6 +390,10 @@ blur effect</string>j
     <string name="BatteryBarColorSummary">Kies de kleur van de batterij balj</string>
     <string name="Battery3MinitTitle">3Minit Battery Instellingen</string>
     <string name="BatteryStock">Stock Batterij Zichtbaarheid</string>
+    <string name="BatteryStockPercentage">Battery Percentage</string>
+    <string name="BatteryStockTitle">Stock Battery Settings</string>
+    <string name="BatteryStockColor">Battery Color</string>
+    <string name="BatteryStockColorDark">Battery Color Dark</string>
     <string name="Battery3Minit">3Minit Batterij</string>
     <string name="Battery3MinitApp">Verander Batterij Instellingen (werkt alleen als 3Minit batterij aan staat)</string>
     <string name="Battery3MinitProApp">Betaalde versie van 3Minit apk</string>
@@ -401,11 +405,18 @@ blur effect</string>j
     <string name="MiscTitle">Overige SystemUI instellingen</string>
     <string name="MiscSummary">SystemUI kenmerken die niet in een andere categorie passen</string>
     <string name="MiscUBS">USB plug in/uit wakeup</string>
+    <string name="MiscImsService">RCS Icon (Cloudy Symbol) on Statusbar</string>
     <string name="MiscKeyboard">Keyboard backlight duur</string>
+    <string name="MiscTorch">Torchlight while screen off</string>
+    <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>
+    <string name="MiscTorchTimeout">Torch Timeout</string>
+    <string name="MiscKeyboardSwitch">Keyboard message in pulldown menu</string>
     <string name="MiscAODisplay">AOD helderheid</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display instellingen</string>
-    <string name="AmbientSummary">Als u dit aanzet zal het scherm iedere keer dat u een notificatie ontvangt aan gaan (alleen AOD)</string>
+    <string name="AmbientPickUp">Ambient display will show when picked up</string>
+    <string name="AmbientPickUpVibrate">Ambient display will vibrate when picked up</string>
+    <string name="AmbientSummary">Als u dit aanzet zal het scherm iedere keer dat u een notificatie ontvangt aan gaan</string>
     <string name="AmbientTimeout">Ambient Display Scherm Tijd</string>
     <string name="DataUsage">Gegevensverbruik</string>
     <string name="DataUsageSummary">Gegevensverbruik zichtbaar in notificatie omgeving</string>
@@ -469,6 +480,8 @@ blur effect</string>j
     <string name="RecentSummary">Verander mods voor recent paneel</string>
     <string name="RecentQuickLaunch">Quick Launch</string>
     <string name="RecentQuickLaunchTitle">Recent Paneel Quick Launch</string>
+    <string name="RecentBlur">Blur Effect</string>
+    <string name="RecentBlurTitle">Blur Effect on Recent Panel</string>
     <string name="RecentRamBar">Ram Balk</string>
     <string name="RecentRamBarTitle">A.O.K.P RAM Balj</string>
     <string name="RecentRamBarFreeRam">Vrij Ram Tekst Kleur</string>
@@ -485,6 +498,9 @@ blur effect</string>j
     <string name="SignalTitle">Wifi/Signaal icoon instellingen</string>
     <string name="SignalSummary">Instellingen Gerelateerd aan Wifi en Signaal icoon</string>
     <string name="Signal">Wifi/Signaal Positie</string>
+    <string name="SignalDataIcon">Data Icon on Statusbar</string>
+    <string name="SignalDataIconLTE">LTE</string>
+    <string name="SignalDataIcon4G">4G</string>
     <string name="SignalIcon">Verander Statusbalk Iconen</string>
     <string name="SignalIconChooser">Kies aangepast signaal icoon</string>
     <string name="SignalIconChooserSim2">Kies aangepast signaal icoon voor sim 2 (dual sim)</string>
@@ -586,6 +602,7 @@ blur effect</string>j
     <string name="LockscreenAnalog18">Style 18</string>
     <string name="LockscreenTimeout">Lockscreen Scherm Timeout</string>
     <string name="LockscreenNotification">Lockscreen notificatie nummer</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Recent en Terug knop</string>
     <string name="ButtonSummary">Verander instellingen gerelateerd​ aan hardware knoppen</string>
     <string name="ButtonBackPress">Lang drukken Terug knip gedrag</string>
@@ -633,6 +650,7 @@ blur effect</string>j
     <string name="AboutAFHRom">Download laatste SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Download laatste SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Download laatste SuperStock-Kernel</string>
+    <string name="AboutAFHCSC">Download laatste CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>

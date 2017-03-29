@@ -601,6 +601,7 @@
     <string name="LockscreenAnalog18">Style 18</string>
     <string name="LockscreenTimeout">Lockscreen Display Timeout</string>
     <string name="LockscreenNotification">Lockscreen notifications number</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Recent and Back button</string>
     <string name="ButtonSummary">Change settings related to hardware buttons</string>
     <string name="ButtonBackPress">Long press Back button behaviour</string>

@@ -578,9 +578,9 @@
     <string name="LockscreenMiscCarrierEdit">Modifica testo operatore</string>
     <string name="LockscreenMiscCarrierText">Testo personalizzato operatore</string>
     <string name="LockscreenMiscCarrierSet">Applica testo personalizzato</string>
+    <string name="LockscreenMiscWake">Sblocca il telefono senza accendere lo schermo</string>
     <string name="LockscreenAnalogTitle">Orologio analogico</string>
     <string name="LockscreenAnalog">Orologio analogico sulla schermata di blocco</string>
-    <string name="LockscreenMiscWake">Sblocca il telefono senza accendere lo schermo</string>
     <string name="LockscreenAnalog1">Stile 1</string>
     <string name="LockscreenAnalog2">Stile 2</string>
     <string name="LockscreenAnalog3">Stile 3</string>
@@ -601,6 +601,7 @@
     <string name="LockscreenAnalog18">Stile 18</string>
     <string name="LockscreenTimeout">Tempo spegnimento schermo di blocco</string>
     <string name="LockscreenNotification">Numero notifiche schermata di blocco</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Tasto app. recenti e indietro</string>
     <string name="ButtonSummary">Cambia le impostazioni dei tasti hardware</string>
     <string name="ButtonBackPress">Funzione pressione prolungata tasto indietro</string>

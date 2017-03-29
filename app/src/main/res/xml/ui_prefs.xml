@@ -470,8 +470,8 @@
             	app:packageNameToKill="com.android.systemui" />
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                 android:defaultValue="0"
-                android:entries="@array/secure_lockscreen_entries"
-                android:entryValues="@array/secure_lockscreen_values"
+                android:entries="@array/lock_screen_allow_remote_input_entries"
+                android:entryValues="@array/lock_screen_allow_remote_input_values"
                 android:key="lock_screen_allow_remote_input"
                 android:summary="%s"
                 android:title="@string/LockscreenReply"

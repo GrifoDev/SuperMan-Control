@@ -415,7 +415,7 @@
     <string name="AmbientTitle">Aplinkos ekrano (Ambient Display) nustatymai</string>
     <string name="AmbientPickUp">Aplinkos ekranas (Ambient Display) rodomas kai gaunamas pranešimas</string>
     <string name="AmbientPickUpVibrate">Aplinkos ekranas (Ambient Display) suvibruoja kai gaunamas pranešimas</string>
-    <string name="AmbientSummary">Pasirinkus šį nustatymą, ekranas bus pažadinamas kiekvieną kartą, kai gaunamas pranešimas (tik įjungus AOD)</string>
+    <string name="AmbientSummary">Pasirinkus šį nustatymą, ekranas bus pažadinamas kiekvieną kartą, kai gaunamas pranešimas</string>
     <string name="AmbientTimeout">Įjungto Aplinkos ekrano laikas</string>
     <string name="DataUsage">Duomenų naudojimo piktogramos nustatymai</string>
     <string name="DataUsageSummary">Pranešimų zonoje bus rodomas Duomenų naudojimo kiekis</string>
@@ -601,6 +601,7 @@
     <string name="LockscreenAnalog18">Stilius 18</string>
     <string name="LockscreenTimeout">Užrakintą ekraną laikyti įjungtą</string>
     <string name="LockscreenNotification">Užrakintame ekrane rodomų pranešimų skaičius</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Mygtukų Atgal ir Nesenai naudotos nustatymai</string>
     <string name="ButtonSummary">Čia galima keisti fizinių mygtukų Atgal ir Nesenai naudotos programos nustatymus</string>
     <string name="ButtonBackPress">Veiksmas ilgai spaudžiant Atgal mygtuką</string>
@@ -648,6 +649,7 @@
     <string name="AboutAFHRom">Atsisiųsti naujausią SuperMan-Rom versiją</string>
     <string name="AboutAFHSuperKernel">Atsisiųsti paskutinę SuperKernel versiją</string>
     <string name="AboutAFHSuperStockKernel">Atsisiųsti paskutinę SuperStock-Kernel versiją</string>
+    <string name="AboutAFHCSC">Download latest CSC Selection</string>
     <string name="ContactUs">Susisiekite</string>
     <string name="OurTeam">Mūsų komanda</string>
     <string name="CreditsThanks">Nuopelanai ir Padėkos</string>

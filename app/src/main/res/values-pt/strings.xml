@@ -415,7 +415,7 @@
     <string name="AmbientTitle">Configurações do Ambient display</string>
     <string name="AmbientPickUp">O Ambient Display será exibido ao pegar o celular</string>
     <string name="AmbientPickUpVibrate">O Ambient display irá vibrar ao pegar o celular</string>
-    <string name="AmbientSummary">Ao ativar isso a tela acenderá sozinha cada vez que você receber uma notificação (apenas AOD)</string>
+    <string name="AmbientSummary">Ao ativar isso a tela acenderá sozinha cada vez que você receber uma notificação</string>
     <string name="AmbientTimeout">Tempo de tela do Ambient Display</string>
     <string name="DataUsage">Uso de dados</string>
     <string name="DataUsageSummary">Exibir uso de dados na aréa da notificação</string>
@@ -601,6 +601,7 @@
     <string name="LockscreenAnalog18">Estilo 18</string>
     <string name="LockscreenTimeout">Tempo de exibição da tela de bloqueio</string>
     <string name="LockscreenNotification">Numero de notificações da tela de bloqueio</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Botões de recente e voltar</string>
     <string name="ButtonSummary">Mudar configurações relacionadas aos botões físicos</string>
     <string name="ButtonBackPress">Ação ao pressionar longamente o botão de voltar</string>
@@ -648,6 +649,7 @@
     <string name="AboutAFHRom">Baixar a última SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Baixar a última SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Baixar a última SuperStock-Kernel</string>
+   <string name="AboutAFHCSC">Baixar a última CSC Selection</string>
     <string name="ContactUs">Contato</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Créditos e Agradecimentos</string>

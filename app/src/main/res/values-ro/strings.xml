@@ -309,9 +309,13 @@
     <string name="DoubleTapSleep">Atingere dubla in Statusbar pt standby</string>
     <string name="BrightnessWarning">Dezact. avertizare luminozitate excesiva</string>
     <string name="BrightnessSlider">Bara luminozitate in meniul glisant</string>
+    <string name="NotificationShape">Forma fundal notificari</string> 
+    <string name="StockShape">Aspect stock</string> 
+    <string name="RoundedShape">Colturi rotunjite</string>
     <string name="BlurEffect">Efect blur meniu glisant</string>
     <string name="BlurEffectBackground">Putere blur fundal</string>
     <string name="BlurEffectDegree">Pondere efect blur</string>
+    <string name="BlurEffectColor">Schimba culoarea la fundalul blur</string>
     <string name="GearRebootCategory">Visibilitate Reboot in colt stg sus</string>
     <string name="GearReboot">Visibilitate icon Reboot</string>
     <string name="GearRebootColor">Culoare icon Reboot</string>
@@ -366,6 +370,7 @@
     <string name="PullDownNotificationBackground">Culori fundal notificari</string>
     <string name="PullDownNotificationText">Culoare text notificari</string>
     <string name="PullDownNotificationTextSummary">Culoare text sumar notificari</string>
+    <string name="PullDownNotificationMusic">Culoare buton Music</string>
     <string name="PullDownNotificationFooter">Culoare text notificari footer</string>
     <string name="PullDownNotificationFooterBackground">Culoare notificari footer</string>
     <string name="PayPalSummary">Click pt a vizita</string>
@@ -384,6 +389,10 @@
     <string name="BatteryBarColorSummary">Alege culoare pt bara baterie</string>
     <string name="Battery3MinitTitle">Setari 3Minit Battery</string>
     <string name="BatteryStock">Vizibilitate baterie stock</string>
+    <string name="BatteryStockPercentage">Procent baterie</string> 
+    <string name="BatteryStockTitle">Setari baterie stock</string> 
+    <string name="BatteryStockColor">Culoare baterie</string> 
+    <string name="BatteryStockColorDark">Culoare inchisa baterie</string>
     <string name="Battery3Minit">3Minit Battery</string>
     <string name="Battery3MinitApp">Schimba setari baterie (doar cu 3Minit battery activat)</string>
     <string name="Battery3MinitProApp">Versiunea platita a 3Minit app</string>
@@ -395,11 +404,18 @@
     <string name="MiscTitle">Diverse setari pt SystemUI</string>
     <string name="MiscSummary">Setari SystemUI ce nu se incadreaza in nicio catergorie</string>
     <string name="MiscUBS">Trezire la conectare/deconectare USB</string>
+    <string name="MiscImsService">Icon RCS (Cloudy Symbol) in Statusbar</string>
     <string name="MiscKeyboard">Durata iluminare taste</string>
+    <string name="MiscTorch">Lanterna in ecranul de blocare</string>
+    <string name="MiscTorchSummary">Porniți lanterna ținând butonul de volum apasat cu ecranul oprit</string>
+    <string name="MiscTorchTimeout">Temporizare lanterna</string>
+    <string name="MiscKeyboardSwitch">Mesaj tastatura im meniul pulldown</string>
     <string name="MiscAODisplay">Luminozitatea AOD</string>
     <string name="Ambient">Display Ambiental</string>
     <string name="AmbientTitle">Setari Afisaj Ambiental</string>
-    <string name="AmbientSummary">Daca activezi aceasta setare, ecranul se va aprinde la fiecare notificare (doar cu AOD)</string>
+    <string name="AmbientPickUp">Afiseaza Ambient Display cand se ridica telefonul</string>
+    <string name="AmbientPickUpVibrate">Ambient Display vibreaza cand se ridica telefonul</string>
+    <string name="AmbientSummary">Daca activezi aceasta setare, ecranul se va aprinde la fiecare notificare</string>
     <string name="AmbientTimeout">Durata Afisarj Ambiental</string>
     <string name="DataUsage">Date folosite</string>
     <string name="DataUsageSummary">Afiseaza date folosite notificari</string>
@@ -463,6 +479,8 @@
     <string name="RecentSummary">Schimba moduri pt Recent Panel</string>
     <string name="RecentQuickLaunch">Lansare Rapida</string>
     <string name="RecentQuickLaunchTitle">Lansare Rapida Recent Panel</string>
+    <string name="RecentBlur">Efectul de Blur</string>
+    <string name="RecentBlurTitle">Efectul de Blur in Recent Panel</string>
     <string name="RecentRamBar">Bara RAM</string>
     <string name="RecentRamBarTitle">Bara RAM AOKP</string>
     <string name="RecentRamBarFreeRam">Culoare text RAM liber</string>
@@ -479,6 +497,9 @@
     <string name="SignalTitle">Setari Wifi/Semnal</string>
     <string name="SignalSummary">Setari WiFi si semnal mobil</string>
     <string name="Signal">Pozitie Wifi/Semnal</string>
+    <string name="SignalDataIcon">Icon de Date in Statusbar</string>
+    <string name="SignalDataIconLTE">LTE</string>
+    <string name="SignalDataIcon4G">4G</string>
     <string name="SignalIcon">Schimba iconite statusbar</string>
     <string name="SignalIconChooser">Alege iconita personalizata</string>
     <string name="SignalIconChooserSim2">Alege iconita semnal SIM 2(dual sim)</string>
@@ -580,6 +601,7 @@
     <string name="LockscreenAnalog18">Stil 18</string>
     <string name="LockscreenTimeout">Expirare timp ecran de blocare</string>
     <string name="LockscreenNotification">Numar de notificari ecran de blocare</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Butoane Recent si Back</string>
     <string name="ButtonSummary">Schimba setari butoane capacitive</string>
     <string name="ButtonBackPress">Comportament buton Back la apasare lunga</string>
@@ -627,6 +649,7 @@
     <string name="AboutAFHRom">Ultima versiune SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Ultima versiune SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Ultima versiune SuperStock-Kernel</string>
+    <string name="AboutAFHCSC">Ultima versiune CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>

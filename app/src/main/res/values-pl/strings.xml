@@ -601,6 +601,7 @@
     <string name="LockscreenAnalog18">Style 18</string>
     <string name="LockscreenTimeout">Czas do wygaszenia ekranu</string>
     <string name="LockscreenNotification">Ilość powiadomień</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Przyciski fizyczne</string>
     <string name="ButtonSummary">Zmień ustawienia przycisków OSATATNIE i WSTECZ</string>
     <string name="ButtonBackPress">Przytrzymanie WSTECZ</string>
@@ -648,6 +649,7 @@
     <string name="AboutAFHRom">Pobierz najnowszy SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Pobierz najnowszy SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Pobierz najnowszy SuperStock-Kernel</string>
+    <string name="AboutAFHCSC">Pobierz najnowszy CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>

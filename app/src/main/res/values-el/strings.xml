@@ -415,7 +415,7 @@
     <string name="AmbientTitle">Επιλογές οθόνης Ambient Display</string>
     <string name="AmbientPickUp">ÅìöÜíéóç ôçò ïèüíçò Ambient üôáí ðéÜóåôå ôçí óõóêåõÞ</string>
     <string name="AmbientPickUpVibrate">Ç ïèüíç Ambient èá äïíåßôáé üôáí ðéÜóåôå ôçí óõóêåõÞ</string>
-    <string name="AmbientSummary">Εάν επιλέξτε αυτό κάθε φορά που δέχεστε κάποια ειδοποίηση, η οθόνη θα ανοίγει(Μόνο για AOD)</string>
+    <string name="AmbientSummary">Εάν επιλέξτε αυτό κάθε φορά που δέχεστε κάποια ειδοποίηση, η οθόνη θα ανοίγει</string>
     <string name="AmbientTimeout">Χρονικό όριο οθόνης Ambient Display</string>
     <string name="DataUsage">Χρήση Δεδομένων</string>
     <string name="DataUsageSummary">Εμφάνιση χρήσης δεδομένων στην περιοχή των ειδοποιήσεων</string>
@@ -601,6 +601,7 @@
     <string name="LockscreenAnalog18">Στύλ 18</string>
     <string name="LockscreenTimeout">Χρονικό όριο οθόνης κλειδώματος</string>
     <string name="LockscreenNotification">Αριθμός ειδοποιήσεων οθόνης κλειδώματος</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Πλήκτρα Πίσω/Πρόσφατα</string>
     <string name="ButtonSummary">Αλάξτε τις ριθμίσεις των πλήκτρων της συσκευή σας</string>
     <string name="ButtonBackPress">Συμπεριφορά παρατεταμένου πλήκτρου "Πίσω"</string>
@@ -648,6 +649,7 @@
     <string name="AboutAFHRom">Κατεβάστε το SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Κατεβάστε το SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Κατεβάστε το SuperStock-Kernel</string>
+    <string name="AboutAFHCSC">Download latest CSC Selection</string>
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>

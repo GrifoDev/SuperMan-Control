@@ -640,4 +640,5 @@
     <string name="SignalDataIconLTE">LTE</string>
     <string name="StockShape">Normale Ecken</string>
     <string name="AboutAFHCSC">Laden Sie die neuste CSC Selektion runter</string>
+    <string name="LockscreenReply">Nachrichten beim gesperrten Bildschirm beantworten</string>
 </resources>

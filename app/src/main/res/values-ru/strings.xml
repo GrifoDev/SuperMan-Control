@@ -300,7 +300,6 @@
     <string name="OutgoingAutoCallRecord">Автоматическая запись выходящих звонков</string>
     <string name="PulldownMenuSettings">Настройки выпадающего меню</string>
     <string name="PulldownMenuSettingsSummary">Менять главные настройки выпадающего меню</string>
-    <string name="PullDownNotificationMusic">Цвет кнопки Музыки</string>
     <string name="MultiUser">Аватар Мультипользователей</string>
     <string name="SingleSwipe">Проведите раз с правой стороны для открытия Быстрой панели</string>
     <string name="ChargingNotification">Выпадающее уведомления для заряда</string>
@@ -371,6 +370,7 @@
     <string name="PullDownNotificationBackground">Цвет фона панели уведомлений</string>
     <string name="PullDownNotificationText">Цвет текста оглавления панели уведомления</string>
     <string name="PullDownNotificationTextSummary">Цвет текста панели уведомления</string>
+    <string name="PullDownNotificationMusic">Цвет кнопки Музыки</string>
     <string name="PullDownNotificationFooter">Цвет текста нижнего колонтитула панели уведомления</string>
     <string name="PullDownNotificationFooterBackground">Цвет фона нижнего колонтитула панели уведомления</string>
     <string name="PayPalSummary">Нажать для просмотра</string>
@@ -415,7 +415,7 @@
     <string name="AmbientTitle">Настройки экрана Ambient display</string>
     <string name="AmbientPickUp">Ambient display будет отображаться когда Вы возьмете телефон в руки</string>
     <string name="AmbientPickUpVibrate">Ambient display будет вибрировать огда Вы возьмете телефон в руки</string>
-    <string name="AmbientSummary">Если вы включите эту функцию, дисплей будет просыпаться каждый раз, когда вы получаете уведомление(только для AOD)</string>
+    <string name="AmbientSummary">Если вы включите эту функцию, дисплей будет просыпаться каждый раз, когда вы получаете уведомление</string>
     <string name="AmbientTimeout">Тайм-аут экрана Ambient Display</string>
     <string name="DataUsage">Использование данных</string>
     <string name="DataUsageSummary">Использование данных отображается в области уведомлений</string>
@@ -601,6 +601,7 @@
     <string name="LockscreenAnalog18">Стиль 18</string>
     <string name="LockscreenTimeout">Тайм-аут экрана на Экране блокировки</string>
     <string name="LockscreenNotification">Количество оповещений на Экране блокировки</string>
+    <string name="LockscreenReply">Reply messages from lockscreen</string>
     <string name="ButtonTitle">Кнопка Недавние и Назад</string>
     <string name="ButtonSummary">Изменение настроек, связанных с аппаратными кнопками</string>
     <string name="ButtonBackPress">Длительное нажатие кнопки Назад</string>
@@ -648,6 +649,7 @@
     <string name="AboutAFHRom">Скачать последнюю версию SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Скачать последнюю версию SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Скачать последнюю версию SuperStock-Kernel</string>
+    <string name="AboutAFHCSC">Скачать последнюю версию CSC Selection</string>
     <string name="ContactUs">Свяжитесь с нами</string>
     <string name="OurTeam">Наша команда</string>
     <string name="CreditsThanks">Заслуги и благодарность</string>

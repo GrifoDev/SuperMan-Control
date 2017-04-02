@@ -967,16 +967,16 @@
         <PreferenceCategory
             android:dependency="network_traffic_state"
             android:title="@string/NetworkColor">
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="network_traffic_color"
+                android:title="@string/NetworkColorGlobal"/>
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="true"
                 android:key="network_traffic_global_color"
                 android:summaryOff="@string/NetworkColorAll"
                 android:summaryOn="@string/NetworkColorEach"
                 android:title="@string/NetworkColorSeparate"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
-                android:key="network_traffic_color"
-                android:title="@string/NetworkColorGlobal"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
                 android:dependency="network_traffic_global_color"

@@ -41,7 +41,7 @@
     <string name="backup_complete_toast">Yedekleme başarıyla tamamlandı. Yedek dosyası konumu.: \n%1$s</string>
     <string name="restore_complete_toast">Geri yükleme tamamlandı</string>
     <string name="about">Hoşgeldiniz</string>
-    <string name="systemui_prefs">Sistem Arayüzü (SYSTEMUI)</string>
+    <string name="systemui_prefs">Sistem Arayüz Ayarları</string>
     <string name="phone_prefs">Telefon Çağrı Ayarları</string>
     <string name="framework_prefs">Framework Ayarları</string>
     <string name="settings_prefs">Uygulama Kısayolları</string>
@@ -363,7 +363,7 @@
     <string name="PullDownQuicksettingsBrightness">Parlaklık Ayarlayıcının Rengi</string>
     <string name="PullDownQuicksettingsDragBackground">İkon Düzenlerken A.Plan Rengi</string>
     <string name="PullDownQuicksettingsDragIcon">Düzenleme Sırasında İkon Rengi</string>
-    <string name="PullDownQuicksettingsQuickConnect">Hızlı Bağlantı Arkaplan Rengi</string>
+    <string name="PullDownQuicksettingsQuickConnect">Hızlı Bağlantı Arka Plan Rengi</string>
     <string name="PullDownQuicksettingsSearchBackground">Arama Alanı Arka Plan Rengi</string>
     <string name="PullDownQuicksettingsSearchText">Arama Alanı Yazı Rengi</string>
     <string name="PullDownNotification">Bildirim Panelini Özel Renklendir</string>
@@ -404,7 +404,7 @@
     <string name="MiscTitle">Diğer SistemUI Ayarları</string>
     <string name="MiscSummary">Herhangi bir kategoriye uymayan SystemUI özellikleri</string>
     <string name="MiscUBS">USB Bağlantısında Ekran Uyansın</string>
-    <string name="MiscImsService">Dur.Çubuğunda RCS Simgesi (Bulut Sembol)</string>
+    <string name="MiscImsService">Dur.Çub.RCS Simgesi (Bulut Sembol)</string>
     <string name="MiscKeyboard">Fiziki Tuşlar Aydınlatma Süresi</string>
     <string name="MiscTorch">Kilit Ekranında El Feneri</string>
     <string name="MiscTorchSummary">Ekran kapalıyken ses seviyesini artırma tuşunu basılı tutarak flaşı açın</string>
@@ -413,8 +413,8 @@
     <string name="MiscAODisplay">AOD parlaklık</string>
     <string name="Ambient">Ambient Display Ayarları</string>
     <string name="AmbientTitle">Ambient Display Görünüm - Süre Ayarları</string>
-    <string name="AmbientPickUp">Ambient display Yakalandıklarında gösterecek</string>
-    <string name="AmbientPickUpVibrate">Ambient display Alındığında titreşecek</string>
+    <string name="AmbientPickUp">A.Display Yakalandıklarında Gösterecek</string>
+    <string name="AmbientPickUpVibrate">A.Display Alındığında Titreşecek</string>
     <string name="AmbientSummary">Kilit Ekranında Bildirimlerin Görünmesi. Bunu etkinleştirirseniz, her bildirimde ekran uyanır</string>
     <string name="AmbientTimeout">Bildirimlerin Görüntülenme Süresi</string>
     <string name="DataUsage">Kullanılan Veri Görünüm Ayarları</string>
@@ -440,8 +440,8 @@
     <string name="StatusbarMobileColor">Mobil Bağlantı Türü Rengi</string>
     <string name="StatusbarRoamingColor">Dolaşım Simgesi Rengi</string>
     <string name="StatusbarAirplaneColor">Uçak Modu Simgesi Rengi</string>
-    <string name="StatusbarStatusColor">Titreşim - Sessiz Simge Rengi</string>
-    <string name="StatusbarNotificationColor">Çağrıda Tlf, Mesaj vs.Simgesi</string>
+    <string name="StatusbarStatusColor">Titreşim / Sessiz Simge Rengi</string>
+    <string name="StatusbarNotificationColor">Çağrılarda Tlf, Mesaj vs.Simgesi</string>
     <string name="StatusbarBatteryColor">Pil Yüzdesi Rengi</string>
     <string name="NetworkTitle">Ağ Trafiği Görünüm Ayarları</string>
     <string name="NetworkSummary">Ağ trafiğine ait bilgileri özelleştirebilirsiniz</string>
@@ -472,8 +472,8 @@
     <string name="VolumeTitle">Ses Düğmesi Ayarları</string>
     <string name="VolumeSummary">Ekran kapalıyken ses seviyesi düğmelerinin davranışını değiştirme</string>
     <string name="Volume">Ses Butonlarını Özelleştirme Seçenekleri</string>
-    <string name="VolumeSkip">Ekran kapalıyken müzik atlama</string>
-    <string name="VolumeDouble">Oynat / duraklatmak için çift tıklayın</string>
+    <string name="VolumeSkip">Ekran Kpalıyken Müzik Atlama</string>
+    <string name="VolumeDouble">Oynat / Duraklat İçin Çift Tıklat</string>
     <string name="VolumeLongPress">Uzun basımda zaman aşımı</string>
     <string name="RecentTitle">Geçmiş (Son Kullanılanlar) Ayarları</string>
     <string name="RecentSummary">Geçmiş (Son Kullanılanlar) paneli özelliklerini değiştirebilirsiniz</string>
@@ -499,7 +499,7 @@
     <string name="Signal">Wifi / Sinyal Simgesinin Konumu</string>
     <string name="SignalDataIcon">Durum Çubuğunda Veri İkonu</string>
     <string name="SignalDataIconLTE">LTE</string>
-    <string name="SignalDataIcon4G">4G</string>
+    <string name="SignalDataIcon4G">4.5G</string>
     <string name="SignalIcon">Durum Çubuğundaki Simgelerini Değiştir</string>
     <string name="SignalIconChooser">Özel Sinyal Simgesi Seçin</string>
     <string name="SignalIconChooserSim2">Sim2 Özel Sinyal Simgesi (çift sim)</string>
@@ -523,7 +523,7 @@
     <string name="Signal15">Sinyal 15</string>
     <string name="Signal16">Sinyal 16</string>
     <string name="SignalStockArrows">Varsayılan Oklar</string>
-    <string name="SignalNoArrows">Büyük wifi simgeleri için ok yok</string>
+    <string name="SignalNoArrows">Büyük Wifi Simgeleri İçin Ok Yok</string>
     <string name="SignalAlarm1">Alarm 1 (Varsayılan)</string>
     <string name="SignalAlarm2">Alarm 2 (İkon Yok)</string>
     <string name="SignalAlarm3">Alarm 3</string>
@@ -600,8 +600,8 @@
     <string name="LockscreenAnalog17">Biçim 17</string>
     <string name="LockscreenAnalog18">Biçim 18</string>
     <string name="LockscreenTimeout">Ekran Kilitleme Ekranı Zaman Aşımı</string>
-    <string name="LockscreenNotification">Kilit ekran bildirimleri sayısı</string>
-    <string name="LockscreenReply">Reply messages from lockscreen</string>
+    <string name="LockscreenNotification">Kilit Ekranı Bildirimleri Sayısı</string>
+    <string name="LockscreenReply">Kilit Ekranından Mesajları Cevapla</string>
     <string name="ButtonTitle">Geçmiş ve Geri Buton Ayarları</string>
     <string name="ButtonSummary">Fiziki Buton Ayarları Değiştirebilirsiniz</string>
     <string name="ButtonBackPress">Geri Butonuna Uzun Basınca</string>
@@ -649,7 +649,7 @@
     <string name="AboutAFHRom">SuperMan-Rom Son Sürüm İndir</string>
     <string name="AboutAFHSuperKernel">SuperKernel Son Sürümü İndir</string>
     <string name="AboutAFHSuperStockKernel">SuperStock-Kernel Son Sürümü İndir</string>
-    <string name="AboutAFHCSC">CSC Selection Son Sürümü İndir</string>
+    <string name="AboutAFHCSC">CSC Değiştirici Son Sürümü İndir</string>
     <string name="ContactUs">İletişim</string>
     <string name="OurTeam">Geliştirici Takım</string>
     <string name="CreditsThanks">Katkılar ve Teşekkürler</string>

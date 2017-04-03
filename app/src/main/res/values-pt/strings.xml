@@ -601,7 +601,7 @@
     <string name="LockscreenAnalog18">Estilo 18</string>
     <string name="LockscreenTimeout">Tempo de exibição da tela de bloqueio</string>
     <string name="LockscreenNotification">Numero de notificações da tela de bloqueio</string>
-    <string name="LockscreenReply">Reply messages from lockscreen</string>
+    <string name="LockscreenReply">Responder mensagens diretamente da tela de bloqueio</string>
     <string name="ButtonTitle">Botões de recente e voltar</string>
     <string name="ButtonSummary">Mudar configurações relacionadas aos botões físicos</string>
     <string name="ButtonBackPress">Ação ao pressionar longamente o botão de voltar</string>

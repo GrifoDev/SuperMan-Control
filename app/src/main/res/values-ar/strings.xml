@@ -308,14 +308,14 @@
     <string name="SFinder">إخفاء sFinder من قائمة الانسدال</string>
     <string name="DoubleTapSleep">نقر مزدوج على شريط الحالة لقفل الجهاز</string>
     <string name="BrightnessWarning">تعطيل التحذير عن السطوع العالي</string>
-    <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
-    <string name="NotificationShape">Notification bg shape</string>
-    <string name="StockShape">Stock look</string>
-    <string name="RoundedShape">Rounded Corners</string>
+    <string name="BrightnessSlider">تحديد السطوع على قائمة الانسدال</string>
+    <string name="NotificationShape">شكل خلفية الإشعار</string>
+    <string name="StockShape">المظهر الافتراضي</string>
+    <string name="RoundedShape">زوايا مستديرة</string>
     <string name="BlurEffect">التأثير الضبابي في قائمة الإنسدال</string>
     <string name="BlurEffectBackground">قيمة التأثير الضبابي في الخلفية</string>
     <string name="BlurEffectDegree">درجة التأثير الضبابي</string>
-    <string name="BlurEffectColor">Change blur background color</string>
+    <string name="BlurEffectColor">تغيير لون خلفية التأثير الضبابي</string>
     <string name="GearRebootCategory">رؤية إعادة التشغيل على الركن الأعلى الأيسر</string>
     <string name="GearReboot">رؤية إعادة التشغيل</string>
     <string name="GearRebootColor">لون إعادة تشغيل</string>
@@ -370,7 +370,7 @@
     <string name="PullDownNotificationBackground">لون خلفية لائحة الإشعارات</string>
     <string name="PullDownNotificationText">لون عنوان الإشعارات</string>
     <string name="PullDownNotificationTextSummary">لون موجز الإشعارات</string>
-    <string name="PullDownNotificationMusic">Music Button color</string>
+    <string name="PullDownNotificationMusic">لون زر الاستماع</string>
     <string name="PullDownNotificationFooter">لون قدم الإشعارات</string>
     <string name="PullDownNotificationFooterBackground">لون خلفية قدم الإشعارات</string>
     <string name="PayPalSummary">أنقر لزيارة الموقع</string>
@@ -389,11 +389,11 @@
     <string name="BatteryBarColorSummary">إختر لون شريط البطارية</string>
     <string name="Battery3MinitTitle">إعدادات 3Minit Battery</string>
     <string name="BatteryStock">ظهور الأيقونة الأصلية للبطارية</string>
-    <string name="BatteryStockPercentage">Battery Percentage</string>
-    <string name="BatteryStockTitle">Stock Battery Settings</string>
-    <string name="BatteryStockColor">Battery Color</string>
-    <string name="BatteryStockColorDark">Battery Color Dark</string>
-    <string name="Battery3Minit">3Minit Battery</string>
+    <string name="BatteryStockPercentage">نسبة البطارية</string>
+    <string name="BatteryStockTitle">الإعدادات الافتراضية للبطارية</string>
+    <string name="BatteryStockColor">لون البطارية</string>
+    <string name="BatteryStockColorDark">لون البطارية الداكن</string>
+    <string name="Battery3Minit">بطارية 3Minit</string>
     <string name="Battery3MinitApp">غير إعدادات البطارية (تعمل فقط إذا كان Minit Battery3 مشغل)</string>
     <string name="Battery3MinitProApp">3Minit النسخة المدفوعة لتطبيق</string>
     <string name="BatteryLow">إعدادات تحذير نفاذ البطارية</string>
@@ -404,17 +404,17 @@
     <string name="MiscTitle">إعدادات SystemUI الأخرى</string>
     <string name="MiscSummary">إعدادات SystemUI التي لا توافق أي فئة</string>
     <string name="MiscUBS">إيقاظ الشاشة مع إيصال أو عدم إيصال الجهاز بالـ USB</string>
-    <string name="MiscImsService">RCS Icon (Cloudy Symbol) on Statusbar</string>
+    <string name="MiscImsService">أيقونة RCS (رمز غير واضح) على شريط الحالة</string>
     <string name="MiscKeyboard">مدة إضاءة خلفية لوحة المفاتيح</string>
-    <string name="MiscTorch">Torchlight while screen off</string>
-    <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>
-    <string name="MiscTorchTimeout">Torch Timeout</string>
-    <string name="MiscKeyboardSwitch">Keyboard message in pulldown menu</string>
+    <string name="MiscTorch">الفلاش عندما تكون الشاشة غير مشغلة</string>
+    <string name="MiscTorchSummary">تشغيل الفلاش بالضغط المستمر على زر زيادة الصوت عندما تكون الشاشة غير مشغلة</string>
+    <string name="MiscTorchTimeout">مهلة الفلاش</string>
+    <string name="MiscKeyboardSwitch">رسالة لوحة المفاتيح في قائمة الانسدال</string>
     <string name="MiscAODisplay">سطوع AOD</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">إعدادات Ambient display</string>
-    <string name="AmbientPickUp">Ambient display will show when picked up</string>
-    <string name="AmbientPickUpVibrate">Ambient display will vibrate when picked up</string>
+    <string name="AmbientPickUp">ستظهر Ambient display بعد التقاط الهاتف</string>
+    <string name="AmbientPickUpVibrate">سيهتز الهاتف بعد التقاطه</string>
     <string name="AmbientSummary">إذا ما فعلت هذا الخيار ستستيقظ الشاشة في كل مرة توصل فيها الجهاز على إشعارات (فقط AOD)</string>
     <string name="AmbientTimeout">مدة شاشة Ambient display</string>
     <string name="DataUsage">استعمال البيانات الخلوية</string>
@@ -479,8 +479,8 @@
     <string name="RecentSummary">تغيير التعديلات للوحة التطبيقات المفتوحة</string>
     <string name="RecentQuickLaunch">الفتح السريع</string>
     <string name="RecentQuickLaunchTitle">الفتح السريع من التطبيقات المفتوحة</string>
-    <string name="RecentBlur">Blur Effect</string>
-    <string name="RecentBlurTitle">Blur Effect on Recent Panel</string>
+    <string name="RecentBlur">التأثير الضبابي</string>
+    <string name="RecentBlurTitle">التأثير الضبابي على لوحة التطبيقات المفتوحة</string>
     <string name="RecentRamBar">شريط الذاكرة العشوائية</string>
     <string name="RecentRamBarTitle">A.O.K.P شريط الذاكرة العشوائية</string>
     <string name="RecentRamBarFreeRam">لون نص الذاكرة العشوائية غير المستغلة</string>
@@ -497,7 +497,7 @@
     <string name="SignalTitle">إعدادات أيقونة WiFi والإشارة</string>
     <string name="SignalSummary">الإعدادات المتعلقة بأيقونة WiFi والإشارة</string>
     <string name="Signal">موضع WiFi والإشارة</string>
-    <string name="SignalDataIcon">Data Icon on Statusbar</string>
+    <string name="SignalDataIcon">أيقونة Data على شريط الحالة</string>
     <string name="SignalDataIconLTE">LTE</string>
     <string name="SignalDataIcon4G">4G</string>
     <string name="SignalIcon">غير أيقونات شريط الحالة</string>
@@ -601,7 +601,7 @@
     <string name="LockscreenAnalog18">الشكل 18</string>
     <string name="LockscreenTimeout">مدة تشغيل شاشة القفل</string>
     <string name="LockscreenNotification">عدد الإشعارات الممكن إظهارها على شاشة القفل</string>
-    <string name="LockscreenReply">Reply messages from lockscreen</string>
+    <string name="LockscreenReply">الرد على الرسائل من خلال شاشة القفل</string>
     <string name="ButtonTitle">زر التطبيقات المفتوحة والرجوع</string>
     <string name="ButtonSummary">تغيير الإعدادات المتعلقة بالأزرار الواقعية</string>
     <string name="ButtonBackPress">سلوك الضغط الطويل على زر الرجوع</string>
@@ -649,10 +649,10 @@
     <string name="AboutAFHRom">حمل اَخِر SuperMan-ROM</string>
     <string name="AboutAFHSuperKernel">حمل اَخِر SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">حمل اَخِر SuperStock-Kernel</string>
-    <string name="AboutAFHCSC">Download latest CSC Selection</string>
-    <string name="ContactUs">Contact Us</string>
-    <string name="OurTeam">Our Team</string>
-    <string name="CreditsThanks">Credits and Thanks</string>
+    <string name="AboutAFHCSC">تحميل اخر مختارات CSC</string>
+    <string name="ContactUs">اتصل بنا</string>
+    <string name="OurTeam">الفريق</string>
+    <string name="CreditsThanks">شكر وتقدير</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

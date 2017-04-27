@@ -58,7 +58,7 @@
     <string name="find_app">Procurar App</string>
     <string name="reboot_required_dialog_title">Necessário reiniciar o aparelho</string>
     <string name="reboot_required_dialog_message">Para essa ação surgir efeito, é necessário reiniciar o aparelho. Você gostaria de reiniciar o aparelho agora?</string>
-    <string name="reboot_later_negative_button">Depos</string>
+    <string name="reboot_later_negative_button">Depois</string>
     <string name="reboot_now_dialog_button">Reiniciar agora</string>
     <string name="imminent_reboot_warning">Seu aparelho vai reiniciar IMEDIATAMENTE depois do script ser executado!!!</string>
     <string name="restore_dialog_description">Essa ação vai restaurar os seguintes itens para as cores padrão</string>

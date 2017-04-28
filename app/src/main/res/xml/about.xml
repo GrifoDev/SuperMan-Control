@@ -25,28 +25,28 @@
             android:title="@string/AboutAFHRom">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=673368273298943060" />
+                android:data="https://www.androidfilehost.com/?fid=529152257862722559" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHSuperKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=745425885120720242" />
+                android:data="https://www.androidfilehost.com/?fid=817550096634763616" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHSuperStockKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=457095661767149752" />
+                android:data="https://www.androidfilehost.com/?fid=457095661767155324" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHCSC">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=457095661767146041" />
+                android:data="https://www.androidfilehost.com/?fid=457095661767156976" />
         </PreferenceScreen>
     </PreferenceCategory>
 

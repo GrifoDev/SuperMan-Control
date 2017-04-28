@@ -9,16 +9,25 @@
     This order is how they will appear in the dialog
     Make any order you want from top to bottom-->
     <string-array name="changelog_items" translatable="false">
-        <item>Based on DQCG release</item>
-        <item>Remodded on latest March base</item>
-        <item>All kernels update with latest DQCG base and ramdisk</item>
-        <item>Please check telegram or xda for full changelog</item>
+        <item>- Rebased on latest DQD3 release</item>
+        <item>- Remodded everything from scratch (this base had many changes compared to previous updates)</item>
+        <item>- April Security patch</item>
+        <item>- Updated Magisk to V12</item>
+        <item>- Updated Magisk Manager</item>
+        <item>- Updated phh superuser to r310</item>
+        <item>- Updated included adblocker host files</item>
+        <item>- Updated included BL/CP to DQD3/DQD2</item>
+        <item>- Fixed barometer displaying weird stuff on lockscreen</item>
+        <item>- Updated all bloat apps such as telegram/snapchat/titanium etc</item>
+        <item>- Updated Kernels to V2.5.1 version (new linux and new ramdisk)</item>
+        <item>- This update is mostly for stability and security!</item>
+        <item>- Added S8 camera to aroma!</item>
     </string-array>
 
     <!--This will be the dialog title.
     Put your own rom version and name.
     Have fun-->
-    <string name="rom_version_for_changelog" translatable="false">SuperMan-Rom V2.4.1</string>
+    <string name="rom_version_for_changelog" translatable="false">SuperMan-Rom V2.5.0</string>
 
 
 </resources>

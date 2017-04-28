@@ -601,7 +601,7 @@
     <string name="LockscreenAnalog18">Style 18</string>
     <string name="LockscreenTimeout">Délai d\'affichage d\'écran de verrouillage</string>
     <string name="LockscreenNotification">Nombre de notification sur écran de verrouillage</string>
-    <string name="LockscreenReply">Reply messages from lockscreen</string>
+    <string name="LockscreenReply">Répondre messages depuis écran verrouillage</string>
     <string name="ButtonTitle">Paramètres touches physiques</string>
     <string name="ButtonSummary">Changer les paramètres des touches</string>
     <string name="ButtonBackPress">Appui long sur touche retour</string>
@@ -650,9 +650,9 @@
     <string name="AboutAFHSuperKernel">Dernière version SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Dernière version SuperStock-Kernel</string>
     <string name="AboutAFHCSC">Dernière version CSC Selection</string>
-    <string name="ContactUs">Contact Us</string>
-    <string name="OurTeam">Our Team</string>
-    <string name="CreditsThanks">Credits and Thanks</string>
+    <string name="ContactUs">Contacter nous</string>
+    <string name="OurTeam">L\'équipe</string>
+    <string name="CreditsThanks">Remerciements</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

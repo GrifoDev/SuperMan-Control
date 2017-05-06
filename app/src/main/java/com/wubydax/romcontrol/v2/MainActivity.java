@@ -57,7 +57,7 @@ public class MainActivity extends AppCompatActivity
     private ArrayList<Integer> mNavMenuItemsIds;
     private LicenseCheckerCallback mLicenseCheckerCallback;
     private LicenseChecker mChecker;
-    private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAn8G8VtHVQEukUBnDQRCOrkxTlymCKpMfFnCcqsCeTVxqDRqYrr5e4m7uZxxMVT+IURCl7vuKsUAs5C6zCrjCY88BXJxq7IkT0TMqp895/KgYfNSJrBu/dZsEggGFm2bA6pFWBXzFoZXh0yVAomAueELCB+PkoaTvntquwQBVVq1da25TWFNq/LRIQjbqf/Nr1oPZ2kjlWxKZ4GZgO9MLhjVl8LENTMDNFd1NDHohtbgRbRfFmQNkiaD/I9wiIviYRD6GyXEsFnkAgN+WpCnjVivetlif3RDNV40cc3p/6Czg5WSZyVNJXYFg42SexPEE8lVTKNg/Jz7Kwqr3I+gwjQIDAQAB";
+    private static final String BASE64_PUBLIC_KEY = "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAmLs1lm/yKYgwzRShKYnsxbhzeIzGzX6tOLEnEzbOoWqkqAhYw+hEziLeJttoqrizXYNDPXKSq/f0YoZC204O+K6aWYub4Jz9o6+k390JCAZ67nyrmKyTU9pnnLfExb7+6JYmgRiLX0neMOxLrU8LHhqCipnld8p/ghr4Tsk2RSiphJv4YHtIKsBWpSseyhtLJsLhgAsNrns4LSeYmhY53kHpWaOrDtHGL3x0irsC/ShZKPYlJSWbWmdzLJPsQWlmSOjzR0aWRCz6klwyqCyM2Ca7yh8TicjXtTrXAIXWVnHLF4tRsKhXG14Yt3HC28zOKqaAApEQumMgheCTMpUPCwIDAQAB";
     private final String TEMP_FILE_NAME = ".other_temp.xml";
     private final String cmdRT = "cat /system/csc/others.xml > " + Environment.getExternalStorageDirectory() + "/.tmpRC/" + TEMP_FILE_NAME + "\n";
     private final String cmdTR = "cat " +Environment.getExternalStorageDirectory() + "/.tmpRC/" + TEMP_FILE_NAME + " > /system/csc/others.xml\n";

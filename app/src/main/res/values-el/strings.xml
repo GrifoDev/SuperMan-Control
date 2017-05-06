@@ -388,7 +388,7 @@
     <string name="BatteryBarColor">Χρώμα μπάρας μπαταρίας</string>
     <string name="BatteryBarColorSummary">Επιλογή χρώματος μπάρας μπαταρίας</string>
     <string name="Battery3MinitTitle">Επιλογές μπαταρίας 3Minit</string>
-    <string name="BatteryStock">Εργοστασιακή μπαταρίας</string>
+    <string name="BatteryStock">Εργοστασιακή μπαταρία</string>
     <string name="BatteryStockPercentage">Ποσοστό μπαταρίας</string>
     <string name="BatteryStockTitle">Επιλογές εργοστασιακής μπαταρίας</string>
     <string name="BatteryStockColor">Χρώμα μπαταρίας</string>
@@ -601,7 +601,7 @@
     <string name="LockscreenAnalog18">Στύλ 18</string>
     <string name="LockscreenTimeout">Χρονικό όριο οθόνης κλειδώματος</string>
     <string name="LockscreenNotification">Αριθμός ειδοποιήσεων οθόνης κλειδώματος</string>
-    <string name="LockscreenReply">Reply messages from lockscreen</string>
+    <string name="LockscreenReply">Απάντηση μηνύματος από την οθόνης κλειδώματος</string>
     <string name="ButtonTitle">Πλήκτρα Πίσω/Πρόσφατα</string>
     <string name="ButtonSummary">Αλάξτε τις ριθμίσεις των πλήκτρων της συσκευή σας</string>
     <string name="ButtonBackPress">Συμπεριφορά παρατεταμένου πλήκτρου "Πίσω"</string>

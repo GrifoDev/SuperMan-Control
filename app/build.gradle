@@ -31,12 +31,12 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "com.wubydax.romcontrol.supercontrolpro"
+        applicationId "com.wubydax.romcontrol.smpro"
         minSdkVersion 21
         //noinspection OldTargetApi
         targetSdkVersion 22
-        versionCode 4
-        versionName "1.1.1"
+        versionCode 1
+        versionName "1.0.0"
         project.archivesBaseName = "RomControl"
     }
 

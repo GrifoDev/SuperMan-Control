@@ -374,7 +374,7 @@
     <string name="PullDownNotificationFooter">Cor do rodapé da notificação</string>
     <string name="PullDownNotificationFooterBackground">Cor do fundo do rodapé da notificação</string>
     <string name="PullDownNotificationTransparency">Permitir o fundo da noticação transparente</string>
-    <string name="PullDownNotificationTransparencyColor">Cor do fundo da notificação transparentestring>
+    <string name="PullDownNotificationTransparencyColor">Cor do fundo da notificação transparente</string>
     <string name="PullDownNotificationMusicSummary">Mod cor personalizada SMusic</string>
     <string name="PullDownNotificationMusicTitle">Customizar SMusic QuickPanel e cor dos botões na tela de bloqueio+ Cor dos textos</string>
     <string name="PullDownNotificationMusicAppName">Cor do título do nome das notificações do app</string>

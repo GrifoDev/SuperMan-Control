@@ -860,4 +860,17 @@
         <item>6</item>
     </string-array>
 
+    <string-array name="immersive_entries">
+        <item>@string/MiscImmersiveArrayOff</item>
+        <item>@string/MiscImmersiveArrayOn</item>
+        <item>@string/MiscImmersiveArrayHideSta</item>
+        <item>@string/MiscImmersiveArrayHideNav</item>
+    </string-array>
+    <string-array name="immersive_values" translatable="false">
+        <item>immersive.full</item>
+        <item>immersive.full=*</item>
+        <item>immersive.status=*</item>
+        <item>immersive.navigation=*</item>
+    </string-array>
+
 </resources>

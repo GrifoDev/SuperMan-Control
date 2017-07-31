@@ -1278,9 +1278,9 @@
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="torchlight_enable"
+                android:summary="@string/MiscTorch"
                 android:summaryOff="@string/Off"
                 android:summaryOn="@string/On"
-                android:summary="@string/MiscTorch"
                 android:title="@string/MiscTorch" />
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                 android:defaultValue="15000"
@@ -1296,6 +1296,13 @@
                 android:summaryOn="@string/Hidden"
                 android:title="@string/MiscKeyboardSwitch"
                 app:rebootDevice="true" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="immersive.full"
+                android:entries="@array/immersive_entries"
+                android:entryValues="@array/immersive_values"
+                android:key="policy_control"
+                android:summary="%s"
+                android:title="@string/MiscImmersive" />
             <!--/*
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
                 android:defaultValue="17"

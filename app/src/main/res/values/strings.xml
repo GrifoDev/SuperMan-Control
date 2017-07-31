@@ -372,12 +372,27 @@
     <string name="PullDownNotificationBackground">Notification panel background color</string>
     <string name="PullDownNotificationText">Notification title text color</string>
     <string name="PullDownNotificationTextSummary">Notification summary text color</string>
-    <string name="PullDownNotificationMusic">Music Button color</string>
+    <string name="PullDownNotificationIcon">Notification icon color</string>
     <string name="PullDownNotificationFooter">Notification footer text color</string>
     <string name="PullDownNotificationFooterBackground">Notification footer background color</string>
-    <string name="PayPalSummary">Click to visit</string>
-    <string name="PayPal">Visit my PayPal website</string>
+    <string name="PullDownNotificationTransparency">Allow notification background transparency</string>
+    <string name="PullDownNotificationTransparencyColor">Notification transparency background color</string>
+    <string name="PullDownNotificationMusicSummary">SMusic QuickPanel Custom Color Mod</string>
+    <string name="PullDownNotificationMusicTitle">Customize SMusic QuickPanel and Lockscreen Buttons Colors + Text Colors</string>
+    <string name="PullDownNotificationMusicAppName">Title App Name text color</string>
+    <string name="PullDownNotificationMusicArtist">Artist text color</string>
+    <string name="PullDownNotificationMusicSongTitle">Title text color</string>
+    <string name="PullDownNotificationMusicNext">Next button Icon color</string>
+    <string name="PullDownNotificationMusicPrev">Prev button Icon color</string>
+    <string name="PullDownNotificationMusicPlay">Play Pause button Icon color</string>
+    <string name="PullDownNotificationMusicClose">Close button Icon color</string>
     <string name="PayPalDonation">Donation</string>
+    <string name="PayPalSummary">Click to visit</string>
+    <string name="PayPalTkkg">PayPal website of Tkkg1994 (Developer)</string>
+    <string name="PayPalMyellow">PayPal website of myellow (Designer)</string>
+    <string name="PayPalAlex">PayPal website of Alex (Themer)</string>
+    <string name="PayPalLeeXxXo">PayPal website of LeeXxXo (Webmaster)</string>
+    <string name="PayPalMisterEvo">PayPal website of MisterEvo (Supporter)</string>
     <string name="Battery">Battery Settings</string>
     <string name="BatterySummary">Different battery related settings can be changed here</string>
     <string name="BatteryBar">Battery Bar</string>
@@ -393,6 +408,7 @@
     <string name="BatteryStock">Stock Battery Visibility</string>
     <string name="BatteryStockPercentage">Battery Percentage</string>
     <string name="BatteryStockTitle">Stock Battery Settings</string>
+    <string name="BatteryStockMainColor">Allow Battery to be colored</string>
     <string name="BatteryStockColor">Battery Color</string>
     <string name="BatteryStockColorDark">Battery Color Dark</string>
     <string name="Battery3Minit">3Minit Battery</string>
@@ -412,6 +428,11 @@
     <string name="MiscTorchSummary">Turn on the torchlight by holding the volume up key while the screen is off</string>
     <string name="MiscTorchTimeout">Torch Timeout</string>
     <string name="MiscKeyboardSwitch">Keyboard message in pulldown menu</string>
+    <string name="MiscImmersive">Immersive Mode (Fullscreen)</string>
+    <string name="MiscImmersiveArrayOff">Immersive Off (Default)</string>
+    <string name="MiscImmersiveArrayOn">Immersive On (FullScreen)</string>
+    <string name="MiscImmersiveArrayHideSta">Hide StatusBar</string>
+    <string name="MiscImmersiveArrayHideNav">Hide Navigation</string>
     <string name="MiscAODisplay">AOD brightness</string>
     <string name="Ambient">Ambient Display</string>
     <string name="AmbientTitle">Ambient display settings</string>
@@ -477,6 +498,7 @@
     <string name="VolumeSkip">Music skip while screen off</string>
     <string name="VolumeDouble">Double click for play/pause</string>
     <string name="VolumeLongPress">Long press timeout</string>
+    <string name="VolumeWake">Wake your device with volume rocker</string>
     <string name="RecentTitle">Recent Panel</string>
     <string name="RecentSummary">Change mods for recent panel</string>
     <string name="RecentQuickLaunch">Quick Launch</string>
@@ -581,6 +603,7 @@
     <string name="LockscreenMiscCarrierText">Carrier Custom Text</string>
     <string name="LockscreenMiscCarrierSet">Set Custom Text</string>
     <string name="LockscreenMiscWake">Fingerprint unlock without waking the display first</string>
+    <string name="LockscreenMiscClock">Switch between S8 and S7 clock</string>
     <string name="LockscreenAnalogTitle">Analog Clock</string>
     <string name="LockscreenAnalog">Analog clock on Lockscreen</string>
     <string name="LockscreenAnalog1">Style 1</string>
@@ -641,16 +664,21 @@
     <string name="AboutYellow" translatable="false">myellow</string>
     <string name="AboutAlex" translatable="false">_alex74_</string>
     <string name="AboutMisterEvo" translatable="false">MisterEvo</string>
+    <string name="AboutLeeXxXo" translatable="false">LeeXxXo</string>
     <string name="AboutDeveloperSummary">Developer</string>
+    <string name="AboutWebsiteSummary">Webmaster/Designer</string>
     <string name="AboutDesignerSummary">Designer</string>
+    <string name="AboutSupporterSummary">Supporter</string>
     <string name="AboutRomDevelopers">Rom Developers</string>
     <string name="AboutTelegram">Telegram Links</string>
     <string name="AboutTelegramChat">Telegram Chat</string>
     <string name="AboutTelegramChannel">Telegram News Channel</string>
     <string name="AboutTelegramChatSummary">Chat with us about latest Rom stuff</string>
     <string name="AboutTelegramChannelSummary">Get latest Information about the Rom</string>
-    <string name="AboutGooglePlus">Google Plus Community</string>
-    <string name="AboutGooglePlusSummary">To discuss feature requests and general rom things</string>
+    <string name="AboutPlayStore">Google PlayStore App</string>
+    <string name="AboutPlayStoreSummary">Visit the official app on PlayStore to support us</string>
+    <string name="AboutGrifoDev">GrifoDev Community</string>
+    <string name="AboutGrifoDevSummary">New self-made website with forum function</string>
     <string name="AboutXDA">XDA Links to Visit</string>
     <string name="AboutXDAS7Rom" translatable="false">SuperMan-Rom SM-G930X</string>
     <string name="AboutXDAS7ERom" translatable="false">SuperMan-Rom SM-G935X</string>

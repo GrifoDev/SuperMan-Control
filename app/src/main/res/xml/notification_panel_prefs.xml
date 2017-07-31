@@ -264,10 +264,10 @@
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff212122"
                 android:dependency="unlock_notification_colors"
-                android:key="notification_button_color"
-                android:title="@string/PullDownNotificationMusic"
+                android:key="notification_icon_color"
+                android:title="@string/PullDownNotificationIcon"
                 app:isSilent="false"
-                app:packageNameToKill="com.sec.android.app.music"/>
+                app:packageNameToKill="com.android.systemui"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#d9252525"
                 android:dependency="unlock_notification_colors"
@@ -278,6 +278,60 @@
                 android:dependency="unlock_notification_colors"
                 android:key="notif_footer_background_color"
                 android:title="@string/PullDownNotificationFooterBackground" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:dependency="unlock_notification_colors"
+                android:key="notification_transparency"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/PullDownNotificationTransparency"
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui"/>
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="@string/PullDownNotificationMusicSummary"
+            android:summary="@string/PullDownNotificationMusicTitle">
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff50a5bf"
+                android:key="quick_panel_brand"
+                android:title="@string/PullDownNotificationMusicAppName"
+                app:packageNameToKill="com.sec.android.app.music" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#42ACD3"
+                android:key="artist_noti_text"
+                android:title="@string/PullDownNotificationMusicArtist"
+                app:isSilent="false"
+                app:packageNameToKill="com.sec.android.app.music" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff252525"
+                android:key="smusic_noti_text"
+                android:title="@string/PullDownNotificationMusicSongTitle"
+                app:isSilent="false"
+                app:packageNameToKill="com.sec.android.app.music" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#556471"
+                android:key="next_icon"
+                android:title="@string/PullDownNotificationMusicNext"
+                app:isSilent="false"
+                app:packageNameToKill="com.sec.android.app.music" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#556471"
+                android:key="prev_icon"
+                android:title="@string/PullDownNotificationMusicPrev"
+                app:isSilent="false"
+                app:packageNameToKill="com.sec.android.app.music" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#556471"
+                android:key="play_pause_icon"
+                android:title="@string/PullDownNotificationMusicPlay"
+                app:isSilent="false"
+                app:packageNameToKill="com.sec.android.app.music" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#556471"
+                android:key="quick_panel_close_icon"
+                android:title="@string/PullDownNotificationMusicClose"
+                app:isSilent="false"
+                app:packageNameToKill="com.sec.android.app.music" />
         </PreferenceCategory>
     </PreferenceScreen>
 

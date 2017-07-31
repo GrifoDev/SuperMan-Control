@@ -4,19 +4,17 @@
 
     <com.wubydax.romcontrol.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/super_logo"/>
 
-    <!--/*
     <PreferenceCategory
-        android:title="@string/PayPalDonation">
+        android:title="@string/AboutGrifoDev">
         <PreferenceScreen
-            android:icon="@drawable/paypal"
-            android:summary="@string/PayPalSummary"
-            android:title="@string/PayPal">
+            android:icon="@drawable/gd"
+            android:summary="@string/AboutGrifoDevSummary"
+            android:title="@string/AboutGrifoDev">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.paypal.me/LucaGrifo" />
+                android:data="https://www.grifodev.ch/" />
         </PreferenceScreen>
     </PreferenceCategory>
-    */-->
 
     <PreferenceCategory
         android:title="@string/AboutAFH">
@@ -25,28 +23,28 @@
             android:title="@string/AboutAFHRom">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=529152257862722559" />
+                android:data="https://www.androidfilehost.com/?w=files&amp;flid=148125" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHSuperKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=817550096634763616" />
+                android:data="https://www.androidfilehost.com/?w=files&amp;flid=152734" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHSuperStockKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=457095661767155324" />
+                android:data="https://www.androidfilehost.com/?w=files&amp;flid=146536" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHCSC">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?fid=457095661767156976" />
+                android:data="https://www.androidfilehost.com/?w=files&amp;flid=146478" />
         </PreferenceScreen>
     </PreferenceCategory>
 
@@ -106,13 +104,6 @@
                 android:data="https://forum.xda-developers.com/member.php?u=5899304" />
         </PreferenceScreen>
         <PreferenceScreen
-            android:summary="@string/AboutDeveloperSummary"
-            android:title="@string/AboutGayos">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://forum.xda-developers.com/member.php?u=7158231" />
-        </PreferenceScreen>
-        <PreferenceScreen
             android:summary="@string/AboutDesignerSummary"
             android:title="@string/AboutYellow">
             <intent
@@ -127,7 +118,14 @@
                 android:data="https://forum.xda-developers.com/member.php?u=4947202" />
         </PreferenceScreen>
         <PreferenceScreen
-            android:summary="@string/AboutDeveloperSummary"
+            android:summary="@string/AboutWebsiteSummary"
+            android:title="@string/AboutLeeXxXo">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/member.php?u=5760756" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:summary="@string/AboutSupporterSummary"
             android:title="@string/AboutMisterEvo">
             <intent
                 android:action="android.intent.action.VIEW"
@@ -143,7 +141,7 @@
             android:title="@string/AboutTelegramChat">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/joinchat/AAAAAD-RcLTV9gB6WHH4zg" />
+                android:data="https://t.me/joinchat/AaNP4D-RcLT0-z16WHH4zg" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/telegram"
@@ -152,18 +150,6 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/SuperManRom" />
-        </PreferenceScreen>
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:title="@string/AboutGooglePlus">
-        <PreferenceScreen
-            android:icon="@drawable/gplus"
-            android:summary="@string/AboutGooglePlusSummary"
-            android:title="@string/AboutGooglePlus">
-            <intent
-                android:action="android.intent.action.VIEW"
-                android:data="https://plus.google.com/communities/108548285682852156652" />
         </PreferenceScreen>
     </PreferenceCategory>
 

@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Paramètres Pro</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
     <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
     <string name="dialog_color_picker">Choisir une couleur</string>
@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Redémarrer maintenant</string>
     <string name="imminent_reboot_warning">Votre appareil redémarrera IMMÉDIATEMENT à la fin du script!!!</string>
     <string name="restore_dialog_description">Cette action restituera les éléments suivants aux couleurs de base</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Thème claire</string>
     <string name="DarkTheme">Thème sombre</string>
     <string name="RestoreData">Restaurer les données</string>
@@ -308,6 +313,8 @@
     <string name="SFinder">Désactivation S Recherche</string>
     <string name="DoubleTapSleep">Double tap barre du haut pour éteindre</string>
     <string name="BrightnessWarning">Désactiver avertis. haute luminosité</string>
+    <string name="VolumeWarning">Avertissement de volume élevé</string>
+    <string name="ForceExpand">Forcer expansion des notifications</string>
     <string name="BrightnessSlider">Curseur luminosité menu déroulant</string>
     <string name="NotificationShape">Forme notification bg</string>
     <string name="StockShape">Aspect d\'origine</string>

@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Setari Pro</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Deschide meniul de navigatie</string>
     <string name="navigation_drawer_close">Inchide meniul de navigatie</string>
     <string name="dialog_color_picker">Alege culoarea</string>
@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Reporneste acum</string>
     <string name="imminent_reboot_warning">Telefon-ul tau va porni imediat dupa terminarea scriptului!!!</string>
     <string name="restore_dialog_description">Aceasta actiune va restaura culorile pt uramtoarele elemente</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Tema luminoasa</string>
     <string name="DarkTheme">Tema intunecata</string>
     <string name="RestoreData">Restaurare Date</string>
@@ -308,9 +313,11 @@
     <string name="SFinder">Dezact. sFinder in meniul glisant</string>
     <string name="DoubleTapSleep">Atingere dubla in Statusbar pt standby</string>
     <string name="BrightnessWarning">Dezact. avertizare luminozitate excesiva</string>
+    <string name="VolumeWarning">Avertisment volum puternic</string>
+    <string name="ForceExpand">Forteaza expandarea tuturor notificarilor</string>
     <string name="BrightnessSlider">Bara luminozitate in meniul glisant</string>
-    <string name="NotificationShape">Forma fundal notificari</string> 
-    <string name="StockShape">Aspect stock</string> 
+    <string name="NotificationShape">Forma fundal notificari</string>
+    <string name="StockShape">Aspect stock</string>
     <string name="RoundedShape">Colturi rotunjite</string>
     <string name="BlurEffect">Efect blur meniu glisant</string>
     <string name="BlurEffectBackground">Putere blur fundal</string>

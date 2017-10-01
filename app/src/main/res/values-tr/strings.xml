@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Rom Kontrol Pro</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Dolaşım çekmecesini aç</string>
     <string name="navigation_drawer_close">Dolaşım çekmecesini kapat</string>
     <string name="dialog_color_picker">Renk seç</string>
@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Yeniden başlat</string>
     <string name="imminent_reboot_warning">İşlem tamamlandığında Cihaz OTOMATİK olarak yeniden başlatılır!!!</string>
     <string name="restore_dialog_description">Bu eylem aşağıdaki ayarları varsayılan renklerine döndürecektir.</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Açık Tema</string>
     <string name="DarkTheme">Koyu Tema</string>
     <string name="RestoreData">Geri Yükle</string>
@@ -308,6 +313,8 @@
     <string name="SFinder">Panelde Arama Bölümü</string>
     <string name="DoubleTapSleep">Kilit İçin D.Çubuğuna Çift Tık</string>
     <string name="BrightnessWarning">Yüksek Parlaklık Uyarısını Kapat</string>
+    <string name="VolumeWarning">Yüksek ses uyarısı</string>
+    <string name="ForceExpand">Tüm bildirimleri zorla genişlet</string>
     <string name="BrightnessSlider">Üst Menüdeki Parlaklık Ayarlayıcısı</string>
     <string name="NotificationShape">Bildirim A.Plan Şekli</string>
     <string name="StockShape">Stok Görünüm</string>

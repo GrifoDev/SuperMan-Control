@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">СМ Настройки ПРО</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Открыть панель настроек</string>
     <string name="navigation_drawer_close">Закрыть панель настроек</string>
     <string name="dialog_color_picker">Подобрать цвет</string>
@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Перезагрузить сейчас</string>
     <string name="imminent_reboot_warning">Ваше устройство перезагрузеться сразу после завершения скрипта!!!</string>
     <string name="restore_dialog_description">Это действие восстанавливает цвет следующих пунктов на стандартные</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Светлая Тема</string>
     <string name="DarkTheme">Темная Тема</string>
     <string name="RestoreData">Восстановление данных</string>
@@ -308,6 +313,8 @@
     <string name="SFinder">sFinder в выпадающем меню</string>
     <string name="DoubleTapSleep">Дважды нажать на строке состояния чтобы усыпить устройство</string>
     <string name="BrightnessWarning">Предупреждение о высокой яркости</string>
+    <string name="VolumeWarning">Предупреждение о повышенной громкости</string>
+    <string name="ForceExpand">Показывать все уведомления</string>
     <string name="BrightnessSlider">Ползунок яркости в раскрывающемся меню</string>
     <string name="NotificationShape">Форма фона уведомлений</string>
     <string name="StockShape">Стандартный вид</string>

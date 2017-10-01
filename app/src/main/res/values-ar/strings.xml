@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">إعدادات سوبرمان الاحترافي</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">إفتح شريط التنقل</string>
     <string name="navigation_drawer_close">إغلق شريط التنقل</string>
     <string name="dialog_color_picker">إختر اللون</string>
@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">أعد التشغيل الاَن</string>
     <string name="imminent_reboot_warning">!!!سيتم إعادة تشغيل الجهاز حالا مع إكمال السكربت</string>
     <string name="restore_dialog_description">سيقوم هذا الإجراء من استرجاع هذه العناصر إلى وضعها الأولي</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">ثيم مفتوح</string>
     <string name="DarkTheme">ثيم داكن</string>
     <string name="RestoreData">استرجاع البيانات</string>
@@ -308,6 +313,8 @@
     <string name="SFinder">إخفاء sFinder من قائمة الانسدال</string>
     <string name="DoubleTapSleep">نقر مزدوج على شريط الحالة لقفل الجهاز</string>
     <string name="BrightnessWarning">تعطيل التحذير عن السطوع العالي</string>
+    <string name="VolumeWarning">تحذير الصوت العالي</string>
+    <string name="ForceExpand">فرض تمديد جميع الإشعارات</string>
     <string name="BrightnessSlider">تحديد السطوع على قائمة الانسدال</string>
     <string name="NotificationShape">شكل خلفية الإشعار</string>
     <string name="StockShape">المظهر الافتراضي</string>

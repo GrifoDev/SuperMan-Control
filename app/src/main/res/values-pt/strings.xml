@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Configurações SM Pro</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Abrir gaveta de notificações</string>
     <string name="navigation_drawer_close">Fechar gaveta de notificações</string>
     <string name="dialog_color_picker">Escolher uma Cor</string>
@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Reiniciar agora</string>
     <string name="imminent_reboot_warning">Seu aparelho vai reiniciar IMEDIATAMENTE depois do script ser executado!!!</string>
     <string name="restore_dialog_description">Essa ação vai restaurar os seguintes itens para as cores padrão</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Tema Light</string>
     <string name="DarkTheme">Tema Dark</string>
     <string name="RestoreData">Restaurar Dados</string>
@@ -308,6 +313,8 @@
     <string name="SFinder">Desabilitar o sFinder na barra de status</string>
     <string name="DoubleTapSleep">Toque duplo para desligar na barra de status</string>
     <string name="BrightnessWarning">Desativar aviso de brilho muito alto</string>
+    <string name="VolumeWarning">Aviso de volume alto</string>
+    <string name="ForceExpand">Forçar a expansão de todas as notificações</string>
     <string name="BrightnessSlider">Barra de brilho acima do painel de notificações</string>
     <string name="NotificationShape">Fundo da notificação</string>
     <string name="StockShape">Estilo padrão</string>
@@ -667,7 +674,7 @@
     <string name="AboutTelegramChannel">Canal sobre as notícias da ROM no Telegram</string>
     <string name="AboutTelegramChatSummary">Converse conosco sobre as últimas funções da ROM</string>
     <string name="AboutTelegramChannelSummary">Obtenha as últimas informações sobre a ROM</string>
-     <string name="AboutPlayStore">Google PlayStore App</string>
+    <string name="AboutPlayStore">Google PlayStore App</string>
     <string name="AboutPlayStoreSummary">Visite o app oficial na PlayStore e nos suporte</string>
     <string name="AboutGrifoDev">Comunidade GrifoDev</string>
     <string name="AboutGrifoDevSummary">Novo website/fórum</string>
@@ -676,7 +683,7 @@
     <string name="AboutAFHRom">Baixar a última SuperMan-Rom</string>
     <string name="AboutAFHSuperKernel">Baixar a última SuperKernel</string>
     <string name="AboutAFHSuperStockKernel">Baixar a última SuperStock-Kernel</string>
-   <string name="AboutAFHCSC">Baixar a última CSC Selection</string>
+    <string name="AboutAFHCSC">Baixar a última CSC Selection</string>
     <string name="ContactUs">Contato</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Créditos e Agradecimentos</string>

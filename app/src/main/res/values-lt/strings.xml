@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Nustatymai PRO</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Atidaryti Nustatymų pasirinkimą</string>
     <string name="navigation_drawer_close">Uždaryti Nustatymų pasirinkimą</string>
     <string name="dialog_color_picker">Nustatyti spalvą</string>
@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">perkrauti dabar</string>
     <string name="imminent_reboot_warning">Jūsų įrenginys bus perkrautas IŠ KARTO!!! pabaigus script diegimą</string>
     <string name="restore_dialog_description">Šis veiksmas atstatys sekančių punktų spalvas į numatytas</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Šviesi tema</string>
     <string name="DarkTheme">Tamsi tema</string>
     <string name="RestoreData">Atstatyti Duomenis</string>
@@ -308,6 +313,8 @@
     <string name="SFinder">Nerodyti sFinder Išplėčiamuose nustatymuose</string>
     <string name="DoubleTapSleep">Užmigdo įrenginį, dvigubas Būsenos juostos bakstelėjimas</string>
     <string name="BrightnessWarning">Panaikina perspėjimą dėl per didelio ekrano ryškumo</string>
+    <string name="VolumeWarning">Perdidelio garso įspėjimas</string>
+    <string name="ForceExpand">Priverstinis visų pranešimų išplėtimas</string>
     <string name="BrightnessSlider">Ryškumo Slankiklis Išplečiamąjame meniu</string>
     <string name="NotificationShape">Pranešimo fono forma</string>
     <string name="StockShape">Standartinė išvaizda</string>

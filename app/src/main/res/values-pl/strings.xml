@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">Ustawienia SM pro</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Otwórz panel nawigacyjny</string>
     <string name="navigation_drawer_close">Zamknij panel nawigacyjny</string>
     <string name="dialog_color_picker">Wybierz kolor</string>
@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Teraz</string>
     <string name="imminent_reboot_warning">Twoje urządzenie zostanie zrestartowane NATYCHMIAST po wykonaniu skryptu!!!</string>
     <string name="restore_dialog_description">Ta czynność przywróci następujące obiekty do standardowych kolorów</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Jasny</string>
     <string name="DarkTheme">Ciemny</string>
     <string name="RestoreData">Przywróć dane</string>
@@ -308,6 +313,8 @@
     <string name="SFinder">Wyłącz wyszukiwarkę w rozwijanym menu</string>
     <string name="DoubleTapSleep">Podwójne tapnięcie na pasek stanu aby uśpić</string>
     <string name="BrightnessWarning">Wyłącz ostrzeżenie o zbyt wysokiej jasności</string>
+    <string name="VolumeWarning">Ostrzeżenie o dużej głośności</string>
+    <string name="ForceExpand">Wymuś rozszerzenie wszystkich powiadomień</string>
     <string name="BrightnessSlider">Suwak jasności na rozwijanym menu</string>
     <string name="NotificationShape">Kształt powiadomień</string>
     <string name="StockShape">Wygląd Stock\'owy</string>

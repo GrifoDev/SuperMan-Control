@@ -13,7 +13,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Setup Pro</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Open navigatielade</string>
     <string name="navigation_drawer_close">Sluit navigatielade</string>
     <string name="dialog_color_picker">Kies een kleur</string>
@@ -63,6 +63,11 @@
     <string name="reboot_now_dialog_button">Herstart nu</string>
     <string name="imminent_reboot_warning">Apparaat zal ONMIDDELIJK herstarten nadat het script klaar is!!!</string>
     <string name="restore_dialog_description">Deze actie zal de volgende onderdelen herstellen naar de orginele kleuren</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Licht Thema</string>
     <string name="DarkTheme">Donker Thema</string>
     <string name="RestoreData">Herstel Data</string>
@@ -309,6 +314,8 @@
     <string name="SFinder">sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Double tap om te slapen op statusbalk</string>
     <string name="BrightnessWarning">Hoge helderheid waarschuwing</string>
+    <string name="VolumeWarning">Hoog Volume Waarschuwing </string>
+    <string name="ForceExpand">Forceer uitklappen van alle notificaties</string>
     <string name="BrightnessSlider">Helderheid slider in pulldown menu</string>
     <string name="NotificationShape">Notification bg shape</string>
     <string name="StockShape">Stock uiterlijk</string>
@@ -538,7 +545,7 @@
     <string name="Signal7">Signaal 7</string>
     <string name="Signal8">Signaal 8</string>
     <string name="Signal9">Signaal 9</string>
-    <string name="Signal10">Signal 10</string>
+    <string name="Signal10">Signaal 10</string>
     <string name="Signal11">Signaal 11</string>
     <string name="Signal12">Signaal 12</string>
     <string name="Signal13">Signaal 13</string>

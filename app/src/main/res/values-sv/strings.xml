@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM-inställningar pro</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Öppna navigeringspanelen</string>
     <string name="navigation_drawer_close">Stäng navigeringspanelen</string>
     <string name="dialog_color_picker">Välj färg</string>
@@ -62,6 +62,11 @@
     <string name="reboot_now_dialog_button">Starta om nu</string>
     <string name="imminent_reboot_warning">Din telefon kommer startas om OMEDELBART efter att scriptet slutförts!</string>
     <string name="restore_dialog_description">Denna åtgärd kommer återställa dessa objekt tillbaka till standard färgerna</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Ljust tema</string>
     <string name="DarkTheme">Mörkt tema</string>
     <string name="RestoreData">Återställ data</string>
@@ -308,6 +313,8 @@
     <string name="SFinder">Slå av sFinder i pulldown-menyn</string>
     <string name="DoubleTapSleep">Dubbelklicka på statusfältet för att släcka skärmen</string>
     <string name="BrightnessWarning">Stäng av varing för hög ljusstyrka</string>
+    <string name="VolumeWarning">Varning för hög volym</string>
+    <string name="ForceExpand">Tvinga alla notifikationer att expandera</string>
     <string name="BrightnessSlider">Justera ljustyrka på pulldown-menyn</string>
     <string name="NotificationShape">Notifikation bg form</string>
     <string name="StockShape">Stock look</string>

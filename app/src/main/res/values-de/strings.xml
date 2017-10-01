@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">SM Einstellungen Pro</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="ACube">Ein Würfel</string>
     <string name="Abstract">Abstrakt</string>
     <string name="ActualCarrierText">Aktueller Provider Text</string>
@@ -668,4 +668,11 @@
     <string name="PullDownNotificationMusicSongTitle">Titel Textfarbe</string>
     <string name="PullDownNotificationMusicSummary">SMusic QuickPanel Farb Mod</string>
     <string name="PullDownNotificationMusicTitle">Verändern Sie die Fraben im QuickPanel und dem Lockscreen vom SMusic app</string>
+    <string name="VolumeWarning">Hohe Lautstärke Warnung</string>
+    <string name="debloat_rom_menu_title">Debloaten Sie die Rom</string>
+    <string name="deselect_all">Wähle alle ab</string>
+    <string name="multiple_choice_preference_button_done">Erledigt</string>
+    <string name="select_all">Wähle alle aus</string>
+    <string name="select_all_label">Alle</string>
+    <string name="ForceExpand">Klappe alle Benachrichtigungen aus</string>
 </resources>

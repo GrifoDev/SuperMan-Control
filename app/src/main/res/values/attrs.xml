@@ -19,6 +19,10 @@
         <attr name="entryList" format="reference"/>
         <attr name="entryValuesList" format="reference"/>
     </declare-styleable>
+    <declare-styleable name="MyMultiSelectPreference">
+        <attr name="multiEntryList" format="reference"/>
+        <attr name="multiValuesList" format="reference"/>
+    </declare-styleable>
     <declare-styleable name="GlobalRestorePreference">
         <attr name="titlesList" format="reference"/>
         <attr name="keysList" format="reference"/>
@@ -58,5 +62,16 @@
     <declare-styleable name="RebootView">
         <attr name="rebootText" format="string"/>
         <attr name="rebootColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="MultipleChoicePreference">
+        <attr name="multipleChoiceTitles" format="reference"/>
+        <attr name="multipleChoiceKeys" format="reference"/>
+        <attr name="multipleChoiceSummaries" format="reference"/>
+        <attr name="multipleChoiceDefaults" format="reference"/>
+        <attr name="showSelectAll" format="boolean"/>
+        <attr name="choiceSelector">
+            <enum name="checkbox_selector" value="0"/>
+            <enum name="switch_selector" value="1"/>
+        </attr>
     </declare-styleable>
 </resources>

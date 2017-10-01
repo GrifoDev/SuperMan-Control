@@ -49,7 +49,7 @@ public class MySeekBarPreference extends Preference implements SeekBar.OnSeekBar
         super(context, attrs);
         mContentResolver = context.getContentResolver();
         TypedArray typedArray = context.obtainStyledAttributes(attrs, R.styleable.MySeekBarPreference);
-        mMaxValue = typedArray.getInt(R.styleable.MySeekBarPreference_maxValue, 100);
+        mMaxValue = typedArray.getInt(R.styleable.MySeekBarPreference_maxValue, 200);
         mMinValue = typedArray.getInt(R.styleable.MySeekBarPreference_minValue, 0);
         TypedArray generalTypedArray = context.obtainStyledAttributes(attrs, R.styleable.Preference);
         mIsRebootRequired = generalTypedArray.getBoolean(R.styleable.Preference_rebootDevice, false);

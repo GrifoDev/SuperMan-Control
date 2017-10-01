@@ -66,18 +66,18 @@
 
     <!--Credits and thanks info arrays-->
     <array name="about_credits_drawables">
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
-        <item>@drawable/gplus</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
+        <item>@drawable/gd</item>
     </array>
     <string-array name="about_credits_names" translatable="false">
         <item>Grzechu - Polish Translation</item>
@@ -94,17 +94,17 @@
         <item>Thijs1981nl - Dutch Translation</item>
     </string-array>
     <string-array name="about_credits_links" translatable="false">
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
-        <item>https://plus.google.com/communities/108548285682852156652</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
+        <item>https://www.grifodev.ch</item>
     </string-array>
 </resources>

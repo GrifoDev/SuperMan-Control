@@ -35,8 +35,8 @@ android {
         minSdkVersion 21
         //noinspection OldTargetApi
         targetSdkVersion 22
-        versionCode 2
-
+        versionCode 3
+        versionName "1.0.2"
         project.archivesBaseName = "RomControl"
     }
 
@@ -46,12 +46,12 @@ android {
             minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
             signingConfig signingConfigs.gearSigningConfig
-            applicationVariants.all { variant ->
-                variant.outputs.each { output ->
-                    output.outputFile = new File(output.outputFile.parent,
-                            output.outputFile.name.replace("-release", ""))
-                }
-            }
+//            applicationVariants.all { variant ->
+//                variant.outputs.each { output ->
+//                    output.outputFile = new File(output.outputFile.parent,
+//                            output.outputFile.name.replace("-release", ""))
+//                }
+//            }
         }
     }
 }

@@ -64,6 +64,14 @@
             app:packageNameToKill="com.android.systemui"/>
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
+            android:key="disable_volume_warning"
+            android:summaryOff="@string/Enabled"
+            android:summaryOn="@string/Disabled"
+            android:title="@string/VolumeWarning"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
             android:key="hide_brightness_slider"
             android:summaryOff="@string/Shown"
             android:summaryOn="@string/Hidden"
@@ -97,6 +105,7 @@
             android:entryValues="@array/qs_tile_row_values"
             android:key="qs_tile_row"
             android:title="Number of quick setting tile rows (only affects portrait mode)" />
+        */-->
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:key="pekaka_memCleanView"
             android:summaryOff="@string/Hidden"
@@ -106,7 +115,6 @@
             android:defaultValue="#ff22c4ff"
             android:key="db_inkeffect_pekaka_memkiller_picker"
             android:title="@string/WeatherColor" />
-        */-->
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="enable_blur"

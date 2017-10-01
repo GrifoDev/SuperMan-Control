@@ -12,7 +12,7 @@
     <!--You should have received a copy of the GNU General Public License-->
     <!--along with this program.  If not, see <http://www.gnu.org/licenses/>.*/-->
 <resources>
-    <string name="app_name">SM Settings Pro</string>
+    <string name="app_name">SuperControl Pro</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="dialog_color_picker">Pick Color</string>
@@ -64,6 +64,11 @@
     <string name="reboot_now_dialog_button">reboot now</string>
     <string name="imminent_reboot_warning">Your device will reboot IMMEDIATELY upon script completion!!!</string>
     <string name="restore_dialog_description">This action will restore the following items to stock colors</string>
+    <string name="multiple_choice_preference_button_done">Done</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_all">Select all</string>
+    <string name="debloat_rom_menu_title">Debloat rom</string>
+    <string name="select_all_label">All</string>
     <string name="LightTheme">Light Theme</string>
     <string name="DarkTheme">Dark Theme</string>
     <string name="RestoreData">Restore Data</string>
@@ -310,6 +315,7 @@
     <string name="SFinder">sFinder in pulldown menu</string>
     <string name="DoubleTapSleep">Double tab to sleep on statusbar</string>
     <string name="BrightnessWarning">High brightness warning</string>
+    <string name="VolumeWarning">High volume warning</string>
     <string name="BrightnessSlider">Brightness slider on pulldown menu</string>
     <string name="NotificationShape">Notification bg shape</string>
     <string name="StockShape">Stock look</string>

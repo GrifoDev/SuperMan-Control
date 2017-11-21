@@ -76,6 +76,20 @@
             android:summary="%s"
             android:title="@string/toast_animation"
             app:rebootDevice="true" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="0"
+            android:entries="@array/listview_animation_entries"
+            android:entryValues="@array/listview_animation_values"
+            android:key="listview_animation"
+            android:summary="%s"
+            android:title="@string/listview_animation_scrolling" />
+        <com.wubydax.romcontrol.v2.prefs.MyListPreference
+            android:defaultValue="0"
+            android:entries="@array/listview_interpolator_entries"
+            android:entryValues="@array/listview_interpolator_values"
+            android:key="listview_interpolator"
+            android:summary="%s"
+            android:title="@string/listview_interpolator_scrolling" />
     </PreferenceCategory>
 
     <PreferenceCategory

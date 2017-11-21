@@ -113,6 +113,7 @@
             android:title="@string/ClearMemory" />
         <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
             android:defaultValue="#ff22c4ff"
+            android:dependency="pekaka_memCleanView"
             android:key="db_inkeffect_pekaka_memkiller_picker"
             android:title="@string/WeatherColor" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -286,6 +287,11 @@
                 android:dependency="unlock_notification_colors"
                 android:key="notif_footer_background_color"
                 android:title="@string/PullDownNotificationFooterBackground" />
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ff212122"
+                android:dependency="unlock_notification_colors"
+                android:key="notification_screenshot_text_color"
+                android:title="@string/PullDownNotificationScreenshotTextColor" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:dependency="unlock_notification_colors"

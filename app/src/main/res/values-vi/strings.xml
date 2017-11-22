@@ -255,7 +255,6 @@
     <string name="WavingFrozen">Waving Frozen</string>
     <string name="SMLogoRed">BatMan Logo màu vàng</string>
     <string name="SMLogoBlue">BatMan Logo màu xanh</string>
-    <string name="SMLogoBlack">BatMan Logo màu đen</string>
     <string name="CurrentlyRemoved">Hiện đã bị loại bỏ</string>
     <string name="RestartToggleSummary">Khởi động lại sẽ được hiển thị</string>
     <string name="RestartToggle">Khởi động lại</string>

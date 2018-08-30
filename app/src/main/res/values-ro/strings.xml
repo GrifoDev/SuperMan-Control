@@ -379,9 +379,7 @@
     <string name="PullDownUnlock">Schimbari culorile permise</string>
     <string name="PullDownLock">Schimbari culori blocate (Stock)</string>
     <string name="PullDownHeader">Culoare header</string>
-    <string name="PullDownHeaderBackground">Culoarea de fundal header</string>
     <string name="PullDownHeaderText">Culoare text din header</string>
-    <string name="PullDownHeaderIcon">Culoare iconite din header</string>
     <string name="PullDownQuicksettings">Culoare SetariRapide</string>
     <string name="PullDownQuicksettingsBackground">Fundal SetariRapide</string>
     <string name="PullDownQuicksettingsText">Culoare text SetariRapide</string>
@@ -432,7 +430,7 @@
     <string name="BatteryBarColor">Culoare bara baterie</string>
     <string name="BatteryBarColorSummary">Alege culoare pt bara baterie</string>
     <string name="Battery3MinitTitle">Setari 3Minit Battery</string>
-    <string name="BatteryStock">Vizibilitate baterie stock</string>
+    <string name="BatteryStock">Ascunde Bateria stock</string>
     <string name="BatteryStockPercentage">Procent baterie</string>
     <string name="BatteryStockTitle">Setari baterie stock</string>
     <string name="BatteryStockMainColor">Permiteți bateriei să fie colorată</string>
@@ -463,7 +461,7 @@
     <string name="MiscAODisplay">Luminozitatea AOD</string>
     <string name="MiscRotation">Permite rotirea telefonului cu 360 de grade</string>
     <string name="NavBarStatusBarColor">Aceeasi culoare pentru NavBar ca si Statusbar (cat timp aplicatia nu seteaza o culoare)</string>
-    <string name="NavBarColor">Culori Bara de Navigatie</string>
+    <string name="NavBarColor">Culoare NavBar</string>
     <string name="NavBarIconColor">Culoare icon Bara de Navigatie</string>
     <string name="NavBarTitle">Bara de Navigatie</string>
     <string name="NavBarSummary">Aceasta setare contine customizari pentru Bara de Navigatie</string>
@@ -500,7 +498,7 @@
     <string name="StatusbarAirplaneColor">Culoare modul avion</string>
     <string name="StatusbarStatusColor">Culoare iconita de stare</string>
     <string name="StatusbarNotificationColor">Culoare iconita de notificari</string>
-    <string name="StatusbarBatteryColor">Culoare % baterie</string>
+    <string name="StatusbarBatteryColor">Culoare icoana Baterie</string>
     <string name="NetworkTitle">Preferinte trafic de date</string>
     <string name="NetworkSummary">Preferinte trafic date</string>
     <string name="Network">Trafic date</string>
@@ -591,6 +589,7 @@
     <string name="SignalAlarm4">Alarma 4</string>
     <string name="SignalAlarm5">Alarma 5</string>
     <string name="SignalAlarm6">Alarma 6</string>
+    <string name="SignalAlarm7">Alarma 7</string>
     <string name="SignalWifi1">Wifi 1 (Stock)</string>
     <string name="SignalWifi2">Wifi 2</string>
     <string name="SignalWifi3">Wifi 3</string>
@@ -686,7 +685,7 @@
     <string name="ClockPositionTitle">Pozitie Ceas</string>
     <string name="ClockPosition">Alege locatie Ceas</string>
     <string name="ClockOtherTitle">Alte setari pt Ceas</string>
-    <string name="ClockLaunch">Apasa pt a lansa aplicatia selectata</string>
+    <string name="ClockLaunch">Atinge pentru lansare aplicatia Ceas</string>
     <string name="ClockTapSettings">Setari apasare pe Ceas</string>
     <string name="ClockTapSelection">Selectia aplicatiei de Ceas</string>
     <string name="ClockAndDate">Afiseaza Ceas si Data</string>
@@ -722,6 +721,47 @@
     <string name="ContactUs">Contacteaza-ne</string>
     <string name="OurTeam">Echipa noastră</string>
     <string name="CreditsThanks">Credite și mulțumiri</string>
+    <string name="PowerToggleSummary">Comutator alimentare vizibil</string>
+    <string name="PowerToggle">Comutator alimentare</string>
+    <string name="QSTilesTitle">Dale Setări rapide</string>
+    <string name="QSTilesSummary">Schimba dale QS in orice numar</string>
+    <string name="QuickTilesPull">Dale QS in panoul extins</string>
+    <string name="QuickTilesPullPortrait">Numarul de dale QS in modul portret</string>
+    <string name="QuickTilesPullLandscape">Numar de dale QS in modul peisaj</string>
+    <string name="QuickTilesRow">Rânduri de dale QS în panoul extins</string>
+    <string name="QuickTilesRowPortrait">Numar de randuri QS in modul portret</string>
+    <string name="QuickTilesRowLandscape">Numar de randuri QS in modul peisaj</string>
+    <string name="QuickTilesColumn">Coloane de dale QS în panoul extins</string>
+    <string name="QuickTilesColumnPortrait">Numar de coloane QS in modul portret</string>
+    <string name="QuickTilesColumnLandscape">Numar de randuri QS in modul peisaj</string>
+    <string name="PullDownHeaderDivider">Culoare separator antet</string>
+    <string name="PullDownHeaderSettingsIcon">Culoare icoana antet Setari</string>
+    <string name="PullDownHeaderMenuIcon">Culoare icoana antet Meniu</string>
+    <string name="PullDownHeaderClock">Culoare antet Ceas</string>
+    <string name="PullDownHeaderDate">Culoare antet Data</string>
+    <string name="PullDownQuicksettingsBrightnessIcon">Culoare cursor luminozitate</string>
+    <string name="PullDownQuicksettingsBrightnessThumb">Culoare buton cursor luminozitate</string>
+    <string name="PullDownQuicksettingsPageIndicator">Culoare indicator de pagina</string>
+    <string name="PullDownNotificationTransparencyAlpha">Nivel de transparență a fundalului notificării</string>
+    <string name="PullDownNotificationLinkApp">Culoare de legătură de la aplicație și nume</string>
+    <string name="PullDownNotificationMusicSwitch">Culoare switch SMusic</string>
+    <string name="MiscFlashlight">Permite lanterna cu baterie scăzută</string>
+    <string name="NavBarPinColor">Culoare pin NavBar</string>
+    <string name="NavBarBackIconColor">Culoare icoana NavBar Back</string>
+    <string name="NavBarHomeIconColor">Culoare icoana NavBar Home</string>
+    <string name="NavBarRecentIconColor">Culoare icoana NavBar Recent</string>
+    <string name="NavBarMenuIconColor">Culoare icoana NavBar Menu (cand e disponibil)</string>
+    <string name="NavBarImeIconColor">Culoare icoana NavBar Ime(cand e disponibil)</string>
+    <string name="StatusbarWifiActivityColor">Culoare activitate WiFi</string>
+    <string name="StatusbarBluetoothColor">Culoare icoana Bluetooth</string>
+    <string name="StatusbarBatteryPercentageColor">Culoare procentaj Baterie</string>
+    <string name="StatusbarVolumeColor">Culoare icoana Volum</string>
+    <string name="StatusbarLocationColor">Culoare icoana Locatie</string>
+    <string name="StatusbarAlarmColor">Culoare icoana Alarma</string>
+    <string name="StatusbarNetspeedColor">Culoare Netspeed</string>
+    <string name="StatusbarPowersaveColor">Culoare icoana Powersave</string>
+    <string name="StatusbarDarkColor">Culoare inchisa Statusbar</string>
+    <string name="LockscreenIris">Previzualizare Iris pe lockscreen</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

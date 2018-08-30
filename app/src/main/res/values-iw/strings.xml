@@ -28,7 +28,7 @@
     <string name="reboot_device_text">הפעל מחדש את המכשיר</string>
     <string name="reboot_recovery_text">הפעלה מחדש למצב רקוברי</string>
     <string name="reboot_ui_text">הפעל מחדש את המערכת</string>
-    <string name="app_reboot_required_dialog_title">נדרש הפעלה מחדש של האפליקצייה</string>
+    <string name="app_reboot_required_dialog_title">נדרשת הפעלה מחדש של האפליקצייה</string>
     <string name="app_reboot_required_dialog_message">כדי שפעולה זו תיכנס לתוקף יש צורך בהפעלה מחדש %1$s. \n\nלחץ על אישור כדי להפעיל מחדש כעת</string>
     <string name="theme_dialog_title">בחר ערכת נושא</string>
     <string name="changelog_version_title">גרסת רום: %1$s</string>
@@ -379,9 +379,7 @@
     <string name="PullDownUnlock">הצבעים פתוחים לשינויים</string>
     <string name="PullDownLock">צבעים ננעלו לרגיל</string>
     <string name="PullDownHeader">צבעי כותרת בהורדת לוח התראות</string>
-    <string name="PullDownHeaderBackground">צבע רקע כותרת בהורדת לוח התראות</string>
     <string name="PullDownHeaderText">צבע טקסט כותרת בהורדת לוח התראות</string>
-    <string name="PullDownHeaderIcon">צבע סמל כותרת בהורדת לוח התראות</string>
     <string name="PullDownQuicksettings">צבעי הגדרות מהירות</string>
     <string name="PullDownQuicksettingsBackground">צבע רקע הגדרות מהירות</string>
     <string name="PullDownQuicksettingsText">צבע טקסט הגדרות מהירות</string>
@@ -432,7 +430,7 @@
     <string name="BatteryBarColor">צבע קו הסוללה</string>
     <string name="BatteryBarColorSummary">תבחר את צבע קו סוללה</string>
     <string name="Battery3MinitTitle">הגדרות סוללת 3Minit</string>
-    <string name="BatteryStock">הראה סוללה רגילה</string>
+    <string name="BatteryStock">החבא סוללה רגילה</string>
     <string name="BatteryStockPercentage">אחוז סוללה</string>
     <string name="BatteryStockTitle">הגדרות סוללה רגילה</string>
     <string name="BatteryStockMainColor">תאפשר לסוללה להיצבע</string>
@@ -463,7 +461,7 @@
     <string name="MiscAODisplay">AOD בהירות</string>
     <string name="MiscRotation">אפשר לפלאפון להסתובב 360 מעלות</string>
     <string name="NavBarStatusBarColor">קבל את אותו צבע של סרגל הניווט כמו של שורת המצב(כל עוד האפליקצייה לא כופה צבע)</string>
-    <string name="NavBarColor">צבעי סרגל הניווט</string>
+    <string name="NavBarColor">צבע מגירת ניווט</string>
     <string name="NavBarIconColor">צבע סמל סרגל ניווט</string>
     <string name="NavBarTitle">סרגל ניווט</string>
     <string name="NavBarSummary">ההגדרות הללו מכילות מודים לסרגל הניווט</string>
@@ -500,7 +498,7 @@
     <string name="StatusbarAirplaneColor">צבע מצב טיסה</string>
     <string name="StatusbarStatusColor">צבע סמל שורת מצב</string>
     <string name="StatusbarNotificationColor">צבע סמל התראה</string>
-    <string name="StatusbarBatteryColor">צבע אחוז סוללה</string>
+    <string name="StatusbarBatteryColor">צבע סמל סוללה</string>
     <string name="NetworkTitle">העדפות תנועת רשת</string>
     <string name="NetworkSummary">העדפות תנועת רשת</string>
     <string name="Network">נתוני רשת</string>
@@ -591,6 +589,7 @@
     <string name="SignalAlarm4">שעון מעורר 4</string>
     <string name="SignalAlarm5">שעון מעורר 5</string>
     <string name="SignalAlarm6">שעון מעורר 6</string>
+    <string name="SignalAlarm7">שעון מעורר 7</string>
     <string name="SignalWifi1">וויפי 1 (רגיל)</string>
     <string name="SignalWifi2">וויפי 2</string>
     <string name="SignalWifi3">וויפי 3</string>
@@ -686,7 +685,7 @@
     <string name="ClockPositionTitle">מיקום שעון</string>
     <string name="ClockPosition">תבחר את מיקום השעון שלך</string>
     <string name="ClockOtherTitle">הגדרות אחרות של שעון</string>
-    <string name="ClockLaunch">לחץ כדי להפעיל את האפליקצייה שנבחרה</string>
+    <string name="ClockLaunch">לחץ על מנת להפעיל את השעון</string>
     <string name="ClockTapSettings">תלחץ על הגדרות שעון</string>
     <string name="ClockTapSelection">תלחץ על מנת לראות מבחר אפליקציות שעון</string>
     <string name="ClockAndDate">הראה תאריך ושעון</string>
@@ -722,6 +721,47 @@
     <string name="ContactUs">צור עימנו קשר</string>
     <string name="OurTeam">הצוות שלנו</string>
     <string name="CreditsThanks">קרדיטים ותודות</string>
+    <string name="PowerToggleSummary">כפתור כיבוי יוצג</string>
+    <string name="PowerToggle">כפתור כיבוי</string>
+    <string name="QSTilesTitle">אריחים בהגדרות מהירות</string>
+    <string name="QSTilesSummary">שנה את מספר האריחים בהגדרות מהירות</string>
+    <string name="QuickTilesPull">אריחים בהורדת הגדרות מהירות</string>
+    <string name="QuickTilesPullPortrait">מספר אריחים בהגדרות מהירות כשהפלאפון עומד</string>
+    <string name="QuickTilesPullLandscape">מספר אריחים בהגדרות מהירות כשהפלאפון שוכב</string>
+    <string name="QuickTilesRow">מספר שורות האריחים בהרחבת הגדרות מהירות</string>
+    <string name="QuickTilesRowPortrait">מספר השורות בהגדרות מהירות כשהפלאפון עומד</string>
+    <string name="QuickTilesRowLandscape">מספר השורות בהגדרות מהירות כשהפלאפון שוכב</string>
+    <string name="QuickTilesColumn">Column QS Tiles in expanded pulldown</string>
+    <string name="QuickTilesColumnPortrait">מספר אריחים בשורה בגדרות מהירות כשהפלאםון עומד</string>
+    <string name="QuickTilesColumnLandscape">מספר אריחים בשורה בגדרות מהירות כשהפלאםון עומד</string>
+    <string name="PullDownHeaderDivider">צבע מחיצה בכותרת</string>
+    <string name="PullDownHeaderSettingsIcon">צבע סמל הגדרות בכותרת</string>
+    <string name="PullDownHeaderMenuIcon">צבע סמל תפריט בכותרת</string>
+    <string name="PullDownHeaderClock">צבע שעון בכותרת</string>
+    <string name="PullDownHeaderDate">צבע תאריך בכותרת</string>
+    <string name="PullDownQuicksettingsBrightnessIcon">צבע סמל מחוון בהירות</string>
+    <string name="PullDownQuicksettingsBrightnessThumb">צבע מחוון בהירות כאשר בההזזה / בתזוזה</string>
+    <string name="PullDownQuicksettingsPageIndicator">צבע החלפת עמוד</string>
+    <string name="PullDownNotificationTransparencyAlpha">רמת שקיפות רקע של ההתראה</string>
+    <string name="PullDownNotificationLinkApp">לקשר את צבע סמל האפליקצייה ואת השם שלה</string>
+    <string name="PullDownNotificationMusicSwitch">החלפת צבעים של אפליקציית מוזיקה של סמסונג</string>
+    <string name="MiscFlashlight">אפשר פנס כשהסוללה נמוכה</string>
+    <string name="NavBarPinColor">צבע נקודה הנועלת את מגירת ניווט</string>
+    <string name="NavBarBackIconColor">צבע סמל חזור במגירת ניווט</string>
+    <string name="NavBarHomeIconColor">צבעי סמל בית במגירת ניווט</string>
+    <string name="NavBarRecentIconColor">צבעי סמל הגדרות/יישמומים אחרונים במגירת ניווט</string>
+    <string name="NavBarMenuIconColor">צבעי סמל תפריט במגירת ניווט (כאשר זמין)</string>
+    <string name="NavBarImeIconColor">צבעי סמל מקלדת במגירת ניווט (כאשר זמין)</string>
+    <string name="StatusbarWifiActivityColor">צבע פעילות ווי-פי</string>
+    <string name="StatusbarBluetoothColor">צבע סמל בלוטוס</string>
+    <string name="StatusbarBatteryPercentageColor">צבע אחוזי סוללה</string>
+    <string name="StatusbarVolumeColor">צבע סמל ווליום</string>
+    <string name="StatusbarLocationColor">צבע סמל מיקום</string>
+    <string name="StatusbarAlarmColor">צבע סמל שעון מעורר</string>
+    <string name="StatusbarNetspeedColor">צבע מהירות רשת</string>
+    <string name="StatusbarPowersaveColor">צבע סמל חיסכון בסוללה</string>
+    <string name="StatusbarDarkColor">שורת מצב בצבע חשוך</string>
+    <string name="LockscreenIris">תצוגת איריס במסך נעילה</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

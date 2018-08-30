@@ -82,10 +82,10 @@
         <PreferenceCategory
             android:title="@string/BatteryStockTitle">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="true"
-                android:key="hide_battery_stock"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
+                android:defaultValue="false"
+                android:key="hide_battery"
+                android:summaryOff="@string/Shown"
+                android:summaryOn="@string/Hidden"
                 android:title="@string/BatteryStock" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="true"
@@ -93,18 +93,6 @@
                 android:summaryOff="@string/Hidden"
                 android:summaryOn="@string/Shown"
                 android:title="@string/BatteryStockPercentage" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
-                android:dependency="hide_battery_stock"
-                android:key="battery_color"
-                android:summary="@string/WeatherColor"
-                android:title="@string/BatteryStockColor" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ff000000"
-                android:dependency="hide_battery_stock"
-                android:key="battery_color_dark"
-                android:summary="@string/WeatherColor"
-                android:title="@string/BatteryStockColorDark" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/Battery3MinitTitle">
@@ -151,14 +139,8 @@
         <PreferenceCategory
             android:title="@string/Clock3MinitTitle">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="true"
-                android:key="clock_visible"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/ClockStock" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
-                android:key="clock_show_int"
+                android:key="minit_clock_visible"
                 android:summaryOff="@string/Hidden"
                 android:summaryOn="@string/Shown"
                 android:title="@string/Clock3Minit"
@@ -175,88 +157,17 @@
                 android:defaultValue="0"
                 android:entries="@array/clock_style_entries"
                 android:entryValues="@array/clock_style_values"
-                android:key="statusbar_clock_style"
+                android:key="clock_position"
                 android:title="@string/ClockPosition" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/ClockOtherTitle">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
-                android:key="tap_clock_launcher"
+                android:key="clock_onclick"
                 android:summaryOff="@string/Disabled"
                 android:summaryOn="@string/ClockLaunch"
-                android:title="@string/ClockTapSettings"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-            <com.wubydax.romcontrol.v2.prefs.IntentDialogPreference
-                android:dependency="tap_clock_launcher"
-                android:key="press_clock_custom_app"
-                android:title="@string/ClockTapSelection"
-                app:intentSeparator="\##" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="true"
-                android:key="status_bar_clock"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/ClockAndDate" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="1"
-                android:dependency="status_bar_clock"
-                android:entries="@array/clock_format_entries"
-                android:entryValues="@array/clock_format_values"
-                android:key="statusbar_clock_format"
-                android:title="@string/ClockFormat" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="status_bar_clock"
-                android:key="normal_upper"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/ClockUppercase" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="2"
-                android:dependency="status_bar_clock"
-                android:entries="@array/entries_status_bar_am_pm"
-                android:entryValues="@array/values_status_bar_am_pm"
-                android:key="statusbar_clock_am_pm_style"
-                android:title="@string/ClockAMPMSettings" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="5"
-                android:dependency="status_bar_clock"
-                android:entries="@array/clock_font_style_entries"
-                android:entryValues="@array/clock_font_style_values"
-                android:key="statusbar_clock_font_style"
-                android:title="@string/ClockFont" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                android:defaultValue="15"
-                android:dependency="status_bar_clock"
-                android:key="statusbar_clock_scale"
-                android:summary="@string/ClockScaleSummary"
-                android:title="@string/ClockScale"
-                app:maxValue="25"
-                app:minValue="5"
-                app:unitsValue="dp" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:dependency="status_bar_clock"
-                android:entries="@array/clock_date_display_entries"
-                android:entryValues="@array/clock_date_display_values"
-                android:key="statusbar_clock_date_display"
-                android:title="@string/ClockDateSettings" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:dependency="status_bar_clock"
-                android:entries="@array/clock_date_style_entries"
-                android:entryValues="@array/clock_date_style_values"
-                android:key="statusbar_clock_date_style"
-                android:title="@string/ClockDateStyle" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="EEE dd/MM"
-                android:dependency="status_bar_clock"
-                android:entries="@array/clock_date_format_entries_values"
-                android:entryValues="@array/clock_date_format_entries_values"
-                android:key="statusbar_clock_date_format"
-                android:title="@string/ClockDateFormat" />
+                android:title="@string/ClockTapSettings" />
         </PreferenceCategory>
     </PreferenceScreen>
 
@@ -265,25 +176,15 @@
         android:summary="@string/SignalSummary"
         android:title="@string/SignalTitle">
         <PreferenceCategory
-            android:title="@string/Signal">
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/SignalPositionName"
-                android:entryValues="@array/SignalPositionValue"
-                android:key="left_signal"
-                android:title="@string/Signal"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-        </PreferenceCategory>
-        <PreferenceCategory
             android:title="@string/SignalDataIcon">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
-                android:key="dataIcon"
+                android:key="LTEIcon"
                 android:summaryOff="@string/SignalDataIcon4G"
                 android:summaryOn="@string/SignalDataIconLTE"
                 android:title="@string/SignalDataIcon"
-                app:rebootDevice="true"/>
+                app:isSilent="false"
+                app:packageNameToKill="com.android.systemui" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/SignalIcon">
@@ -340,91 +241,13 @@
         android:summary="@string/LockscreenSummary"
         android:title="@string/LockscreenTitle">
         <PreferenceCategory
-            android:title="@string/LockscreenClock">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="1"
-                android:key="hide_digital_hour"
-                android:summaryOff="@string/Off"
-                android:summaryOn="@string/On"
-                android:title="@string/LockscreenClockHour" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="1"
-                android:key="hide_digital_min"
-                android:summaryOff="@string/Off"
-                android:summaryOn="@string/On"
-                android:title="@string/LockscreenClockMin" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="0"
-                android:key="hide_digital_sec"
-                android:summaryOff="@string/Off"
-                android:summaryOn="@string/On"
-                android:title="@string/LockscreenClockSeconds" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="1"
-                android:key="hide_digital_data"
-                android:summaryOff="@string/Off"
-                android:summaryOn="@string/On"
-                android:title="@string/LockscreenClockDate" />
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:title="@string/LockscreenClockColor">
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="hide_digital_hour"
-                android:key="kg_clock_hours_color"
-                android:summary="@string/WeatherColor"
-                android:title="@string/LockscreenClockColorHour"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="hide_digital_min"
-                android:key="kg_clock_minutes_color"
-                android:summary="@string/WeatherColor"
-                android:title="@string/LockscreenClockColorMin"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="hide_digital_sec"
-                android:key="kg_clock_second_color"
-                android:summary="@string/WeatherColor"
-                android:title="@string/LockscreenClockColorSec"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-        </PreferenceCategory>
-        <PreferenceCategory
             android:title="@string/LockscreenMiscTitle">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
-                android:key="lockscreen_rotate"
+                android:key="lockscreen_rotation"
                 android:summaryOff="@string/Off"
                 android:summaryOn="@string/On"
-                android:title="@string/LockscreenMiscRotation"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:key="hide_nextalarm"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenMiscAlarm"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
-                android:dependency="hide_nextalarm"
-                android:key="lockscreen_alarm_text_color"
-                android:summary="@string/WeatherColor"
-                android:title="@string/LockscreenMiscAlarmColor" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:key="lockscreen_guide_text"
-                android:summaryOff="@string/Shown"
-                android:summaryOn="@string/Hidden"
-                android:title="@string/LockscreenMiscHelp"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
+                android:title="@string/LockscreenMiscRotation" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="wake_on_finger"
@@ -433,6 +256,12 @@
                 android:title="@string/LockscreenMiscWake"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="qs_lock"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/LockscreenMiscQuickSetting" />
             <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
                 android:defaultValue="false"
                 android:key="custom_lock_carrier"
@@ -450,307 +279,19 @@
                 android:title="@string/LockscreenMiscCarrierText"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
-            <!--/*
-	        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-        	    android:defaultValue="10000"
-        	    android:entries="@array/display_timeout_entries"
-        	    android:entryValues="@array/display_timeout_values"
-        	    android:key="display_timeout_delay"
-		        android:title="@string/LockscreenTimeout"
-		        app:isSilent="false"
-        	    app:packageNameToKill="com.android.systemui"/>
-            */-->
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-            	android:defaultValue="2"
-            	android:key="lockscreen_notifications"
-            	android:title="@string/LockscreenNotification"
-            	app:isSilent="false"
-            	app:maxValue="3"
-            	app:minValue="1"
-            	app:packageNameToKill="com.android.systemui" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/lock_screen_allow_remote_input_entries"
-                android:entryValues="@array/lock_screen_allow_remote_input_values"
-                android:key="lock_screen_allow_remote_input"
-                android:summary="%s"
-                android:title="@string/LockscreenReply"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:title="@string/LockscreenAnalogTitle">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
-                android:key="analog_clock_enable"
+                android:key="scramble_pin"
                 android:summaryOff="@string/Disabled"
                 android:summaryOn="@string/Enabled"
-                android:title="@string/LockscreenAnalog" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style1"
-                android:key="lock_analog_clock"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog1" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style2"
-                android:key="lock_analog_clock1"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog2" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style3"
-                android:key="lock_analog_clock2"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog3" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style4"
-                android:key="lock_analog_clock3"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog4" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style5"
-                android:key="lock_analog_clock4"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog5" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style6"
-                android:key="lock_analog_clock5"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog6" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style7"
-                android:key="lock_analog_clock6"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog7" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style8"
-                android:key="lock_analog_clock7"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog8" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style9"
-                android:key="lock_analog_clock8"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog9" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style10"
-                android:key="lock_analog_clock9"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog10" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style11"
-                android:key="lock_analog_clock10"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog11" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style12"
-                android:key="lock_analog_clock11"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog12" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style13"
-                android:key="lock_analog_clock12"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog13" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style14"
-                android:key="lock_analog_clock13"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog14" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style15"
-                android:key="lock_analog_clock14"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog15" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style16"
-                android:key="lock_analog_clock15"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog16" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style17"
-                android:key="lock_analog_clock16"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog17" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="analog_clock_enable"
-                android:icon="@drawable/clock_style18"
-                android:key="lock_analog_clock17"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/LockscreenAnalog18" />
+                android:title="@string/LockscreenScramble" />
         </PreferenceCategory>
-    </PreferenceScreen>
-
-    <PreferenceScreen
-        android:icon="@drawable/ic_setting_weather"
-        android:summary="@string/WeatherSummary"
-        android:title="@string/WeatherTitle">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="hide_weather"
-            android:summaryOff="@string/Hidden"
-            android:summaryOn="@string/Shown"
-            android:title="@string/Weather" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:key="color_text"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherTextColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="hide_weather1"
-            android:summaryOff="@string/Hidden"
-            android:summaryOn="@string/Shown"
-            android:title="@string/WeatherGeo" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:key="color_location"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherGeoTextColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:dependency="hide_weather"
-            android:key="barometr_in_lockscreen"
-            android:summaryOff="@string/Off"
-            android:summaryOn="@string/On"
-            android:title="@string/WeatherBarometer" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:dependency="hide_weather"
-            android:key="color_barometr"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherBarometerTextColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:key="color_temp"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherDegreeColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:key="color_high_temp"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherMaxTempColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:key="color_low_temp"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherMinTempColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:key="color_sunrise"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherSunriseTempColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:key="text3"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherSunriseTextColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:key="color_sunset"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherSunsetTempColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:key="text4"
-            android:summary="@string/WeatherColor"
-            android:title="@string/WeatherSunsetTextColor"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui" />
     </PreferenceScreen>
 
     <PreferenceScreen
         android:icon="@drawable/ic_setting_recent"
         android:summary="@string/RecentSummary"
         android:title="@string/RecentTitle">
-        <PreferenceCategory
-            android:title="@string/RecentQuickLaunch">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:key="recents_quick_launch"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/RecentQuickLaunchTitle" />
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:title="@string/RecentBlur">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:key="blur_background_image_visible"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/RecentBlurTitle" />
-        </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/RecentRamBar">
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
@@ -830,65 +371,6 @@
     </PreferenceScreen>
 
     <PreferenceScreen
-        android:icon="@drawable/ic_setting_volume"
-        android:summary="@string/VolumeSummary"
-        android:title="@string/VolumeTitle">
-        <PreferenceCategory
-            android:title="@string/Volume">
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="skip_tracks"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/VolumeSkip" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:dependency="skip_tracks"
-                android:key="double_click_skip_tracks"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/VolumeDouble" />
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                android:defaultValue="600"
-                android:dependency="skip_tracks"
-                android:key="timeout_skip_tracks"
-                android:title="@string/VolumeLongPress"
-                app:maxValue="1300"
-                app:minValue="300"
-                app:unitsValue="mSec" />
-        </PreferenceCategory>
-    </PreferenceScreen>
-
-    <PreferenceScreen
-        android:icon="@drawable/ic_setting_back"
-        android:summary="@string/ButtonSummary"
-        android:title="@string/ButtonTitle">
-        <PreferenceCategory
-            android:title="@string/ButtonTitle">
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/back_key_entries"
-                android:entryValues="@array/back_key_values"
-                android:key="back_key"
-                android:summary="%s"
-                android:title="@string/ButtonBackPress" />
-            <com.wubydax.romcontrol.v2.prefs.MyCheckBoxPreference
-                android:defaultValue="false"
-                android:key="remove_killed_apps_from_recents"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/ButtonBackBehaviour" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/multi_key_entries"
-                android:entryValues="@array/multi_key_values"
-                android:key="recent_key"
-                android:summary="%s"
-                android:title="@string/ButtonRecentPress" />
-        </PreferenceCategory>
-    </PreferenceScreen>
-
-    <PreferenceScreen
         android:icon="@drawable/ic_setting_network"
         android:summary="@string/NetworkSummary"
         android:title="@string/NetworkTitle">
@@ -901,121 +383,17 @@
                 android:summaryOn="@string/Shown"
                 android:title="@string/NetworkSamsung" />
         </PreferenceCategory>
-        <PreferenceCategory
-            android:title="@string/Network">
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/traffic_state_items"
-                android:entryValues="@array/traffic_state_values"
-                android:key="network_traffic_state"
-                android:title="@string/NetworkInfo"
-                app:dependentValue="0"/>
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="network_traffic_state"
-                android:key="network_traffic_unit"
-                android:summaryOff="@string/NetworkDisplayBits"
-                android:summaryOn="@string/NetworkDisplayBytes"
-                android:title="@string/NetworkDataType"/>
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:dependency="network_traffic_state"
-            android:title="@string/NetworkArrow">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="true"
-                android:dependency="network_traffic_state"
-                android:key="network_traffic_show_arrows"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/NetworkArrowTraffic"/>
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:dependency="network_traffic_show_arrows"
-                android:entries="@array/arrow_position_entries"
-                android:entryValues="@array/arrow_position_values"
-                android:key="network_traffic_arrows_position"
-                android:title="@string/NetworkArrowPosition"/>
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:dependency="network_traffic_state"
-            android:title="@string/NetworkDisplay">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="true"
-                android:key="network_traffic_autohide"
-                android:summaryOff="@string/NetworkDisplayAutohideDisable"
-                android:summaryOn="@string/NetworkDisplayAutohideEnable"
-                android:title="@string/NetworkDisplayAutohide"/>
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                android:defaultValue="5"
-                android:dependency="network_traffic_autohide"
-                android:key="network_traffic_threshold"
-                android:title="@string/NetworkDisplayAutohideThreshold"
-                app:maxValue="100"
-                app:unitsValue="Kb"/>
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="0"
-                android:entries="@array/traffic_style_entries"
-                android:entryValues="@array/traffic_style_entry_values"
-                android:key="network_traffic_text_style"
-                android:title="@string/NetworkDisplayFont"/>
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                android:defaultValue="10"
-                android:key="network_traffic_scale"
-                android:title="@string/NetworkDisplaySize"
-                app:maxValue="10"/>
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:dependency="network_traffic_state"
-            android:title="@string/NetworkColor">
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
-                android:key="network_traffic_color"
-                android:title="@string/NetworkColorGlobal"/>
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="true"
-                android:key="network_traffic_global_color"
-                android:summaryOff="@string/NetworkColorAll"
-                android:summaryOn="@string/NetworkColorEach"
-                android:title="@string/NetworkColorSeparate"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
-                android:dependency="network_traffic_global_color"
-                android:key="network_traffic_upload_color"
-                android:title="@string/NetworkColorUpload"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
-                android:dependency="network_traffic_global_color"
-                android:key="network_traffic_download_color"
-                android:title="@string/NetworkColorDownload"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
-                android:dependency="network_traffic_global_color"
-                android:key="network_traffic_arrow_color"
-                android:title="@string/NetworkColorTraffic"/>
-        </PreferenceCategory>
     </PreferenceScreen>
 
     <PreferenceScreen
         android:icon="@drawable/ic_setting_colorizing"
         android:summary="@string/StatusbarColorSummary"
         android:title="@string/StatusbarColor">
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="is_global_sb_color"
-            android:summaryOff="@string/Disabled"
-            android:summaryOn="@string/Enabled"
-            android:title="@string/StatusbarColorsGlobal"/>
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ffffffff"
-            android:dependency="is_global_sb_color"
-            android:key="global_sb_color"
-            android:title="@string/StatusbarColorGlobal"/>
         <PreferenceCategory
             android:title="@string/StatusbarColors">
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
-                android:dependency="is_global_sb_color"
-                android:key="clock_color"
+                android:key="statusbar_clock_color"
                 android:title="@string/StatusbarClockColor"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
@@ -1023,32 +401,60 @@
                 android:title="@string/StatusbarWifiColor"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
+                android:key="wifi_activity_color"
+                android:title="@string/StatusbarWifiActivityColor"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
                 android:key="mobile_signal_color"
                 android:title="@string/StatusbarSignalColor"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
                 android:key="mobile_type_color"
-                android:title="@string/StatusbarMobileColor"/>
+                android:title="@string/StatusbarMobileColor" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
-                android:key="mobile_roaming_color"
-                android:title="@string/StatusbarRoamingColor"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
-                android:key="airplane_mode_color"
-                android:title="@string/StatusbarAirplaneColor"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ffffffff"
-                android:key="status_icons_color"
+                android:key="statusbar_icon_color"
                 android:title="@string/StatusbarStatusColor"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
-                android:key="notification_icons_color"
+                android:key="notification_icon_color"
                 android:title="@string/StatusbarNotificationColor"/>
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ffffffff"
-                android:key="battery_percent_color"
+                android:key="bluetooth_icon_color"
+                android:title="@string/StatusbarBluetoothColor"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="battery_color"
                 android:title="@string/StatusbarBatteryColor"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="statusbar_battery_percent_color"
+                android:title="@string/StatusbarBatteryPercentageColor"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="volume_icon_color"
+                android:title="@string/StatusbarVolumeColor"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="location_icon_color"
+                android:title="@string/StatusbarLocationColor"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="alarm_icon_color"
+                android:title="@string/StatusbarAlarmColor"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="netspeed_color"
+                android:title="@string/StatusbarNetspeedColor"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#ffffffff"
+                android:key="powersaver_icon_color"
+                android:title="@string/StatusbarPowersaveColor"/>
+            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+                android:defaultValue="#000000"
+                android:key="dark_icon_color"
+                android:title="@string/StatusbarDarkColor"/>
         </PreferenceCategory>
     </PreferenceScreen>
 
@@ -1159,7 +565,7 @@
                 android:summary="@string/dynamic_status_bar_filter_summary"
                 android:title="@string/dynamic_status_bar_filter_title" />
             <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                min="0"
+                min="1"
                 android:defaultValue="10"
                 android:dependency="dynamic_toggle"
                 android:key="dynamic_status_bar_filter_value"
@@ -1205,50 +611,6 @@
     </PreferenceScreen>
 
     <PreferenceScreen
-        android:icon="@drawable/ic_setting_ambient"
-        android:summary="@string/AmbientSummary"
-        android:title="@string/Ambient">
-        <PreferenceCategory
-            android:title="@string/AmbientTitle">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:key="doze_enabled"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/Ambient"
-                app:rebootDevice="true" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="doze_enabled"
-                android:key="doze_pulse_pickup"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/AmbientPickUp"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="doze_enabled"
-                android:key="doze_vibrate_pickup"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/AmbientPickUpVibrate"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-            <com.wubydax.romcontrol.v2.prefs.MyListPreference
-                android:defaultValue="10000"
-                android:dependency="doze_enabled"
-                android:entries="@array/ambient_light_entries"
-                android:entryValues="@array/ambient_light_values"
-                android:key="doze_timeout"
-                android:summary="%s"
-                android:title="@string/AmbientTimeout"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui" />
-        </PreferenceCategory>
-    </PreferenceScreen>
-
-    <PreferenceScreen
         android:icon="@drawable/ic_setting_misc"
         android:summary="@string/MiscSummary"
         android:title="@string/MiscTitle">
@@ -1260,13 +622,6 @@
                 android:summaryOff="@string/Off"
                 android:summaryOn="@string/On"
                 android:title="@string/MiscUBS"
-                app:rebootDevice="true" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:key="imsservice"
-                android:summaryOff="@string/Hidden"
-                android:summaryOn="@string/Shown"
-                android:title="@string/MiscImsService"
                 app:rebootDevice="true" />
             <com.wubydax.romcontrol.v2.prefs.MyListPreference
                 android:defaultValue="3000"
@@ -1290,7 +645,7 @@
                 android:key="torchlight_timeout"
                 android:title="@string/MiscTorchTimeout" />
             <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
+                android:defaultValue="true"
                 android:key="hide_keyboard_switcher"
                 android:summaryOff="@string/Shown"
                 android:summaryOn="@string/Hidden"
@@ -1303,15 +658,19 @@
                 android:key="policy_control"
                 android:summary="%s"
                 android:title="@string/MiscImmersive" />
-            <!--/*
-            <com.wubydax.romcontrol.v2.prefs.MySeekBarPreference
-                android:defaultValue="17"
-                android:key="aod_brightness"
-                android:title="@string/MiscAODisplay"
-                app:maxValue="255"
-                app:minValue="0"
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="all_rotations"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/MiscRotation"
                 app:rebootDevice="true" />
-            */-->
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="false"
+                android:key="flashlight_low_battery"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/MiscFlashlight"  />
         </PreferenceCategory>
     </PreferenceScreen>
 

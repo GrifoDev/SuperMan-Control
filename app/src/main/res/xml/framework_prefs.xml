@@ -6,6 +6,12 @@
         android:title="@string/reboot_menu">
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="true"
+            android:key="power_menu"
+            android:summaryOff="@string/CurrentlyRemoved"
+            android:summaryOn="@string/PowerToggleSummary"
+            android:title="@string/PowerToggle" />
+        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
             android:key="restart_power_menu"
             android:summaryOff="@string/CurrentlyRemoved"
             android:summaryOn="@string/RestartToggleSummary"
@@ -18,12 +24,6 @@
             android:title="@string/RecoveryToggle" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
-            android:key="power_quick_reboot"
-            android:summaryOff="@string/CurrentlyRemoved"
-            android:summaryOn="@string/HotRebootToggleSummary"
-            android:title="@string/HotRebootToggle" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
             android:key="screencast"
             android:summaryOff="@string/CurrentlyRemoved"
             android:summaryOn="@string/ScreencastToggleSummary"
@@ -34,12 +34,6 @@
             android:summaryOff="@string/CurrentlyRemoved"
             android:summaryOn="@string/ScreenshotToggleSummary"
             android:title="@string/ScreenshotToggle" />
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
-            android:key="flashlight_toggle"
-            android:summaryOff="@string/CurrentlyRemoved"
-            android:summaryOn="@string/FlashlightToggleSummary"
-            android:title="@string/FlashlightToggle" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="power_emergency"
@@ -68,14 +62,6 @@
 
     <PreferenceCategory
         android:title="@string/toast_animation_title">
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="1"
-            android:entries="@array/toast_animation_entries"
-            android:entryValues="@array/toast_animation_values"
-            android:key="animation_toast"
-            android:summary="%s"
-            android:title="@string/toast_animation"
-            app:rebootDevice="true" />
         <com.wubydax.romcontrol.v2.prefs.MyListPreference
             android:defaultValue="0"
             android:entries="@array/listview_animation_entries"
@@ -154,7 +140,6 @@
                     android:key="reboot_bg_gradient_orientation"
                     android:title="@string/GradientOrientation"/>
             </PreferenceCategory>
-            
         </PreferenceScreen>
     </PreferenceCategory>
 

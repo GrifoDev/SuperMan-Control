@@ -42,14 +42,6 @@
             android:title="@string/HeadsUp" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
-            android:key="hide_sfinder"
-            android:summaryOff="@string/Shown"
-            android:summaryOn="@string/Hidden"
-            android:title="@string/SFinder"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:defaultValue="false"
             android:key="double_tap_sleep"
             android:summaryOff="@string/Disabled"
             android:summaryOn="@string/Enabled"
@@ -59,63 +51,19 @@
             android:key="hide_brightness_warning"
             android:summaryOff="@string/Enabled"
             android:summaryOn="@string/Disabled"
-            android:title="@string/BrightnessWarning"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
+            android:title="@string/BrightnessWarning" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="disable_volume_warning"
             android:summaryOff="@string/Enabled"
             android:summaryOn="@string/Disabled"
-            android:title="@string/VolumeWarning"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
+            android:title="@string/VolumeWarning" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="hide_brightness_slider"
             android:summaryOff="@string/Shown"
             android:summaryOn="@string/Hidden"
-            android:title="@string/BrightnessSlider"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="0"
-            android:entries="@array/shape_entries"
-            android:entryValues="@array/shape_values"
-            android:key="notification_background_form"
-            android:title="@string/NotificationShape"
-            app:isSilent="false"
-            app:packageNameToKill="com.android.systemui"/>
-        <!--/*
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="4"
-            android:entries="@array/qs_tile_column_entries"
-            android:entryValues="@array/qs_tile_column_values"
-            android:key="qs_tile_column"
-            android:title="Number of quick setting tile columns" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="6"
-            android:entries="@array/qs_tile_column_landscape_entries"
-            android:entryValues="@array/qs_tile_column_landscape_values"
-            android:key="qs_tile_column_landscape"
-            android:title="Number of quick setting tile columns while in landscape mode" />
-        <com.wubydax.romcontrol.v2.prefs.MyListPreference
-            android:defaultValue="3"
-            android:entries="@array/qs_tile_row_entries"
-            android:entryValues="@array/qs_tile_row_values"
-            android:key="qs_tile_row"
-            android:title="Number of quick setting tile rows (only affects portrait mode)" />
-        */-->
-        <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-            android:key="pekaka_memCleanView"
-            android:summaryOff="@string/Hidden"
-            android:summaryOn="@string/Shown"
-            android:title="@string/ClearMemory" />
-        <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-            android:defaultValue="#ff22c4ff"
-            android:dependency="pekaka_memCleanView"
-            android:key="db_inkeffect_pekaka_memkiller_picker"
-            android:title="@string/WeatherColor" />
+            android:title="@string/BrightnessSlider" />
         <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
             android:defaultValue="false"
             android:key="enable_blur"
@@ -146,100 +94,102 @@
         android:summary="@string/PullDownSummary"
         android:title="@string/PullDownTitle">
         <PreferenceCategory
-            android:title="@string/PullDownHeader">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+           android:title="@string/PullDownHeader">
+           <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
                 android:defaultValue="false"
                 android:key="unlock_header_colors"
                 android:summaryOff="@string/PullDownLock"
                 android:summaryOn="@string/PullDownUnlock"
-                android:title="@string/PullDownColor"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="unlock_header_colors"
-                android:key="header_background_color"
-                android:title="@string/PullDownHeaderBackground" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ff252525"
-                android:dependency="unlock_header_colors"
-                android:key="header_text_color"
-                android:title="@string/PullDownHeaderText" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#b3252525"
-                android:dependency="unlock_header_colors"
-                android:key="header_icon_color"
-                android:title="@string/PullDownHeaderIcon" />
-        </PreferenceCategory>
-        <PreferenceCategory
-            android:title="@string/PullDownQuicksettings">
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:key="unlock_qs_colors"
-                android:summaryOff="@string/PullDownLock"
-                android:summaryOn="@string/PullDownUnlock"
-                android:title="@string/PullDownColor"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_background_color"
-                android:title="@string/PullDownQuicksettingsBackground" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ff252525"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_text_color"
-                android:title="@string/PullDownQuicksettingsText" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ff22c4ff"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_icon_on_color"
-                android:title="@string/PullDownQuicksettingsIconOn" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#4d252525"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_icon_off_color"
-                android:title="@string/PullDownQuicksettingsIconOff" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#33252525"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_divider_color"
-                android:title="@string/PullDownQuicksettingsDivider" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ff56c0e5"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_slider_color"
-                android:title="@string/PullDownQuicksettingsBrightness"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_drag_handle_background_color"
-                android:title="@string/PullDownQuicksettingsDragBackground" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#cc252525"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_drag_handle_icon_color"
-                android:title="@string/PullDownQuicksettingsDragIcon" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fff5f5f5"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_search_background_color"
-                android:title="@string/PullDownQuicksettingsSearchBackground" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#80252525"
-                android:dependency="unlock_qs_colors"
-                android:key="qs_search_text_color"
-                android:title="@string/PullDownQuicksettingsSearchText" />
-            <!--/*
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="unlock_qs_colors"
-                android:key="quickconnect_background_color"
-                android:title="@string/PullDownQuicksettingsQuickConnect" />
-            */-->
+                android:title="@string/PullDownColor" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#fffafafa"
+               android:dependency="unlock_header_colors"
+               android:key="header_divider_color"
+               android:title="@string/PullDownHeaderDivider" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#ff252525"
+               android:dependency="unlock_header_colors"
+               android:key="header_clock_color"
+               android:title="@string/PullDownHeaderClock" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#ff252525"
+               android:dependency="unlock_header_colors"
+               android:key="header_date_color"
+               android:title="@string/PullDownHeaderDate" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#b3252525"
+               android:dependency="unlock_header_colors"
+               android:key="header_settings_icon_color"
+               android:title="@string/PullDownHeaderSettingsIcon" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#b3252525"
+               android:dependency="unlock_header_colors"
+               android:key="header_menu_icon_color"
+               android:title="@string/PullDownHeaderMenuIcon" />
+       </PreferenceCategory>
+       <PreferenceCategory
+           android:title="@string/PullDownQuicksettings">
+           <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+               android:defaultValue="false"
+               android:key="unlock_qs_colors"
+               android:summaryOff="@string/PullDownLock"
+               android:summaryOn="@string/PullDownUnlock"
+               android:title="@string/PullDownColor" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#fffafafa"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_background_color"
+               android:title="@string/PullDownQuicksettingsBackground" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#ff252525"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_text_color"
+               android:title="@string/PullDownQuicksettingsText" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#ff22c4ff"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_icon_on_color"
+               android:title="@string/PullDownQuicksettingsIconOn" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#4d252525"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_icon_off_color"
+               android:title="@string/PullDownQuicksettingsIconOff" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#33252525"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_divider_color"
+               android:title="@string/PullDownQuicksettingsDivider" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#ff56c0e5"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_slider_color"
+               android:title="@string/PullDownQuicksettingsBrightness" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#ff56c0e5"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_slider_thumb_color"
+               android:title="@string/PullDownQuicksettingsBrightnessThumb" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#4d252525"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_slider_icon_color"
+               android:title="@string/PullDownQuicksettingsBrightnessIcon" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#fffafafa"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_drag_handle_background_color"
+               android:title="@string/PullDownQuicksettingsDragBackground" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#cc252525"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_drag_handle_icon_color"
+               android:title="@string/PullDownQuicksettingsDragIcon" />
+           <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
+               android:defaultValue="#fffafafa"
+               android:dependency="unlock_qs_colors"
+               android:key="qs_page_indicator_color"
+               android:title="@string/PullDownQuicksettingsPageIndicator" />
         </PreferenceCategory>
         <PreferenceCategory
             android:title="@string/PullDownNotification">
@@ -248,9 +198,7 @@
                 android:key="unlock_notification_colors"
                 android:summaryOff="@string/PullDownLock"
                 android:summaryOn="@string/PullDownUnlock"
-                android:title="@string/PullDownColor"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
+                android:title="@string/PullDownColor" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#fffafafa"
                 android:dependency="unlock_notification_colors"
@@ -260,16 +208,12 @@
                 android:defaultValue="#ff212122"
                 android:dependency="unlock_notification_colors"
                 android:key="notification_title_text_color"
-                android:title="@string/PullDownNotificationText"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
+                android:title="@string/PullDownNotificationText" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff212122"
                 android:dependency="unlock_notification_colors"
                 android:key="notification_summary_text_color"
-                android:title="@string/PullDownNotificationTextSummary"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
+                android:title="@string/PullDownNotificationTextSummary" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff212122"
                 android:dependency="unlock_notification_colors"
@@ -282,70 +226,61 @@
                 android:dependency="unlock_notification_colors"
                 android:key="notif_footer_text_color"
                 android:title="@string/PullDownNotificationFooter" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#fffafafa"
-                android:dependency="unlock_notification_colors"
-                android:key="notif_footer_background_color"
-                android:title="@string/PullDownNotificationFooterBackground" />
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ff212122"
-                android:dependency="unlock_notification_colors"
-                android:key="notification_screenshot_text_color"
-                android:title="@string/PullDownNotificationScreenshotTextColor" />
-            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
-                android:defaultValue="false"
-                android:dependency="unlock_notification_colors"
-                android:key="notification_transparency"
-                android:summaryOff="@string/Disabled"
-                android:summaryOn="@string/Enabled"
-                android:title="@string/PullDownNotificationTransparency"
-                app:isSilent="false"
-                app:packageNameToKill="com.android.systemui"/>
         </PreferenceCategory>
         <PreferenceCategory
-            android:title="@string/PullDownNotificationMusicSummary"
-            android:summary="@string/PullDownNotificationMusicTitle">
-            <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
-                android:defaultValue="#ff50a5bf"
-                android:key="quick_panel_brand"
-                android:title="@string/PullDownNotificationMusicAppName"
+            android:summary="@string/PullDownNotificationMusicTitle"
+            android:title="@string/PullDownNotificationMusicSummary">
+            <com.wubydax.romcontrol.v2.prefs.MySwitchPreference
+                android:defaultValue="0"
+                android:key="is_smusic_color_switch"
+                android:summaryOff="@string/Disabled"
+                android:summaryOn="@string/Enabled"
+                android:title="@string/PullDownNotificationMusicSwitch"
                 app:packageNameToKill="com.sec.android.app.music" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#42ACD3"
+                android:dependency="is_smusic_color_switch"
                 android:key="artist_noti_text"
                 android:title="@string/PullDownNotificationMusicArtist"
                 app:isSilent="false"
                 app:packageNameToKill="com.sec.android.app.music" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#ff252525"
+                android:dependency="is_smusic_color_switch"
                 android:key="smusic_noti_text"
                 android:title="@string/PullDownNotificationMusicSongTitle"
                 app:isSilent="false"
                 app:packageNameToKill="com.sec.android.app.music" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#556471"
+                android:dependency="is_smusic_color_switch"
                 android:key="next_icon"
                 android:title="@string/PullDownNotificationMusicNext"
                 app:isSilent="false"
                 app:packageNameToKill="com.sec.android.app.music" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#556471"
+                android:dependency="is_smusic_color_switch"
                 android:key="prev_icon"
                 android:title="@string/PullDownNotificationMusicPrev"
                 app:isSilent="false"
                 app:packageNameToKill="com.sec.android.app.music" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#556471"
+                android:dependency="is_smusic_color_switch"
                 android:key="play_pause_icon"
                 android:title="@string/PullDownNotificationMusicPlay"
                 app:isSilent="false"
                 app:packageNameToKill="com.sec.android.app.music" />
             <com.wubydax.romcontrol.v2.prefs.ColorPickerPreference
                 android:defaultValue="#556471"
+                android:dependency="is_smusic_color_switch"
                 android:key="quick_panel_close_icon"
                 android:title="@string/PullDownNotificationMusicClose"
                 app:isSilent="false"
                 app:packageNameToKill="com.sec.android.app.music" />
+            <com.wubydax.romcontrol.v2.prefs.OpenAppPreference
+                app:componentName="com.sec.android.app.music/com.sec.android.app.music.common.activity.MusicMainActivity" />
         </PreferenceCategory>
     </PreferenceScreen>
 
@@ -370,6 +305,57 @@
                 app:entryValuesList="@array/gif_animation_entries_values"
                 app:isSilent="false"
                 app:packageNameToKill="com.android.systemui" />
+        </PreferenceCategory>
+    </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/ic_setting_pulldown_qs"
+        android:summary="@string/QSTilesSummary"
+        android:title="@string/QSTilesTitle">
+        <PreferenceCategory
+            android:title="@string/QuickTilesPull">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="6"
+                android:entries="@array/quick_qs_button_entries"
+                android:entryValues="@array/quick_qs_button_values"
+                android:key="quick_qs_buttons"
+                android:title="@string/QuickTilesPullPortrait" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="10"
+                android:entries="@array/quick_qs_button_entries"
+                android:entryValues="@array/quick_qs_button_values"
+                android:key="quick_qs_buttons_landscape"
+                android:title="@string/QuickTilesPullLandscape" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="@string/QuickTilesRow">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="3"
+                android:entries="@array/qs_tile_row_entries"
+                android:entryValues="@array/qs_tile_row_values"
+                android:key="qs_rows"
+                android:title="@string/QuickTilesRowPortrait" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="2"
+                android:entries="@array/qs_tile_row_entries"
+                android:entryValues="@array/qs_tile_row_values"
+                android:key="qs_rows_landscape"
+                android:title="@string/QuickTilesRowLandscape" />
+        </PreferenceCategory>
+        <PreferenceCategory
+            android:title="@string/QuickTilesColumn">
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="4"
+                android:entries="@array/qs_tile_column_entries"
+                android:entryValues="@array/qs_tile_column_values"
+                android:key="qs_columns"
+                android:title="@string/QuickTilesColumnPortrait" />
+            <com.wubydax.romcontrol.v2.prefs.MyListPreference
+                android:defaultValue="6"
+                android:entries="@array/qs_tile_column_landscape_entries"
+                android:entryValues="@array/qs_tile_column_landscape_values"
+                android:key="qs_columns_landscape"
+                android:title="@string/QuickTilesColumnLandscape" />
         </PreferenceCategory>
     </PreferenceScreen>
 

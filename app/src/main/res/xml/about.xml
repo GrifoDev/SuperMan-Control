@@ -23,21 +23,21 @@
             android:title="@string/AboutAFHRom">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?w=files&amp;flid=148125" />
+                android:data="https://www.androidfilehost.com/?fid=1322778262903994046" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHSuperKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?w=files&amp;flid=152734" />
+                android:data="https://www.androidfilehost.com/?fid=1322778262903993933" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
             android:title="@string/AboutAFHSuperStockKernel">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://www.androidfilehost.com/?w=files&amp;flid=146536" />
+                android:data="https://www.androidfilehost.com/?fid=1322778262903993935" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/afh"
@@ -141,7 +141,7 @@
             android:title="@string/AboutTelegramChat">
             <intent
                 android:action="android.intent.action.VIEW"
-                android:data="https://t.me/joinchat/AaNP4D-RcLT0-z16WHH4zg" />
+                android:data="https://t.me/GrifoDev" />
         </PreferenceScreen>
         <PreferenceScreen
             android:icon="@drawable/telegram"

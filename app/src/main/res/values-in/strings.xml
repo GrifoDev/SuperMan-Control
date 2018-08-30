@@ -379,9 +379,7 @@
     <string name="PullDownUnlock">Warna diizinkan untuk diubah</string>
     <string name="PullDownLock">Warna tidak dapat diubah</string>
     <string name="PullDownHeader">Warna Headers</string>
-    <string name="PullDownHeaderBackground">Warna background header</string>
     <string name="PullDownHeaderText">Warna teks header</string>
-    <string name="PullDownHeaderIcon">Warna icon header</string>
     <string name="PullDownQuicksettings">Warna Quicksetting</string>
     <string name="PullDownQuicksettingsBackground">Warna background Quicksetting</string>
     <string name="PullDownQuicksettingsText">Warna teks Quicksetting</string>
@@ -432,7 +430,7 @@
     <string name="BatteryBarColor">Warna Batre bar</string>
     <string name="BatteryBarColorSummary">Pilih warna batre bar</string>
     <string name="Battery3MinitTitle">Pengaturan 3Minit Battery</string>
-    <string name="BatteryStock">keterlihatan Batre Awal</string>
+    <string name="BatteryStock">Sembunyikan Ikon Batrai Bawaan</string>
     <string name="BatteryStockPercentage">Persentase batre</string>
     <string name="BatteryStockTitle">Pengaturan batre awal</string>
     <string name="BatteryStockMainColor">Izinkan untuk memberi warna di batre</string>
@@ -463,7 +461,7 @@
     <string name="MiscAODisplay">Kecerahan AOD</string>
     <string name="MiscRotation">Izinkan perangkat berotasi 360 derajat</string>
     <string name="NavBarStatusBarColor">samakan warna Navbar dengan Statusbar (Selama aplikasi tidak memaksa menggunakan warna sendiri)</string>
-    <string name="NavBarColor">Warna NavBar</string>
+    <string name="NavBarColor">Warna Bar Navigasi</string>
     <string name="NavBarIconColor">Warna ikon NavBar</string>
     <string name="NavBarTitle">Navigation Bar</string>
     <string name="NavBarSummary">Setting ini untuk Mod NavBar</string>
@@ -500,7 +498,7 @@
     <string name="StatusbarAirplaneColor">Wawrna Mode pesawat</string>
     <string name="StatusbarStatusColor">Warna status ikon</string>
     <string name="StatusbarNotificationColor">Warna ikon notifikasi</string>
-    <string name="StatusbarBatteryColor">Warna Persentase batre</string>
+    <string name="StatusbarBatteryColor">Warna Ikon Batrai</string>
     <string name="NetworkTitle">Pengaturan lalu lintas Jaringan</string>
     <string name="NetworkSummary">Pengaturan lalu lintas jaringan</string>
     <string name="Network">Data jaringan</string>
@@ -591,6 +589,7 @@
     <string name="SignalAlarm4">Alarm 4</string>
     <string name="SignalAlarm5">Alarm 5</string>
     <string name="SignalAlarm6">Alarm 6</string>
+    <string name="SignalAlarm7">Alarm 7</string>
     <string name="SignalWifi1">Wifi 1 (Stock)</string>
     <string name="SignalWifi2">Wifi 2</string>
     <string name="SignalWifi3">Wifi 3</string>
@@ -686,7 +685,7 @@
     <string name="ClockPositionTitle">Posisi jam</string>
     <string name="ClockPosition">Pilih letak jam anda</string>
     <string name="ClockOtherTitle">Pengaturan jam yang lain</string>
-    <string name="ClockLaunch">Tekan untuk meluncurkan aplikasi</string>
+    <string name="ClockLaunch">Tekan Untuk Menjalankan Aplikasi Jam</string>
     <string name="ClockTapSettings">Tekan untuk setting jam</string>
     <string name="ClockTapSelection">Tekan untuk memilih aplikasi jam</string>
     <string name="ClockAndDate">Tampilkan jam dan tanggal</string>
@@ -722,6 +721,47 @@
     <string name="ContactUs">Hubungi kami</string>
     <string name="OurTeam">Team kami</string>
     <string name="CreditsThanks">Kredit dan terimakasih</string>
+    <string name="PowerToggleSummary">Tombol Power Akan Ditampilkan</string>
+    <string name="PowerToggle">Tombol Power</string>
+    <string name="QSTilesTitle">Tampilan Pengaturan Cepat</string>
+    <string name="QSTilesSummary">Ubah Jumlah Item di Pengaturan Cepat ke Angka berapa saja</string>
+    <string name="QuickTilesPull">Jumlah Item Pengaturan Cepat  di Menu Tarik Kebawah</string>
+    <string name="QuickTilesPullPortrait">Jumlah Item Pengaturan Cepat Pada Mode Lurus</string>
+    <string name="QuickTilesPullLandscape">Jumlah Item Pengaturan Cepat Pada Mode Lanskap</string>
+    <string name="QuickTilesRow">Baris Item Pengaturan Cepat pada Menu Perlebar</string>
+    <string name="QuickTilesRowPortrait">Jumlah Baris Item Pengaturan Cepat Pada Mode Lurus</string>
+    <string name="QuickTilesRowLandscape">Jumlah Baris Item Pengaturan Cepat Pada Mode Lanskap</string>
+    <string name="QuickTilesColumn">Kolom Jumlah Item Pengaturan Cepat  di Menu Tarik Kebawah</string>
+    <string name="QuickTilesColumnPortrait">Jumlah Kolom Item Pengaturan Cepat Pada Mode Lurus</string>
+    <string name="QuickTilesColumnLandscape">Jumlah Kolom Item Pengaturan Cepat Pada Mode Lanskap</string>
+    <string name="PullDownHeaderDivider">Pemisah Warna Header</string>
+    <string name="PullDownHeaderSettingsIcon">Warna Ikon Pengaturan Header</string>
+    <string name="PullDownHeaderMenuIcon">Warna Ikon Menu Header</string>
+    <string name="PullDownHeaderClock">Warna Jam Header</string>
+    <string name="PullDownHeaderDate">Warna Tanggal Header</string>
+    <string name="PullDownQuicksettingsBrightnessIcon">Warna Ikon Pengaturan Cahaya</string>
+    <string name="PullDownQuicksettingsBrightnessThumb">Warna Buletan di Pengaturan Cahaya</string>
+    <string name="PullDownQuicksettingsPageIndicator">Warna Indikator Halaman</string>
+    <string name="PullDownNotificationTransparencyAlpha">Tingkat Transparansi Halaman Notifikasi</string>
+    <string name="PullDownNotificationLinkApp">Warna Tautan dari Nama Aplikasi</string>
+    <string name="PullDownNotificationMusicSwitch">Warna Perubahan SMusik</string>
+    <string name="MiscFlashlight">Izinkan Penggunaan Senter Pada sisa Batrai rendah</string>
+    <string name="NavBarPinColor">Warna Pin Bar Navigasi</string>
+    <string name="NavBarBackIconColor">Warna icon "Kembali" di Bar Navigasi</string>
+    <string name="NavBarHomeIconColor">Warna icon "Utama" di Bar Navigasi</string>
+    <string name="NavBarRecentIconColor">Warna icon "List Aplikasi" di Bar Navigasi</string>
+    <string name="NavBarMenuIconColor">Warna icon "pilihan" di Bar Navigasi (Jika Tersedia)</string>
+    <string name="NavBarImeIconColor">Warna icon "IME" di Bar Navigasi (Jika Tersedia)</string>
+    <string name="StatusbarWifiActivityColor">Warna  Aktifitas WIFI</string>
+    <string name="StatusbarBluetoothColor">Warna Ikon Bluetooth</string>
+    <string name="StatusbarBatteryPercentageColor">Warna Persentase Batrai</string>
+    <string name="StatusbarVolumeColor">Warna Ikon Suara</string>
+    <string name="StatusbarLocationColor">Warna Ikon Lokasi</string>
+    <string name="StatusbarAlarmColor">Warna Ikon Alarm</string>
+    <string name="StatusbarNetspeedColor">Warna Ikon Kecepatan Internet</string>
+    <string name="StatusbarPowersaveColor">Warna Ikon Hemat Daya</string>
+    <string name="StatusbarDarkColor">Warna Status Bar Gelap</string>
+    <string name="LockscreenIris">Tampilan Iris di Layar Kunci</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

@@ -215,7 +215,7 @@ public class MyDialogFragment extends DialogFragment implements View.OnClickList
         dialog.getWindow().setLayout(WindowManager.LayoutParams.MATCH_PARENT, WindowManager.LayoutParams.MATCH_PARENT);
         dialog.getWindow().addFlags(WindowManager.LayoutParams.FLAG_DRAWS_SYSTEM_BAR_BACKGROUNDS | WindowManager.LayoutParams.FLAG_LAYOUT_IN_SCREEN);
         dialog.getWindow().setBackgroundDrawable(Utils.getDrawable(mOnDialogFragmentListener.getDecorView()));
-        dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_SYSTEM_ERROR);
+        dialog.getWindow().setType(WindowManager.LayoutParams.TYPE_APPLICATION_OVERLAY);
         return dialog;
     }
 

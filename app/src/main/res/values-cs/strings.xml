@@ -379,9 +379,7 @@
     <string name="PullDownUnlock">Povolena možnost měnit barvy</string>
     <string name="PullDownLock">Barvy jsou nastaveny na výchozí</string>
     <string name="PullDownHeader">Barvy Hlaviček</string>
-    <string name="PullDownHeaderBackground">Barva pozadí hlavičky</string>
     <string name="PullDownHeaderText">Barva textu hlavičky</string>
-    <string name="PullDownHeaderIcon">Barva ikony hlavičky</string>
     <string name="PullDownQuicksettings">Barvy Rychlého Nastavení</string>
     <string name="PullDownQuicksettingsBackground">Barva Pozadí Rychlého Nastavení</string>
     <string name="PullDownQuicksettingsText">Barva textu Rychlého Nastavení</string>
@@ -432,7 +430,7 @@
     <string name="BatteryBarColor">Barva lišty baterie</string>
     <string name="BatteryBarColorSummary">Vybere barvu lišty</string>
     <string name="Battery3MinitTitle">3Minit nastavení baterie</string>
-    <string name="BatteryStock">Viditelnost baterie</string>
+    <string name="BatteryStock">Skrýt výchozí baterii</string>
     <string name="BatteryStockPercentage">Procenta baterie</string>
     <string name="BatteryStockTitle">Výchozí nastavení baterie</string>
     <string name="BatteryStockMainColor">Povolit obarvení baterie</string>
@@ -463,7 +461,7 @@
     <string name="MiscAODisplay">AOD Jas</string>
     <string name="MiscRotation">Povolit rotaci o 360 stupňů</string>
     <string name="NavBarStatusBarColor">Navigační panel bude mít stejnou jako stavový řádek (dokud se nebude řídit aplikací)</string>
-    <string name="NavBarColor">Barvy navigačního panelu</string>
+    <string name="NavBarColor">Barva Navigační lišty</string>
     <string name="NavBarIconColor">Barva ikon navigačního panelu</string>
     <string name="NavBarTitle">Navigační panel</string>
     <string name="NavBarSummary">Zde se dá měnit nastavení navigačního panelu</string>
@@ -500,7 +498,7 @@
     <string name="StatusbarAirplaneColor">Barva režimu Letadlo</string>
     <string name="StatusbarStatusColor">Barva aktivních ikon</string>
     <string name="StatusbarNotificationColor">Barva Oznámení</string>
-    <string name="StatusbarBatteryColor">Barva procent baterie</string>
+    <string name="StatusbarBatteryColor">Barva ikony Baterie</string>
     <string name="NetworkTitle">Nastavení datového provozu</string>
     <string name="NetworkSummary">Nastavení související s přehledem přenosu dat</string>
     <string name="Network">Datový provoz</string>
@@ -591,6 +589,7 @@
     <string name="SignalAlarm4">Alarm 4</string>
     <string name="SignalAlarm5">Alarm 5</string>
     <string name="SignalAlarm6">Alarm 6</string>
+    <string name="SignalAlarm7">Alarm 7</string>
     <string name="SignalWifi1">Wifi 1 (Výchozí)</string>
     <string name="SignalWifi2">Wifi 2</string>
     <string name="SignalWifi3">Wifi 3</string>
@@ -686,7 +685,7 @@
     <string name="ClockPositionTitle">Pozice hodin</string>
     <string name="ClockPosition">Změnit pozici</string>
     <string name="ClockOtherTitle">Ostatní nastavení hodin</string>
-    <string name="ClockLaunch">Kliknout pro spuštění vybrané aplikace</string>
+    <string name="ClockLaunch">Tapnout pro spustění aplikace Hodiny</string>
     <string name="ClockTapSettings">Povolit nastavení hodin na kliknutí</string>
     <string name="ClockTapSelection">Vybrat aplikaci která se spustí při kliknutí na hodiny</string>
     <string name="ClockAndDate">Zobrazit hodiny a datum</string>
@@ -722,6 +721,47 @@
     <string name="ContactUs">Kontaktujte Nás</string>
     <string name="OurTeam">Náš Tým</string>
     <string name="CreditsThanks">Zásluha a Poděkování</string>
+    <string name="PowerToggleSummary">Přepínač napájení bude zobrazen</string>
+    <string name="PowerToggle">Přepínač napájení</string>
+    <string name="QSTilesTitle">Dlaždice Rychlého Nastavení</string>
+    <string name="QSTilesSummary">Změnit počet dlaždic rychlého nastavení na jakékoliv číslo</string>
+    <string name="QuickTilesPull">Dlaždice Rychlého nastavení ve stahovací nabídce</string>
+    <string name="QuickTilesPullPortrait">Počet dlaždic Rychlého nastavení v režimu na Výšku</string>
+    <string name="QuickTilesPullLandscape">Počet dlaždic Rychlého nastavení v režimu Landscape</string>
+    <string name="QuickTilesRow">Řady Rychlého nastavení ve stahovací nabídce</string>
+    <string name="QuickTilesRowPortrait">Počet řad Rychlého nastavení v řežimu na Výšku</string>
+    <string name="QuickTilesRowLandscape">Počet řad Rychlého nastavení v řežimu Landscape</string>
+    <string name="QuickTilesColumn">Sloupec dlaždic rychlého nastavení ve stahovací nabídce</string>
+    <string name="QuickTilesColumnPortrait">Počet sloupců Rychlého nastavení v řežimu na Výšku</string>
+    <string name="QuickTilesColumnLandscape">Počet sloupců Rychlého nastavení v řežimu Landscape</string>
+    <string name="PullDownHeaderDivider">Barva dělítka záhlaví</string>
+    <string name="PullDownHeaderSettingsIcon">Barva ikony nastavení záhlaví</string>
+    <string name="PullDownHeaderMenuIcon">Barva ikony menu záhlaví</string>
+    <string name="PullDownHeaderClock">Barva hodin záhlaví</string>
+    <string name="PullDownHeaderDate">Barva datumu záhlaví</string>
+    <string name="PullDownQuicksettingsBrightnessIcon">Barva posuvníku jasu</string>
+    <string name="PullDownQuicksettingsBrightnessThumb">Barva bodu posuvníku jasu</string>
+    <string name="PullDownQuicksettingsPageIndicator">Barva indikátoru stránky</string>
+    <string name="PullDownNotificationTransparencyAlpha">Stupeň průhlednosti pozadí Oznámení</string>
+    <string name="PullDownNotificationLinkApp">Spojit barvu aplikace a jména</string>
+    <string name="PullDownNotificationMusicSwitch">Přepínač barvy SMusic</string>
+    <string name="MiscFlashlight">Povolit Baterku s nízkým stavem baterie</string>
+    <string name="NavBarPinColor">Barva uchycovače Navigační lišty</string>
+    <string name="NavBarBackIconColor">Barva tlačítka Zpět Navigační lišty</string>
+    <string name="NavBarHomeIconColor">Barva tlačítka Domů Navigační lišty</string>
+    <string name="NavBarRecentIconColor">Barva tlačítka Nedávné Navigační lišty</string>
+    <string name="NavBarMenuIconColor">Barva ikon tlačítek Menu navigační lišty (pokud je dostupné)</string>
+    <string name="NavBarImeIconColor">Barva Ime Navigační lišty (pokud je dostupné)</string>
+    <string name="StatusbarWifiActivityColor">Barva aktivity WiFi</string>
+    <string name="StatusbarBluetoothColor">Barva ikony Bluetooth</string>
+    <string name="StatusbarBatteryPercentageColor">Barva procentuálního stavu baterie</string>
+    <string name="StatusbarVolumeColor">Barva ikony Ovládání hlasitosti</string>
+    <string name="StatusbarLocationColor">Barva ikony Umístění</string>
+    <string name="StatusbarAlarmColor">Barva ikony Budík</string>
+    <string name="StatusbarNetspeedColor">Barva Rychlost internetu</string>
+    <string name="StatusbarPowersaveColor">Barva ikony Úsporný režim</string>
+    <string name="StatusbarDarkColor">Barva tmavého Stavového řádku</string>
+    <string name="LockscreenIris">Náhled funkce Iris na zamykací obrazovce</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

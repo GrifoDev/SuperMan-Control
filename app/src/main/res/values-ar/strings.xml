@@ -256,6 +256,8 @@
     <string name="SMLogoRed">شعار سوبرمان بالأحمر</string>
     <string name="SMLogoBlue">شعار سوبرمان بالأزرق</string>
     <string name="CurrentlyRemoved">تم إخفاؤها</string>
+    <string name="PowerToggleSummary">سيتم عرض تبديل الطاقة</string>
+    <string name="PowerToggle">تبديل الطاقة</string>
     <string name="RestartToggleSummary">سيظهر مبدل إعادة التشغيل</string>
     <string name="RestartToggle">مبدل إعادة التشغيل</string>
     <string name="RecoveryToggleSummary">سيظهر مبدل إعادة التشغيل لوضع الاسترجاع</string>
@@ -344,6 +346,17 @@
     <string name="BlurEffectBackground">قيمة التأثير الضبابي في الخلفية</string>
     <string name="BlurEffectDegree">درجة التأثير الضبابي</string>
     <string name="BlurEffectColor">تغيير لون خلفية التأثير الضبابي</string>
+    <string name="QSTilesTitle">مربعات الإعدادات السريعة</string>
+    <string name="QSTilesSummary">بتغيير مربعات الإعدادات السريعة إلى أي رقم</string>
+    <string name="QuickTilesPull">مربعات الإعدادات السريعة في الانسدال</string>
+    <string name="QuickTilesPullPortrait">عدد مربعات الإعدادات السريعة في الوضع الرأسي</string>
+    <string name="QuickTilesPullLandscape">عدد مربعات الإعدادات السريعة في الوضع الأفقي</string>
+    <string name="QuickTilesRow">صف مربعات الإعدادات السريعة في الانسدال الموسع</string>
+    <string name="QuickTilesRowPortrait">عدد صف الإعدادات السريعة في الوضع الرأسي</string>
+    <string name="QuickTilesRowLandscape">عدد صف الإعدادات السريعة في الوضع الأفقي</string>
+    <string name="QuickTilesColumn">عمود مربعات الإعدادات السريعة  في الانسدال الموسع</string>
+    <string name="QuickTilesColumnPortrait">عدد الإعدادات السريعة للعمود في الوضع الرأسي</string>
+    <string name="QuickTilesColumnLandscape">عدد الإعدادات السريعة للعمود في الوضع الأفقي</string>
     <string name="GearRebootCategory">رؤية إعادة التشغيل على الركن الأعلى الأيسر</string>
     <string name="GearReboot">رؤية إعادة التشغيل</string>
     <string name="GearRebootColor">لون إعادة تشغيل</string>
@@ -379,9 +392,12 @@
     <string name="PullDownUnlock">يمكن تغيير الألوان</string>
     <string name="PullDownLock">لا يمكن تغيير الألوان</string>
     <string name="PullDownHeader">ألوان رأس التطبيق</string>
-    <string name="PullDownHeaderBackground">لون خلفية رأس التطبيق</string>
+    <string name="PullDownHeaderDivider">رأس مقسم اللون</string>
     <string name="PullDownHeaderText">لون نص رأس التطبيق</string>
-    <string name="PullDownHeaderIcon">لون أيقونة رأس التطبيق</string>
+    <string name="PullDownHeaderSettingsIcon">لون أيقونة إعدادات الرأس</string>
+    <string name="PullDownHeaderMenuIcon">لون أيقونة قائمة الرأس</string>
+    <string name="PullDownHeaderClock">لون ساعة الرأس</string>
+    <string name="PullDownHeaderDate">لون تاريخ الرأس</string>
     <string name="PullDownQuicksettings">لون الإعدادات السريعة</string>
     <string name="PullDownQuicksettingsBackground">لون خلفية الإعدادات السريعة</string>
     <string name="PullDownQuicksettingsText">لون أسماء الإعدادات السريعة</string>
@@ -389,8 +405,11 @@
     <string name="PullDownQuicksettingsIconOff">لون أيقونة الإعدادات السريعة غير المشغلة</string>
     <string name="PullDownQuicksettingsDivider">لون مقسم الإعدادات السريعة</string>
     <string name="PullDownQuicksettingsBrightness">لون مغير السطوع</string>
+    <string name="PullDownQuicksettingsBrightnessIcon">لون أيقونة شريط تمرير السطوع</string>
+    <string name="PullDownQuicksettingsBrightnessThumb">لون إبهام شريط تمرير السطوع</string>
     <string name="PullDownQuicksettingsDragBackground">لون خلفية مدبر السَّحب</string>
     <string name="PullDownQuicksettingsDragIcon">لون أيقونة مدبر السَّحب</string>
+    <string name="PullDownQuicksettingsPageIndicator">لون مؤشر الصفحة</string>
     <string name="PullDownQuicksettingsQuickConnect">لون خلفية الربط السريع</string>
     <string name="PullDownQuicksettingsSearchBackground">لون خلفية البحث في الإعدادات السريعة</string>
     <string name="PullDownQuicksettingsSearchText">لون نص البحث في الإعدادات السريعة</string>
@@ -432,7 +451,7 @@
     <string name="BatteryBarColor">لون شريط البطارية</string>
     <string name="BatteryBarColorSummary">إختر لون شريط البطارية</string>
     <string name="Battery3MinitTitle">إعدادات 3Minit Battery</string>
-    <string name="BatteryStock">ظهور الأيقونة الأصلية للبطارية</string>
+    <string name="BatteryStock">إخفاء البطارية الافتراضية</string>
     <string name="BatteryStockPercentage">نسبة البطارية</string>
     <string name="BatteryStockTitle">الإعدادات الافتراضية للبطارية</string>
     <string name="BatteryStockMainColor">اللون الرئيسي للبطارية</string>
@@ -463,7 +482,7 @@
     <string name="MiscAODisplay">سطوع AOD</string>
     <string name="MiscRotation">السماح باستدارة الهاتف بـ 360 درجة</string>
     <string name="NavBarStatusBarColor">دع شريط التنقل يختار اللون من شريط الحالة (ما دام التطبيق لا يفرض لونا)</string>
-    <string name="NavBarColor">ألوان شريط التنقل</string>
+    <string name="NavBarColor">لون شريط التنقل</string>
     <string name="NavBarIconColor">لون أيقونة شريط التنقل</string>
     <string name="NavBarTitle">شريط التنقل</string>
     <string name="NavBarSummary">هذه الإعدادات تحتوي على تعديلات شريط التنقل</string>
@@ -500,7 +519,7 @@
     <string name="StatusbarAirplaneColor">لون أيقونة وضع الطائرة</string>
     <string name="StatusbarStatusColor">لون أيقونة حالة شريط الحالة</string>
     <string name="StatusbarNotificationColor">لون أيقونة الإشعارات</string>
-    <string name="StatusbarBatteryColor">لون النسبة المئوية للبطارية</string>
+    <string name="StatusbarBatteryColor">لون أيقونة البطارية</string>
     <string name="NetworkTitle">خصائص حركة مرور شبكة الإتصال</string>
     <string name="NetworkSummary">خصائص حركة مرور شبكة الإتصال</string>
     <string name="Network">بيانات شبكة الإتصال</string>
@@ -591,6 +610,7 @@
     <string name="SignalAlarm4">المنبه 4</string>
     <string name="SignalAlarm5">المنبه 5</string>
     <string name="SignalAlarm6">المنبه 6</string>
+    <string name="SignalAlarm7">المنبه 7</string>
     <string name="SignalWifi1">(الأصلي) Wifi 1</string>
     <string name="SignalWifi2">Wifi 2</string>
     <string name="SignalWifi3">Wifi 3</string>
@@ -686,7 +706,7 @@
     <string name="ClockPositionTitle">موضع الساعة</string>
     <string name="ClockPosition">إختر موضع الساعة</string>
     <string name="ClockOtherTitle">إعدادات أخرى للساعة</string>
-    <string name="ClockLaunch">لإمكانية تشغيل واختيار تطبيق الساعة</string>
+    <string name="ClockLaunch">انقر لإطلاق تطبيق الساعة</string>
     <string name="ClockTapSettings">إضغط لتشغيل تطبيق الساعة</string>
     <string name="ClockTapSelection">إضغط لاختيار تطبيق الساعة</string>
     <string name="ClockAndDate">أظهر الساعة والتاريخ</string>
@@ -722,6 +742,26 @@
     <string name="ContactUs">اتصل بنا</string>
     <string name="OurTeam">الفريق</string>
     <string name="CreditsThanks">شكر وتقدير</string>
+    <string name="PullDownNotificationTransparencyAlpha">مستوى شفافية خلفية الإعلام</string>
+    <string name="PullDownNotificationLinkApp">لون الرابط من التطبيق والاسم</string>
+    <string name="PullDownNotificationMusicSwitch">SMusic تبديل لون</string>
+    <string name="MiscFlashlight">السماح ضوء الفلاش مع بطارية منخفضة</string>
+    <string name="NavBarPinColor">لون دبوس شريط التنقل</string>
+    <string name="NavBarBackIconColor">لون أيقونة الرجوع في شريط التنقل</string>
+    <string name="NavBarHomeIconColor">لون أيقونة الرئيسية في شريط التنقل</string>
+    <string name="NavBarRecentIconColor">لون أيقونة التطبيقات الأخيرة في شريط التنقل</string>
+    <string name="NavBarMenuIconColor">لون أيونة قائمة شريط التنقل (عند توفره)</string>
+    <string name="NavBarImeIconColor">لون أيونة لوحة مفاتيح شريط التنقل (عند توفره)</string>
+    <string name="StatusbarWifiActivityColor">لون نشاط الواي فاي</string>
+    <string name="StatusbarBluetoothColor">لون أيقونة البلوتوث</string>
+    <string name="StatusbarBatteryPercentageColor">لون نسبة البطارية</string>
+    <string name="StatusbarVolumeColor">لون أيقونة الصوت</string>
+    <string name="StatusbarLocationColor">لون أيقونة المكان</string>
+    <string name="StatusbarAlarmColor">لون أيقونة المنبه</string>
+    <string name="StatusbarNetspeedColor">لون سرعة الأنترنيت</string>
+    <string name="StatusbarPowersaveColor">لون أيقونة الحفاظ على البطارية</string>
+    <string name="StatusbarDarkColor">لون مظلم لشريط الحالة</string>
+    <string name="LockscreenIris">معاينة القزحية على شاشة القفل</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

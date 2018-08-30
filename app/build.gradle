@@ -28,15 +28,15 @@ android {
             storePassword keystoreProperties['storePassword']
         }
     }
-    compileSdkVersion 26
-    buildToolsVersion "26.0.2"
+    compileSdkVersion 27
+    buildToolsVersion "27.0.3"
     defaultConfig {
         applicationId "com.wubydax.romcontrol.smpro"
         minSdkVersion 21
         //noinspection OldTargetApi
         targetSdkVersion 22
-        versionCode 4
-        versionName "1.0.3"
+        versionCode 5
+        versionName "2.0.0"
         project.archivesBaseName = "RomControl"
     }
 
@@ -89,12 +89,12 @@ task rebootDevice(type: Exec) {
 
 
 dependencies {
-    compile fileTree(include: ['*.jar'], dir: 'libs')
-    compile 'com.android.support:appcompat-v7:26.1.0'
-    compile 'com.android.support:support-v4:26.1.0'
-    compile 'com.android.support:design:26.1.0'
-    compile 'com.android.support:cardview-v7:26.1.0'
-    compile 'de.hdodenhof:circleimageview:2.0.0'
-    compile files('libs/RootTools.jar')
-    compile project(':lvl')
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    implementation 'de.hdodenhof:circleimageview:2.0.0'
+    implementation files('libs/RootTools.jar')
+    implementation project(':lvl')
 }

@@ -379,9 +379,7 @@
     <string name="PullDownUnlock">I colori possono essere modificati</string>
     <string name="PullDownLock">I colori sono settati come originali</string>
     <string name="PullDownHeader">Colori testata</string>
-    <string name="PullDownHeaderBackground">Colore sfondo testata</string>
     <string name="PullDownHeaderText">Colore testo testata</string>
-    <string name="PullDownHeaderIcon">Colore icone testata</string>
     <string name="PullDownQuicksettings">Colori menu toggle</string>
     <string name="PullDownQuicksettingsBackground">Sfondi menu toggle</string>
     <string name="PullDownQuicksettingsText">Colore testo toggle</string>
@@ -432,7 +430,7 @@
     <string name="BatteryBarColor">Colore barra batteria</string>
     <string name="BatteryBarColorSummary">Scegli il colore della barra batteria</string>
     <string name="Battery3MinitTitle">Preferenze batteria 3Minit</string>
-    <string name="BatteryStock">Visibilità batteria originale</string>
+    <string name="BatteryStock">Nascondi batteria originale</string>
     <string name="BatteryStockPercentage">Percentuale batteria</string>
     <string name="BatteryStockTitle">Preferenze batteria originale</string>
     <string name="BatteryStockMainColor">Colore batteria originale</string>
@@ -463,7 +461,7 @@
     <string name="MiscAODisplay">AOD brightness</string>
     <string name="MiscRotation">Attiva rotazione schermo a 360 gradi</string>
     <string name="NavBarStatusBarColor">Ottieni lo stesso colore della NavBar dal colore della StatusBar (a meno che un app non ne definisca uno proprio)</string>
-    <string name="NavBarColor">Colori della NavBar</string>
+    <string name="NavBarColor">Colori su NavBar</string>
     <string name="NavBarIconColor">Colore icona NavBar</string>
     <string name="NavBarTitle">Navigation Bar</string>
     <string name="NavBarSummary">Questa opzione contiene preferenze della NavBar</string>
@@ -500,7 +498,7 @@
     <string name="StatusbarAirplaneColor">Colore icona modalità aeroplano</string>
     <string name="StatusbarStatusColor">Colore icona stato</string>
     <string name="StatusbarNotificationColor">Colore icona notifica</string>
-    <string name="StatusbarBatteryColor">Colore percentuale batteria</string>
+    <string name="StatusbarBatteryColor">Colore icona batteria</string>
     <string name="NetworkTitle">Preferenze traffico dati</string>
     <string name="NetworkSummary">Preferenze traffico dati</string>
     <string name="Network">Dati mobili</string>
@@ -591,6 +589,7 @@
     <string name="SignalAlarm4">Allarme 4</string>
     <string name="SignalAlarm5">Allarme 5</string>
     <string name="SignalAlarm6">Allarme 6</string>
+    <string name="SignalAlarm7">Allarme 7</string>
     <string name="SignalWifi1">Wifi 1 (Originale)</string>
     <string name="SignalWifi2">Wifi 2</string>
     <string name="SignalWifi3">Wifi 3</string>
@@ -686,7 +685,7 @@
     <string name="ClockPositionTitle">Posizione orologio</string>
     <string name="ClockPosition">Scegli la posizione dell\'ora</string>
     <string name="ClockOtherTitle">Altre preferenze orologio</string>
-    <string name="ClockLaunch">Premi per eseguire l\'applicazione selezionata</string>
+    <string name="ClockLaunch">Clicca su orologio per eseguire app</string>
     <string name="ClockTapSettings">Premi sulle preferenze orologio</string>
     <string name="ClockTapSelection">Seleziona applicazione pressione orologio</string>
     <string name="ClockAndDate">Mostra data e ora</string>
@@ -722,6 +721,47 @@
     <string name="ContactUs">Contact Us</string>
     <string name="OurTeam">Our Team</string>
     <string name="CreditsThanks">Credits and Thanks</string>
+    <string name="PowerToggleSummary">Tasto accensione sarà visibile</string>
+    <string name="PowerToggle">Tasto accensione</string>
+    <string name="QSTilesTitle">Impostazione tasti menu a tendina</string>
+    <string name="QSTilesSummary">Imposta numero tasti</string>
+    <string name="QuickTilesPull">Tasti nel menu a tendina</string>
+    <string name="QuickTilesPullPortrait">Numero tasti in visualizzazione orizzontale</string>
+    <string name="QuickTilesPullLandscape">Numero tasti in visualizzazione verticale</string>
+    <string name="QuickTilesRow">Righe nel menu a tendina espanso</string>
+    <string name="QuickTilesRowPortrait">Numero righe in visualizzazione orizzontale</string>
+    <string name="QuickTilesRowLandscape">Numero righe in visualizzazione verticale</string>
+    <string name="QuickTilesColumn">Colonne nel menu a tendina espanso</string>
+    <string name="QuickTilesColumnPortrait">Numero colonne in visualizzazione orizzontale</string>
+    <string name="QuickTilesColumnLandscape">Numero colonne in visualizzazione verticale</string>
+    <string name="PullDownHeaderDivider">Colori nell'area orologio menu a tendina</string>
+    <string name="PullDownHeaderSettingsIcon">Colore icona preferenze area superiore</string>
+    <string name="PullDownHeaderMenuIcon">Colore icona menu area superiore</string>
+    <string name="PullDownHeaderClock">Colore ora area superiore</string>
+    <string name="PullDownHeaderDate">Colore data area superiore</string>
+    <string name="PullDownQuicksettingsBrightnessIcon">Colore icona barra luminosità</string>
+    <string name="PullDownQuicksettingsBrightnessThumb">Colore pallino barra luminosità</string>
+    <string name="PullDownQuicksettingsPageIndicator">Colore indicatore pagina</string>
+    <string name="PullDownNotificationTransparencyAlpha">Livello trasparenza sfondo notifiche</string>
+    <string name="PullDownNotificationLinkApp">Colore nome app area notifiche</string>
+    <string name="PullDownNotificationMusicSwitch">Colore tasto SMusic area notifiche</string>
+    <string name="MiscFlashlight">Consenti torcia a basso livello batteria</string>
+    <string name="NavBarPinColor">Colori pin NavBar</string>
+    <string name="NavBarBackIconColor">Colori icona indietro su NavBar</string>
+    <string name="NavBarHomeIconColor">Colori icona home su NavBar</string>
+    <string name="NavBarRecentIconColor">Colori icona recenti su NavBar</string>
+    <string name="NavBarMenuIconColor">Colori icona menu su NavBar (quando attiva)</string>
+    <string name="NavBarImeIconColor">Colori icona tastiera su NavBar (quando attiva)</string>
+    <string name="StatusbarWifiActivityColor">Colore icona Wifi</string>
+    <string name="StatusbarBluetoothColor">Colore icona Bluetooth</string>
+    <string name="StatusbarBatteryPercentageColor">Colore percentuale batteria</string>
+    <string name="StatusbarVolumeColor">Colore icona volume</string>
+    <string name="StatusbarLocationColor">Colore icona posizione</string>
+    <string name="StatusbarAlarmColor">Colore icona allarme</string>
+    <string name="StatusbarNetspeedColor">Colore testo velocità dati</string>
+    <string name="StatusbarPowersaveColor">Colore icone risparmio energia</string>
+    <string name="StatusbarDarkColor">Colore scuro Statusbar</string>
+    <string name="LockscreenIris">Anteprima iride su schermata blocco</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

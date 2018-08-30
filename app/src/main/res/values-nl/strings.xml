@@ -380,9 +380,7 @@
     <string name="PullDownUnlock">Kleuren zijn ontgrendeld voor veranderingen</string>
     <string name="PullDownLock">Kleuren zijn vergrendeld voor stock</string>
     <string name="PullDownHeader">Header Kleuren</string>
-    <string name="PullDownHeaderBackground">Header achtergrond kleur</string>
     <string name="PullDownHeaderText">Header tekst kleur</string>
-    <string name="PullDownHeaderIcon">Header icoon kleuren</string>
     <string name="PullDownQuicksettings">Quicksettings Kleuren</string>
     <string name="PullDownQuicksettingsBackground">Quicksettings achtergrond kleur</string>
     <string name="PullDownQuicksettingsText">Quicksettings tekst kleur</string>
@@ -433,7 +431,7 @@
     <string name="BatteryBarColor">Batterij Balk Kleur</string>
     <string name="BatteryBarColorSummary">Kies de kleur van de batterij balk</string>
     <string name="Battery3MinitTitle">3Minit Battery Instellingen</string>
-    <string name="BatteryStock">Stock Batterij Zichtbaarheid</string>
+    <string name="BatteryStock">Verberg stock Batterij</string>
     <string name="BatteryStockPercentage">Batterij Percentage</string>
     <string name="BatteryStockTitle">Stock Batterij Instellingen</string>
     <string name="BatteryStockMainColor">Hoofd batterij kleur </string>
@@ -463,8 +461,8 @@
     <string name="MiscImmersiveArrayHideNav">Verberg Navigatiebalk</string>
     <string name="MiscAODisplay">AOD helderheid</string>
     <string name="MiscRotation">Sta telefoon toe om 360 graden te roteren</string>
-    <string name="NavBarStatusBarColor">Krijg dezelfde navigatiebalk kleur als die van de statusbalk (zolang een app geen kleur forceert) </string> 
-    <string name="NavBarColor">Navigatiebalk kleur</string>
+    <string name="NavBarStatusBarColor">Krijg dezelfde navigatiebalk kleur als die van de statusbalk (zolang een app geen kleur forceert) </string>
+    <string name="NavBarColor">NavBalk Kleur</string>
     <string name="NavBarIconColor">Navigatiebalk Ikoon kleur</string>
     <string name="NavBarTitle">Navigatie Balk</string>
     <string name="NavBarSummary">Deze instelling bevat navigatiebalk aanpassingen</string>
@@ -501,7 +499,7 @@
     <string name="StatusbarAirplaneColor">Vliegtuigstand Kleur</string>
     <string name="StatusbarStatusColor">Status Icoon Kleur</string>
     <string name="StatusbarNotificationColor">Notificatie Icoon Kleur</string>
-    <string name="StatusbarBatteryColor">Batterij Percentage Kleur</string>
+    <string name="StatusbarBatteryColor">Batterij Ikoon Kleur</string>
     <string name="NetworkTitle">Netwerkverkeer voorkeuren</string>
     <string name="NetworkSummary">Netwerkverkeer voorkeuren</string>
     <string name="Network">Netwerk Gegevens</string>
@@ -592,6 +590,7 @@
     <string name="SignalAlarm4">Wekker 4</string>
     <string name="SignalAlarm5">Wekker 5</string>
     <string name="SignalAlarm6">Wekker 6</string>
+    <string name="SignalAlarm7">Wekker 7</string>
     <string name="SignalWifi1">Wifi 1 (Stock)</string>
     <string name="SignalWifi2">Wifi 2</string>
     <string name="SignalWifi3">Wifi 3</string>
@@ -687,7 +686,7 @@
     <string name="ClockPositionTitle">Klok Positie</string>
     <string name="ClockPosition">Kies uw klok locatie</string>
     <string name="ClockOtherTitle">Andere Klok Instellingen</string>
-    <string name="ClockLaunch">Tik om geselecteerde app te starten</string>
+    <string name="ClockLaunch">Tap om klok app te starten</string>
     <string name="ClockTapSettings">Tik op Klok Instellingen</string>
     <string name="ClockTapSelection">Tik Klok App Selectie</string>
     <string name="ClockAndDate">Laat Klok en Datum Zien</string>
@@ -723,6 +722,47 @@
     <string name="ContactUs">Contacteer ons</string>
     <string name="OurTeam">Ons Team</string>
     <string name="CreditsThanks">Credits en Dankbetuigingen</string>
+    <string name="PowerToggleSummary">Uit knop wordt getoond</string>
+    <string name="PowerToggle">Uit Knop</string>
+    <string name="QSTilesTitle">Quick Settings Tegels</string>
+    <string name="QSTilesSummary">Verander QS Tegels in elk aantal</string>
+    <string name="QuickTilesPull">QS Tegels in pulldown</string>
+    <string name="QuickTilesPullPortrait">Aantal QS Tegels in portrait mode</string>
+    <string name="QuickTilesPullLandscape">Aantal QS Tegels in landscape mode</string>
+    <string name="QuickTilesRow">Rij QS Tegels in uitgebreide pulldown</string>
+    <string name="QuickTilesRowPortrait">Aantal QS rijen in portret mode</string>
+    <string name="QuickTilesRowLandscape">Aantal QS rijen in landschap mode</string>
+    <string name="QuickTilesColumn">Column QS Tegels in uitgebreide pulldown</string>
+    <string name="QuickTilesColumnPortrait">Aantal QS columns in portret mode</string>
+    <string name="QuickTilesColumnLandscape">Aantal QS columns in landschap mode</string>
+    <string name="PullDownHeaderDivider">Header verdeler kleur</string>
+    <string name="PullDownHeaderSettingsIcon">Header instellingen ikoon kleur</string>
+    <string name="PullDownHeaderMenuIcon">Header menu ikoon kleur</string>
+    <string name="PullDownHeaderClock">Header klok kleur</string>
+    <string name="PullDownHeaderDate">Header datum kleur</string>
+    <string name="PullDownQuicksettingsBrightnessIcon">Heldetheid slider ikoon kleur</string>
+    <string name="PullDownQuicksettingsBrightnessThumb">Helderheid slider thumb kleur</string>
+    <string name="PullDownQuicksettingsPageIndicator">Pagina indicator kleur</string>
+    <string name="PullDownNotificationTransparencyAlpha">Notificatie achtergrond transparantie niveau</string>
+    <string name="PullDownNotificationLinkApp">Link kleur van app and naam</string>
+    <string name="PullDownNotificationMusicSwitch">SMusic Kleur Switch</string>
+    <string name="MiscFlashlight">Sta lantaarn toe met lage batterij</string>
+    <string name="NavBarPinColor">NavBalk Pin Kleur</string>
+    <string name="NavBarBackIconColor">NavBalk Terug Ikoon Kleur</string>
+    <string name="NavBarHomeIconColor">NavBalk Home Ikoon Kleur</string>
+    <string name="NavBarRecentIconColor">NavBalk Recent Ikoon Kleur</string>
+    <string name="NavBarMenuIconColor">NavBalk Menu Ikoon Kleur (indien beschikbaar)</string>
+    <string name="NavBarImeIconColor">NavBalk Ime Ikoon Kleur (indien beschikbaar)</string>
+    <string name="StatusbarWifiActivityColor">Wifi Activiteit Kleur</string>
+    <string name="StatusbarBluetoothColor">Bluetooth Ikoon Kleur</string>
+    <string name="StatusbarBatteryPercentageColor">Batterij Percentage Kleur</string>
+    <string name="StatusbarVolumeColor">Volume Ikoon Kleur</string>
+    <string name="StatusbarLocationColor">Locatie Ikoon Kleur</string>
+    <string name="StatusbarAlarmColor">Alarm Ikoon Kleur</string>
+    <string name="StatusbarNetspeedColor">Netsnelheid Kleur</string>
+    <string name="StatusbarPowersaveColor">Powersave Ikoon Kleur</string>
+    <string name="StatusbarDarkColor">Donkere Statusbalk Kleur</string>
+    <string name="LockscreenIris">Iris preview op vergrendelscherm</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>

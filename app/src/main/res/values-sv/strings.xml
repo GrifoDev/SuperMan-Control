@@ -379,9 +379,7 @@
     <string name="PullDownUnlock">Färger är upplåsta för ändringar</string>
     <string name="PullDownLock">Färger är låsta till standard</string>
     <string name="PullDownHeader">Färg för ledare</string>
-    <string name="PullDownHeaderBackground">Header bakgrundsfärg</string>
     <string name="PullDownHeaderText">Textfärg för ledare</string>
-    <string name="PullDownHeaderIcon">Ikonfärg för ledare</string>
     <string name="PullDownQuicksettings">Färg för snabbinställningar</string>
     <string name="PullDownQuicksettingsBackground">Bakgrundsfärg för snabbinställningar</string>
     <string name="PullDownQuicksettingsText">Textfärg för snabbinställningar</string>
@@ -432,7 +430,7 @@
     <string name="BatteryBarColor">Batteribands-färg</string>
     <string name="BatteryBarColorSummary">Välj färg för batteribandet</string>
     <string name="Battery3MinitTitle">Inställningar för 3Minit-batteri</string>
-    <string name="BatteryStock">Synlighet för normal batteriikon</string>
+    <string name="BatteryStock">Göm originalbatteri</string>
     <string name="BatteryStockPercentage">Batteri Procent</string>
     <string name="BatteryStockTitle">Stock Batteri Inställningar</string>
     <string name="BatteryStockMainColor">Huvudbatteriets färg</string>
@@ -463,7 +461,7 @@
     <string name="MiscAODisplay">AOD-ljusstyrka</string>
     <string name="MiscRotation">Tillåt telefonen att rotera 360 grader</string>
     <string name="NavBarStatusBarColor">Få samma färg på NavBar som på statusbaren (såvida inte appen tvingar användning av en färg)</string>
-    <string name="NavBarColor">NavBar Colors</string>
+    <string name="NavBarColor">NavBar färg</string>
     <string name="NavBarIconColor">Färg på NavBar ikoner</string>
     <string name="NavBarTitle">Navigationsbar</string>
     <string name="NavBarSummary">Den här inställningen innehåller navbar modifikationer</string>
@@ -500,7 +498,7 @@
     <string name="StatusbarAirplaneColor">Färg för flygplansläge</string>
     <string name="StatusbarStatusColor">Färg för statusikoner</string>
     <string name="StatusbarNotificationColor">Färg för notifikationsikoner</string>
-    <string name="StatusbarBatteryColor">Färg för batteriprocent</string>
+    <string name="StatusbarBatteryColor">Batteriikon färg</string>
     <string name="NetworkTitle">Preferenser för nätverkstrafik</string>
     <string name="NetworkSummary">Preferenser för nätverkstrafik</string>
     <string name="Network">Nätverksdata</string>
@@ -591,6 +589,7 @@
     <string name="SignalAlarm4">Alarm 4</string>
     <string name="SignalAlarm5">Alarm 5</string>
     <string name="SignalAlarm6">Alarm 6</string>
+    <string name="SignalAlarm7">Alarm 7</string>
     <string name="SignalWifi1">Wifi 1 (Standard)</string>
     <string name="SignalWifi2">Wifi 2</string>
     <string name="SignalWifi3">Wifi 3</string>
@@ -686,7 +685,7 @@
     <string name="ClockPositionTitle">Klockans position</string>
     <string name="ClockPosition">Ändra position för klockan</string>
     <string name="ClockOtherTitle">Andra klockans itällingar</string>
-    <string name="ClockLaunch">Klicka för att öppna vald applikation</string>
+    <string name="ClockLaunch">Klicka för att öppna klockappen</string>
     <string name="ClockTapSettings">Inställningar för tryck på klockan</string>
     <string name="ClockTapSelection">Val för tryck på klockan</string>
     <string name="ClockAndDate">Visa klocka och datum</string>
@@ -722,6 +721,47 @@
     <string name="ContactUs">Kontakta oss</string>
     <string name="OurTeam">Vårat Team</string>
     <string name="CreditsThanks">Creds and Tack</string>
+    <string name="PowerToggleSummary">Strömbrytare kommer att visas</string>
+    <string name="PowerToggle">Strömbrytare</string>
+    <string name="QSTilesTitle">Snabbinställningsrutor</string>
+    <string name="QSTilesSummary">Ändra snabbinställningsrutorna till vilket nummer som helst</string>
+    <string name="QuickTilesPull">Snabbinställningsrutor i rullgardinen</string>
+    <string name="QuickTilesPullPortrait">Mängden snabbinställningsrutor i proträttläge</string>
+    <string name="QuickTilesPullLandscape">Mängden snabbinställningsrutor i landskapsläge</string>
+    <string name="QuickTilesRow">Snabbinställningsrader i nerdragen rullgardin</string>
+    <string name="QuickTilesRowPortrait">Mängden snabbinställningsrader i proträttläge</string>
+    <string name="QuickTilesRowLandscape">Mängden snabbinställningsrader i landskapsläge</string>
+    <string name="QuickTilesColumn">Snabbinställningskolumner i nerdragen rulldardin</string>
+    <string name="QuickTilesColumnPortrait">Mängden snabbinställningskolumner i porträttläge</string>
+    <string name="QuickTilesColumnLandscape">Mängden snabbinställningskolumner i landskapsläge</string>
+    <string name="PullDownHeaderDivider">Sidhuvudets brytning färg</string>
+    <string name="PullDownHeaderSettingsIcon">Inställingsikonfärg på sidhuvudet</string>
+    <string name="PullDownHeaderMenuIcon">Menyikon färg på sidhuvudet</string>
+    <string name="PullDownHeaderClock">Klock färg på sidhuvudet</string>
+    <string name="PullDownHeaderDate">Datum färg på sidhuvudet</string>
+    <string name="PullDownQuicksettingsBrightnessIcon">Färg på ljusstyrkereglage ikonen</string>
+    <string name="PullDownQuicksettingsBrightnessThumb">Färg på ljusstyrkereglaget</string>
+    <string name="PullDownQuicksettingsPageIndicator">Färg på sidindikator</string>
+    <string name="PullDownNotificationTransparencyAlpha">Genomskinlighetsnivå på notifikationsbakgrunden</string>
+    <string name="PullDownNotificationLinkApp">Länkfärg från app och namn</string>
+    <string name="PullDownNotificationMusicSwitch">SMusic färgväxling</string>
+    <string name="MiscFlashlight">Tillåt ficklampa med lågt batteri</string>
+    <string name="NavBarPinColor">NavBar Nålfärg</string>
+    <string name="NavBarBackIconColor">NavBar Tillbaka Icon färger</string>
+    <string name="NavBarHomeIconColor">NavBar Hem Ikon färger</string>
+    <string name="NavBarRecentIconColor">NavBar Senast Ikon färger</string>
+    <string name="NavBarMenuIconColor">NavBar Menyikon färger (när det är tillgängligt)</string>
+    <string name="NavBarImeIconColor">NavBar Ime ikon färger (när det är tillgängligt)</string>
+    <string name="StatusbarWifiActivityColor">Wifi aktivitetsfärg</string>
+    <string name="StatusbarBluetoothColor">Bluetooth ikon färg</string>
+    <string name="StatusbarBatteryPercentageColor">Batteri procent färg</string>
+    <string name="StatusbarVolumeColor">Volymikon färg</string>
+    <string name="StatusbarLocationColor">Platsikon färg</string>
+    <string name="StatusbarAlarmColor">Alarmikon färg</string>
+    <string name="StatusbarNetspeedColor">Näthastighetsikon färg</string>
+    <string name="StatusbarPowersaveColor">Strömsparikon färg</string>
+    <string name="StatusbarDarkColor">Mörk statusfältsfärg</string>
+    <string name="LockscreenIris">Iris förhandsvisning på låsskärmen</string>
 
     <!--These strings are to set the default fragment to open for the first time the app launches-->
 </resources>
